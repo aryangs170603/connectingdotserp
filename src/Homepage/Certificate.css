@@ -1,0 +1,117 @@
+/* Certificate.css */
+
+.certificate-section1 {
+  background-color: white;
+  padding: 20px;
+  color: #000000;
+  margin: 20px auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-family: 'Lato', sans-serif;
+  max-width: 1800px;
+  width: 97.5%;
+  padding-bottom: 80px;
+}
+
+.certificate-title1 {
+  font-size: 2.5rem;
+  font-weight: bold;
+  margin-bottom: 20px;
+  text-align: center;
+  font-family: 'Lato', sans-serif;
+  letter-spacing: 8px;
+  background: linear-gradient(90deg, rgba(1, 1, 98, 1) 35%, rgba(3, 163, 196, 1) 49%, rgba(2, 2, 85, 1) 62%);
+  -webkit-background-clip: text;
+  color: transparent;
+}
+
+.certificate-content1 {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  font-family: 'Lato', sans-serif;
+}
+
+.certificate-image1 {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+  max-width: 100%;
+  box-shadow: inset 2px 2px 2px 0px rgba(98, 96, 96, 0.5),
+    7px 7px 20px 0px rgba(0, 0, 0, 0.1),
+    4px 4px 5px 0px rgba(0, 0, 0, 0.1);
+}
+
+.certificate-image1 img {
+  width: 100%;
+  max-width: 500px;
+  height: auto;
+  object-fit: contain;
+  border: 2px solid #000000;
+}
+
+.certificate-text1 {
+  flex: 2;
+  margin-left: 20px;
+  font-family: 'Forum', serif;
+  font-weight: 400;
+  font-size: 1.5rem;
+  font-style: normal;
+}
+
+.certificate-text1 h2 {
+  font-size: 1.5rem;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+.certificate-text1 p {
+  font-size: 1.5rem;
+  margin-bottom: 20px;
+}
+
+@media (max-width: 768px) {
+  .certificate-section1 {
+    padding: 10px;
+  }
+
+  .certificate-title1 {
+    font-size: 1.5rem;
+  }
+
+  .certificate-content1 {
+    flex-direction: column;
+  }
+
+  .certificate-image1 {
+    order: 2;
+    padding: 10px;
+    max-width: 100%;
+  }
+
+  .certificate-image1 img {
+    max-width: 100%;
+    height: auto;
+  }
+
+  .certificate-text1 {
+    order: 3;
+    margin-left: 0;
+    font-size: 1rem;
+    text-align: center;
+    margin-top: 20px;
+  }
+
+  .certificate-text1 h2 {
+    font-size: 1rem;
+  }
+
+  .certificate-text1 p {
+    font-size: 0.9rem;
+  }
+}

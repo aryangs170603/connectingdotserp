@@ -1,0 +1,107 @@
+.achievements {
+  text-align: center;
+  padding: 20px;
+  font-family: 'Lato', sans-serif;
+  max-width: 1800px;
+  width: 97.5%;
+  margin: 20px auto;
+}
+
+.achievements h1 {
+  font-size: 2.5rem;
+  margin-bottom: 50px;
+  margin-top: 30px;
+  font-weight: bold;
+  font-family: 'Lato', sans-serif;
+  letter-spacing: 7px;
+  background: rgb(255, 255, 255);
+  text-shadow: 0 0 0px #fff, 0 0 10px #fff, 0 0 10px #0073e6, 0 0 20px #182E4A, 0 0 20px #182E4A, 0 0 30px #182E4A, 0 0 30px #182E4A;
+  background: linear-gradient(90deg, #fff 35%, rgba(3,163,196,1) 49%, #fff 62%);
+  -webkit-background-clip: text;
+  color: transparent;
+}
+
+.achievements-grid {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 15px;
+  margin-left: 50px;
+  grid-column-gap: 0px;
+}
+
+.achievement-item {
+  flex: 1 1 calc(30% - 50px);
+  max-width: calc(30% - 50px);
+  box-sizing: border-box;
+}
+
+.achievement-item img {
+  width: 330px;
+  height: auto;
+  display: block;
+  border-radius: 8px;
+  box-shadow: 8px 8px 15px rgba(0, 0, 0, 0.5);
+  margin: 0px;
+}
+
+.achievement-item5 img {
+  width: 280px;
+  height: auto;
+  display: block;
+  border-radius: 8px;
+  box-shadow: 8px 8px 15px rgba(0, 0, 0, 0.5);
+  margin-right: 50px;
+}
+
+.achievement-item2 img {
+  width: 280px;
+  height: auto;
+  display: block;
+  border-radius: 8px;
+  box-shadow: 8px 8px 15px rgba(0, 0, 0, 0.5);
+  margin-right: 50px;
+}
+
+
+@media (max-width: 1200px) {
+  .achievement-item {
+    flex: 1 1 calc(45% - 30px); 
+    max-width: calc(45% - 30px);
+  }
+
+  .achievement-item img,
+  .achievement-item5 img,
+  .achievement-item2 img {
+    width: 100%;
+  }
+
+  .achievements-grid {
+    margin-left: 30px; 
+  }
+}
+
+@media (max-width: 768px) {
+  .achievement-item {
+    flex: 1 1 calc(100% - 20px); 
+    max-width: calc(100% - 20px);
+  }
+
+  .achievement-item img,
+  .achievement-item5 img,
+  .achievement-item2 img {
+    width: 100%;
+  }
+
+  .achievements-grid {
+    margin-left: 20px; 
+  }
+
+  .achievements h1 {
+    font-size: 30px;
+    margin-bottom: 30px;
+  }
+  .achievements h1{
+    font-size: 19px;
+  }
+}

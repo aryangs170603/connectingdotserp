@@ -1,0 +1,183 @@
+.T2P {
+  text-align: center;
+  max-width: 1800px;
+  width: 97.5%;
+  margin: 20px auto;
+  font-family: 'Lato', sans-serif;
+  background-color: #ffffff;
+  padding-top: 20px;
+  padding-bottom: 60px;
+}
+
+.T2P-title h1 {
+  font-size: 2.5rem;
+  font-weight: bold;
+  margin-bottom: 30px;
+  font-family: 'Lato', sans-serif;
+  letter-spacing: 8px;
+  background: rgb(1, 1, 98);
+  background: linear-gradient(
+    90deg,
+    rgba(1, 1, 98, 1) 35%,
+    rgba(3, 163, 196, 1) 49%,
+    rgba(2, 2, 85, 1) 62%
+  );
+  -webkit-background-clip: text;
+  color: transparent;
+}
+
+.cardsT2P-wrapper {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 40px;
+  margin-top: 50px;
+}
+
+.cardT2P-container {
+  perspective: 1200px;
+}
+
+.cardT2P {
+  height: 300px;
+  width: 190px;
+  position: relative;
+  border-radius: 25px;
+  transition: all 1s ease;
+  transform-style: preserve-3d;
+  box-shadow: 1px 8px 10px rgba(0, 0, 0, 0.5);
+}
+
+.rotated {
+  transform: rotateY(-180deg);
+}
+
+.cardT2P-contents {
+  width: 100%;
+  height: 100%;
+  border-radius: 25px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  text-align: center;
+  position: absolute;
+  top: 0;
+  left: 0;
+  backface-visibility: hidden;
+}
+
+.cardT2P-contents h2,
+.cardT2P-contents p {
+  text-shadow: 1px 2px 2px rgba(0, 0, 0, 0.2);
+}
+
+.cardT2P-contents h2 {
+  font-size: 1.5em;
+  margin: 0 auto;
+}
+
+.cardT2P-contents hr {
+  width: 50%;
+  margin: 10px auto;
+}
+
+.cardT2P-contents p {
+  margin: 0 auto;
+}
+
+.cardT2P-depth {
+  transform: translateZ(50px) scale(0.98);
+  perspective: inherit;
+}
+
+.highlightF {
+  font-weight: bold;
+  color: #fcff5c; 
+}
+.highlightB{
+  font-weight: bold;
+  color: orange;
+}
+
+.cardT2P-img1 img {
+  height: auto;
+  width: 70px;
+  margin-bottom: 40px;
+  border-radius: 50%;
+  align-self: center;
+}
+
+.cardT2P-depth h2 {
+  color: #d5d2d2;
+  font-family: 'Lato', sans-serif;
+  font-size: 20px;
+}
+ 
+.cardT2P-back h2{
+color: black;
+  font-size: 19px;
+  text-align: left;
+  width: 90%;
+}
+.cardT2P-front {
+  background: linear-gradient(to top left, #337ac7, #000352);
+  transform-style: preserve-3d;
+}
+
+.cardT2P-back {
+  transform: rotateY(180deg);
+  background: linear-gradient(to bottom left, #5ddaf9, #09608b);
+  transform-style: preserve-3d;
+}
+
+/* Media Queries for Responsive Design */
+@media (max-width: 768px) {
+  .T2P {
+    width: 97.5%;
+    padding: 20px 30px;
+    padding-bottom: 20px;
+  }
+
+  .cardsT2P-wrapper {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+  }
+
+  .cardT2P {
+    height: 250px;
+    width: 150px;
+  }
+}
+
+@media (max-width: 480px) {
+  .T2P-title {
+    font-size: 2rem;
+    letter-spacing: 4px;
+    margin-left: 5px;
+    margin-right: 5px;
+  }
+
+  .cardsT2P-wrapper {
+    grid-template-columns: repeat(2, 1fr);
+    gap: 10px;
+  }
+
+  .cardT2P-depth h2 {
+    font-size: 1rem;
+  }
+
+  .cardT2P {
+    height: 220px;
+    width: 150px;
+  }
+
+  .cardT2P-contents hr {
+    width: 40%;
+  }
+
+  .cardT2P-depth h2, .cardT2P-depth p {
+    font-size: 18px;
+  }
+}

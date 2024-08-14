@@ -1,0 +1,99 @@
+.branches-section {
+  text-align: center;
+  padding: 20px;
+  
+  max-width: 1800px;
+  width: 97.5%;
+  margin: 20px auto;
+  
+}
+.branches-title {
+  
+  font-size: 2.5rem;
+  font-weight: bold;
+  margin-bottom: 20px;
+  font-family: 'Lato', sans-serif;
+  letter-spacing: 8px;
+  background: rgb(255, 255, 255);
+  text-shadow: 0 0 0px #fff, 0 0 10px #fff, 0 0 10px #0073e6, 0 0 20px #182E4A, 0 0 20px #182E4A, 0 0 30px #182E4A, 0 0 30px #182E4A;
+  background: linear-gradient(90deg, #fff 35%, rgba(3,163,196,1) 49%, #fff 62%);
+  -webkit-background-clip: text;
+  color: transparent;
+}
+
+.branches-container {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+
+.branch-card {
+   background: #fff;
+  border: 5px ridge;
+  border-color: black;
+  border-radius: 20px;
+  padding: 20px;  
+  margin: 10px;
+  width: 300px;
+  text-align: center;
+  position: relative;
+  z-index: 1; 
+  box-shadow: 0 10px 10px rgb(255, 255, 255, 0.1); 
+  transition: box-shadow 0.3s ease; 
+}
+
+.branch-card:hover {
+  box-shadow: 0 10px 16px rgb(255, 255, 255, 0.2); 
+}
+
+.map-container {
+  height: 200px;
+  border: 2px ridge #000000;
+  border-radius: 8px;
+  overflow: hidden;
+  margin-bottom: 10px;
+}
+
+.branch-card h3 {
+  color: #3d0eaa;
+  margin-bottom: 10px;
+  font-family: 'Lato', sans-serif;
+  font-weight: bold; 
+   text-shadow: 1px 1px #3d0eaa;
+}
+
+ 
+
+
+.branch-card a {
+  color: #182E4A; 
+  text-decoration: none;
+  font-weight: bold;
+  font-family: 'Lato', sans-serif;
+  
+}
+.add2 {
+  border: 2px #000000 ridge;
+  border-radius: 8px;
+  box-shadow: 0px 1px 0px 1px  #212121;
+}
+
+.branch-card a:hover {
+  color: #007bff;
+  text-decoration: underline;
+}
+
+
+.leaflet-control-zoom a {
+  color: black !important; 
+}
+
+.leaflet-control-attribution {
+  color: black !important; 
+}
+@media (max-width: 768px){
+  .branches-title{
+    font-size: 19px;
+  }
+  
+}

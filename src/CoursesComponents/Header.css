@@ -1,0 +1,219 @@
+.container-it-ds-header {
+  display: flex;
+  justify-content: space-between;
+  padding: 4.5rem;
+  background: url('src/Logos/DSimages/dsheader.gif') no-repeat center center;
+  background-size: cover;
+  background-blend-mode: overlay;
+  background-color: rgba(249, 249, 249, 0.75); /* Adjust opacity for fading effect */
+  max-width: 1800px;
+  width: 100%;
+  height: auto;
+  margin: 0 auto;
+  margin-bottom: 20px;
+  z-index: 0;
+}
+
+
+.left-section-it-ds {
+  max-width: 40%;
+}
+
+.left-section-it-ds h1 {
+  font-size: 2rem;
+  font-weight: 800;
+  color: #1e3a8a;
+  margin-bottom: 1rem;
+}
+
+.left-section-it-ds h2 {
+  font-size: 1.125rem;
+  font-weight: 600;
+  color: #000000;
+  margin-bottom: 0.5rem;
+}
+
+.left-section-it-ds h2 span {
+  color: #1f2937;
+}
+
+.left-section-it-ds p {
+  color: #000000;
+  margin-bottom: 1rem;
+}
+
+.features-it-ds {
+  display: flex;
+  gap: 1rem;
+  margin-bottom: 1rem;
+}
+
+.features-it-ds li {
+  font-size: 0.875rem;
+  color: #6b7280;
+}
+
+.alumni-it-ds {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  margin-top: 1.5rem;
+}
+
+.alumni-logos-it-ds {
+  display: flex;
+  gap: 0.5rem;
+}
+
+.buttons-it-ds {
+  display: flex;
+  gap: 1rem;
+  margin-top: 1.5rem;
+}
+
+.batch-button-it-ds {
+  background-color: #2563eb;
+  color: #dbeafe;
+  padding: 0.5rem 1rem;
+  border-radius: 9999px;
+ 
+  font-size: 0.875rem;
+}
+
+.batch-button-it-ds:hover {
+  background-color: white;
+  color: #2563eb;
+   border-color:#2563eb;
+}
+
+.brochure-button-it-ds {
+  background-color: white;
+  color: #2563eb;
+  padding: 0.5rem 1rem;
+  border-radius: 9999px;
+  border: 1px solid #2563eb;
+  font-size: 0.875rem;
+}
+
+.brochure-button-it-ds:hover {
+  color: white;
+}
+
+.right-section-it-ds {
+  background: transparent;
+  backdrop-filter: blur(10px);
+  padding: 1.5rem;
+  border-radius: 0.5rem;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  width: 30%;
+}
+
+.right-section-it-ds h3 {
+  font-size: 1.25rem;
+  font-weight: 600;
+  color: #1f2937;
+  margin-bottom: 1rem;
+}
+
+.right-section-it-ds h3 span {
+  color: #dc2626;
+}
+
+.account-info-it-ds {
+  font-size: 0.75rem;
+  color: #6b7280;
+  margin-top: 1rem;
+}
+
+.account-info-it-ds a {
+  color: #2563eb;
+}
+
+.terms-info-it-ds {
+  font-size: 0.75rem;
+  color: #6b7280;
+}
+
+.terms-info-it-ds a {
+  color: #2563eb;
+}
+.ds-header-span{
+  color: #ff3300;
+}
+.ds-header-span-2{
+  color: #000000;
+}
+.ds-header-span-3{
+  color: #1e3a8a;
+  font-weight: 800;
+}
+
+/* Responsive styles for mobile screens */
+@media (max-width: 768px) {
+  .container-it-ds-header {
+    flex-direction: column;
+    align-items: center;
+    padding: 2rem;
+  }
+
+  .left-section-it-ds,
+  .right-section-it-ds {
+    max-width: 100%;
+    width: 100%;
+    margin-bottom: 2rem;
+  }
+
+  .left-section-it-ds h1 {
+    font-size: 1.5rem;
+  }
+
+  .left-section-it-ds h2 {
+    font-size: 1rem;
+  }
+
+  .left-section-it-ds p,
+  .features-it-ds li,
+  .alumni-it-ds span,
+  .batch-button-it-ds,
+  .brochure-button-it-ds,
+  .right-section-it-ds h3 {
+    font-size: 0.875rem;
+  }
+  .brochure-button-it-ds {
+    background-color: white;
+    color: #2563eb;
+    padding: 0.1rem 1rem;
+    border-radius: 9px;
+    border: 1px solid #2563eb;
+    font-size: 0.6rem;
+    width: 40%; 
+  }
+  
+  .right-section-it-ds {
+    padding: 1rem;
+    box-shadow: none;
+  }
+
+  .phone-input-it-ds {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 0.5rem;
+    width: 100%;
+    
+  }
+
+  .phone-input-it-ds select,
+  .phone-input-it-ds input {
+    flex: 1;
+    padding: 0.5rem;
+    height: 30vw;
+    border: 1px solid #d1d5db;
+    border-radius: 0.375rem;
+  }
+
+  .phone-input-it-ds select {
+    max-width: 50px;
+    
+  }
+}

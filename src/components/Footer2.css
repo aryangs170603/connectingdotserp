@@ -1,0 +1,235 @@
+/* General footer styling */
+footer {
+  background-color: #182E4A;
+  color: #ecf0f1;
+  padding: 20px 0;
+  font-family: Arial, sans-serif;
+  max-width: 1800px;
+  width: 97.5%;
+  margin: 0 auto;
+  position: relative;  /* Ensure logo and icons stay in place */
+}
+
+/* Container for the footer */
+.footer-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+}
+
+/* Footer logo styling */
+.footer-logo {
+  position: absolute;
+  top: 20px;
+  left: 20px;
+}
+
+.footer-logo img {
+  width: 290px;
+  margin-bottom: 10px;
+}
+
+/* Social icons styling */
+.social-icons {
+  position: absolute;
+  top: 20px;
+  right: 20px;
+}
+
+.social-icons a {
+  color: #ecf0f1;
+  margin: 0 10px;
+  font-size: 24px;
+  transition: color 0.3s;
+}
+
+.social-icons a:hover {
+  color: #3498db;
+}
+
+/* Footer content styling */
+.footer-content {
+  text-align: center;
+  margin-bottom: 20px;
+  width: 100%;
+}
+
+.columns {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  max-width: 1500px;
+  margin: 20px 0;
+  margin-top: 50px;
+}
+
+/* Widget styling */
+.widget, .contact-us {
+  width: 30%;  /* Adjusted to ensure they fit in one row */
+  margin: 20px;
+  text-align: left;
+}
+
+.widget .headline h3, .contact-us .headline h3, .widget .headline-HR h3 {
+  margin-bottom: 10px;
+  font-size: 0.8rem;
+  font-weight: bold;
+  text-transform: uppercase;
+  border-bottom: 2px solid #3498db;
+  padding-bottom: 5px;
+  text-align: center;
+}
+
+.widget .menu, .contact-us .menu, .widget .menu-HR {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  text-align: center;
+}
+
+.widget .menu-item, .contact-us li {
+  margin-bottom: 5px;
+  font-size: 0.7rem;
+  text-align: center;
+}
+
+.widget .menu-item a {
+  color: #ecf0f1;
+  text-decoration: none;
+  transition: color 0.3s;
+}
+
+.widget .menu-item a:hover {
+  color: #ff4d00;
+}
+
+/* Specific styling for SAP courses */
+.course-categories {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+}
+
+.sap-functional, .sap-technical {
+  margin-bottom: 10px;
+  width: 100%;
+}
+
+.sap-functional h6, .sap-technical h6 {
+  margin-bottom: 10px;
+  font-size: 0.675rem;
+  font-weight: bold;
+  text-transform: uppercase;
+  color: #3498db;
+  border-bottom: 1px solid #ecf0f1;
+  padding-bottom: 5px;
+}
+
+/* HR Courses section */
+.widget .headline-HR h3 {
+  margin-bottom: 0px;
+  font-size: 0.8rem;
+  font-weight: bold;
+  text-transform: uppercase;
+  border-bottom: 2px solid #3498db;
+  padding-bottom: 5px;
+  text-align: center;
+  width: 100%;
+  margin-top: 0px;
+}
+
+.widget .menu-HR {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  text-align: center;
+}
+
+.widget .menu-HR .menu-item {
+  margin-bottom: 5px;
+  font-size: 0.7rem;
+  text-align: center;
+}
+
+.contact-us {
+  list-style: none;
+  padding: 0;
+  font-size: 0.8rem;
+}
+
+/* Footer bottom styling */
+.footer-bottom {
+  text-align: center;
+  margin-top: 20px;
+}
+
+.footer-bottom p {
+  color: #95a5a6;
+  font-size: 14px;
+}
+
+
+/* Responsive styling */
+@media (max-width: 768px) {
+  footer {
+    padding: 40px 20px;
+  }
+
+  .footer-container {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .footer-logo {
+    position: static;
+    text-align: center;
+    margin-bottom: 20px;
+  }
+
+  .footer-logo img {
+    width: 180px;
+  }
+
+  .social-icons {
+    position: static;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+  }
+
+  .columns {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .widget, .contact-us {
+    width: 100%;
+    margin: 10px 0;
+    padding: 10px;
+    text-align: center;
+  }
+
+  .menu, .menu-HR, .contact-us .menu {
+    padding: 0;
+    margin: 0 0 20px 0;
+    text-align: center;
+    list-style: none;
+  }
+
+  .menu-item, .contact-us li {
+    font-size: 14px;
+    line-height: 1.5;
+    text-align: center;
+    margin-bottom: 5px;
+  }
+
+  .headline-HR h3, .contact-us .headline h3 {
+    width: auto;
+  }
+
+  .menu-HR, .contact-us .menu {
+    width: 100%;
+    justify-content: center;
+  }
+}

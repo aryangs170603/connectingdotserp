@@ -1,0 +1,114 @@
+.related-courses-container {
+  padding: 50px 0;
+  background-color: #f5f5f5;
+  max-width: 1800px;
+  width: 97.5%;
+  margin: 0 auto;
+}
+
+.related-courses-title h2 {
+  font-size: 34px;
+  font-weight: bold;
+  text-transform: uppercase;
+  margin-bottom: 30px;
+  font-family: 'Lato', sans-serif;
+  letter-spacing: 8px;
+  background: linear-gradient(90deg, rgba(1, 1, 98, 1) 35%, rgba(3, 163, 196, 1) 49%, rgba(2, 2, 85, 1) 62%);
+  -webkit-background-clip: text;
+  color: transparent;
+  
+}
+
+.related-courses-grid {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  padding: 20px;
+}
+
+.related-course-card {
+  width: 18%;
+  background-color: #fff;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  border-radius: 12px;
+  margin: 10px;
+  text-align: center;
+  transition: transform 0.3s, box-shadow 0.3s;
+  cursor: pointer;
+  border: 1px solid #007bff; /* Add border color */
+  overflow: hidden; /* To clip any overflowing content */
+}
+
+.related-course-card:hover {
+  transform: translateY(-10px);
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+  border: 1px solid #0056b3; /* Change border color on hover */
+}
+
+.related-icon-container {
+  padding: 10px;
+  background-color: #f0f0f0; /* Add background color to icon container */
+  border-bottom: 1px solid #e0e0e0; /* Add separator line */
+}
+
+.related-course-icon {
+  max-width: 60%; /* Reduce the size of the icon */
+  height: auto;
+  margin-bottom: 15px;
+  border: none; /* Remove border */
+  border-radius: 50%; /* Make icons circular */
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Add subtle shadow */
+}
+
+.related-course-card h3 {
+  font-size: 1.2rem;
+  font-weight: bold;
+  color: #333;
+  margin-bottom: 10px;
+}
+
+.related-course-card p {
+  font-size: 1rem;
+  color: #555;
+  margin-bottom: 20px;
+}
+
+.related-carousel-radio-buttons {
+  margin: 20px 0;
+}
+
+.related-carousel-radio-buttons input[type="radio"] {
+  margin: 0 5px;
+  cursor: pointer;
+  accent-color: #007bff;
+}
+
+.outline-btn {
+  border: 2px solid #007bff;
+  color: #007bff;
+  background-color: transparent;
+  padding: 10px 20px;
+  border-radius: 4px;
+  transition: all 0.3s;
+  font-size: 1rem;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+.outline-btn:hover,
+.outline-btn:focus {
+  background-color: #007bff;
+  color: #fff;
+  text-decoration: none;
+}
+
+@media (max-width: 768px) {
+  .related-course-card {
+    width: 45%;
+    margin: 10px auto;
+  }
+
+  .related-courses-title h2 {
+    font-size: 1.5rem;
+  }
+}

@@ -1,0 +1,217 @@
+.containerCH {
+  padding: 20px;
+  margin: 20px auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-family: 'Lato', sans-serif;
+  max-width: 1800px;
+  width: 97.5%;
+  padding-bottom: 50px;
+}
+
+.containerCH h1 {
+  font-size: 2.5rem;
+  margin-bottom: 20px;
+  margin-top: 10px;
+  font-weight: bold;
+  font-family: 'Lato', sans-serif;
+  letter-spacing: 7px;
+  background: rgb(255, 255, 255);
+  text-shadow: 0 0 0px #fff, 0 0 10px #fff, 0 0 10px #0073e6, 0 0 20px #182E4A, 0 0 20px #182E4A, 0 0 30px #182E4A, 0 0 30px #182E4A;
+  background: linear-gradient(90deg, #fff 35%, rgba(3,163,196,1) 49%, #fff 62%);
+  -webkit-background-clip: text;
+  color: transparent;
+}
+
+.phases {
+  text-align: center;
+  margin-top: 10px;
+  background-color: #ffffff;
+  padding-top: 10px;
+  padding-bottom: 8px;
+  padding-left: 8px;
+  border-radius: 20px;
+  box-shadow: 7px 5px 5px #000000;
+}
+.phases h4{
+  font-size: 20px;
+  margin-left: 20px;
+  margin-bottom: 10px;
+}
+
+.phases ul {
+  list-style: none;
+  display: inline-table;
+  padding: 0;
+  margin: 0;
+}
+
+.phases ul li {
+  display: inline;
+}
+
+.phases ul li a {
+  display: block;
+  float: left;
+  height: 81px;
+  width: 200px;
+  background: #5aadd3;
+  text-align: center;
+  padding: 20px 30px;
+  position: relative;
+  margin: 0 10px 0 0;
+  font-size: 20px;
+  text-decoration: none;
+  color: #fff;
+  box-sizing: border-box;
+}
+
+/* colour of current phase */
+.phases ul li.current-phase a {
+  background: #e41d24;
+}
+
+.phases ul li.current-phase a:after {
+  border-left: 40px solid #e41d24 !important;
+}
+
+/* set sizing of front pointers */
+.phases ul li a:after {
+  content: "";
+  border-top: 40px solid transparent;
+  border-bottom: 40px solid transparent;
+  border-left: 40px solid #5aadd3;
+  position: absolute;
+  right: -40px;
+  top: 0;
+  z-index: 1;
+}
+
+/* set sizing of rear pointers */
+.phases ul li a:before {
+  content: "";
+  border-top: 40px solid transparent;
+  border-bottom: 40px solid transparent;
+  border-left: 40px solid #ffffff;
+  position: absolute;
+  left: 0;
+  top: 0;
+}
+
+/* set corner radius on first item */
+.phases ul li:first-child a {
+  border-top-left-radius: 10px;
+  border-bottom-left-radius: 10px;
+}
+
+/* hide pointer on end of last item */
+.phases ul li:first-child a:before {
+  display: none;
+}
+
+/* set size and corner radius on last item */
+.phases ul li:last-child a {
+  padding-right: 80px;
+  border-top-right-radius: 10px;
+  border-bottom-right-radius: 10px;
+}
+
+/* hide pointer on last item */
+.phases ul li:last-child a:after {
+  display: none;
+}
+
+/* chevron body */
+.phases ul li a:hover {
+  background:  #182E4A;
+}
+
+/* chevron pointer */
+.phases ul li a:hover:after {
+  border-left-color:  #182E4A;
+}
+
+
+/* Responsive styles for mobile screens */
+@media (max-width: 768px) {
+  .containerCH h1 {
+    font-size: 1.5rem;
+  }
+
+  .phases {
+    width: 100%;
+    max-width: 320px;
+    margin: 0 auto; /* Center the phases container */
+  }
+
+  .phases ul {
+    display: block;
+    padding: 0;
+    margin: 0 auto; /* Center the phases list */
+  }
+ .chevron-item{
+   margin-left: 35px;
+ }
+  .phases ul li {
+    display: flex;
+    justify-content: center; /* Center each list item */
+    margin-bottom: 10px;
+    position: relative;
+    width: 100%;
+    max-width: 240px; /* Adjust the width of each list item */
+  }
+
+  .phases ul li a {
+    width: 100%;
+    padding: 10px 15px;
+  }
+
+  /* Alternating chevron arrows */
+  .phases ul li:nth-child(odd) a:after {
+    border-left: 40px solid #5aadd3;
+    right: -40px;
+  }
+
+  .phases ul li:nth-child(even) a:after {
+    border-right: 40px solid #5aadd3;
+    border-left: none;
+    left: -40px;
+    right: auto;
+  }
+
+  .phases ul li:nth-child(odd) a:before {
+    border-left: 40px solid white;
+    left: 0;
+  }
+
+  .phases ul li:nth-child(even) a:before {
+    border-right: 40px solid white;
+    border-left: none;
+    left: auto;
+    right: 0;
+  }
+}
+
+@media (max-width: 576px) {
+  .containerCH h1 {
+    font-size: 1.25rem;
+  }
+
+  .phases ul li a {
+    font-size: 14px;
+    padding: 8px 10px;
+  }
+}
+
+
+@media (max-width: 576px) {
+  .containerCH h1 {
+    font-size: 1.25rem;
+  }
+
+  .phases ul li a {
+    font-size: 14px;
+    padding: 8px 10px;
+  }
+}

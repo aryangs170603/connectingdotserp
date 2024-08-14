@@ -1,0 +1,150 @@
+.feedback-section {
+  text-align: center;
+  margin: 20px auto;
+  font-family: 'Lato', sans-serif;
+  padding-top: 20px;
+  padding-bottom: 5px;
+  width: 97.5%;
+  max-width: 1800px;
+}
+
+.feedback-card {
+  transition: max-height 0.5s ease, padding 0.5s ease;
+  background-color: #fff;
+  border: 1px solid #000000;
+  border-radius: 20px;
+  text-align: left;
+  width: 100%;
+  max-width: 400px;
+  margin: 0 auto;
+  overflow: hidden;
+  padding: 20px 10px 35px 10px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.feedback-card.expanded {
+  max-height: 1000px; 
+  padding: 20px 10px 10px 10px;
+}
+
+.section-subtitle {
+  font-size: 2.5rem;
+  font-weight: bold;
+  margin-bottom: 40px;
+  letter-spacing: 8px;
+  background: rgb(255, 255, 255);
+  text-shadow: 0 0 0px #fff, 0 0 10px #fff, 0 0 10px #0073e6, 0 0 20px #182E4A, 0 0 20px #182E4A, 0 0 30px #182E4A, 0 0 30px #182E4A;
+  background: linear-gradient(90deg, #fff 35%, rgba(3,163,196,1) 49%, #fff 62%);
+  -webkit-background-clip: text;
+  color: transparent;
+}
+
+.img-container {
+  position: relative;
+  display: flex;
+  align-items: center;
+  margin-bottom: 30px;
+}
+
+.review-image {
+  width: 80px;
+  height: 80px;
+  object-fit: contain;
+  border-radius: 10px;
+  margin-right: 10px;
+}
+
+.google-logo {
+  width: 70px;
+  height: 70px;
+  margin-left: 230px;
+  margin-top: -30px;
+  
+}
+
+.icon {
+  font-size: 2rem;
+  color: #0073e6;
+  margin-bottom: 50px;
+  margin-left: -30px;
+}
+
+.review-name {
+  font-size: 1.2rem;
+  font-weight: bold;
+  color: #333;
+  margin-bottom: 10px;
+  margin-top: -200px;
+  text-decoration: underline;
+}
+
+.review-text {
+  font-size: 1rem;
+  color: #555;
+}
+
+.card-body-wrapper {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 100%;
+}
+
+@media (max-width: 768px) {
+  .feedback-section {
+    padding: 10px;
+  }
+
+  .feedback-card {
+    padding: 10px;
+    margin-bottom: 20px;
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .feedback-card.expanded {
+    padding: 20px 10px 10px 10px;
+  }
+
+  .img-container {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .review-image {
+    margin-bottom: 10px;
+    margin-right: 190px;
+  }
+
+  .google-logo {
+    margin-right: -40px;
+    margin-top: -90px;
+   
+  }
+  .review-text {
+    font-size: 1rem;
+    color: #555;
+    margin-top: 10px;
+    margin-left: -60px;
+    padding: 0;
+  }  
+    
+    .review-name {
+      font-size: 1.2rem;
+      font-weight: bold;
+      color: #333;
+      margin-bottom: -10px;
+      margin-top: -80px;
+      margin-right: 10px;
+      width: 50px;
+  }
+  .icon {
+    margin-right: 280px;
+    margin-top: -90px ;
+    display: none;
+  }
+  
+}

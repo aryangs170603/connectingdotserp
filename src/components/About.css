@@ -1,0 +1,201 @@
+/* Base styles for all screen sizes */
+
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, sans-serif;
+  overflow-x: hidden; /* Prevent horizontal scrolling */
+}
+
+.aboutHome {
+  width: 100%;
+  min-height: 100vh; /* Cover the full viewport height */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px;
+  box-sizing: border-box;
+}
+
+.aboutHome #heading {
+  text-align: center;
+  padding: 0;
+  margin-bottom: 20px;
+}
+
+.aboutHome .container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  flex-wrap: wrap; /* Allow wrapping */
+  max-width: 1200px; /* Set a maximum width */
+  width: 100%; /* Full width of the container */
+  margin: 0 auto; /* Center align */
+}
+
+.aboutHome .left, .aboutHome .right {
+  flex: 1 1 48%; /* Allow resizing */
+  padding: 20px;
+  box-sizing: border-box;
+}
+
+.aboutHome .left img {
+  width: 100%;
+  height: auto;
+  object-fit: cover;
+}
+
+.aboutHome .right {
+  padding: 40px 20px;
+}
+
+.aboutHome .items {
+  margin-top: 20px;
+}
+
+.aboutHome .item {
+  background-color: #fff;
+  margin-top: 20px;
+  padding: 20px;
+  transition: 0.5s;
+  box-shadow: 0 5px 15px -5px rgba(0, 0, 0, 0.2);
+}
+
+.aboutHome .img {
+  width: 200px;
+}
+
+.aboutHome img {
+  width: 70px;
+  height: 70px;
+}
+
+.aboutHome .item h2 {
+  font-size: 1.25rem;
+  margin-bottom: 15px;
+}
+
+.aboutHome .item p {
+  color: #999999;
+}
+
+.aboutHome .item:hover {
+  background-color: #1eb2a6;
+  color: #fff;
+  cursor: pointer;
+  box-shadow: 0 5px 25px -2px rgba(0, 0, 0, 0.06);
+}
+
+.aboutHome .item:hover p {
+  color: #fff;
+}
+
+/*----------awrapper------------*/
+
+.awrapper {
+  background-image: url("../../../public/images/awrapper.webp");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  height: 30vh;
+  color: #fff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  margin-top: 20px;
+  width: 100%;
+}
+
+.awrapper .box {
+  padding: 20px 0;
+}
+
+.awrapper img {
+  margin-right: 20px;
+}
+
+.awrapper h1 {
+  font-size: 2rem;
+}
+
+.awrapper h3 {
+  font-size: 1rem;
+  font-weight: 500;
+}
+
+/* Responsive adjustments for 12-inch laptops (1366x768) */
+@media screen and (max-width: 1366px) {
+  .aboutHome .right {
+    padding: 30px 20px;
+  }
+
+  .awrapper h1 {
+    font-size: 1.75rem;
+  }
+
+  .awrapper h3 {
+    font-size: 0.9rem;
+  }
+
+  .aboutHome .left, .aboutHome .right {
+    flex-basis: 100%; /* Full width for stacking */
+  }
+}
+
+/* Responsive adjustments for tablets */
+@media screen and (max-width: 1024px) {
+  .aboutHome .container {
+    flex-direction: column-reverse;
+  }
+
+  .aboutHome .right {
+    padding: 20px;
+  }
+
+  .awrapper h1 {
+    font-size: 1.5rem;
+  }
+
+  .awrapper h3 {
+    font-size: 0.85rem;
+  }
+}
+
+/* Responsive adjustments for mobile devices */
+@media screen and (max-width: 768px) {
+  .aboutHome .right {
+    padding: 20px;
+  }
+
+  .aboutHome .item {
+    padding: 15px;
+  }
+
+  .awrapper h1 {
+    font-size: 1.25rem;
+  }
+
+  .awrapper h3 {
+    font-size: 0.75rem;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .aboutHome .right {
+    padding: 15px;
+  }
+
+  .aboutHome .item {
+    padding: 10px;
+  }
+
+  .awrapper h1 {
+    font-size: 1rem;
+  }
+
+  .awrapper h3 {
+    font-size: 0.7rem;
+  }
+}

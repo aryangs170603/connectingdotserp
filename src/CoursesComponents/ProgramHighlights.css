@@ -1,0 +1,73 @@
+.container-it-ds-prgrm {
+  text-align: center;
+  
+  color: #ecf0f1;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.card-img-it-ds {
+  width: 60%;
+  height: auto;
+  border-radius: 5px;
+  margin-bottom: 10px;
+}
+.container-it-ds-prgrm h2 {
+ 
+  background: rgb(255, 255, 255);
+  text-shadow: 0 0 0px #fff, 0 0 10px #fff, 0 0 10px #0073e6, 0 0 20px #182E4A, 0 0 20px #182E4A, 0 0 30px #182E4A, 0 0 30px #182E4A;
+  background: linear-gradient(90deg, #fff 35%, rgba(3,163,196,1) 49%, #fff 62%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  display: inline-block;
+  font-size: 2.5rem;
+  letter-spacing: 8px;
+  font-family: 'Lato', sans-serif;
+  margin-bottom: 30px;
+  margin-top: 30px;
+}
+.progress-bar-it-ds {
+  height: 10px;
+  max-width: 1800px;
+  width: 82%;
+  background-color: #dcdcdc;
+  border-radius: 5px;
+  overflow: hidden;
+  margin-bottom: 40px;
+  position: relative;
+}
+
+.progress-it-ds {
+  height: 100%;
+  background-color: #e67e22;
+  transition: width 0.3s ease;
+}
+
+.cards-it-ds {
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+}
+
+.card-it-ds {
+  background-color: #377dc3;
+  border-radius: 5px;
+  padding: 20px;
+  width: 280px;
+  transition: transform 0.3s ease;
+}
+
+.card-it-ds:hover {
+  transform: translateY(-10px);
+  background-color: #2c5f8e;
+}
+
+.container-it-ds h3 {
+  color: #ecf0f1;
+ font-size: 1.5rem;
+}
+
+.icon-it-ds p {
+  color: #bdc3c7;
+}

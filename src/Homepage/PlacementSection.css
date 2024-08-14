@@ -1,0 +1,312 @@
+.placement-section {
+  padding: 40px;
+
+  color: #333333;
+  text-align: center;
+  width: 97.5%;
+  padding-left: 120px;
+  margin: 20px auto;
+  font-family: 'Lato', sans-serif;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  height: 450px;
+  max-width: 1800px;
+  z-index: -4;
+}
+
+.section-titleP {
+  font-size: 2.5rem;
+  font-weight: bold;
+  letter-spacing: 8px;
+  margin-bottom: 40px;
+  font-family: 'Lato', sans-serif;
+  background: rgb(255, 255, 255);
+  text-shadow: 0 0 0px #fff, 0 0 10px #fff, 0 0 10px #0073e6, 0 0 20px #182E4A, 0 0 20px #182E4A, 0 0 30px #182E4A, 0 0 30px #182E4A;
+  background: linear-gradient(90deg, #fff 35%, rgba(3,163,196,1) 49%, #fff 62%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  display: inline-block;
+
+
+}
+
+
+
+.student-placement-card {
+  background-color: #c70000;
+  border: 2px #000000 dotted;
+  border-radius: 8px;
+  margin: 10px;
+  position: relative;
+  text-align: left;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.top-image {
+  height: 80px;
+  width: 60px;
+  object-fit: cover;
+  border-top-left-radius: 8px;
+  border-top-right-radius: 8px;
+  position: absolute;
+  top: 15px;
+  left: 15px;
+}
+
+.company-icon {
+  height: 30px;
+  width: auto; 
+  vertical-align: middle;
+  margin-top: -20px; 
+  margin-right: 5px;
+  object-fit: contain;
+
+}
+
+.card-body {
+  padding: 10px;
+  position: relative;
+  padding-left: 90px; 
+}
+
+.card-title {
+  font-size: 1.5rem;
+  font-weight: bold;
+  color: #333;
+  margin-top: -5px; 
+  padding-bottom: 10px;
+  padding-left: 50px; 
+  padding-right: 20px;
+  margin-bottom: 0;
+}
+
+.card-text {
+  font-size: 1.0rem;
+  color: #000000;
+  font-weight: bold;
+  margin-top: 5px; 
+  padding-top: -5px;
+  padding-left: 15px;
+  margin-bottom: 0; 
+}
+
+.dotted-underline {
+  border-top: 2px dotted #000000;
+  width: 100%;
+  margin-top: 5px; 
+  margin-bottom: 10px;
+  margin-left: 10px;
+}
+
+.carousel-control-prev,
+.carousel-control-next {
+  display: none !important; 
+}
+
+
+.card {
+  background-color: #ffffff;
+  max-height: 220px;
+  width: 380px;
+  gap: 1rem;
+  border: 2px #000000 dotted;
+}
+
+.card .top-image {
+  height: 120px;
+  width: 80px;
+  object-fit: cover;
+  position: absolute;
+  top: 15px;
+  left: 15px;
+}
+
+.card-0 {
+  background-color: #ffffff;
+}
+.card-0 .company-icon{
+  height: 50px;
+  width: 70px;
+}
+
+.card-1 {
+  background-color: #ffffff;
+}
+.card-1 .company-icon{
+  height: 60px;
+  width: 80px;
+}
+.card-2 {
+  background-color: #ffffff;
+}
+.card-2 .company-icon{
+  height: 80px;
+  width: 80px;
+  padding-bottom: 10px;
+  margin-bottom: 50px;
+}
+.card-3 {
+  background-color: #ffffff;
+}
+.card-3 .company-icon{
+  height: 120px;
+  width: 80px;
+  padding-bottom: 50px;
+
+}
+.card-4 .company-icon{
+  height: 80px;
+  width: 80px;
+  padding-bottom: 10px;
+  margin-bottom: 50px;
+}
+.card-5,
+.card-6,
+.card-7,
+.card-8 {
+  background-color: #ffffff;
+}
+
+@media (max-width: 768px) {
+  .section-titleP {
+    font-size: 2rem;
+  }
+
+  .card{
+    width: 500px;
+    margin-left: 0;
+  }
+  .placement-section {
+    padding-left: 30px;
+    padding-right: 30px;
+  }
+
+  .card-title {
+    font-size: 1.2rem;
+    padding-left: 20px;
+    padding-right: 100px;
+    margin-top: -5px; 
+    width: 50px;
+  }
+
+  .card-text {
+    font-size: 1.0rem;
+    padding-left: 50px;
+    margin-top: 5px;
+    margin-bottom: 50px;
+
+  }
+
+  .top-image {
+    height: 100px;
+    width: 70px;
+  }
+
+  .company-icon {
+    height: 20px; 
+  }
+
+  .card-body {
+    padding-left: 70px; 
+  }
+
+  .salary-package {
+    font-size: 1.2em; /* Increase the font size */
+    font-weight: bold; /* Make the text bold */
+    margin-top: 10px; /* Add some space above the salary */
+    color: #007bff; /* Change the text color (Bootstrap primary color) */
+  }
+
+
+
+  .dotted-underline {
+    margin-top: 5px; 
+  }
+}
+
+@media (max-width: 576px) {
+  .section-titleP {
+    font-size: 1.5rem;
+    margin-bottom: 40px;
+  }
+
+  .placement-section {
+    padding-left: 20px;
+    padding-right: 20px;
+    height:350px;
+    padding-bottom: 50px;
+  }
+
+  .student-placement-card {
+    width: 300px;
+    max-height: 200px;
+    border: 1px #000000 solid;
+
+  }
+
+  .card-title {
+    font-size: 0.95rem;
+    padding-left: 10px;
+    padding-right: -20px;
+    margin-top: -5px; 
+    margin-left: 50px;
+    width: auto;
+    display: flex;
+    flex-direction: row;
+  }
+
+  .card-text {
+    font-size: 0.9rem;
+    padding-left: 10px;
+    margin-top: -15px; 
+    margin-left: 10px;
+
+
+  }
+  .radio-buttons{
+    display: none;
+  }
+
+  .top-image {
+    height: 70px;
+    width: 50px;
+  }
+
+  .company-icon {
+    height: 40px; 
+    width: 80px;
+
+  }
+
+  .dotted-underline {
+    margin-top: 5px; 
+
+  }
+  .card-body{
+    margin-bottom: 50px;
+  }
+}
+.radio-buttons {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+.radio-buttons input[type="radio"] {
+  appearance: none;
+  width: 15px;
+  height: 15px;
+  border: 1px solid #333;
+  border-radius: 50%;
+  margin: 0 5px;
+  outline: none;
+  cursor: pointer;
+  transition: background 0.3s;
+  background-color: white;
+}
+
+.radio-buttons input[type="radio"]:checked {
+  background-color: #000000;
+
+}
+

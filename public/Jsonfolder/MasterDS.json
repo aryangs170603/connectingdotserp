@@ -1,0 +1,632 @@
+[
+{
+  "MDSpage": {
+    "DSHeader": {
+      "id": "MDSHeader",
+      "title": "Masters in Data Science & Machine Learning Program",
+      "subtitle": "Data Science Course",
+      "description": "Unlock the power of data with Connecting Dots Data Science course, mastering crucial skills for success in the field, all backed by secure placement support.",
+      "features": ["Live Class", "1:1 mentorship", "Industry projects"],
+      "alumni": [
+        { "name": "amazon", "logo": "https://via.placeholder.com/50x20?text=amazon" },
+        { "name": "samsung", "logo": "https://via.placeholder.com/50x20?text=samsung" },
+        { "name": "intuit", "logo": "https://via.placeholder.com/50x20?text=intuit" },
+        { "name": "microsoft", "logo": "https://via.placeholder.com/50x20?text=microsoft" },
+        { "name": "google", "logo": "https://via.placeholder.com/50x20?text=google" }
+      ],
+      "buttons": [
+        { "text": "Next Batch starts in AUGUST", "courseName": "Data Science Program" },
+        { "text": "Book Live Demo", "courseName": "Book Live Demo" }
+      ],
+      "form": {
+        "title": "Book a FREE live class",
+        "inputs": [
+          { "type": "text", "name": "name", "placeholder": "Enter your name" },
+          { "type": "email", "name": "email", "placeholder": "Enter your Email" },
+          { "type": "text", "name": "year", "placeholder": "Year of Passing" },
+          { "type": "tel", "name": "phone", "placeholder": "Enter your phone number", "countryCode": "+91" }
+        ],
+        "submitText": "Book Live Class"
+      }
+    },
+    "WhyMDS": {
+      "id": "WhyMDS",
+      "title": "Why Data Science?",
+      "cards": [
+        {
+          "title": "What is <span class=\"highlight-span-cards\">Data Science?</span>",
+          "content": "Data Science involves <span class=\"highlight-span-cards\">extracting actionable insights</span> from raw data using various scientific methods, algorithms, and processes. It provides tools for working with data from diverse sources, including financial logs, multimedia files, and sensors."
+        },
+        {
+          "title": "What does a <span class=\"highlight-span-cards\">Data Scientist</span> do?",
+          "content": "A data scientist analyzes data to provide actionable insights for various processes. They possess strong <span class=\"highlight-span-cards\">statistical</span>, <span class=\"highlight-span-cards\">analytical</span>, and <span class=\"highlight-span-cards\">technical skills</span> to work with structured and unstructured data.",
+          "listItems": [
+            "Identify data sources and collect data.",
+            "Analyze data effectively.",
+            "Formulate strategies to solve business challenges."
+          ]
+        },
+        {
+          "title": "Why take <span class=\"highlight-span-cards\">Data Science</span> training?",
+          "content": "Data scientists are in high demand across industries, making a <span class=\"highlight-span-cards\">Data Science certification</span> valuable. Our training course is designed for both beginners and professionals to equip them with essential skills.",
+          "listItems": [
+            "Junior/Senior Data Scientist",
+            "Forecasting/Risk Analyst",
+            "Machine Learning Engineer"
+          ]
+        }
+      ]
+    },
+    "MDSmodule": {
+      "id": "MDSmodule",
+      "title": "DATA SCIENCE CURRICULUM",
+      "tabs": [
+        {
+          "type": "beginner",
+          "duration": "15 Months",
+          "modules": [
+            {
+              "title": "Tableau + Excel",
+              "duration": "5 Months",
+              "content": [
+                "Basic Visual Analytics",
+                "More Charts and Graphs, Operations on Data and Calculations in Tableau",
+                "Advanced Visual Analytics and Level Of Detail (LOD) Expressions",
+                "Geographic Visualizations, Advanced Charts, and Worksheet and Workbook Formatting",
+                "Introduction to Excel and Formulas",
+                "Pivot Tables, Charts and Statistical functions"
+              ]
+            },
+            {
+              "title": "Python Basic to Advance",
+              "duration": "4 Months",
+              "content": [
+                "Basic Python Concepts",
+                "Control Flow and Functions",
+                "Data Structures and Classes",
+                "Exception Handling and Recursion",
+                "Regular Expressions and Libraries",
+                "Exploratory Data Analysis",
+                "Practical Applications"
+              ]
+            },
+            {
+              "title": "Structured Query Language(SQL)",
+              "duration": "3 Months",
+              "content": [
+                "CRUD Operations",
+                "Normalization",
+                "Joins (INNER, OUTER, LEFT, RIGHT, CROSS, SELF JOIN)",
+                "Transactions",
+                "Advanced Queries on University Schema",
+                "Stored Procedures",
+                "Common Table Expressions"
+              ]
+            },
+            {
+              "title": "Big Data Computing",
+              "duration": "3 Months",
+              "content": [
+                "Introduction to Big Data",
+                "Hadoop and Its Evolution",
+                "HDFS Architecture",
+                "Hadoop Ecosystem",
+                "HDFS Commands",
+                "Intro Linux Commands"
+              ]
+            },
+            {
+              "title": "Machine Learning Ops",
+              "duration": "1 Month",
+              "content": [
+                "Introduction to Machine Learning",
+                "Types of ML Algorithms",
+                "Feature Selection",
+                "Handling Categorical Data",
+                "Linear Regression",
+                "Logistic Regression",
+                "KNN (K-Nearest Neighbors)"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "advanced",
+          "duration": "20 Months",
+          "modules": [
+            {
+              "title": "Data Structures and Algorithms",
+              "duration": "6 Months",
+              "content": [
+                "Sorting Algorithms",
+                "Searching Algorithms",
+                "Linked Lists",
+                "Stacks and Queues",
+                "Tree Traversal Techniques",
+                "Graphs",
+                "Advanced Topics"
+              ]
+            },
+            {
+              "title": "Data Engineering",
+              "duration": "5 Months",
+              "content": [
+                "Introduction to Data Engineering",
+                "Data Pipelines",
+                "ETL Processes",
+                "Data Warehousing"
+              ]
+            },
+            {
+              "title": "AI and Deep Learning",
+              "duration": "4 Months",
+              "content": [
+                "Introduction to AI",
+                "Deep Learning Architectures",
+                "Convolutional Neural Networks",
+                "Recurrent Neural Networks"
+              ]
+            },
+            {
+              "title": "Project Specializations",
+              "duration": "4 Months",
+              "content": [
+                "Specialization 1",
+                "Specialization 2",
+                "Specialization 3",
+                "Specialization 4"
+              ]
+            },
+            {
+              "title": "Production ML Systems",
+              "duration": "2 Months",
+              "content": [
+                "Production Machine Learning",
+                "Scaling ML Systems",
+                "ML System Design",
+                "Case Studies"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    "MDSinduspro": {
+      "id": "MDSinduspro",
+      "title": "INDUSTRY PROJECT",
+      "projects": [
+        {
+          "name": "Revealing the Power of Data",
+          "description": "Here, in Excel, you need to find the vital stats of the departments such as weak spots and bottlenecks in the processes, and find ways to scale them up."
+        },
+        {
+          "name": "Human Resource Management System",
+          "description": "This application helps the student complete their HR toolkit with the secure management of tracking and delivering HR documents, organizing personal records, payroll data, etc."
+        },
+        {
+          "name": "Vehicle Sales Analysis",
+          "description": "The idea behind introducing this project in our Data Science & Analytics with AI Certification course is to understand how to analyze and generate Vehicle Sales Report and dive into the data of ‘total vehicles sold’, ‘total revenue generated’, seasonality of the revenue and so on."
+        },
+        {
+          "name": "Supply Chain & Logistics Analysis",
+          "description": "In the Data Science & Analytics with AI, students will have a project where they will have to evaluate every stage of a supply chain starting from the time the business acquires raw materials or supplies from its suppliers to the delivery of the final product to the consumers."
+        },
+        {
+          "name": "Face Detection",
+          "description": "This is probably the most popular application of the computer vision. Therefore, in our Data Science & Analytics with AI Course, we teach the technology that finds applications in various industries, such as security and social media. Thus, we are building a face detection project through OpenCV."
+        },
+        {
+          "name": "Full-Stack Python",
+          "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book."
+        },
+        {
+          "name": "Full-Stack Java",
+          "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book."
+        },
+        {
+          "name": "PowerBI",
+          "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book."
+        },
+        {
+          "name": "Google Cloud Platform",
+          "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book."
+        },
+        {
+          "name": "Reactjs Framework",
+          "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book."
+        }
+      ]
+    },
+    "MDSfaq": {
+      "id": "MDSfaq",
+      "title": "Frequently Asked Questions",
+      "video": "../Logos/DSimages/faqvideo.mp4",
+      "items": [
+        {
+          "question": "Who should take this Data Science course?",
+          "answer": "This Data Science course is designed for everyone, even if you have no coding experience. We offer a Beginner module that covers the basics of coding to get you started."
+        },
+        {
+          "question": "Why is ConnectingDots Data Science program considered one of the best data science courses?",
+          "answer": "The ConnectingDots Data Science and Machine Learning program is considered one of the best data science courses because it provides comprehensive training and hands-on experience."
+        },
+        {
+          "question": "Will we ever discover aliens?",
+          "answer": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Elementum sagittis vitae et leo duis ut. Ut tortor pretium viverra suspendisse potenti."
+        },
+        {
+          "question": "How much does the Earth weigh?",
+          "answer": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Elementum sagittis vitae et leo duis ut. Ut tortor pretium viverra suspendisse potenti."
+        },
+        {
+          "question": "How do airplanes stay up?",
+          "answer": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Elementum sagittis vitae et leo duis ut. Ut tortor pretium viverra suspendisse potenti."
+        }
+      ]
+    },
+    "MDSrelated": {
+      "id": "MDSrelated",
+      "title": "RELATED COURSES",
+      "items": [
+        {
+          "name": "Artificial Intelligence",
+          "description": "Learn AI from scratch",
+          "icon": "./Relatedgifs/artificial-intelligence (1).gif",
+          "alt": "Artificial Intelligence icon"
+        },
+        {
+          "name": "Masters in Data Science",
+          "description": "Become a data science expert",
+          "icon": "./Relatedgifs/pie-chart.gif",
+          "alt": "Pie chart icon"
+        },
+        {
+          "name": "Masters in Data Analytics",
+          "description": "Master data analytics skills",
+          "icon": "./Relatedgifs/science.gif",
+          "alt": "Science icon"
+        },
+        {
+          "name": "Salesforce",
+          "description": "Salesforce developer courses",
+          "icon": "./Relatedgifs/cloud--network.gif",
+          "alt": "Cloud network icon"
+        },
+        {
+          "name": "UI/UX Design",
+          "description": "Design stunning user interfaces",
+          "icon": "./Relatedgifs/computer.gif",
+          "alt": "Computer icon"
+        },
+        {
+          "name": "Full-Stack Python",
+          "description": "Full-stack development with Python",
+          "icon": "./Relatedgifs/coding.gif",
+          "alt": "Coding icon"
+        },
+        {
+          "name": "Full-Stack Java",
+          "description": "Full-stack development with Java",
+          "icon": "./Relatedgifs/java (1).gif",
+          "alt": "Java icon"
+        },
+        {
+          "name": "PowerBI",
+          "description": "Business intelligence with PowerBI",
+          "icon": "./Relatedgifs/setting.gif",
+          "alt": "Setting icon"
+        },
+        {
+          "name": "Google Cloud Platform",
+          "description": "Learn GCP from experts",
+          "icon": "./Relatedgifs/exchange.gif",
+          "alt": "Exchange icon"
+        },
+        {
+          "name": "Reactjs Framework",
+          "description": "Learn Reactjs from Industry Experts",
+          "icon": "./Relatedgifs/physics.gif",
+          "alt": "Physics icon"
+        }
+      ]
+    }
+  }
+  },
+
+
+
+{
+  "DataAnalyticsPage": {
+    "id": "DataAnalyticsHeader",
+    "title": "Another Course Title",
+    "subtitle": "Another Course Subtitle",
+    "description": "Description for another course.",
+    "features": ["Feature 1", "Feature 2", "Feature 3"],
+    "alumni": [
+      {"name": "company1", "logo": "https://via.placeholder.com/50x20?text=company1"},
+      {"name": "company2", "logo": "https://via.placeholder.com/50x20?text=company2"}
+    ],
+    "buttons": [
+      {"text": "Next Batch starts in SEPTEMBER", "courseName": "Another Course"},
+      {"text": "Book Live Demo", "courseName": "Book Live Demo"}
+    ],
+    "form": {
+      "title": "Book a FREE live class",
+      "inputs": [
+        {"type": "text", "name": "name", "placeholder": "Enter your name"},
+        {"type": "email", "name": "email", "placeholder": "Enter your Email"},
+        {"type": "text", "name": "year", "placeholder": "Year of Passing"},
+        {"type": "tel", "name": "phone", "placeholder": "Enter your phone number", "countryCode": "+91"}
+      ],
+      "submitText": "Book Live Class"
+    }
+  },
+  "WhyMDA": {
+    "id": "WhyMDA",
+    "title": "Why Data Analytics?",
+    "cards": [
+      {
+        "title": "What is <span class=\"highlight-span-cards\">Data Analytics?</span>",
+        "content": "Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged."
+      },
+      {
+        "title": "What does a <span class=\"highlight-span-cards\">Data Analyst</span> do?",
+        "content": "Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged.",
+        "listItems": [
+          "Collect and clean data.",
+          "Analyze complex data sets.",
+          "Create visualizations to represent data insights."
+        ]
+      },
+      {
+        "title": "Why take <span class=\"highlight-span-cards\">Data Analytics</span> training?",
+        "content": "Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged.",
+        "listItems": [
+          "Business Intelligence Analyst",
+          "Operations Analyst",
+          "Marketing Analyst"
+        ]
+      }
+    ]
+  },
+  "MDAmodule": {
+    "id": "MDAmodule",
+    "title": "DATA ANALYTICS CURRICULUM",
+    "tabs": [
+      {
+        "type": "beginner",
+        "duration": "15 Months",
+        "modules": [
+          {
+            "title": "Tableau + Excel",
+            "duration": "5 Months",
+            "content": [
+              "Lorem Ipsum has been the industry's standard dummy",
+              "Lorem Ipsum has been the industry's standard dummy",
+              "Lorem Ipsum has been the industry's standard dummy",
+              "Lorem Ipsum has been the industry's standard dummy",
+              "Lorem Ipsum has been the industry's standard dummy",
+              "Lorem Ipsum has been the industry's standard dummy"
+            ]
+          },
+          {
+            "title": "Python Basic to Advance",
+            "duration": "4 Months",
+            "content": [
+              "Lorem Ipsum has been the industry's standard dummy",
+              "Lorem Ipsum has been the industry's standard dummy",
+              "Lorem Ipsum has been the industry's standard dummy",
+              "Lorem Ipsum has been the industry's standard dummy",
+              "Lorem Ipsum has been the industry's standard dummy",
+              "Lorem Ipsum has been the industry's standard dummy"
+            ]
+          },
+          {
+            "title": "Structured Query Language (SQL)",
+            "duration": "3 Months",
+            "content": [
+              "Lorem Ipsum has been the industry's standard dummy",
+              "Lorem Ipsum has been the industry's standard dummy",
+              "Lorem Ipsum has been the industry's standard dummy",
+              "Lorem Ipsum has been the industry's standard dummy",
+              "Lorem Ipsum has been the industry's standard dummy",
+              "Lorem Ipsum has been the industry's standard dummy"
+            ]
+          },
+          {
+            "title": "Big Data Computing",
+            "duration": "3 Months",
+            "content": [
+              "Lorem Ipsum has been the industry's standard dummy",
+              "Lorem Ipsum has been the industry's standard dummy",
+              "Lorem Ipsum has been the industry's standard dummy",
+              "Lorem Ipsum has been the industry's standard dummy",
+              "Lorem Ipsum has been the industry's standard dummy",
+              "Lorem Ipsum has been the industry's standard dummy"
+            ]
+          },
+          {
+            "title": "Machine Learning Ops",
+            "duration": "1 Month",
+            "content": [
+              "Lorem Ipsum has been the industry's standard dummy",
+              "Lorem Ipsum has been the industry's standard dummy",
+              "Lorem Ipsum has been the industry's standard dummy",
+              "Lorem Ipsum has been the industry's standard dummy",
+              "Lorem Ipsum has been the industry's standard dummy",
+              "Lorem Ipsum has been the industry's standard dummy"
+            ]
+          }
+        ]
+      },
+      {
+        "type": "advanced",
+        "duration": "20 Months",
+        "modules": [
+          {
+            "title": "Data Structures and Algorithms",
+            "duration": "6 Months",
+            "content": [
+              "Lorem Ipsum has been the industry's standard dummy",
+              "Lorem Ipsum has been the industry's standard dummy",
+              "Lorem Ipsum has been the industry's standard dummy",
+              "Lorem Ipsum has been the industry's standard dummy",
+              "Lorem Ipsum has been the industry's standard dummy",
+              "Lorem Ipsum has been the industry's standard dummy"
+            ]
+          },
+          {
+            "title": "Data Engineering",
+            "duration": "5 Months",
+            "content": [
+              "Lorem Ipsum has been the industry's standard dummy",
+              "Lorem Ipsum has been the industry's standard dummy",
+              "Lorem Ipsum has been the industry's standard dummy",
+              "Lorem Ipsum has been the industry's standard dummy",
+              "Lorem Ipsum has been the industry's standard dummy",
+              "Lorem Ipsum has been the industry's standard dummy"
+            ]
+          },
+          {
+            "title": "AI and Deep Learning",
+            "duration": "4 Months",
+            "content": [
+              "Lorem Ipsum has been the industry's standard dummy",
+              "Lorem Ipsum has been the industry's standard dummy",
+              "Lorem Ipsum has been the industry's standard dummy",
+              "Lorem Ipsum has been the industry's standard dummy",
+              "Lorem Ipsum has been the industry's standard dummy",
+              "Lorem Ipsum has been the industry's standard dummy"
+            ]
+          },
+          {
+            "title": "Project Specializations",
+            "duration": "4 Months",
+            "content": [
+              "Lorem Ipsum has been the industry's standard dummy",
+              "Lorem Ipsum has been the industry's standard dummy",
+              "Lorem Ipsum has been the industry's standard dummy",
+              "Lorem Ipsum has been the industry's standard dummy",
+              "Lorem Ipsum has been the industry's standard dummy",
+              "Lorem Ipsum has been the industry's standard dummy"
+            ]
+          },
+          {
+            "title": "Production ML Systems",
+            "duration": "2 Months",
+            "content": [
+              "Lorem Ipsum has been the industry's standard dummy",
+              "Lorem Ipsum has been the industry's standard dummy",
+              "Lorem Ipsum has been the industry's standard dummy",
+              "Lorem Ipsum has been the industry's standard dummy",
+              "Lorem Ipsum has been the industry's standard dummy",
+              "Lorem Ipsum has been the industry's standard dummy"
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "MDAinduspro": {
+    "id": "MDAinduspro",
+    "title": "INDUSTRY PROJECT",
+    "projects": [
+      {
+        "name": "Revealing the Power of Data",
+        "description": "Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged."
+      },
+      {
+        "name": "Human Resource Management System",
+        "description": "Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged."
+      },
+      {
+        "name": "Vehicle Sales Analysis",
+        "description": "Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged."
+      },
+      {
+        "name": "Supply Chain & Logistics Analysis",
+        "description": "Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged."
+      },
+      {
+        "name": "Customer Segmentation",
+        "description": "Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged."
+      }
+    ]
+  },
+  "MDAfaq": {
+    "id": "MDAfaq",
+    "title": "Frequently Asked Questions",
+    "description": "Get answers to the most common questions about our programs.",
+    "video": "https://via.placeholder.com/faqvideo.mp4",
+    "items": [
+      {
+        "question": "Who should take this Data Science course?",
+        "answer": "Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged."
+      },
+      {
+        "question": "Why is ConnectingDots Data Science program considered one of the best data science courses?",
+        "answer": "Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged."
+      },
+      {
+        "question": "Will we ever discover aliens?",
+        "answer": "Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged."
+      },
+      {
+        "question": "How much does the Earth weigh?",
+        "answer": "Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged."
+      },
+      {
+        "question": "How do airplanes stay up?",
+        "answer": "Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged."
+      }
+    ]
+  },
+  "MDArelated": {
+    "id": "MDArelated",
+    "title": "ANOTHER COMPONENT",
+    "items": [
+      {
+        "name": "Revealing the Power of Data",
+        "description": "Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged."
+      },
+      {
+        "name": "Human Resource Management System",
+        "description": "Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged."
+      },
+      {
+        "name": "Vehicle Sales Analysis",
+        "description": "Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged."
+      },
+      {
+        "name": "Supply Chain & Logistics Analysis",
+        "description": "Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged."
+      },
+      {
+        "name": "Face Detection",
+        "description": "Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged."
+      },
+      {
+        "name": "Full-Stack Python",
+        "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book."
+      },
+      {
+        "name": "Full-Stack Java",
+        "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book."
+      },
+      {
+        "name": "PowerBI",
+        "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book."
+      },
+      {
+        "name": "Google Cloud Platform",
+        "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book."
+      },
+      {
+        "name": "Reactjs Framework",
+        "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book."
+      }
+    ]
+  }
+}
+
+]

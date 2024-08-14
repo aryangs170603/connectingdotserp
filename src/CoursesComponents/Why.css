@@ -1,0 +1,74 @@
+/* Container for all cards */
+.container-yds {
+  width: 97.5%;
+  max-width: 1800px;
+  margin: 0 auto;
+  background-color: #ffffff;
+  padding: 55px;
+  box-shadow: 0 0 8px rgba(0, 0, 0, 0.1);
+  margin-bottom: 30px;
+}
+
+/* Title at the top */
+.container-yds h1 {
+  text-align: center;
+  margin-bottom: 2.7rem;
+  font-size: 34px;
+  font-family: 'Lato', sans-serif;
+  letter-spacing: 8px;
+  
+  
+}
+
+/* Container for all cards */
+.cards-container-yds {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 1.5rem;
+}
+
+/* Container for individual cards */
+.cardClass-yds {
+  background-color: white;
+  padding: 1.5rem;
+  border-radius: 0.5rem;
+  box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -1px rgba(0, 0, 0, 0.06);
+  transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+  border-left: 4px solid var(--border-accent, #4A90E2);
+  width: calc(33.333% - 1rem); /* Adjusts width to be one-third of the container */
+  max-width: 350px; /* Adjust as needed */
+  box-sizing: border-box; /* Include padding and border in element's total width and height */
+}
+
+.cardClass-yds:hover {
+  transform: scale(1.05);
+  box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.2), 0 4px 6px -2px rgba(0, 0, 0, 0.1);
+}
+
+.textPrimaryClass {
+  color: var(--text-primary, #333);
+}
+
+.textMutedForegroundClass {
+  color: var(--text-muted-foreground, #666);
+}
+
+/* Adjusting typography */
+.text-primary {
+  color: var(--text-primary, #1a202c);
+}
+
+.text-accent {
+  background: linear-gradient(90deg, rgba(1, 1, 98, 1) 35%, rgba(3, 163, 196, 1) 49%, rgba(2, 2, 85, 1) 62%);
+  -webkit-background-clip: text;
+  color: transparent;
+  font-weight: bold;
+}
+.cards-container-span-1{
+  color: #fff;
+}
+.highlight-span-cards{
+  color: #1e3a8a; 
+  font-weight: bold;
+}

@@ -1,0 +1,758 @@
+{
+  "Whyds": {
+    "WhyDS": {
+      "title": "Why Data Science?",
+      "cards": [
+        {
+          "title": "What is <span class=\"highlight-span-cards\">Data Science?</span>",
+          "content": "Data Science involves <span class=\"highlight-span-cards\">extracting actionable insights</span> from raw data using various scientific methods, algorithms, and processes. It provides tools for working with data from diverse sources, including financial logs, multimedia files, and sensors."
+        },
+        {
+          "title": "What does a <span class=\"highlight-span-cards\">Data Scientist</span> do?",
+          "content": "A data scientist analyzes data to provide actionable insights for various processes. They possess strong <span class=\"highlight-span-cards\">statistical</span>, <span class=\"highlight-span-cards\">analytical</span>, and <span class=\"highlight-span-cards\">technical skills</span> to work with structured and unstructured data.",
+          "listItems": [
+            "Identify data sources and collect data.",
+            "Analyze data effectively.",
+            "Formulate strategies to solve business challenges."
+          ]
+        },
+        {
+          "title": "Why take <span class=\"highlight-span-cards\">Data Science</span> training?",
+          "content": "Data scientists are in high demand across industries, making a <span class=\"highlight-span-cards\">Data Science certification</span> valuable. Our training course is designed for both beginners and professionals to equip them with essential skills.",
+          "listItems": [
+            "Junior/Senior Data Scientist",
+            "Forecasting/Risk Analyst",
+            "Machine Learning Engineer"
+          ]
+        }
+      ]
+    }
+  },
+  "Whyda": {
+    "WhyDA": {
+      "title": "Why Data Analytics?",
+      "cards": [
+        {
+          "title": "What is <span class=\"highlight-span-cards\">Data Analytics?</span>",
+          "content": "Data Analytics involves <span class=\"highlight-span-cards\">extracting actionable insights</span> from raw data using various scientific methods, algorithms, and processes. It provides tools for working with data from diverse sources, including financial logs, multimedia files, and sensors."
+        },
+        {
+          "title": "What does a <span class=\"highlight-span-cards\">Data Scientist</span> do?",
+          "content": "A data scientist analyzes data to provide actionable insights for various processes. They possess strong <span class=\"highlight-span-cards\">statistical</span>, <span class=\"highlight-span-cards\">analytical</span>, and <span class=\"highlight-span-cards\">technical skills</span> to work with structured and unstructured data.",
+          "listItems": [
+            "Identify data sources and collect data.",
+            "Analyze data effectively.",
+            "Formulate strategies to solve business challenges."
+          ]
+        },
+        {
+          "title": "Why take <span class=\"highlight-span-cards\">Data Analytics</span> training?",
+          "content": "Data analysts are in high demand across industries, making a <span class=\"highlight-span-cards\">Data Analytics certification</span> valuable. Our training course is designed for both beginners and professionals to equip them with essential skills.",
+          "listItems": [
+            "Junior/Senior Data Analyst",
+            "Business Intelligence Analyst",
+            "Data Engineer"
+          ]
+        }
+      ]
+    }
+  },
+  "Whyba": {
+    "WhyBA": {
+      "title": "Why Business Analytics?",
+      "cards": [
+        {
+          "title": "What is <span class=\"highlight-span-cards\">Data Analytics?</span>",
+          "content": "Data Analytics involves <span class=\"highlight-span-cards\">extracting actionable insights</span> from raw data using various scientific methods, algorithms, and processes. It provides tools for working with data from diverse sources, including financial logs, multimedia files, and sensors."
+        },
+        {
+          "title": "What does a <span class=\"highlight-span-cards\">Data Scientist</span> do?",
+          "content": "A data scientist analyzes data to provide actionable insights for various processes. They possess strong <span class=\"highlight-span-cards\">statistical</span>, <span class=\"highlight-span-cards\">analytical</span>, and <span class=\"highlight-span-cards\">technical skills</span> to work with structured and unstructured data.",
+          "listItems": [
+            "Identify data sources and collect data.",
+            "Analyze data effectively.",
+            "Formulate strategies to solve business challenges."
+          ]
+        },
+        {
+          "title": "Why take <span class=\"highlight-span-cards\">Data Analytics</span> training?",
+          "content": "Data analysts are in high demand across industries, making a <span class=\"highlight-span-cards\">Data Analytics certification</span> valuable. Our training course is designed for both beginners and professionals to equip them with essential skills.",
+          "listItems": [
+            "Junior/Senior Data Analyst",
+            "Business Intelligence Analyst",
+            "Data Engineer"
+          ]
+        }
+      ]
+    }
+  },
+  "Whygpt": {
+    "WhyGPT": {
+      "title": "Why CHAT GPT & AI?",
+      "cards": [
+        {
+          "title": "What is <span class=\"highlight-span-cards\">Data Analytics?</span>",
+          "content": "Data Analytics involves <span class=\"highlight-span-cards\">extracting actionable insights</span> from raw data using various scientific methods, algorithms, and processes. It provides tools for working with data from diverse sources, including financial logs, multimedia files, and sensors."
+        },
+        {
+          "title": "What does a <span class=\"highlight-span-cards\">Data Scientist</span> do?",
+          "content": "A data scientist analyzes data to provide actionable insights for various processes. They possess strong <span class=\"highlight-span-cards\">statistical</span>, <span class=\"highlight-span-cards\">analytical</span>, and <span class=\"highlight-span-cards\">technical skills</span> to work with structured and unstructured data.",
+          "listItems": [
+            "Identify data sources and collect data.",
+            "Analyze data effectively.",
+            "Formulate strategies to solve business challenges."
+          ]
+        },
+        {
+          "title": "Why take <span class=\"highlight-span-cards\">Data Analytics</span> training?",
+          "content": "Data analysts are in high demand across industries, making a <span class=\"highlight-span-cards\">Data Analytics certification</span> valuable. Our training course is designed for both beginners and professionals to equip them with essential skills.",
+          "listItems": [
+            "Junior/Senior Data Analyst",
+            "Business Intelligence Analyst",
+            "Data Engineer"
+          ]
+        }
+      ]
+    }
+  },
+  "Whyfullstack": {
+    "WhyFullStack": {
+      "title": "Why FULL STACK TRAINING ?",
+      "cards": [
+        {
+          "title": "What is <span class=\"highlight-span-cards\">Data Analytics?</span>",
+          "content": "Data Analytics involves <span class=\"highlight-span-cards\">extracting actionable insights</span> from raw data using various scientific methods, algorithms, and processes. It provides tools for working with data from diverse sources, including financial logs, multimedia files, and sensors."
+        },
+        {
+          "title": "What does a <span class=\"highlight-span-cards\">Data Scientist</span> do?",
+          "content": "A data scientist analyzes data to provide actionable insights for various processes. They possess strong <span class=\"highlight-span-cards\">statistical</span>, <span class=\"highlight-span-cards\">analytical</span>, and <span class=\"highlight-span-cards\">technical skills</span> to work with structured and unstructured data.",
+          "listItems": [
+            "Identify data sources and collect data.",
+            "Analyze data effectively.",
+            "Formulate strategies to solve business challenges."
+          ]
+        },
+        {
+          "title": "Why take <span class=\"highlight-span-cards\">Data Analytics</span> training?",
+          "content": "Data analysts are in high demand across industries, making a <span class=\"highlight-span-cards\">Data Analytics certification</span> valuable. Our training course is designed for both beginners and professionals to equip them with essential skills.",
+          "listItems": [
+            "Junior/Senior Data Analyst",
+            "Business Intelligence Analyst",
+            "Data Engineer"
+          ]
+        }
+      ]
+    }
+  },
+  "Whyjava": {
+    "WhyJava": {
+      "title": "Why Java ?",
+      "cards": [
+        {
+          "title": "What is <span class=\"highlight-span-cards\">Data Analytics?</span>",
+          "content": "Data Analytics involves <span class=\"highlight-span-cards\">extracting actionable insights</span> from raw data using various scientific methods, algorithms, and processes. It provides tools for working with data from diverse sources, including financial logs, multimedia files, and sensors."
+        },
+        {
+          "title": "What does a <span class=\"highlight-span-cards\">Data Scientist</span> do?",
+          "content": "A data scientist analyzes data to provide actionable insights for various processes. They possess strong <span class=\"highlight-span-cards\">statistical</span>, <span class=\"highlight-span-cards\">analytical</span>, and <span class=\"highlight-span-cards\">technical skills</span> to work with structured and unstructured data.",
+          "listItems": [
+            "Identify data sources and collect data.",
+            "Analyze data effectively.",
+            "Formulate strategies to solve business challenges."
+          ]
+        },
+        {
+          "title": "Why take <span class=\"highlight-span-cards\">Data Analytics</span> training?",
+          "content": "Data analysts are in high demand across industries, making a <span class=\"highlight-span-cards\">Data Analytics certification</span> valuable. Our training course is designed for both beginners and professionals to equip them with essential skills.",
+          "listItems": [
+            "Junior/Senior Data Analyst",
+            "Business Intelligence Analyst",
+            "Data Engineer"
+          ]
+        }
+      ]
+    }
+  },
+  "Whymern": {
+    "WhyMern": {
+      "title": "Why MERN ?",
+      "cards": [
+        {
+          "title": "What is <span class=\"highlight-span-cards\">Data Analytics?</span>",
+          "content": "Data Analytics involves <span class=\"highlight-span-cards\">extracting actionable insights</span> from raw data using various scientific methods, algorithms, and processes. It provides tools for working with data from diverse sources, including financial logs, multimedia files, and sensors."
+        },
+        {
+          "title": "What does a <span class=\"highlight-span-cards\">Data Scientist</span> do?",
+          "content": "A data scientist analyzes data to provide actionable insights for various processes. They possess strong <span class=\"highlight-span-cards\">statistical</span>, <span class=\"highlight-span-cards\">analytical</span>, and <span class=\"highlight-span-cards\">technical skills</span> to work with structured and unstructured data.",
+          "listItems": [
+            "Identify data sources and collect data.",
+            "Analyze data effectively.",
+            "Formulate strategies to solve business challenges."
+          ]
+        },
+        {
+          "title": "Why take <span class=\"highlight-span-cards\">Data Analytics</span> training?",
+          "content": "Data analysts are in high demand across industries, making a <span class=\"highlight-span-cards\">Data Analytics certification</span> valuable. Our training course is designed for both beginners and professionals to equip them with essential skills.",
+          "listItems": [
+            "Junior/Senior Data Analyst",
+            "Business Intelligence Analyst",
+            "Data Engineer"
+          ]
+        }
+      ]
+    }
+  },
+  "Whyuiux": {
+    "WhyUIUX": {
+      "title": "Why UI/UX ?",
+      "cards": [
+        {
+          "title": "What is <span class=\"highlight-span-cards\">Data Analytics?</span>",
+          "content": "Data Analytics involves <span class=\"highlight-span-cards\">extracting actionable insights</span> from raw data using various scientific methods, algorithms, and processes. It provides tools for working with data from diverse sources, including financial logs, multimedia files, and sensors."
+        },
+        {
+          "title": "What does a <span class=\"highlight-span-cards\">Data Scientist</span> do?",
+          "content": "A data scientist analyzes data to provide actionable insights for various processes. They possess strong <span class=\"highlight-span-cards\">statistical</span>, <span class=\"highlight-span-cards\">analytical</span>, and <span class=\"highlight-span-cards\">technical skills</span> to work with structured and unstructured data.",
+          "listItems": [
+            "Identify data sources and collect data.",
+            "Analyze data effectively.",
+            "Formulate strategies to solve business challenges."
+          ]
+        },
+        {
+          "title": "Why take <span class=\"highlight-span-cards\">Data Analytics</span> training?",
+          "content": "Data analysts are in high demand across industries, making a <span class=\"highlight-span-cards\">Data Analytics certification</span> valuable. Our training course is designed for both beginners and professionals to equip them with essential skills.",
+          "listItems": [
+            "Junior/Senior Data Analyst",
+            "Business Intelligence Analyst",
+            "Data Engineer"
+          ]
+        }
+      ]
+    }
+  },
+  "Whypython": {
+    "WhyPython": {
+      "title": "Why Python?",
+      "cards": [
+        {
+          "title": "What is <span class=\"highlight-span-cards\">Data Analytics?</span>",
+          "content": "Data Analytics involves <span class=\"highlight-span-cards\">extracting actionable insights</span> from raw data using various scientific methods, algorithms, and processes. It provides tools for working with data from diverse sources, including financial logs, multimedia files, and sensors."
+        },
+        {
+          "title": "What does a <span class=\"highlight-span-cards\">Data Scientist</span> do?",
+          "content": "A data scientist analyzes data to provide actionable insights for various processes. They possess strong <span class=\"highlight-span-cards\">statistical</span>, <span class=\"highlight-span-cards\">analytical</span>, and <span class=\"highlight-span-cards\">technical skills</span> to work with structured and unstructured data.",
+          "listItems": [
+            "Identify data sources and collect data.",
+            "Analyze data effectively.",
+            "Formulate strategies to solve business challenges."
+          ]
+        },
+        {
+          "title": "Why take <span class=\"highlight-span-cards\">Data Analytics</span> training?",
+          "content": "Data analysts are in high demand across industries, making a <span class=\"highlight-span-cards\">Data Analytics certification</span> valuable. Our training course is designed for both beginners and professionals to equip them with essential skills.",
+          "listItems": [
+            "Junior/Senior Data Analyst",
+            "Business Intelligence Analyst",
+            "Data Engineer"
+          ]
+        }
+      ]
+    }
+  },
+  "Whysales": {
+    "WhySales": {
+      "title": "Why Salesforce ?",
+      "cards": [
+        {
+          "title": "What is <span class=\"highlight-span-cards\">Data Analytics?</span>",
+          "content": "Data Analytics involves <span class=\"highlight-span-cards\">extracting actionable insights</span> from raw data using various scientific methods, algorithms, and processes. It provides tools for working with data from diverse sources, including financial logs, multimedia files, and sensors."
+        },
+        {
+          "title": "What does a <span class=\"highlight-span-cards\">Data Scientist</span> do?",
+          "content": "A data scientist analyzes data to provide actionable insights for various processes. They possess strong <span class=\"highlight-span-cards\">statistical</span>, <span class=\"highlight-span-cards\">analytical</span>, and <span class=\"highlight-span-cards\">technical skills</span> to work with structured and unstructured data.",
+          "listItems": [
+            "Identify data sources and collect data.",
+            "Analyze data effectively.",
+            "Formulate strategies to solve business challenges."
+          ]
+        },
+        {
+          "title": "Why take <span class=\"highlight-span-cards\">Data Analytics</span> training?",
+          "content": "Data analysts are in high demand across industries, making a <span class=\"highlight-span-cards\">Data Analytics certification</span> valuable. Our training course is designed for both beginners and professionals to equip them with essential skills.",
+          "listItems": [
+            "Junior/Senior Data Analyst",
+            "Business Intelligence Analyst",
+            "Data Engineer"
+          ]
+        }
+      ]
+    }
+  },
+  "Whyabap": {
+    "WhyAbap": {
+      "title": "Why SAP ABAP ?",
+      "cards": [
+        {
+          "title": "What is <span class=\"highlight-span-cards\">Data Analytics?</span>",
+          "content": "Data Analytics involves <span class=\"highlight-span-cards\">extracting actionable insights</span> from raw data using various scientific methods, algorithms, and processes. It provides tools for working with data from diverse sources, including financial logs, multimedia files, and sensors."
+        },
+        {
+          "title": "What does a <span class=\"highlight-span-cards\">Data Scientist</span> do?",
+          "content": "A data scientist analyzes data to provide actionable insights for various processes. They possess strong <span class=\"highlight-span-cards\">statistical</span>, <span class=\"highlight-span-cards\">analytical</span>, and <span class=\"highlight-span-cards\">technical skills</span> to work with structured and unstructured data.",
+          "listItems": [
+            "Identify data sources and collect data.",
+            "Analyze data effectively.",
+            "Formulate strategies to solve business challenges."
+          ]
+        },
+        {
+          "title": "Why take <span class=\"highlight-span-cards\">Data Analytics</span> training?",
+          "content": "Data analysts are in high demand across industries, making a <span class=\"highlight-span-cards\">Data Analytics certification</span> valuable. Our training course is designed for both beginners and professionals to equip them with essential skills.",
+          "listItems": [
+            "Junior/Senior Data Analyst",
+            "Business Intelligence Analyst",
+            "Data Engineer"
+          ]
+        }
+      ]
+    }
+  },
+  "Whybasis": {
+    "WhyBasis": {
+      "title": "Why SAP BASIS ?",
+      "cards": [
+        {
+          "title": "What is <span class=\"highlight-span-cards\">Data Analytics?</span>",
+          "content": "Data Analytics involves <span class=\"highlight-span-cards\">extracting actionable insights</span> from raw data using various scientific methods, algorithms, and processes. It provides tools for working with data from diverse sources, including financial logs, multimedia files, and sensors."
+        },
+        {
+          "title": "What does a <span class=\"highlight-span-cards\">Data Scientist</span> do?",
+          "content": "A data scientist analyzes data to provide actionable insights for various processes. They possess strong <span class=\"highlight-span-cards\">statistical</span>, <span class=\"highlight-span-cards\">analytical</span>, and <span class=\"highlight-span-cards\">technical skills</span> to work with structured and unstructured data.",
+          "listItems": [
+            "Identify data sources and collect data.",
+            "Analyze data effectively.",
+            "Formulate strategies to solve business challenges."
+          ]
+        },
+        {
+          "title": "Why take <span class=\"highlight-span-cards\">Data Analytics</span> training?",
+          "content": "Data analysts are in high demand across industries, making a <span class=\"highlight-span-cards\">Data Analytics certification</span> valuable. Our training course is designed for both beginners and professionals to equip them with essential skills.",
+          "listItems": [
+            "Junior/Senior Data Analyst",
+            "Business Intelligence Analyst",
+            "Data Engineer"
+          ]
+        }
+      ]
+    }
+  },
+  "Whybwbi": {
+    "WhyBwbi": {
+      "title": "Why SAP BI ?",
+      "cards": [
+        {
+          "title": "What is <span class=\"highlight-span-cards\">Data Analytics?</span>",
+          "content": "Data Analytics involves <span class=\"highlight-span-cards\">extracting actionable insights</span> from raw data using various scientific methods, algorithms, and processes. It provides tools for working with data from diverse sources, including financial logs, multimedia files, and sensors."
+        },
+        {
+          "title": "What does a <span class=\"highlight-span-cards\">Data Scientist</span> do?",
+          "content": "A data scientist analyzes data to provide actionable insights for various processes. They possess strong <span class=\"highlight-span-cards\">statistical</span>, <span class=\"highlight-span-cards\">analytical</span>, and <span class=\"highlight-span-cards\">technical skills</span> to work with structured and unstructured data.",
+          "listItems": [
+            "Identify data sources and collect data.",
+            "Analyze data effectively.",
+            "Formulate strategies to solve business challenges."
+          ]
+        },
+        {
+          "title": "Why take <span class=\"highlight-span-cards\">Data Analytics</span> training?",
+          "content": "Data analysts are in high demand across industries, making a <span class=\"highlight-span-cards\">Data Analytics certification</span> valuable. Our training course is designed for both beginners and professionals to equip them with essential skills.",
+          "listItems": [
+            "Junior/Senior Data Analyst",
+            "Business Intelligence Analyst",
+            "Data Engineer"
+          ]
+        }
+      ]
+    }
+  },
+  "Whyewm": {
+    "WhyEWM": {
+      "title": "Why SAP EWM ?",
+      "cards": [
+        {
+          "title": "What is <span class=\"highlight-span-cards\">Data Analytics?</span>",
+          "content": "Data Analytics involves <span class=\"highlight-span-cards\">extracting actionable insights</span> from raw data using various scientific methods, algorithms, and processes. It provides tools for working with data from diverse sources, including financial logs, multimedia files, and sensors."
+        },
+        {
+          "title": "What does a <span class=\"highlight-span-cards\">Data Scientist</span> do?",
+          "content": "A data scientist analyzes data to provide actionable insights for various processes. They possess strong <span class=\"highlight-span-cards\">statistical</span>, <span class=\"highlight-span-cards\">analytical</span>, and <span class=\"highlight-span-cards\">technical skills</span> to work with structured and unstructured data.",
+          "listItems": [
+            "Identify data sources and collect data.",
+            "Analyze data effectively.",
+            "Formulate strategies to solve business challenges."
+          ]
+        },
+        {
+          "title": "Why take <span class=\"highlight-span-cards\">Data Analytics</span> training?",
+          "content": "Data analysts are in high demand across industries, making a <span class=\"highlight-span-cards\">Data Analytics certification</span> valuable. Our training course is designed for both beginners and professionals to equip them with essential skills.",
+          "listItems": [
+            "Junior/Senior Data Analyst",
+            "Business Intelligence Analyst",
+            "Data Engineer"
+          ]
+        }
+      ]
+    }
+  },
+  "Whyfico": {
+    "WhyFICO": {
+      "title": "Why SAP FICO ?",
+      "cards": [
+        {
+          "title": "What is <span class=\"highlight-span-cards\">Data Analytics?</span>",
+          "content": "Data Analytics involves <span class=\"highlight-span-cards\">extracting actionable insights</span> from raw data using various scientific methods, algorithms, and processes. It provides tools for working with data from diverse sources, including financial logs, multimedia files, and sensors."
+        },
+        {
+          "title": "What does a <span class=\"highlight-span-cards\">Data Scientist</span> do?",
+          "content": "A data scientist analyzes data to provide actionable insights for various processes. They possess strong <span class=\"highlight-span-cards\">statistical</span>, <span class=\"highlight-span-cards\">analytical</span>, and <span class=\"highlight-span-cards\">technical skills</span> to work with structured and unstructured data.",
+          "listItems": [
+            "Identify data sources and collect data.",
+            "Analyze data effectively.",
+            "Formulate strategies to solve business challenges."
+          ]
+        },
+        {
+          "title": "Why take <span class=\"highlight-span-cards\">Data Analytics</span> training?",
+          "content": "Data analysts are in high demand across industries, making a <span class=\"highlight-span-cards\">Data Analytics certification</span> valuable. Our training course is designed for both beginners and professionals to equip them with essential skills.",
+          "listItems": [
+            "Junior/Senior Data Analyst",
+            "Business Intelligence Analyst",
+            "Data Engineer"
+          ]
+        }
+      ]
+    }
+  },
+  "Whyhana": {
+    "WhyHana": {
+      "title": "Why SAP S/4 HANA ?",
+      "cards": [
+        {
+          "title": "What is <span class=\"highlight-span-cards\">Data Analytics?</span>",
+          "content": "Data Analytics involves <span class=\"highlight-span-cards\">extracting actionable insights</span> from raw data using various scientific methods, algorithms, and processes. It provides tools for working with data from diverse sources, including financial logs, multimedia files, and sensors."
+        },
+        {
+          "title": "What does a <span class=\"highlight-span-cards\">Data Scientist</span> do?",
+          "content": "A data scientist analyzes data to provide actionable insights for various processes. They possess strong <span class=\"highlight-span-cards\">statistical</span>, <span class=\"highlight-span-cards\">analytical</span>, and <span class=\"highlight-span-cards\">technical skills</span> to work with structured and unstructured data.",
+          "listItems": [
+            "Identify data sources and collect data.",
+            "Analyze data effectively.",
+            "Formulate strategies to solve business challenges."
+          ]
+        },
+        {
+          "title": "Why take <span class=\"highlight-span-cards\">Data Analytics</span> training?",
+          "content": "Data analysts are in high demand across industries, making a <span class=\"highlight-span-cards\">Data Analytics certification</span> valuable. Our training course is designed for both beginners and professionals to equip them with essential skills.",
+          "listItems": [
+            "Junior/Senior Data Analyst",
+            "Business Intelligence Analyst",
+            "Data Engineer"
+          ]
+        }
+      ]
+    }
+  },
+  "Whyhrhcm": {
+    "WhyHRHCM": {
+      "title": "Why SAP HR/HCM ?",
+      "cards": [
+        {
+          "title": "What is <span class=\"highlight-span-cards\">Data Analytics?</span>",
+          "content": "Data Analytics involves <span class=\"highlight-span-cards\">extracting actionable insights</span> from raw data using various scientific methods, algorithms, and processes. It provides tools for working with data from diverse sources, including financial logs, multimedia files, and sensors."
+        },
+        {
+          "title": "What does a <span class=\"highlight-span-cards\">Data Scientist</span> do?",
+          "content": "A data scientist analyzes data to provide actionable insights for various processes. They possess strong <span class=\"highlight-span-cards\">statistical</span>, <span class=\"highlight-span-cards\">analytical</span>, and <span class=\"highlight-span-cards\">technical skills</span> to work with structured and unstructured data.",
+          "listItems": [
+            "Identify data sources and collect data.",
+            "Analyze data effectively.",
+            "Formulate strategies to solve business challenges."
+          ]
+        },
+        {
+          "title": "Why take <span class=\"highlight-span-cards\">Data Analytics</span> training?",
+          "content": "Data analysts are in high demand across industries, making a <span class=\"highlight-span-cards\">Data Analytics certification</span> valuable. Our training course is designed for both beginners and professionals to equip them with essential skills.",
+          "listItems": [
+            "Junior/Senior Data Analyst",
+            "Business Intelligence Analyst",
+            "Data Engineer"
+          ]
+        }
+      ]
+    }
+  },
+
+  "Whymm": {
+    "WhyMM": {
+      "title": "Why SAP MM ?",
+      "cards": [
+        {
+          "title": "What is <span class=\"highlight-span-cards\">Data Analytics?</span>",
+          "content": "Data Analytics involves <span class=\"highlight-span-cards\">extracting actionable insights</span> from raw data using various scientific methods, algorithms, and processes. It provides tools for working with data from diverse sources, including financial logs, multimedia files, and sensors."
+        },
+        {
+          "title": "What does a <span class=\"highlight-span-cards\">Data Scientist</span> do?",
+          "content": "A data scientist analyzes data to provide actionable insights for various processes. They possess strong <span class=\"highlight-span-cards\">statistical</span>, <span class=\"highlight-span-cards\">analytical</span>, and <span class=\"highlight-span-cards\">technical skills</span> to work with structured and unstructured data.",
+          "listItems": [
+            "Identify data sources and collect data.",
+            "Analyze data effectively.",
+            "Formulate strategies to solve business challenges."
+          ]
+        },
+        {
+          "title": "Why take <span class=\"highlight-span-cards\">Data Analytics</span> training?",
+          "content": "Data analysts are in high demand across industries, making a <span class=\"highlight-span-cards\">Data Analytics certification</span> valuable. Our training course is designed for both beginners and professionals to equip them with essential skills.",
+          "listItems": [
+            "Junior/Senior Data Analyst",
+            "Business Intelligence Analyst",
+            "Data Engineer"
+          ]
+        }
+      ]
+    }
+  },
+  "Whynet": {
+    "WhyNet": {
+      "title": "Why SAP NETWEAVER ?",
+      "cards": [
+        {
+          "title": "What is <span class=\"highlight-span-cards\">Data Analytics?</span>",
+          "content": "Data Analytics involves <span class=\"highlight-span-cards\">extracting actionable insights</span> from raw data using various scientific methods, algorithms, and processes. It provides tools for working with data from diverse sources, including financial logs, multimedia files, and sensors."
+        },
+        {
+          "title": "What does a <span class=\"highlight-span-cards\">Data Scientist</span> do?",
+          "content": "A data scientist analyzes data to provide actionable insights for various processes. They possess strong <span class=\"highlight-span-cards\">statistical</span>, <span class=\"highlight-span-cards\">analytical</span>, and <span class=\"highlight-span-cards\">technical skills</span> to work with structured and unstructured data.",
+          "listItems": [
+            "Identify data sources and collect data.",
+            "Analyze data effectively.",
+            "Formulate strategies to solve business challenges."
+          ]
+        },
+        {
+          "title": "Why take <span class=\"highlight-span-cards\">Data Analytics</span> training?",
+          "content": "Data analysts are in high demand across industries, making a <span class=\"highlight-span-cards\">Data Analytics certification</span> valuable. Our training course is designed for both beginners and professionals to equip them with essential skills.",
+          "listItems": [
+            "Junior/Senior Data Analyst",
+            "Business Intelligence Analyst",
+            "Data Engineer"
+          ]
+        }
+      ]
+    }
+  },
+  "Whypm": {
+    "WhyPM": {
+      "title": "Why SAP PM ?",
+      "cards": [
+        {
+          "title": "What is <span class=\"highlight-span-cards\">Data Analytics?</span>",
+          "content": "Data Analytics involves <span class=\"highlight-span-cards\">extracting actionable insights</span> from raw data using various scientific methods, algorithms, and processes. It provides tools for working with data from diverse sources, including financial logs, multimedia files, and sensors."
+        },
+        {
+          "title": "What does a <span class=\"highlight-span-cards\">Data Scientist</span> do?",
+          "content": "A data scientist analyzes data to provide actionable insights for various processes. They possess strong <span class=\"highlight-span-cards\">statistical</span>, <span class=\"highlight-span-cards\">analytical</span>, and <span class=\"highlight-span-cards\">technical skills</span> to work with structured and unstructured data.",
+          "listItems": [
+            "Identify data sources and collect data.",
+            "Analyze data effectively.",
+            "Formulate strategies to solve business challenges."
+          ]
+        },
+        {
+          "title": "Why take <span class=\"highlight-span-cards\">Data Analytics</span> training?",
+          "content": "Data analysts are in high demand across industries, making a <span class=\"highlight-span-cards\">Data Analytics certification</span> valuable. Our training course is designed for both beginners and professionals to equip them with essential skills.",
+          "listItems": [
+            "Junior/Senior Data Analyst",
+            "Business Intelligence Analyst",
+            "Data Engineer"
+          ]
+        }
+      ]
+    }
+  },
+  "Whypp": {
+    "WhyPP": {
+      "title": "Why SAP PP ?",
+      "cards": [
+        {
+          "title": "What is <span class=\"highlight-span-cards\">Data Analytics?</span>",
+          "content": "Data Analytics involves <span class=\"highlight-span-cards\">extracting actionable insights</span> from raw data using various scientific methods, algorithms, and processes. It provides tools for working with data from diverse sources, including financial logs, multimedia files, and sensors."
+        },
+        {
+          "title": "What does a <span class=\"highlight-span-cards\">Data Scientist</span> do?",
+          "content": "A data scientist analyzes data to provide actionable insights for various processes. They possess strong <span class=\"highlight-span-cards\">statistical</span>, <span class=\"highlight-span-cards\">analytical</span>, and <span class=\"highlight-span-cards\">technical skills</span> to work with structured and unstructured data.",
+          "listItems": [
+            "Identify data sources and collect data.",
+            "Analyze data effectively.",
+            "Formulate strategies to solve business challenges."
+          ]
+        },
+        {
+          "title": "Why take <span class=\"highlight-span-cards\">Data Analytics</span> training?",
+          "content": "Data analysts are in high demand across industries, making a <span class=\"highlight-span-cards\">Data Analytics certification</span> valuable. Our training course is designed for both beginners and professionals to equip them with essential skills.",
+          "listItems": [
+            "Junior/Senior Data Analyst",
+            "Business Intelligence Analyst",
+            "Data Engineer"
+          ]
+        }
+      ]
+    }
+  },
+  "Whyps": {
+    "WhyPS": {
+      "title": "Why SAP PS ?",
+      "cards": [
+        {
+          "title": "What is <span class=\"highlight-span-cards\">Data Analytics?</span>",
+          "content": "Data Analytics involves <span class=\"highlight-span-cards\">extracting actionable insights</span> from raw data using various scientific methods, algorithms, and processes. It provides tools for working with data from diverse sources, including financial logs, multimedia files, and sensors."
+        },
+        {
+          "title": "What does a <span class=\"highlight-span-cards\">Data Scientist</span> do?",
+          "content": "A data scientist analyzes data to provide actionable insights for various processes. They possess strong <span class=\"highlight-span-cards\">statistical</span>, <span class=\"highlight-span-cards\">analytical</span>, and <span class=\"highlight-span-cards\">technical skills</span> to work with structured and unstructured data.",
+          "listItems": [
+            "Identify data sources and collect data.",
+            "Analyze data effectively.",
+            "Formulate strategies to solve business challenges."
+          ]
+        },
+        {
+          "title": "Why take <span class=\"highlight-span-cards\">Data Analytics</span> training?",
+          "content": "Data analysts are in high demand across industries, making a <span class=\"highlight-span-cards\">Data Analytics certification</span> valuable. Our training course is designed for both beginners and professionals to equip them with essential skills.",
+          "listItems": [
+            "Junior/Senior Data Analyst",
+            "Business Intelligence Analyst",
+            "Data Engineer"
+          ]
+        }
+      ]
+    }
+  },
+  "Whyqm": {
+    "WhyQM": {
+      "title": "Why SAP QM ?",
+      "cards": [
+        {
+          "title": "What is <span class=\"highlight-span-cards\">Data Analytics?</span>",
+          "content": "Data Analytics involves <span class=\"highlight-span-cards\">extracting actionable insights</span> from raw data using various scientific methods, algorithms, and processes. It provides tools for working with data from diverse sources, including financial logs, multimedia files, and sensors."
+        },
+        {
+          "title": "What does a <span class=\"highlight-span-cards\">Data Scientist</span> do?",
+          "content": "A data scientist analyzes data to provide actionable insights for various processes. They possess strong <span class=\"highlight-span-cards\">statistical</span>, <span class=\"highlight-span-cards\">analytical</span>, and <span class=\"highlight-span-cards\">technical skills</span> to work with structured and unstructured data.",
+          "listItems": [
+            "Identify data sources and collect data.",
+            "Analyze data effectively.",
+            "Formulate strategies to solve business challenges."
+          ]
+        },
+        {
+          "title": "Why take <span class=\"highlight-span-cards\">Data Analytics</span> training?",
+          "content": "Data analysts are in high demand across industries, making a <span class=\"highlight-span-cards\">Data Analytics certification</span> valuable. Our training course is designed for both beginners and professionals to equip them with essential skills.",
+          "listItems": [
+            "Junior/Senior Data Analyst",
+            "Business Intelligence Analyst",
+            "Data Engineer"
+          ]
+        }
+      ]
+    }
+  },
+  "Whyscm": {
+    "WhySCM": {
+      "title": "Why SAP SCM?",
+      "cards": [
+        {
+          "title": "What is <span class=\"highlight-span-cards\">Data Analytics?</span>",
+          "content": "Data Analytics involves <span class=\"highlight-span-cards\">extracting actionable insights</span> from raw data using various scientific methods, algorithms, and processes. It provides tools for working with data from diverse sources, including financial logs, multimedia files, and sensors."
+        },
+        {
+          "title": "What does a <span class=\"highlight-span-cards\">Data Scientist</span> do?",
+          "content": "A data scientist analyzes data to provide actionable insights for various processes. They possess strong <span class=\"highlight-span-cards\">statistical</span>, <span class=\"highlight-span-cards\">analytical</span>, and <span class=\"highlight-span-cards\">technical skills</span> to work with structured and unstructured data.",
+          "listItems": [
+            "Identify data sources and collect data.",
+            "Analyze data effectively.",
+            "Formulate strategies to solve business challenges."
+          ]
+        },
+        {
+          "title": "Why take <span class=\"highlight-span-cards\">Data Analytics</span> training?",
+          "content": "Data analysts are in high demand across industries, making a <span class=\"highlight-span-cards\">Data Analytics certification</span> valuable. Our training course is designed for both beginners and professionals to equip them with essential skills.",
+          "listItems": [
+            "Junior/Senior Data Analyst",
+            "Business Intelligence Analyst",
+            "Data Engineer"
+          ]
+        }
+      ]
+    }
+  },
+  "Whysd": {
+    "WhySD": {
+      "title": "Why SAP SD ?",
+      "cards": [
+        {
+          "title": "What is <span class=\"highlight-span-cards\">Data Analytics?</span>",
+          "content": "Data Analytics involves <span class=\"highlight-span-cards\">extracting actionable insights</span> from raw data using various scientific methods, algorithms, and processes. It provides tools for working with data from diverse sources, including financial logs, multimedia files, and sensors."
+        },
+        {
+          "title": "What does a <span class=\"highlight-span-cards\">Data Scientist</span> do?",
+          "content": "A data scientist analyzes data to provide actionable insights for various processes. They possess strong <span class=\"highlight-span-cards\">statistical</span>, <span class=\"highlight-span-cards\">analytical</span>, and <span class=\"highlight-span-cards\">technical skills</span> to work with structured and unstructured data.",
+          "listItems": [
+            "Identify data sources and collect data.",
+            "Analyze data effectively.",
+            "Formulate strategies to solve business challenges."
+          ]
+        },
+        {
+          "title": "Why take <span class=\"highlight-span-cards\">Data Analytics</span> training?",
+          "content": "Data analysts are in high demand across industries, making a <span class=\"highlight-span-cards\">Data Analytics certification</span> valuable. Our training course is designed for both beginners and professionals to equip them with essential skills.",
+          "listItems": [
+            "Junior/Senior Data Analyst",
+            "Business Intelligence Analyst",
+            "Data Engineer"
+          ]
+        }
+      ]
+    }
+  },
+  "Whysucc": {
+    "WhySucc": {
+      "title": "Why SAP SUCCESSFACTOR ?",
+      "cards": [
+        {
+          "title": "What is <span class=\"highlight-span-cards\">Data Analytics?</span>",
+          "content": "Data Analytics involves <span class=\"highlight-span-cards\">extracting actionable insights</span> from raw data using various scientific methods, algorithms, and processes. It provides tools for working with data from diverse sources, including financial logs, multimedia files, and sensors."
+        },
+        {
+          "title": "What does a <span class=\"highlight-span-cards\">Data Scientist</span> do?",
+          "content": "A data scientist analyzes data to provide actionable insights for various processes. They possess strong <span class=\"highlight-span-cards\">statistical</span>, <span class=\"highlight-span-cards\">analytical</span>, and <span class=\"highlight-span-cards\">technical skills</span> to work with structured and unstructured data.",
+          "listItems": [
+            "Identify data sources and collect data.",
+            "Analyze data effectively.",
+            "Formulate strategies to solve business challenges."
+          ]
+        },
+        {
+          "title": "Why take <span class=\"highlight-span-cards\">Data Analytics</span> training?",
+          "content": "Data analysts are in high demand across industries, making a <span class=\"highlight-span-cards\">Data Analytics certification</span> valuable. Our training course is designed for both beginners and professionals to equip them with essential skills.",
+          "listItems": [
+            "Junior/Senior Data Analyst",
+            "Business Intelligence Analyst",
+            "Data Engineer"
+          ]
+        }
+      ]
+    }
+  }
+
+}
