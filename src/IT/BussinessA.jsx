@@ -10,6 +10,7 @@ import Councelor from '../CoursesComponents/Councelor';
 import Projects from '../CoursesComponents/Projects';
 import ScrollToTop from '../components/ScrollToTop';
 import Program from '../CoursesComponents/ProgramHighlights';
+import Description from '../CoursesComponents/Description';
 
 const BussinessAnalytics = () => {
   return (
@@ -26,6 +27,7 @@ const BussinessAnalytics = () => {
         <Program />
         <Certificate />
         <Projects pageId="BAinduspro" pageType="bainduapro" />
+        <Description pageId="ba" />
         <FAQ pageId="BAFAQ" pageType="bafaq" />
         <RelatedCourses pageId="BSrelated" />
       </main>

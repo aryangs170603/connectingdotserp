@@ -10,6 +10,7 @@ import Councelor from '../CoursesComponents/Councelor';
 import Projects from '../CoursesComponents/Projects';
 import ScrollToTop from '../components/ScrollToTop';
 import Program from '../CoursesComponents/ProgramHighlights';
+import Description from '../CoursesComponents/Description';
 
 const DataAnalytics = () => {
   return (
@@ -20,12 +21,14 @@ const DataAnalytics = () => {
 
         {/* <DSHeader pageId="MDAHeader" /> */}
         <Why pageId="WhyDA" pageType="Whyda" />
+        
         <Councelor />
         <Modules pageId="dataAnalyticsCurriculum" />
         <Trustus />
         <Certificate />
         <Program />
-        <Projects pageId="DAinduspro" pageType="dainduapro" />
+        <Projects pageId="DAinduspro" pageType="dainduspro" />
+        <Description pageId="mda" />
         <FAQ pageId="DAFAQ" pageType="dafaq" />
         <RelatedCourses pageId="MDSrelated" />
       </main>

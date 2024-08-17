@@ -8,6 +8,7 @@ const FAQAccordion = ({ pageId, pageType }) => {
   const [expandedIndex, setExpandedIndex] = useState(null);
 
   useEffect(() => {
+     localStorage.clear();
     const fetchData = async () => {
       try {
         const response = await fetch('public/Jsonfolder/faqdata.json');

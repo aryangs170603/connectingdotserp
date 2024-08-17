@@ -753,5 +753,92 @@
         }
       ]
     }
+  },
+  "powerbi": {
+    "POWERBI": {
+      "title": "Frequently Asked Questions",
+
+      "video": "src/Logos/DSimages/faqvideo.mp4",
+      "items": [
+        {
+          "question": "Who should take this Full Stack course?",
+          "answer": "This Data Analytics course is designed for professionals who want to gain expertise in analyzing data and making data-driven decisions."
+        },
+        {
+          "question": "Why is ConnectingDots's Full Stack program considered one of the best?",
+          "answer": "The ConnectingDots Data Analytics program is highly regarded for its practical approach, focusing on real-world applications and tools used in the industry."
+        },
+        {
+          "question": "Will we ever discover aliens?",
+          "answer": "Discovering extraterrestrial life remains an open question, but we concentrate on data analytics techniques to uncover insights on Earth."
+        },
+        {
+          "question": "How much does the Earth weigh?",
+          "answer": "The Earth’s weight is a well-known constant, but in this course, we measure the weight of data-driven insights!"
+        },
+        {
+          "question": "How do airplanes stay up?",
+          "answer": "Aerodynamics keep airplanes in the sky, while data analytics keeps your business flying high!"
+        }
+      ]
+    }
+  },
+  "sql": {
+    "SQL": {
+      "title": "Frequently Asked Questions",
+
+      "video": "src/Logos/DSimages/faqvideo.mp4",
+      "items": [
+        {
+          "question": "Who should take this Full Stack course?",
+          "answer": "This Data Analytics course is designed for professionals who want to gain expertise in analyzing data and making data-driven decisions."
+        },
+        {
+          "question": "Why is ConnectingDots's Full Stack program considered one of the best?",
+          "answer": "The ConnectingDots Data Analytics program is highly regarded for its practical approach, focusing on real-world applications and tools used in the industry."
+        },
+        {
+          "question": "Will we ever discover aliens?",
+          "answer": "Discovering extraterrestrial life remains an open question, but we concentrate on data analytics techniques to uncover insights on Earth."
+        },
+        {
+          "question": "How much does the Earth weigh?",
+          "answer": "The Earth’s weight is a well-known constant, but in this course, we measure the weight of data-driven insights!"
+        },
+        {
+          "question": "How do airplanes stay up?",
+          "answer": "Aerodynamics keep airplanes in the sky, while data analytics keeps your business flying high!"
+        }
+      ]
+    }
+  },
+  "tableau": {
+    "TABLEAU": {
+      "title": "Frequently Asked Questions",
+
+      "video": "src/Logos/DSimages/faqvideo.mp4",
+      "items": [
+        {
+          "question": "Who should take this Full Stack course?",
+          "answer": "This Data Analytics course is designed for professionals who want to gain expertise in analyzing data and making data-driven decisions."
+        },
+        {
+          "question": "Why is ConnectingDots's Full Stack program considered one of the best?",
+          "answer": "The ConnectingDots Data Analytics program is highly regarded for its practical approach, focusing on real-world applications and tools used in the industry."
+        },
+        {
+          "question": "Will we ever discover aliens?",
+          "answer": "Discovering extraterrestrial life remains an open question, but we concentrate on data analytics techniques to uncover insights on Earth."
+        },
+        {
+          "question": "How much does the Earth weigh?",
+          "answer": "The Earth’s weight is a well-known constant, but in this course, we measure the weight of data-driven insights!"
+        },
+        {
+          "question": "How do airplanes stay up?",
+          "answer": "Aerodynamics keep airplanes in the sky, while data analytics keeps your business flying high!"
+        }
+      ]
+    }
   }
 }

@@ -1,15 +1,16 @@
 import React from 'react';
 import Header from '../CoursesComponents/Header';
 import Why from '../CoursesComponents/Why';
-import Modules from '../CoursesComponents/Modules';
+// import Interview from '../CoursesComponents/InterviewQuestion';
 import Certificate from '../Homepage/Certificate';
 import FAQ from '../CoursesComponents/FAQ';
 import RelatedCourses from '../CoursesComponents/RelatedCourses';
 import Trustus from '../CoursesComponents/Trustus';
 import Councelor from '../CoursesComponents/Councelor';
-// import SAPMOD from '../CoursesComponents/sapmod';
+import SAPMOD from '../CoursesComponents/sapmod';
 import ScrollToTop from '../components/ScrollToTop';
 import Program from '../CoursesComponents/ProgramHighlights';
+import Description from '../CoursesComponents/Description';
 
 const SAPFICO = () => {
   return (
@@ -17,15 +18,17 @@ const SAPFICO = () => {
       <main>
         <ScrollToTop />
         <Header pageId="FICOHeader" pageType="ficoheader" />
-        {/* <SAPMOD /> */}
+         <Why pageId="WhyFICO" pageType="Whyfico" />
+        <SAPMOD pageId="SAPFICO"  />
         {/* <DSHeader pageId="MDAHeader" /> */}
-        <Why pageId="WhyFICO" pageType="Whyfico" />
+       
+       
         <Councelor />
-        <Modules pageId="FICOmodule"  />
+        {/* < Interview /> */}
         <Trustus />
         <Certificate />
         <Program />
-        
+         <Description pageId="sap-fico" />
         <FAQ pageId="FICOFAQ" pageType="ficofaq" />
         <RelatedCourses pageId="FICOrelcourses" />
       </main>

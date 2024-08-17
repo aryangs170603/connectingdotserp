@@ -1,7 +1,7 @@
 import React from 'react';
 import Header from '../CoursesComponents/Header';
 import Why from '../CoursesComponents/Why';
-import Modules from '../CoursesComponents/Modules';
+
 import Certificate from '../Homepage/Certificate';
 import FAQ from '../CoursesComponents/FAQ';
 import RelatedCourses from '../CoursesComponents/RelatedCourses';
@@ -10,6 +10,8 @@ import Councelor from '../CoursesComponents/Councelor';
 
 import ScrollToTop from '../components/ScrollToTop';
 import Program from '../CoursesComponents/ProgramHighlights';
+import Description from '../CoursesComponents/Description';
+import SAPMOD from '../CoursesComponents/sapmod';
 
 const SAPPS = () => {
   return (
@@ -20,12 +22,14 @@ const SAPPS = () => {
 
         {/* <DSHeader pageId="MDAHeader" /> */}
         <Why pageId="WhyPS" pageType="Whyps" />
+        <SAPMOD pageId="SAPPS"  />
+       
         <Councelor />
-        <Modules pageId="PSmodule"  />
+        
         <Trustus />
         <Certificate />
         <Program />
-
+         <Description pageId="sap-ps" />
         <FAQ pageId="PSFAQ" pageType="psfaq" />
         <RelatedCourses pageId="PSrelcourses" />
       </main>

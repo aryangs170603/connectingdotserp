@@ -4,6 +4,8 @@
             "title": "Masters in Data Science & Machine Learning Program",
             "subtitle": "Data Science Course",
             "description": "Unlock the power of data with Connecting Dots Data Science course, mastering crucial skills for success in the field, all backed by secure placement support.",
+            "backgroundImage":"src/Logos/DSimages/Headergif2.gif?v=1"
+, 
             "features": [
                 "Live Class",
                 "1:1 mentorship",
@@ -75,6 +77,7 @@
             "title": "Masters in Data Analytics & Machine Learning Program",
             "subtitle": "Data Science Course",
             "description": "Unlock the power of data with Connecting Dots Data Science course, mastering crucial skills for success in the field, all backed by secure placement support.",
+             "backgroundImage": "src/Logos/DSimages/dsheader.gif", 
             "features": [
                 "Live Class",
                 "1:1 mentorship",
@@ -146,6 +149,7 @@
             "title": "Masters in Business Analytics ",
             "subtitle": "Business  Course",
             "description": "Unlock the power of data with Connecting Dots Data Science course, mastering crucial skills for success in the field, all backed by secure placement support.",
+             "backgroundImage": "src/Logos/DSimages/Headergif2.gif", 
             "features": [
                 "Live Class",
                 "1:1 mentorship",
@@ -217,6 +221,7 @@
             "title": "Chat GPT & AI Learning Program",
             "subtitle": "Chat GPT & AI Course",
             "description": "Unlock the power of data with Connecting Dots Data Science course, mastering crucial skills for success in the field, all backed by secure placement support.",
+             "backgroundImage": "src/Logos/DSimages/dsheader.gif", 
             "features": [
                 "Live Class",
                 "1:1 mentorship",
@@ -288,6 +293,7 @@
           "title": "Full Stack Training Program",
           "subtitle": "Full Stack Course",
           "description": "Unlock the power of data with Connecting Dots Data Science course, mastering crucial skills for success in the field, all backed by secure placement support.",
+           "backgroundImage": "src/Logos/DSimages/dsheader.gif", 
           "features": [
               "Live Class",
               "1:1 mentorship",
@@ -359,6 +365,7 @@
           "title": "Java Training Program",
           "subtitle": "Java Course",
           "description": "Unlock the power of data with Connecting Dots Data Science course, mastering crucial skills for success in the field, all backed by secure placement support.",
+           "backgroundImage": "src/Logos/DSimages/dsheader.gif", 
           "features": [
               "Live Class",
               "1:1 mentorship",
@@ -430,6 +437,7 @@
           "title": "MERN Stack Training Program",
           "subtitle": "MERN Stack Course",
           "description": "Unlock the power of data with Connecting Dots Data Science course, mastering crucial skills for success in the field, all backed by secure placement support.",
+           "backgroundImage": "src/Logos/DSimages/dsheader.gif", 
           "features": [
               "Live Class",
               "1:1 mentorship",
@@ -501,6 +509,7 @@
               "title": "UI/UX Training Program",
               "subtitle": "UI/UX Course",
               "description": "Unlock the power of data with Connecting Dots Data Science course, mastering crucial skills for success in the field, all backed by secure placement support.",
+               "backgroundImage": "src/Logos/DSimages/dsheader.gif", 
               "features": [
                   "Live Class",
                   "1:1 mentorship",
@@ -572,6 +581,7 @@
               "title": "PYTHON Training Program",
               "subtitle": "Python Course",
               "description": "Unlock the power of data with Connecting Dots Data Science course, mastering crucial skills for success in the field, all backed by secure placement support.",
+               "backgroundImage": "src/Logos/DSimages/dsheader.gif", 
               "features": [
                   "Live Class",
                   "1:1 mentorship",
@@ -643,6 +653,295 @@
               "title": "Salesforce Training Program",
               "subtitle": "Salesforce Course",
               "description": "Unlock the power of data with Connecting Dots Data Science course, mastering crucial skills for success in the field, all backed by secure placement support.",
+               "backgroundImage": "src/Logos/DSimages/dsheader.gif", 
+              "features": [
+                  "Live Class",
+                  "1:1 mentorship",
+                  "Industry projects"
+              ],
+              "alumni": [
+                  {
+                      "name": "amazon",
+                      "logo": "https://via.placeholder.com/50x20?text=amazon"
+                  },
+                  {
+                      "name": "samsung",
+                      "logo": "https://via.placeholder.com/50x20?text=samsung"
+                  },
+                  {
+                      "name": "intuit",
+                      "logo": "https://via.placeholder.com/50x20?text=intuit"
+                  },
+                  {
+                      "name": "microsoft",
+                      "logo": "https://via.placeholder.com/50x20?text=microsoft"
+                  },
+                  {
+                      "name": "google",
+                      "logo": "https://via.placeholder.com/50x20?text=google"
+                  }
+              ],
+              "buttons": [
+                  {
+                      "text": "Next Batch starts in AUGUST",
+                      "courseName": "Data Science Program"
+                  },
+                  {
+                      "text": "Book Live Demo",
+                      "courseName": "Book Live Demo"
+                  }
+              ],
+              "form": {
+                  "title": "Book a FREE live class",
+                  "inputs": [
+                      {
+                          "type": "text",
+                          "name": "name",
+                          "placeholder": "Enter your name"
+                      },
+                      {
+                          "type": "email",
+                          "name": "email",
+                          "placeholder": "Enter your Email"
+                      },
+                      {
+                          "type": "text",
+                          "name": "year",
+                          "placeholder": "Year of Passing"
+                      },
+                      {
+                          "type": "tel",
+                          "name": "phone",
+                          "placeholder": "Enter your phone number",
+                          "countryCode": "+91"
+                      }
+                  ],
+                  "submitText": "Book Live Class"
+              }
+          }
+    },
+        "abapheader": {
+              "AbapHeader": {
+                  "title": "SAP ABAP Training Program",
+                  "subtitle": "SAP ABAP Course",
+                  "description": "Unlock the power of data with Connecting Dots Data Science course, mastering crucial skills for success in the field, all backed by secure placement support.",
+                   "backgroundImage": "src/Logos/DSimages/Headergif3.gif", 
+                  "features": [
+                      "Live Class",
+                      "1:1 mentorship",
+                      "Industry projects"
+                  ],
+                  "alumni": [
+                      {
+                          "name": "amazon",
+                          "logo": "https://via.placeholder.com/50x20?text=amazon"
+                      },
+                      {
+                          "name": "samsung",
+                          "logo": "https://via.placeholder.com/50x20?text=samsung"
+                      },
+                      {
+                          "name": "intuit",
+                          "logo": "https://via.placeholder.com/50x20?text=intuit"
+                      },
+                      {
+                          "name": "microsoft",
+                          "logo": "https://via.placeholder.com/50x20?text=microsoft"
+                      },
+                      {
+                          "name": "google",
+                          "logo": "https://via.placeholder.com/50x20?text=google"
+                      }
+                  ],
+                  "buttons": [
+                      {
+                          "text": "Next Batch starts in AUGUST",
+                          "courseName": "Data Science Program"
+                      },
+                      {
+                          "text": "Book Live Demo",
+                          "courseName": "Book Live Demo"
+                      }
+                  ],
+                  "form": {
+                      "title": "Book a FREE live class",
+                      "inputs": [
+                          {
+                              "type": "text",
+                              "name": "name",
+                              "placeholder": "Enter your name"
+                          },
+                          {
+                              "type": "email",
+                              "name": "email",
+                              "placeholder": "Enter your Email"
+                          },
+                          {
+                              "type": "text",
+                              "name": "year",
+                              "placeholder": "Year of Passing"
+                          },
+                          {
+                              "type": "tel",
+                              "name": "phone",
+                              "placeholder": "Enter your phone number",
+                              "countryCode": "+91"
+                          }
+                      ],
+                      "submitText": "Book Live Class"
+                  }
+              }
+        },
+            "basisheader": {
+                  "BasisHeader": {
+                      "title": "SAP BASIS Training Program",
+                      "subtitle": "SAP BASIS Course",
+                      "description": "Unlock the power of data with Connecting Dots Data Science course, mastering crucial skills for success in the field, all backed by secure placement support.",
+                       "backgroundImage": "src/Logos/DSimages/dsheader.gif", 
+                      "features": [
+                          "Live Class",
+                          "1:1 mentorship",
+                          "Industry projects"
+                      ],
+                      "alumni": [
+                          {
+                              "name": "amazon",
+                              "logo": "https://via.placeholder.com/50x20?text=amazon"
+                          },
+                          {
+                              "name": "samsung",
+                              "logo": "https://via.placeholder.com/50x20?text=samsung"
+                          },
+                          {
+                              "name": "intuit",
+                              "logo": "https://via.placeholder.com/50x20?text=intuit"
+                          },
+                          {
+                              "name": "microsoft",
+                              "logo": "https://via.placeholder.com/50x20?text=microsoft"
+                          },
+                          {
+                              "name": "google",
+                              "logo": "https://via.placeholder.com/50x20?text=google"
+                          }
+                      ],
+                      "buttons": [
+                          {
+                              "text": "Next Batch starts in AUGUST",
+                              "courseName": "Data Science Program"
+                          },
+                          {
+                              "text": "Book Live Demo",
+                              "courseName": "Book Live Demo"
+                          }
+                      ],
+                      "form": {
+                          "title": "Book a FREE live class",
+                          "inputs": [
+                              {
+                                  "type": "text",
+                                  "name": "name",
+                                  "placeholder": "Enter your name"
+                              },
+                              {
+                                  "type": "email",
+                                  "name": "email",
+                                  "placeholder": "Enter your Email"
+                              },
+                              {
+                                  "type": "text",
+                                  "name": "year",
+                                  "placeholder": "Year of Passing"
+                              },
+                              {
+                                  "type": "tel",
+                                  "name": "phone",
+                                  "placeholder": "Enter your phone number",
+                                  "countryCode": "+91"
+                              }
+                          ],
+                          "submitText": "Book Live Class"
+                      }
+                  }
+            },
+                "bwbiheader": {
+                      "BwbiHeader": {
+                          "title": "SAP BI Training Program",
+                          "subtitle": "SAP BI Course",
+                          "description": "Unlock the power of data with Connecting Dots Data Science course, mastering crucial skills for success in the field, all backed by secure placement support.",
+                           "backgroundImage": "src/Logos/DSimages/dsheader.gif", 
+                          "features": [
+                              "Live Class",
+                              "1:1 mentorship",
+                              "Industry projects"
+                          ],
+                          "alumni": [
+                              {
+                                  "name": "amazon",
+                                  "logo": "https://via.placeholder.com/50x20?text=amazon"
+                              },
+                              {
+                                  "name": "samsung",
+                                  "logo": "https://via.placeholder.com/50x20?text=samsung"
+                              },
+                              {
+                                  "name": "intuit",
+                                  "logo": "https://via.placeholder.com/50x20?text=intuit"
+                              },
+                              {
+                                  "name": "microsoft",
+                                  "logo": "https://via.placeholder.com/50x20?text=microsoft"
+                              },
+                              {
+                                  "name": "google",
+                                  "logo": "https://via.placeholder.com/50x20?text=google"
+                              }
+                          ],
+                          "buttons": [
+                              {
+                                  "text": "Next Batch starts in AUGUST",
+                                  "courseName": "Data Science Program"
+                              },
+                              {
+                                  "text": "Book Live Demo",
+                                  "courseName": "Book Live Demo"
+                              }
+                          ],
+                          "form": {
+                              "title": "Book a FREE live class",
+                              "inputs": [
+                                  {
+                                      "type": "text",
+                                      "name": "name",
+                                      "placeholder": "Enter your name"
+                                  },
+                                  {
+                                      "type": "email",
+                                      "name": "email",
+                                      "placeholder": "Enter your Email"
+                                  },
+                                  {
+                                      "type": "text",
+                                      "name": "year",
+                                      "placeholder": "Year of Passing"
+                                  },
+                                  {
+                                      "type": "tel",
+                                      "name": "phone",
+                                      "placeholder": "Enter your phone number",
+                                      "countryCode": "+91"
+                                  }
+                              ],
+                              "submitText": "Book Live Class"
+                          }
+                      }
+      },
+    "ewmheader": {
+          "EWMHeader": {
+              "title": "SAP EWM Training Program",
+              "subtitle": "SAP EWM Course",
+              "description": "Unlock the power of data with Connecting Dots Data Science course, mastering crucial skills for success in the field, all backed by secure placement support.",
+               "backgroundImage": "src/Logos/DSimages/dsheader.gif", 
               "features": [
                   "Live Class",
                   "1:1 mentorship",
@@ -709,11 +1008,1020 @@
               }
           }
       },
-    "ewmheader": {
-          "EWMHeader": {
-              "title": "SAP EWM Training Program",
-              "subtitle": "Salesforce Course",
+                "ficoheader": {
+                      "FICOHeader": {
+                          "title": "SAP FICO Training Program",
+                          "subtitle": "SAP FICO Course",
+                          "description": "Unlock the power of data with Connecting Dots Data Science course, mastering crucial skills for success in the field, all backed by secure placement support.",
+                           "backgroundImage": "src/Logos/DSimages/dsheader.gif", 
+                          "features": [
+                              "Live Class",
+                              "1:1 mentorship",
+                              "Industry projects"
+                          ],
+                          "alumni": [
+                              {
+                                  "name": "amazon",
+                                  "logo": "https://via.placeholder.com/50x20?text=amazon"
+                              },
+                              {
+                                  "name": "samsung",
+                                  "logo": "https://via.placeholder.com/50x20?text=samsung"
+                              },
+                              {
+                                  "name": "intuit",
+                                  "logo": "https://via.placeholder.com/50x20?text=intuit"
+                              },
+                              {
+                                  "name": "microsoft",
+                                  "logo": "https://via.placeholder.com/50x20?text=microsoft"
+                              },
+                              {
+                                  "name": "google",
+                                  "logo": "https://via.placeholder.com/50x20?text=google"
+                              }
+                          ],
+                          "buttons": [
+                              {
+                                  "text": "Next Batch starts in AUGUST",
+                                  "courseName": "Data Science Program"
+                              },
+                              {
+                                  "text": "Book Live Demo",
+                                  "courseName": "Book Live Demo"
+                              }
+                          ],
+                          "form": {
+                              "title": "Book a FREE live class",
+                              "inputs": [
+                                  {
+                                      "type": "text",
+                                      "name": "name",
+                                      "placeholder": "Enter your name"
+                                  },
+                                  {
+                                      "type": "email",
+                                      "name": "email",
+                                      "placeholder": "Enter your Email"
+                                  },
+                                  {
+                                      "type": "text",
+                                      "name": "year",
+                                      "placeholder": "Year of Passing"
+                                  },
+                                  {
+                                      "type": "tel",
+                                      "name": "phone",
+                                      "placeholder": "Enter your phone number",
+                                      "countryCode": "+91"
+                                  }
+                              ],
+                              "submitText": "Book Live Class"
+                          }
+                      }
+                  },
+                "hanaheader": {
+                      "HanaHeader": {
+                          "title": "SAP S/4 HANA  Training Program",
+                          "subtitle": "SAP S/4 HANA Course",
+                          "description": "Unlock the power of data with Connecting Dots Data Science course, mastering crucial skills for success in the field, all backed by secure placement support.",
+                           "backgroundImage": "src/Logos/DSimages/dsheader.gif", 
+                          "features": [
+                              "Live Class",
+                              "1:1 mentorship",
+                              "Industry projects"
+                          ],
+                          "alumni": [
+                              {
+                                  "name": "amazon",
+                                  "logo": "https://via.placeholder.com/50x20?text=amazon"
+                              },
+                              {
+                                  "name": "samsung",
+                                  "logo": "https://via.placeholder.com/50x20?text=samsung"
+                              },
+                              {
+                                  "name": "intuit",
+                                  "logo": "https://via.placeholder.com/50x20?text=intuit"
+                              },
+                              {
+                                  "name": "microsoft",
+                                  "logo": "https://via.placeholder.com/50x20?text=microsoft"
+                              },
+                              {
+                                  "name": "google",
+                                  "logo": "https://via.placeholder.com/50x20?text=google"
+                              }
+                          ],
+                          "buttons": [
+                              {
+                                  "text": "Next Batch starts in AUGUST",
+                                  "courseName": "Data Science Program"
+                              },
+                              {
+                                  "text": "Book Live Demo",
+                                  "courseName": "Book Live Demo"
+                              }
+                          ],
+                          "form": {
+                              "title": "Book a FREE live class",
+                              "inputs": [
+                                  {
+                                      "type": "text",
+                                      "name": "name",
+                                      "placeholder": "Enter your name"
+                                  },
+                                  {
+                                      "type": "email",
+                                      "name": "email",
+                                      "placeholder": "Enter your Email"
+                                  },
+                                  {
+                                      "type": "text",
+                                      "name": "year",
+                                      "placeholder": "Year of Passing"
+                                  },
+                                  {
+                                      "type": "tel",
+                                      "name": "phone",
+                                      "placeholder": "Enter your phone number",
+                                      "countryCode": "+91"
+                                  }
+                              ],
+                              "submitText": "Book Live Class"
+                          }
+                      }
+                  },
+                "hrhcmheader": {
+                      "HRHCMHeader": {
+                          "title": "SAP HR/HCM Training Program",
+                          "subtitle": "SAP HR/HCM Course",
+                          "description": "Unlock the power of data with Connecting Dots Data Science course, mastering crucial skills for success in the field, all backed by secure placement support.",
+                           "backgroundImage": "src/Logos/DSimages/dsheader.gif", 
+                          "features": [
+                              "Live Class",
+                              "1:1 mentorship",
+                              "Industry projects"
+                          ],
+                          "alumni": [
+                              {
+                                  "name": "amazon",
+                                  "logo": "https://via.placeholder.com/50x20?text=amazon"
+                              },
+                              {
+                                  "name": "samsung",
+                                  "logo": "https://via.placeholder.com/50x20?text=samsung"
+                              },
+                              {
+                                  "name": "intuit",
+                                  "logo": "https://via.placeholder.com/50x20?text=intuit"
+                              },
+                              {
+                                  "name": "microsoft",
+                                  "logo": "https://via.placeholder.com/50x20?text=microsoft"
+                              },
+                              {
+                                  "name": "google",
+                                  "logo": "https://via.placeholder.com/50x20?text=google"
+                              }
+                          ],
+                          "buttons": [
+                              {
+                                  "text": "Next Batch starts in AUGUST",
+                                  "courseName": "Data Science Program"
+                              },
+                              {
+                                  "text": "Book Live Demo",
+                                  "courseName": "Book Live Demo"
+                              }
+                          ],
+                          "form": {
+                              "title": "Book a FREE live class",
+                              "inputs": [
+                                  {
+                                      "type": "text",
+                                      "name": "name",
+                                      "placeholder": "Enter your name"
+                                  },
+                                  {
+                                      "type": "email",
+                                      "name": "email",
+                                      "placeholder": "Enter your Email"
+                                  },
+                                  {
+                                      "type": "text",
+                                      "name": "year",
+                                      "placeholder": "Year of Passing"
+                                  },
+                                  {
+                                      "type": "tel",
+                                      "name": "phone",
+                                      "placeholder": "Enter your phone number",
+                                      "countryCode": "+91"
+                                  }
+                              ],
+                              "submitText": "Book Live Class"
+                          }
+                      }
+                  },
+                "mmheader": {
+                      "MMHeader": {
+                          "title": "SAP MM Training Program",
+                          "subtitle": "SAP MM  Course",
+                          "description": "Unlock the power of data with Connecting Dots Data Science course, mastering crucial skills for success in the field, all backed by secure placement support.",
+                           "backgroundImage": "src/Logos/DSimages/dsheader.gif", 
+                          "features": [
+                              "Live Class",
+                              "1:1 mentorship",
+                              "Industry projects"
+                          ],
+                          "alumni": [
+                              {
+                                  "name": "amazon",
+                                  "logo": "https://via.placeholder.com/50x20?text=amazon"
+                              },
+                              {
+                                  "name": "samsung",
+                                  "logo": "https://via.placeholder.com/50x20?text=samsung"
+                              },
+                              {
+                                  "name": "intuit",
+                                  "logo": "https://via.placeholder.com/50x20?text=intuit"
+                              },
+                              {
+                                  "name": "microsoft",
+                                  "logo": "https://via.placeholder.com/50x20?text=microsoft"
+                              },
+                              {
+                                  "name": "google",
+                                  "logo": "https://via.placeholder.com/50x20?text=google"
+                              }
+                          ],
+                          "buttons": [
+                              {
+                                  "text": "Next Batch starts in AUGUST",
+                                  "courseName": "Data Science Program"
+                              },
+                              {
+                                  "text": "Book Live Demo",
+                                  "courseName": "Book Live Demo"
+                              }
+                          ],
+                          "form": {
+                              "title": "Book a FREE live class",
+                              "inputs": [
+                                  {
+                                      "type": "text",
+                                      "name": "name",
+                                      "placeholder": "Enter your name"
+                                  },
+                                  {
+                                      "type": "email",
+                                      "name": "email",
+                                      "placeholder": "Enter your Email"
+                                  },
+                                  {
+                                      "type": "text",
+                                      "name": "year",
+                                      "placeholder": "Year of Passing"
+                                  },
+                                  {
+                                      "type": "tel",
+                                      "name": "phone",
+                                      "placeholder": "Enter your phone number",
+                                      "countryCode": "+91"
+                                  }
+                              ],
+                              "submitText": "Book Live Class"
+                          }
+                      }
+                  },
+                "netheader": {
+                      "NetHeader": {
+                          "title": "SAP NetWeaver Training Program",
+                          "subtitle": "SAP NetWeaver Course",
+                          "description": "Unlock the power of data with Connecting Dots Data Science course, mastering crucial skills for success in the field, all backed by secure placement support.",
+                           "backgroundImage": "src/Logos/DSimages/dsheader.gif", 
+                          "features": [
+                              "Live Class",
+                              "1:1 mentorship",
+                              "Industry projects"
+                          ],
+                          "alumni": [
+                              {
+                                  "name": "amazon",
+                                  "logo": "https://via.placeholder.com/50x20?text=amazon"
+                              },
+                              {
+                                  "name": "samsung",
+                                  "logo": "https://via.placeholder.com/50x20?text=samsung"
+                              },
+                              {
+                                  "name": "intuit",
+                                  "logo": "https://via.placeholder.com/50x20?text=intuit"
+                              },
+                              {
+                                  "name": "microsoft",
+                                  "logo": "https://via.placeholder.com/50x20?text=microsoft"
+                              },
+                              {
+                                  "name": "google",
+                                  "logo": "https://via.placeholder.com/50x20?text=google"
+                              }
+                          ],
+                          "buttons": [
+                              {
+                                  "text": "Next Batch starts in AUGUST",
+                                  "courseName": "Data Science Program"
+                              },
+                              {
+                                  "text": "Book Live Demo",
+                                  "courseName": "Book Live Demo"
+                              }
+                          ],
+                          "form": {
+                              "title": "Book a FREE live class",
+                              "inputs": [
+                                  {
+                                      "type": "text",
+                                      "name": "name",
+                                      "placeholder": "Enter your name"
+                                  },
+                                  {
+                                      "type": "email",
+                                      "name": "email",
+                                      "placeholder": "Enter your Email"
+                                  },
+                                  {
+                                      "type": "text",
+                                      "name": "year",
+                                      "placeholder": "Year of Passing"
+                                  },
+                                  {
+                                      "type": "tel",
+                                      "name": "phone",
+                                      "placeholder": "Enter your phone number",
+                                      "countryCode": "+91"
+                                  }
+                              ],
+                              "submitText": "Book Live Class"
+                          }
+                      }
+                  },
+                "pmheader": {
+                      "PMHeader": {
+                          "title": "SAP PM Training Program",
+                          "subtitle": "SAP PM Course",
+                          "description": "Unlock the power of data with Connecting Dots Data Science course, mastering crucial skills for success in the field, all backed by secure placement support.",
+                           "backgroundImage": "src/Logos/DSimages/dsheader.gif", 
+                          "features": [
+                              "Live Class",
+                              "1:1 mentorship",
+                              "Industry projects"
+                          ],
+                          "alumni": [
+                              {
+                                  "name": "amazon",
+                                  "logo": "https://via.placeholder.com/50x20?text=amazon"
+                              },
+                              {
+                                  "name": "samsung",
+                                  "logo": "https://via.placeholder.com/50x20?text=samsung"
+                              },
+                              {
+                                  "name": "intuit",
+                                  "logo": "https://via.placeholder.com/50x20?text=intuit"
+                              },
+                              {
+                                  "name": "microsoft",
+                                  "logo": "https://via.placeholder.com/50x20?text=microsoft"
+                              },
+                              {
+                                  "name": "google",
+                                  "logo": "https://via.placeholder.com/50x20?text=google"
+                              }
+                          ],
+                          "buttons": [
+                              {
+                                  "text": "Next Batch starts in AUGUST",
+                                  "courseName": "Data Science Program"
+                              },
+                              {
+                                  "text": "Book Live Demo",
+                                  "courseName": "Book Live Demo"
+                              }
+                          ],
+                          "form": {
+                              "title": "Book a FREE live class",
+                              "inputs": [
+                                  {
+                                      "type": "text",
+                                      "name": "name",
+                                      "placeholder": "Enter your name"
+                                  },
+                                  {
+                                      "type": "email",
+                                      "name": "email",
+                                      "placeholder": "Enter your Email"
+                                  },
+                                  {
+                                      "type": "text",
+                                      "name": "year",
+                                      "placeholder": "Year of Passing"
+                                  },
+                                  {
+                                      "type": "tel",
+                                      "name": "phone",
+                                      "placeholder": "Enter your phone number",
+                                      "countryCode": "+91"
+                                  }
+                              ],
+                              "submitText": "Book Live Class"
+                          }
+                      }
+                  },
+                "ppheader": {
+                      "PPHeader": {
+                          "title": "SAP PP Training Program",
+                          "subtitle": "SAP PP Course",
+                          "description": "Unlock the power of data with Connecting Dots Data Science course, mastering crucial skills for success in the field, all backed by secure placement support.",
+                           "backgroundImage": "src/Logos/DSimages/dsheader.gif", 
+                          "features": [
+                              "Live Class",
+                              "1:1 mentorship",
+                              "Industry projects"
+                          ],
+                          "alumni": [
+                              {
+                                  "name": "amazon",
+                                  "logo": "https://via.placeholder.com/50x20?text=amazon"
+                              },
+                              {
+                                  "name": "samsung",
+                                  "logo": "https://via.placeholder.com/50x20?text=samsung"
+                              },
+                              {
+                                  "name": "intuit",
+                                  "logo": "https://via.placeholder.com/50x20?text=intuit"
+                              },
+                              {
+                                  "name": "microsoft",
+                                  "logo": "https://via.placeholder.com/50x20?text=microsoft"
+                              },
+                              {
+                                  "name": "google",
+                                  "logo": "https://via.placeholder.com/50x20?text=google"
+                              }
+                          ],
+                          "buttons": [
+                              {
+                                  "text": "Next Batch starts in AUGUST",
+                                  "courseName": "Data Science Program"
+                              },
+                              {
+                                  "text": "Book Live Demo",
+                                  "courseName": "Book Live Demo"
+                              }
+                          ],
+                          "form": {
+                              "title": "Book a FREE live class",
+                              "inputs": [
+                                  {
+                                      "type": "text",
+                                      "name": "name",
+                                      "placeholder": "Enter your name"
+                                  },
+                                  {
+                                      "type": "email",
+                                      "name": "email",
+                                      "placeholder": "Enter your Email"
+                                  },
+                                  {
+                                      "type": "text",
+                                      "name": "year",
+                                      "placeholder": "Year of Passing"
+                                  },
+                                  {
+                                      "type": "tel",
+                                      "name": "phone",
+                                      "placeholder": "Enter your phone number",
+                                      "countryCode": "+91"
+                                  }
+                              ],
+                              "submitText": "Book Live Class"
+                          }
+                      }
+                  },
+                "psheader": {
+                      "PSHeader": {
+                          "title": "SAP PS Training Program",
+                          "subtitle": "SAP PS Course",
+                          "description": "Unlock the power of data with Connecting Dots Data Science course, mastering crucial skills for success in the field, all backed by secure placement support.",
+                           "backgroundImage": "src/Logos/DSimages/dsheader.gif", 
+                          "features": [
+                              "Live Class",
+                              "1:1 mentorship",
+                              "Industry projects"
+                          ],
+                          "alumni": [
+                              {
+                                  "name": "amazon",
+                                  "logo": "https://via.placeholder.com/50x20?text=amazon"
+                              },
+                              {
+                                  "name": "samsung",
+                                  "logo": "https://via.placeholder.com/50x20?text=samsung"
+                              },
+                              {
+                                  "name": "intuit",
+                                  "logo": "https://via.placeholder.com/50x20?text=intuit"
+                              },
+                              {
+                                  "name": "microsoft",
+                                  "logo": "https://via.placeholder.com/50x20?text=microsoft"
+                              },
+                              {
+                                  "name": "google",
+                                  "logo": "https://via.placeholder.com/50x20?text=google"
+                              }
+                          ],
+                          "buttons": [
+                              {
+                                  "text": "Next Batch starts in AUGUST",
+                                  "courseName": "Data Science Program"
+                              },
+                              {
+                                  "text": "Book Live Demo",
+                                  "courseName": "Book Live Demo"
+                              }
+                          ],
+                          "form": {
+                              "title": "Book a FREE live class",
+                              "inputs": [
+                                  {
+                                      "type": "text",
+                                      "name": "name",
+                                      "placeholder": "Enter your name"
+                                  },
+                                  {
+                                      "type": "email",
+                                      "name": "email",
+                                      "placeholder": "Enter your Email"
+                                  },
+                                  {
+                                      "type": "text",
+                                      "name": "year",
+                                      "placeholder": "Year of Passing"
+                                  },
+                                  {
+                                      "type": "tel",
+                                      "name": "phone",
+                                      "placeholder": "Enter your phone number",
+                                      "countryCode": "+91"
+                                  }
+                              ],
+                              "submitText": "Book Live Class"
+                          }
+                      }
+                  },
+                "qmheader": {
+                      "QMHeader": {
+                          "title": "SAP QM Training Program",
+                          "subtitle": "SAP QM Course",
+                          "description": "Unlock the power of data with Connecting Dots Data Science course, mastering crucial skills for success in the field, all backed by secure placement support.",
+                           "backgroundImage": "src/Logos/DSimages/dsheader.gif", 
+                          "features": [
+                              "Live Class",
+                              "1:1 mentorship",
+                              "Industry projects"
+                          ],
+                          "alumni": [
+                              {
+                                  "name": "amazon",
+                                  "logo": "https://via.placeholder.com/50x20?text=amazon"
+                              },
+                              {
+                                  "name": "samsung",
+                                  "logo": "https://via.placeholder.com/50x20?text=samsung"
+                              },
+                              {
+                                  "name": "intuit",
+                                  "logo": "https://via.placeholder.com/50x20?text=intuit"
+                              },
+                              {
+                                  "name": "microsoft",
+                                  "logo": "https://via.placeholder.com/50x20?text=microsoft"
+                              },
+                              {
+                                  "name": "google",
+                                  "logo": "https://via.placeholder.com/50x20?text=google"
+                              }
+                          ],
+                          "buttons": [
+                              {
+                                  "text": "Next Batch starts in AUGUST",
+                                  "courseName": "Data Science Program"
+                              },
+                              {
+                                  "text": "Book Live Demo",
+                                  "courseName": "Book Live Demo"
+                              }
+                          ],
+                          "form": {
+                              "title": "Book a FREE live class",
+                              "inputs": [
+                                  {
+                                      "type": "text",
+                                      "name": "name",
+                                      "placeholder": "Enter your name"
+                                  },
+                                  {
+                                      "type": "email",
+                                      "name": "email",
+                                      "placeholder": "Enter your Email"
+                                  },
+                                  {
+                                      "type": "text",
+                                      "name": "year",
+                                      "placeholder": "Year of Passing"
+                                  },
+                                  {
+                                      "type": "tel",
+                                      "name": "phone",
+                                      "placeholder": "Enter your phone number",
+                                      "countryCode": "+91"
+                                  }
+                              ],
+                              "submitText": "Book Live Class"
+                          }
+                      }
+                  },
+                "scmheader": {
+                      "SCMHeader": {
+                          "title": "SAP SCM Training Program",
+                          "subtitle": "SAP SCM Course",
+                          "description": "Unlock the power of data with Connecting Dots Data Science course, mastering crucial skills for success in the field, all backed by secure placement support.",
+                           "backgroundImage": "src/Logos/DSimages/dsheader.gif", 
+                          "features": [
+                              "Live Class",
+                              "1:1 mentorship",
+                              "Industry projects"
+                          ],
+                          "alumni": [
+                              {
+                                  "name": "amazon",
+                                  "logo": "https://via.placeholder.com/50x20?text=amazon"
+                              },
+                              {
+                                  "name": "samsung",
+                                  "logo": "https://via.placeholder.com/50x20?text=samsung"
+                              },
+                              {
+                                  "name": "intuit",
+                                  "logo": "https://via.placeholder.com/50x20?text=intuit"
+                              },
+                              {
+                                  "name": "microsoft",
+                                  "logo": "https://via.placeholder.com/50x20?text=microsoft"
+                              },
+                              {
+                                  "name": "google",
+                                  "logo": "https://via.placeholder.com/50x20?text=google"
+                              }
+                          ],
+                          "buttons": [
+                              {
+                                  "text": "Next Batch starts in AUGUST",
+                                  "courseName": "Data Science Program"
+                              },
+                              {
+                                  "text": "Book Live Demo",
+                                  "courseName": "Book Live Demo"
+                              }
+                          ],
+                          "form": {
+                              "title": "Book a FREE live class",
+                              "inputs": [
+                                  {
+                                      "type": "text",
+                                      "name": "name",
+                                      "placeholder": "Enter your name"
+                                  },
+                                  {
+                                      "type": "email",
+                                      "name": "email",
+                                      "placeholder": "Enter your Email"
+                                  },
+                                  {
+                                      "type": "text",
+                                      "name": "year",
+                                      "placeholder": "Year of Passing"
+                                  },
+                                  {
+                                      "type": "tel",
+                                      "name": "phone",
+                                      "placeholder": "Enter your phone number",
+                                      "countryCode": "+91"
+                                  }
+                              ],
+                              "submitText": "Book Live Class"
+                          }
+                      }
+                  },
+                "sdheader": {
+                      "SDHeader": {
+                          "title": "SAP SD Training Program",
+                          "subtitle": "SAP SD Course",
+                          "description": "Unlock the power of data with Connecting Dots Data Science course, mastering crucial skills for success in the field, all backed by secure placement support.",
+                           "backgroundImage": "src/Logos/DSimages/dsheader.gif", 
+                          "features": [
+                              "Live Class",
+                              "1:1 mentorship",
+                              "Industry projects"
+                          ],
+                          "alumni": [
+                              {
+                                  "name": "amazon",
+                                  "logo": "https://via.placeholder.com/50x20?text=amazon"
+                              },
+                              {
+                                  "name": "samsung",
+                                  "logo": "https://via.placeholder.com/50x20?text=samsung"
+                              },
+                              {
+                                  "name": "intuit",
+                                  "logo": "https://via.placeholder.com/50x20?text=intuit"
+                              },
+                              {
+                                  "name": "microsoft",
+                                  "logo": "https://via.placeholder.com/50x20?text=microsoft"
+                              },
+                              {
+                                  "name": "google",
+                                  "logo": "https://via.placeholder.com/50x20?text=google"
+                              }
+                          ],
+                          "buttons": [
+                              {
+                                  "text": "Next Batch starts in AUGUST",
+                                  "courseName": "Data Science Program"
+                              },
+                              {
+                                  "text": "Book Live Demo",
+                                  "courseName": "Book Live Demo"
+                              }
+                          ],
+                          "form": {
+                              "title": "Book a FREE live class",
+                              "inputs": [
+                                  {
+                                      "type": "text",
+                                      "name": "name",
+                                      "placeholder": "Enter your name"
+                                  },
+                                  {
+                                      "type": "email",
+                                      "name": "email",
+                                      "placeholder": "Enter your Email"
+                                  },
+                                  {
+                                      "type": "text",
+                                      "name": "year",
+                                      "placeholder": "Year of Passing"
+                                  },
+                                  {
+                                      "type": "tel",
+                                      "name": "phone",
+                                      "placeholder": "Enter your phone number",
+                                      "countryCode": "+91"
+                                  }
+                              ],
+                              "submitText": "Book Live Class"
+                          }
+                      }
+                  },
+                "succheader": {
+                      "SuccHeader": {
+                          "title": "SAP Succesfactor Training Program",
+                          "subtitle": "SAP Succesfactor Course",
+                          "description": "Unlock the power of data with Connecting Dots Data Science course, mastering crucial skills for success in the field, all backed by secure placement support.",
+                           "backgroundImage": "src/Logos/DSimages/dsheader.gif", 
+                          "features": [
+                              "Live Class",
+                              "1:1 mentorship",
+                              "Industry projects"
+                          ],
+                          "alumni": [
+                              {
+                                  "name": "amazon",
+                                  "logo": "https://via.placeholder.com/50x20?text=amazon"
+                              },
+                              {
+                                  "name": "samsung",
+                                  "logo": "https://via.placeholder.com/50x20?text=samsung"
+                              },
+                              {
+                                  "name": "intuit",
+                                  "logo": "https://via.placeholder.com/50x20?text=intuit"
+                              },
+                              {
+                                  "name": "microsoft",
+                                  "logo": "https://via.placeholder.com/50x20?text=microsoft"
+                              },
+                              {
+                                  "name": "google",
+                                  "logo": "https://via.placeholder.com/50x20?text=google"
+                              }
+                          ],
+                          "buttons": [
+                              {
+                                  "text": "Next Batch starts in AUGUST",
+                                  "courseName": "Data Science Program"
+                              },
+                              {
+                                  "text": "Book Live Demo",
+                                  "courseName": "Book Live Demo"
+                              }
+                          ],
+                          "form": {
+                              "title": "Book a FREE live class",
+                              "inputs": [
+                                  {
+                                      "type": "text",
+                                      "name": "name",
+                                      "placeholder": "Enter your name"
+                                  },
+                                  {
+                                      "type": "email",
+                                      "name": "email",
+                                      "placeholder": "Enter your Email"
+                                  },
+                                  {
+                                      "type": "text",
+                                      "name": "year",
+                                      "placeholder": "Year of Passing"
+                                  },
+                                  {
+                                      "type": "tel",
+                                      "name": "phone",
+                                      "placeholder": "Enter your phone number",
+                                      "countryCode": "+91"
+                                  }
+                              ],
+                              "submitText": "Book Live Class"
+                          }
+                      }
+                  }, 
+    "powerbi": {
+          "POWERBI": {
+              "title": "Power BI Training Program",
+              "subtitle": "Power BI Course",
               "description": "Unlock the power of data with Connecting Dots Data Science course, mastering crucial skills for success in the field, all backed by secure placement support.",
+               "backgroundImage": "src/Logos/DSimages/dsheader.gif", 
+              "features": [
+                  "Live Class",
+                  "1:1 mentorship",
+                  "Industry projects"
+              ],
+              "alumni": [
+                  {
+                      "name": "amazon",
+                      "logo": "https://via.placeholder.com/50x20?text=amazon"
+                  },
+                  {
+                      "name": "samsung",
+                      "logo": "https://via.placeholder.com/50x20?text=samsung"
+                  },
+                  {
+                      "name": "intuit",
+                      "logo": "https://via.placeholder.com/50x20?text=intuit"
+                  },
+                  {
+                      "name": "microsoft",
+                      "logo": "https://via.placeholder.com/50x20?text=microsoft"
+                  },
+                  {
+                      "name": "google",
+                      "logo": "https://via.placeholder.com/50x20?text=google"
+                  }
+              ],
+              "buttons": [
+                  {
+                      "text": "Next Batch starts in AUGUST",
+                      "courseName": "Data Science Program"
+                  },
+                  {
+                      "text": "Book Live Demo",
+                      "courseName": "Book Live Demo"
+                  }
+              ],
+              "form": {
+                  "title": "Book a FREE live class",
+                  "inputs": [
+                      {
+                          "type": "text",
+                          "name": "name",
+                          "placeholder": "Enter your name"
+                      },
+                      {
+                          "type": "email",
+                          "name": "email",
+                          "placeholder": "Enter your Email"
+                      },
+                      {
+                          "type": "text",
+                          "name": "year",
+                          "placeholder": "Year of Passing"
+                      },
+                      {
+                          "type": "tel",
+                          "name": "phone",
+                          "placeholder": "Enter your phone number",
+                          "countryCode": "+91"
+                      }
+                  ],
+                  "submitText": "Book Live Class"
+              }
+          }
+      },
+    "tableau": {
+          "TABLEAU": {
+              "title": "Tableau Training Program",
+              "subtitle": "Tableau Course",
+              "description": "Unlock the power of data with Connecting Dots Data Science course, mastering crucial skills for success in the field, all backed by secure placement support.",
+               "backgroundImage": "src/Logos/DSimages/dsheader.gif", 
+              "features": [
+                  "Live Class",
+                  "1:1 mentorship",
+                  "Industry projects"
+              ],
+              "alumni": [
+                  {
+                      "name": "amazon",
+                      "logo": "https://via.placeholder.com/50x20?text=amazon"
+                  },
+                  {
+                      "name": "samsung",
+                      "logo": "https://via.placeholder.com/50x20?text=samsung"
+                  },
+                  {
+                      "name": "intuit",
+                      "logo": "https://via.placeholder.com/50x20?text=intuit"
+                  },
+                  {
+                      "name": "microsoft",
+                      "logo": "https://via.placeholder.com/50x20?text=microsoft"
+                  },
+                  {
+                      "name": "google",
+                      "logo": "https://via.placeholder.com/50x20?text=google"
+                  }
+              ],
+              "buttons": [
+                  {
+                      "text": "Next Batch starts in AUGUST",
+                      "courseName": "Data Science Program"
+                  },
+                  {
+                      "text": "Book Live Demo",
+                      "courseName": "Book Live Demo"
+                  }
+              ],
+              "form": {
+                  "title": "Book a FREE live class",
+                  "inputs": [
+                      {
+                          "type": "text",
+                          "name": "name",
+                          "placeholder": "Enter your name"
+                      },
+                      {
+                          "type": "email",
+                          "name": "email",
+                          "placeholder": "Enter your Email"
+                      },
+                      {
+                          "type": "text",
+                          "name": "year",
+                          "placeholder": "Year of Passing"
+                      },
+                      {
+                          "type": "tel",
+                          "name": "phone",
+                          "placeholder": "Enter your phone number",
+                          "countryCode": "+91"
+                      }
+                  ],
+                  "submitText": "Book Live Class"
+              }
+          }
+      },
+    "sql": {
+          "SQL": {
+              "title": "SQL Training Program",
+              "subtitle": "SQL Course",
+              "description": "Unlock the power of data with Connecting Dots Data Science course, mastering crucial skills for success in the field, all backed by secure placement support.",
+               "backgroundImage": "src/Logos/DSimages/dsheader.gif", 
               "features": [
                   "Live Class",
                   "1:1 mentorship",

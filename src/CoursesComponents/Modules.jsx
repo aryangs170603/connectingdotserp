@@ -9,6 +9,7 @@ const DataScienceModules = ({ pageId }) => {
   const [error, setError] = useState(null);
 
   useEffect(() => {
+     localStorage.clear();
     const fetchData = async () => {
       try {
         setLoading(true);

@@ -10,6 +10,7 @@ import Councelor from '../CoursesComponents/Councelor';
 import Projects from '../CoursesComponents/Projects';
 import ScrollToTop from '../components/ScrollToTop';
 import Program from '../CoursesComponents/ProgramHighlights';
+import Description from '../CoursesComponents/Description';
 
 const Salesforce = () => {
   return (
@@ -19,12 +20,14 @@ const Salesforce = () => {
         <Header pageId="SalesHeader" pageType="salesheader" />
         {/* <DSHeader pageId="MDAHeader" /> */}
         <Why pageId="WhySales" pageType="Whysales" />
+        
         <Councelor />
          <Modules pageId="SalesModule" />
         <Trustus />
         <Certificate />
         <Program />
         <Projects pageId="Salesinduspro" pageType="salesinduspro" />
+        <Description pageId="salesforce" />
         <FAQ pageId="SalesFAQ" pageType="salesfaq" />
         <RelatedCourses pageId="Salesrelated" />
       </main>

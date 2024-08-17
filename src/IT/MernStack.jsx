@@ -10,6 +10,7 @@ import Councelor from '../CoursesComponents/Councelor';
 import Projects from '../CoursesComponents/Projects';
 import ScrollToTop from '../components/ScrollToTop';
 import Program from '../CoursesComponents/ProgramHighlights';
+import Description from '../CoursesComponents/Description';
 
 const Mern = () => {
   return (
@@ -19,12 +20,14 @@ const Mern = () => {
         <Header pageId="MernHeader" pageType="mernheader" />
         {/* <DSHeader pageId="MDAHeader" /> */}
         <Why pageId="WhyMern" pageType="Whymern" />
+        
         <Councelor />
          <Modules pageId="MernModule" />
         <Trustus />
         <Certificate />
         <Program />
         <Projects pageId="Merninduspro" pageType="merninduspro" />
+        <Description pageId="mern-stack" />
         <FAQ pageId="MernFAQ" pageType="mernfaq" />
         <RelatedCourses pageId="Mernrelated" />
       </main>

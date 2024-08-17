@@ -10,6 +10,7 @@ import Councelor from '../CoursesComponents/Councelor';
 import Projects from '../CoursesComponents/Projects';
 import ScrollToTop from '../components/ScrollToTop';
 import Program from '../CoursesComponents/ProgramHighlights';
+import Description from '../CoursesComponents/Description';
 
 const GPT = () => {
   return (
@@ -19,12 +20,14 @@ const GPT = () => {
         <Header pageId="GPTHeader" pageType="GPTpage" />
         {/* <DSHeader pageId="MDAHeader" /> */}
         <Why pageId="WhyGPT" pageType="Whygpt" />
+        
         <Councelor />
          <Modules pageId="ChatGPT&Ai" />
         <Trustus />
         <Certificate />
         <Program />
         <Projects pageId="GPTinduspro" pageType="gptinduspro" />
+        <Description pageId="gptai" />
         <FAQ pageId="GPTFAQ" pageType="GPTfaq" />
         <RelatedCourses pageId="GPTrelated" />
       </main>

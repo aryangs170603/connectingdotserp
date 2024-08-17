@@ -203,9 +203,9 @@ const Header = () => {
           style={{ display: "block" }}
         >
           {[
-            { name: "Tableau", link: "/data-visualisation/tableau" },
-            { name: "Power BI", link: "/data-visualisation/power-bi" },
-            { name: "SQL", link: "/data-visualisation/sql" },
+            { name: "Tableau", link: "/tableau" },
+            { name: "Power BI", link: "/powerbi" },
+            { name: "SQL", link: "/sql" },
           ].map((item, index) => (
             <li key={index}>
               <Link className="dropdown-item" to={item.link}>

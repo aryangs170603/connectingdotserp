@@ -29,7 +29,7 @@ import SAPFICO from './SAP/sapfico';
 import SAPHANA from './SAP/saphana';
 import SAPHRHCM from './SAP/saphrhcm';
 import SAPMM from './SAP/sapmm';
-import SAPNET from './SAP/sapnetweaver';
+import SAPNET from './SAP/sapnetweaver'
 import SAPPM from './SAP/sappm';
 import SAPPP from './SAP/sappp';
 import SAPPS from './SAP/sapps';
@@ -37,6 +37,9 @@ import SAPQM from './SAP/sapqm';
 import SAPSCM from './SAP/sapscm';
 import SAPSD from './SAP/sapsd';
 import SAPSUCC from './SAP/sapsuccess';
+import POWERBI from './Data Visual/powerbi';
+import SQL from './Data Visual/sql';
+import TABLEAU from './Data Visual/tableau';
 function App() {
   return (
     <Router>
@@ -83,7 +86,10 @@ function App() {
             <Route path="/SAPSCM" element={<SAPSCM />} />
             <Route path="/SAPSD" element={<SAPSD />} />
             <Route path="/SAPSUCC" element={<SAPSUCC />} />
-            
+            {/* DATA VISUALIZATION */}
+            <Route path="/POWERBI" element={<POWERBI />} />
+            <Route path="/SQL" element={<SQL />} />
+            <Route path="/TABLEAU" element={<TABLEAU />} />
           </Routes>
         </main>
 

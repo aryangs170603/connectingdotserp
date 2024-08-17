@@ -4,40 +4,40 @@
     "title": "RELATED COURSES",
     "items": [
       {
-        "name": "Artificial Intelligence",
+        "name": "CHat GPT & AI",
         "description": "Learn AI from scratch",
         "icon": "Jsonfolder/Relatedgifs/artificial-intelligence (1).gif",
-        "alt": "Artificial Intelligence icon"
+        "alt": "AI icon"
       },
       {
-        "name": "Masters in Data Science",
+        "name": "Tableau",
         "description": "Become a data science expert",
         "icon": "Jsonfolder/Relatedgifs/pie-chart.gif",
-        "alt": "Pie chart icon"
+        "alt": "TABLEAU icon"
       },
       {
         "name": "Masters in Data Analytics",
         "description": "Master data analytics skills",
         "icon": "Jsonfolder/Relatedgifs/science.gif",
-        "alt": "Science icon"
+        "alt": " Data Analytics icon"
       },
       {
         "name": "Salesforce",
         "description": "Salesforce developer courses",
         "icon": "Jsonfolder/Relatedgifs/cloud--network.gif",
-        "alt": "Cloud network icon"
+        "alt": "SALESFORCE icon"
       },
       {
         "name": "UI/UX Design",
         "description": "Design stunning user interfaces",
         "icon": "Jsonfolder/Relatedgifs/computer.gif",
-        "alt": "Computer icon"
+        "alt": "UI/UX icon"
       },
       {
         "name": "Full-Stack Python",
         "description": "Full-stack development with Python",
         "icon": "Jsonfolder/Relatedgifs/coding.gif",
-        "alt": "Coding icon"
+        "alt": "Full Stack icon"
       },
       {
         "name": "Full-Stack Java",
@@ -49,203 +49,283 @@
         "name": "PowerBI",
         "description": "Business intelligence with PowerBI",
         "icon": "Jsonfolder/Relatedgifs/setting.gif",
-        "alt": "Setting icon"
+        "alt": "Power BI icon"
       },
       {
-        "name": "Google Cloud Platform",
+        "name": "SQL",
         "description": "Learn GCP from experts",
         "icon": "Jsonfolder/Relatedgifs/exchange.gif",
-        "alt": "Exchange icon"
+        "alt": " SQL icon"
       },
       {
         "name": "Reactjs Framework",
         "description": "Learn Reactjs from Industry Experts",
         "icon": "Jsonfolder/Relatedgifs/physics.gif",
-        "alt": "Physics icon"
+        "alt": "React icon"
       }
     ]
   },
   "DArelcourses": {
     "id": "DArelcourses",
     "title": "ANOTHER COMPONENT",
-    "items": [
+    "items":  [
       {
-        "name": "Revealing the Power of Data",
-        "description": " Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged."
+        "name": "Chat GPT & AI",
+        "description": "Learn AI from scratch",
+        "icon": "Jsonfolder/Relatedgifs/artificial-intelligence (1).gif",
+        "alt": "AI icon"
       },
       {
-        "name": "Human Resource Management System",
-        "description": " Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged."
+        "name": "Masters in Data Science",
+        "description": "Become a data science expert",
+        "icon": "Jsonfolder/Relatedgifs/pie-chart.gif",
+        "alt": "Data Science icon"
       },
       {
-        "name": "Vehicle Sales Analysis",
-        "description": " Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged."
+        "name": "Tableau",
+        "description": "Master data analytics skills",
+        "icon": "Jsonfolder/Relatedgifs/science.gif",
+        "alt": "TABLEAU icon"
       },
       {
-        "name": "Supply Chain & Logistics Analysis",
-        "description": "I Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged."
+        "name": "Salesforce",
+        "description": "Salesforce developer courses",
+        "icon": "Jsonfolder/Relatedgifs/cloud--network.gif",
+        "alt": "SALESFORCE icon"
       },
       {
-        "name": "Face Detection",
-        "description": " Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged."
+        "name": "UI/UX Design",
+        "description": "Design stunning user interfaces",
+        "icon": "Jsonfolder/Relatedgifs/computer.gif",
+        "alt": "UI/UX icon"
       },
       {
         "name": "Full-Stack Python",
-        "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book."
+        "description": "Full-stack development with Python",
+        "icon": "Jsonfolder/Relatedgifs/coding.gif",
+        "alt": "Full stack icon"
       },
       {
         "name": "Full-Stack Java",
-        "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book."
+        "description": "Full-stack development with Java",
+        "icon": "Jsonfolder/Relatedgifs/java (1).gif",
+        "alt": "Java icon"
       },
       {
         "name": "PowerBI",
-        "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book."
+        "description": "Business intelligence with PowerBI",
+        "icon": "Jsonfolder/Relatedgifs/setting.gif",
+        "alt": "Power BI icon"
       },
       {
-        "name": "Google Cloud Platform",
-        "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book."
+        "name": "SQL",
+        "description": "Learn GCP from experts",
+        "icon": "Jsonfolder/Relatedgifs/exchange.gif",
+        "alt": "SQL icon"
       },
       {
         "name": "Reactjs Framework",
-        "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book."
+        "description": "Learn Reactjs from Industry Experts",
+        "icon": "Jsonfolder/Relatedgifs/physics.gif",
+        "alt": "React icon"
       }
     ]
   },
   "BArelcourses": {
     "id": "BArelcourses",
     "title": "ANOTHER COMPONENT",
-    "items": [
+    "items":  [
       {
-        "name": "Revealing the Power of Data",
-        "description": " Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged."
+        "name": "Chat GPT & AI",
+        "description": "Learn AI from scratch",
+        "icon": "Jsonfolder/Relatedgifs/artificial-intelligence (1).gif",
+        "alt": "AI icon"
       },
       {
-        "name": "Human Resource Management System",
-        "description": " Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged."
+        "name": "Masters in Data Science",
+        "description": "Become a data science expert",
+        "icon": "Jsonfolder/Relatedgifs/pie-chart.gif",
+        "alt": "Data Science icon"
       },
       {
-        "name": "Vehicle Sales Analysis",
-        "description": " Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged."
+        "name": "Masters in Data Analytics",
+        "description": "Master data analytics skills",
+        "icon": "Jsonfolder/Relatedgifs/science.gif",
+        "alt": "Data Analytics icon"
       },
       {
-        "name": "Supply Chain & Logistics Analysis",
-        "description": "I Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged."
+        "name": "Salesforce",
+        "description": "Salesforce developer courses",
+        "icon": "Jsonfolder/Relatedgifs/cloud--network.gif",
+        "alt": "SALESFORCE icon"
       },
       {
-        "name": "Face Detection",
-        "description": " Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged."
+        "name": "UI/UX Design",
+        "description": "Design stunning user interfaces",
+        "icon": "Jsonfolder/Relatedgifs/computer.gif",
+        "alt": "UI/UX icon"
       },
       {
         "name": "Full-Stack Python",
-        "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book."
+        "description": "Full-stack development with Python",
+        "icon": "Jsonfolder/Relatedgifs/coding.gif",
+        "alt": "Full Stack icon"
       },
       {
         "name": "Full-Stack Java",
-        "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book."
+        "description": "Full-stack development with Java",
+        "icon": "Jsonfolder/Relatedgifs/java (1).gif",
+        "alt": "Java icon"
       },
       {
         "name": "PowerBI",
-        "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book."
+        "description": "Business intelligence with PowerBI",
+        "icon": "Jsonfolder/Relatedgifs/setting.gif",
+        "alt": "Power Bi icon"
       },
       {
-        "name": "Google Cloud Platform",
-        "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book."
+        "name": "SQL",
+        "description": "Learn GCP from experts",
+        "icon": "Jsonfolder/Relatedgifs/exchange.gif",
+        "alt": "SQL icon"
       },
       {
         "name": "Reactjs Framework",
-        "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book."
+        "description": "Learn Reactjs from Industry Experts",
+        "icon": "Jsonfolder/Relatedgifs/physics.gif",
+        "alt": "React icon"
       }
     ]
   },
   "GPTrelcourses": {
     "id": "GPTrelcourses",
     "title": "ANOTHER COMPONENT",
-    "items": [
+    "items":  [
       {
-        "name": "Revealing the Power of Data",
-        "description": " Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged."
+        "name": "Tableau",
+        "description": "Learn AI from scratch",
+        "icon": "Jsonfolder/Relatedgifs/artificial-intelligence (1).gif",
+        "alt": "Tableau icon"
       },
       {
-        "name": "Human Resource Management System",
-        "description": " Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged."
+        "name": "Masters in Data Science",
+        "description": "Become a data science expert",
+        "icon": "Jsonfolder/Relatedgifs/pie-chart.gif",
+        "alt": "Data Science icon"
       },
       {
-        "name": "Vehicle Sales Analysis",
-        "description": " Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged."
+        "name": "Masters in Data Analytics",
+        "description": "Master data analytics skills",
+        "icon": "Jsonfolder/Relatedgifs/science.gif",
+        "alt": "Data Analytics icon"
       },
       {
-        "name": "Supply Chain & Logistics Analysis",
-        "description": "I Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged."
+        "name": "Salesforce",
+        "description": "Salesforce developer courses",
+        "icon": "Jsonfolder/Relatedgifs/cloud--network.gif",
+        "alt": "SALESFORCE icon"
       },
       {
-        "name": "Face Detection",
-        "description": " Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged."
+        "name": "UI/UX Design",
+        "description": "Design stunning user interfaces",
+        "icon": "Jsonfolder/Relatedgifs/computer.gif",
+        "alt": "UI/UX icon"
       },
       {
         "name": "Full-Stack Python",
-        "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book."
+        "description": "Full-stack development with Python",
+        "icon": "Jsonfolder/Relatedgifs/coding.gif",
+        "alt": "Full Stack icon"
       },
       {
         "name": "Full-Stack Java",
-        "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book."
+        "description": "Full-stack development with Java",
+        "icon": "Jsonfolder/Relatedgifs/java (1).gif",
+        "alt": "Java icon"
       },
       {
         "name": "PowerBI",
-        "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book."
+        "description": "Business intelligence with PowerBI",
+        "icon": "Jsonfolder/Relatedgifs/setting.gif",
+        "alt": "Power BI icon"
       },
       {
-        "name": "Google Cloud Platform",
-        "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book."
+        "name": "SQL",
+        "description": "Learn GCP from experts",
+        "icon": "Jsonfolder/Relatedgifs/exchange.gif",
+        "alt": "SQL icon"
       },
       {
         "name": "Reactjs Framework",
-        "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book."
+        "description": "Learn Reactjs from Industry Experts",
+        "icon": "Jsonfolder/Relatedgifs/physics.gif",
+        "alt": "React icon"
       }
     ]
   },
   "FullStackrelcourses": {
     "id": "FullStackrelcourses",
     "title": "Related courses",
-    "items": [
+    "items":  [
       {
-        "name": "Revealing the Power of Data",
-        "description": " Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged."
+        "name": "Chat GPT & AI",
+        "description": "Learn AI from scratch",
+        "icon": "Jsonfolder/Relatedgifs/artificial-intelligence (1).gif",
+        "alt": "AI icon"
       },
       {
-        "name": "Human Resource Management System",
-        "description": " Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged."
+        "name": "Masters in Data Science",
+        "description": "Become a data science expert",
+        "icon": "Jsonfolder/Relatedgifs/pie-chart.gif",
+        "alt": "Data Science icon"
       },
       {
-        "name": "Vehicle Sales Analysis",
-        "description": " Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged."
+        "name": "Masters in Data Analytics",
+        "description": "Master data analytics skills",
+        "icon": "Jsonfolder/Relatedgifs/science.gif",
+        "alt": "Data Analytics icon"
       },
       {
-        "name": "Supply Chain & Logistics Analysis",
-        "description": "I Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged."
+        "name": "Salesforce",
+        "description": "Salesforce developer courses",
+        "icon": "Jsonfolder/Relatedgifs/cloud--network.gif",
+        "alt": "SALESFORCE icon"
       },
       {
-        "name": "Face Detection",
-        "description": " Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged."
+        "name": "UI/UX Design",
+        "description": "Design stunning user interfaces",
+        "icon": "Jsonfolder/Relatedgifs/computer.gif",
+        "alt": "UI/UX icon"
       },
       {
-        "name": "Full-Stack Python",
-        "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book."
+        "name": "Tableau",
+        "description": "Full-stack development with Python",
+        "icon": "Jsonfolder/Relatedgifs/coding.gif",
+        "alt": "Tableau icon"
       },
       {
         "name": "Full-Stack Java",
-        "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book."
+        "description": "Full-stack development with Java",
+        "icon": "Jsonfolder/Relatedgifs/java (1).gif",
+        "alt": "Java icon"
       },
       {
         "name": "PowerBI",
-        "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book."
+        "description": "Business intelligence with PowerBI",
+        "icon": "Jsonfolder/Relatedgifs/setting.gif",
+        "alt": "Power BI icon"
       },
       {
-        "name": "Google Cloud Platform",
-        "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book."
+        "name": "SQL",
+        "description": "Learn GCP from experts",
+        "icon": "Jsonfolder/Relatedgifs/exchange.gif",
+        "alt": "SQL icon"
       },
       {
         "name": "Reactjs Framework",
-        "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book."
+        "description": "Learn Reactjs from Industry Experts",
+        "icon": "Jsonfolder/Relatedgifs/physics.gif",
+        "alt": "React icon"
       }
     ]
   },
@@ -254,44 +334,64 @@
     "title": "Related courses",
     "items": [
       {
-        "name": "Revealing the Power of Data",
-        "description": " Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged."
+        "name": "Chat GPT & AI",
+        "description": "Learn AI from scratch",
+        "icon": "Jsonfolder/Relatedgifs/artificial-intelligence (1).gif",
+        "alt": "AI icon"
       },
       {
-        "name": "Human Resource Management System",
-        "description": " Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged."
+        "name": "Masters in Data Science",
+        "description": "Become a data science expert",
+        "icon": "Jsonfolder/Relatedgifs/pie-chart.gif",
+        "alt": "Data Science icon"
       },
       {
-        "name": "Vehicle Sales Analysis",
-        "description": " Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged."
+        "name": "Masters in Data Analytics",
+        "description": "Master data analytics skills",
+        "icon": "Jsonfolder/Relatedgifs/science.gif",
+        "alt": "Data Analytics icon"
       },
       {
-        "name": "Supply Chain & Logistics Analysis",
-        "description": "I Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged."
+        "name": "Salesforce",
+        "description": "Salesforce developer courses",
+        "icon": "Jsonfolder/Relatedgifs/cloud--network.gif",
+        "alt": "SALESFORCE icon"
       },
       {
-        "name": "Face Detection",
-        "description": " Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged."
+        "name": "UI/UX Design",
+        "description": "Design stunning user interfaces",
+        "icon": "Jsonfolder/Relatedgifs/computer.gif",
+        "alt": "UI/UX icon"
       },
       {
         "name": "Full-Stack Python",
-        "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book."
+        "description": "Full-stack development with Python",
+        "icon": "Jsonfolder/Relatedgifs/coding.gif",
+        "alt": "Full Stack icon"
       },
       {
-        "name": "Full-Stack Java",
-        "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book."
+        "name": "Tableau",
+        "description": "Full-stack development with Java",
+        "icon": "Jsonfolder/Relatedgifs/java (1).gif",
+        "alt": "Tableau icon"
       },
       {
         "name": "PowerBI",
-        "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book."
+        "description": "Business intelligence with PowerBI",
+        "icon": "Jsonfolder/Relatedgifs/setting.gif",
+        "alt": "Power BI icon"
       },
       {
-        "name": "Google Cloud Platform",
-        "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book."
+        "name": "SQL",
+        "description": "Learn GCP from experts",
+        "icon": "Jsonfolder/Relatedgifs/exchange.gif",
+        "alt": "SQL icon"
       },
       {
         "name": "Reactjs Framework",
-        "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book."
+        "description": "Learn Reactjs from Industry Experts",
+        "icon": "Jsonfolder/Relatedgifs/physics.gif",
+        "alt": "React icon"
       }
     ]
   },
@@ -300,44 +400,64 @@
     "title": "Related courses",
     "items": [
       {
-        "name": "Revealing the Power of Data",
-        "description": " Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged."
+        "name": "Chat GPT & AI",
+        "description": "Learn AI from scratch",
+        "icon": "Jsonfolder/Relatedgifs/artificial-intelligence (1).gif",
+        "alt": "AI icon"
       },
       {
-        "name": "Human Resource Management System",
-        "description": " Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged."
+        "name": "Masters in Data Science",
+        "description": "Become a data science expert",
+        "icon": "Jsonfolder/Relatedgifs/pie-chart.gif",
+        "alt": "Data Science icon"
       },
       {
-        "name": "Vehicle Sales Analysis",
-        "description": " Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged."
+        "name": "Masters in Data Analytics",
+        "description": "Master data analytics skills",
+        "icon": "Jsonfolder/Relatedgifs/science.gif",
+        "alt": "Data Analytics icon"
       },
       {
-        "name": "Supply Chain & Logistics Analysis",
-        "description": "I Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged."
+        "name": "Salesforce",
+        "description": "Salesforce developer courses",
+        "icon": "Jsonfolder/Relatedgifs/cloud--network.gif",
+        "alt": "SALESFORCE icon"
       },
       {
-        "name": "Face Detection",
-        "description": " Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged."
+        "name": "UI/UX Design",
+        "description": "Design stunning user interfaces",
+        "icon": "Jsonfolder/Relatedgifs/computer.gif",
+        "alt": "UI/UX icon"
       },
       {
         "name": "Full-Stack Python",
-        "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book."
+        "description": "Full-stack development with Python",
+        "icon": "Jsonfolder/Relatedgifs/coding.gif",
+        "alt": "Full Stack icon"
       },
       {
         "name": "Full-Stack Java",
-        "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book."
+        "description": "Full-stack development with Java",
+        "icon": "Jsonfolder/Relatedgifs/java (1).gif",
+        "alt": "Java icon"
       },
       {
         "name": "PowerBI",
-        "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book."
+        "description": "Business intelligence with PowerBI",
+        "icon": "Jsonfolder/Relatedgifs/setting.gif",
+        "alt": "Power BI icon"
       },
       {
-        "name": "Google Cloud Platform",
-        "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book."
+        "name": "SQL",
+        "description": "Learn GCP from experts",
+        "icon": "Jsonfolder/Relatedgifs/exchange.gif",
+        "alt": "SQL icon"
       },
       {
         "name": "Reactjs Framework",
-        "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book."
+        "description": "Learn Reactjs from Industry Experts",
+        "icon": "Jsonfolder/Relatedgifs/physics.gif",
+        "alt": "React icon"
       }
     ]
   },
@@ -346,44 +466,64 @@
     "title": "Related courses",
     "items": [
       {
-        "name": "Revealing the Power of Data",
-        "description": " Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged."
+        "name": "Chat GPT & AI",
+        "description": "Learn AI from scratch",
+        "icon": "Jsonfolder/Relatedgifs/artificial-intelligence (1).gif",
+        "alt": "AI icon"
       },
       {
-        "name": "Human Resource Management System",
-        "description": " Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged."
+        "name": "Masters in Data Science",
+        "description": "Become a data science expert",
+        "icon": "Jsonfolder/Relatedgifs/pie-chart.gif",
+        "alt": "Data Science icon"
       },
       {
-        "name": "Vehicle Sales Analysis",
-        "description": " Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged."
+        "name": "Masters in Data Analytics",
+        "description": "Master data analytics skills",
+        "icon": "Jsonfolder/Relatedgifs/science.gif",
+        "alt": "Data Analytics icon"
       },
       {
-        "name": "Supply Chain & Logistics Analysis",
-        "description": "I Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged."
+        "name": "Salesforce",
+        "description": "Salesforce developer courses",
+        "icon": "Jsonfolder/Relatedgifs/cloud--network.gif",
+        "alt": "SALESFORCE icon"
       },
       {
-        "name": "Face Detection",
-        "description": " Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged."
+        "name": "Tableau",
+        "description": "Design stunning user interfaces",
+        "icon": "Jsonfolder/Relatedgifs/computer.gif",
+        "alt": "Tableau icon"
       },
       {
         "name": "Full-Stack Python",
-        "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book."
+        "description": "Full-stack development with Python",
+        "icon": "Jsonfolder/Relatedgifs/coding.gif",
+        "alt": "Full Stack icon"
       },
       {
         "name": "Full-Stack Java",
-        "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book."
+        "description": "Full-stack development with Java",
+        "icon": "Jsonfolder/Relatedgifs/java (1).gif",
+        "alt": "Java icon"
       },
       {
         "name": "PowerBI",
-        "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book."
+        "description": "Business intelligence with PowerBI",
+        "icon": "Jsonfolder/Relatedgifs/setting.gif",
+        "alt": "Power Bi icon"
       },
       {
-        "name": "Google Cloud Platform",
-        "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book."
+        "name": "SQL",
+        "description": "Learn GCP from experts",
+        "icon": "Jsonfolder/Relatedgifs/exchange.gif",
+        "alt": "SQL icon"
       },
       {
         "name": "Reactjs Framework",
-        "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book."
+        "description": "Learn Reactjs from Industry Experts",
+        "icon": "Jsonfolder/Relatedgifs/physics.gif",
+        "alt": "React icon"
       }
     ]
   },
@@ -392,44 +532,64 @@
     "title": "Related courses",
     "items": [
       {
-        "name": "Revealing the Power of Data",
-        "description": " Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged."
+        "name": "Chat GPT & AI",
+        "description": "Learn AI from scratch",
+        "icon": "Jsonfolder/Relatedgifs/artificial-intelligence (1).gif",
+        "alt": "AI icon"
       },
       {
-        "name": "Human Resource Management System",
-        "description": " Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged."
+        "name": "Masters in Data Science",
+        "description": "Become a data science expert",
+        "icon": "Jsonfolder/Relatedgifs/pie-chart.gif",
+        "alt": "Data Science icon"
       },
       {
-        "name": "Vehicle Sales Analysis",
-        "description": " Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged."
+        "name": "Masters in Data Analytics",
+        "description": "Master data analytics skills",
+        "icon": "Jsonfolder/Relatedgifs/science.gif",
+        "alt": "Data Analytics icon"
       },
       {
-        "name": "Supply Chain & Logistics Analysis",
-        "description": "I Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged."
+        "name": "Salesforce",
+        "description": "Salesforce developer courses",
+        "icon": "Jsonfolder/Relatedgifs/cloud--network.gif",
+        "alt": "SALESFORCE icon"
       },
       {
-        "name": "Face Detection",
-        "description": " Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged."
+        "name": "UI/UX Design",
+        "description": "Design stunning user interfaces",
+        "icon": "Jsonfolder/Relatedgifs/computer.gif",
+        "alt": "UI/UX icon"
       },
       {
-        "name": "Full-Stack Python",
-        "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book."
+        "name": "Tableau",
+        "description": "Full-stack development with Python",
+        "icon": "Jsonfolder/Relatedgifs/coding.gif",
+        "alt": "Tableau icon"
       },
       {
         "name": "Full-Stack Java",
-        "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book."
+        "description": "Full-stack development with Java",
+        "icon": "Jsonfolder/Relatedgifs/java (1).gif",
+        "alt": "Java icon"
       },
       {
         "name": "PowerBI",
-        "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book."
+        "description": "Business intelligence with PowerBI",
+        "icon": "Jsonfolder/Relatedgifs/setting.gif",
+        "alt": "Power BI icon"
       },
       {
-        "name": "Google Cloud Platform",
-        "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book."
+        "name": "SQL",
+        "description": "Learn GCP from experts",
+        "icon": "Jsonfolder/Relatedgifs/exchange.gif",
+        "alt": "SQL icon"
       },
       {
         "name": "Reactjs Framework",
-        "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book."
+        "description": "Learn Reactjs from Industry Experts",
+        "icon": "Jsonfolder/Relatedgifs/physics.gif",
+        "alt": "React icon"
       }
     ]
   },
@@ -438,44 +598,64 @@
     "title": "Related courses",
     "items": [
       {
-        "name": "Revealing the Power of Data",
-        "description": " Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged."
+        "name": "Chat GPT & AI",
+        "description": "Learn AI from scratch",
+        "icon": "Jsonfolder/Relatedgifs/artificial-intelligence (1).gif",
+        "alt": "AI icon"
       },
       {
-        "name": "Human Resource Management System",
-        "description": " Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged."
+        "name": "Masters in Data Science",
+        "description": "Become a data science expert",
+        "icon": "Jsonfolder/Relatedgifs/pie-chart.gif",
+        "alt": "Data Science icon"
       },
       {
-        "name": "Vehicle Sales Analysis",
-        "description": " Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged."
+        "name": "Masters in Data Analytics",
+        "description": "Master data analytics skills",
+        "icon": "Jsonfolder/Relatedgifs/science.gif",
+        "alt": "Data Analytics icon"
       },
       {
-        "name": "Supply Chain & Logistics Analysis",
-        "description": "I Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged."
+        "name": "Tableau",
+        "description": "Salesforce developer courses",
+        "icon": "Jsonfolder/Relatedgifs/cloud--network.gif",
+        "alt": "Tableau icon"
       },
       {
-        "name": "Face Detection",
-        "description": " Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged."
+        "name": "UI/UX Design",
+        "description": "Design stunning user interfaces",
+        "icon": "Jsonfolder/Relatedgifs/computer.gif",
+        "alt": "UI/UX icon"
       },
       {
         "name": "Full-Stack Python",
-        "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book."
+        "description": "Full-stack development with Python",
+        "icon": "Jsonfolder/Relatedgifs/coding.gif",
+        "alt": "Full Stack icon"
       },
       {
         "name": "Full-Stack Java",
-        "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book."
+        "description": "Full-stack development with Java",
+        "icon": "Jsonfolder/Relatedgifs/java (1).gif",
+        "alt": "Java icon"
       },
       {
         "name": "PowerBI",
-        "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book."
+        "description": "Business intelligence with PowerBI",
+        "icon": "Jsonfolder/Relatedgifs/setting.gif",
+        "alt": "Power BI icon"
       },
       {
-        "name": "Google Cloud Platform",
-        "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book."
+        "name": "SQL",
+        "description": "Learn GCP from experts",
+        "icon": "Jsonfolder/Relatedgifs/exchange.gif",
+        "alt": "SQL icon"
       },
       {
         "name": "Reactjs Framework",
-        "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book."
+        "description": "Learn Reactjs from Industry Experts",
+        "icon": "Jsonfolder/Relatedgifs/physics.gif",
+        "alt": "React icon"
       }
     ]
   },
@@ -484,44 +664,64 @@
     "title": "Related courses",
     "items": [
       {
-        "name": "Revealing the Power of Data",
-        "description": " Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged."
+        "name": "SAP HANA",
+        "description": "Learn AI from scratch",
+        "icon": "Jsonfolder/Relatedgifs/artificial-intelligence (1).gif",
+        "alt": " SAP HANA icon"
       },
       {
-        "name": "Human Resource Management System",
-        "description": " Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged."
+        "name": "SAP NETWEAVER",
+        "description": "Become a data science expert",
+        "icon": "Jsonfolder/Relatedgifs/pie-chart.gif",
+        "alt": "SAP NETWEAVER icon"
       },
       {
-        "name": "Vehicle Sales Analysis",
-        "description": " Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged."
+        "name": "SAP BW/BI",
+        "description": "Master data analytics skills",
+        "icon": "Jsonfolder/Relatedgifs/science.gif",
+        "alt": "SAP BI icon"
       },
       {
-        "name": "Supply Chain & Logistics Analysis",
-        "description": "I Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged."
+        "name": "SAP BASIS",
+        "description": "Salesforce developer courses",
+        "icon": "Jsonfolder/Relatedgifs/cloud--network.gif",
+        "alt": "SAP BASIS icon"
       },
       {
-        "name": "Face Detection",
-        "description": " Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged."
+        "name": "SAP FICO",
+        "description": "Design stunning user interfaces",
+        "icon": "Jsonfolder/Relatedgifs/computer.gif",
+        "alt": "SAP FICO icon"
       },
       {
-        "name": "Full-Stack Python",
-        "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book."
+        "name": "SAP MM",
+        "description": "Full-stack development with Python",
+        "icon": "Jsonfolder/Relatedgifs/coding.gif",
+        "alt": "SAP MM icon"
       },
       {
-        "name": "Full-Stack Java",
-        "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book."
+        "name": "SAP SD",
+        "description": "Full-stack development with Java",
+        "icon": "Jsonfolder/Relatedgifs/java (1).gif",
+        "alt": "sap SD icon"
       },
       {
-        "name": "PowerBI",
-        "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book."
+        "name": "SAP HR/HCM",
+        "description": "Business intelligence with PowerBI",
+        "icon": "Jsonfolder/Relatedgifs/setting.gif",
+        "alt": "SAP HR/HCM icon"
       },
       {
-        "name": "Google Cloud Platform",
-        "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book."
+        "name": "SAP PM",
+        "description": "Learn GCP from experts",
+        "icon": "Jsonfolder/Relatedgifs/exchange.gif",
+        "alt": "SAP PM icon"
       },
       {
-        "name": "Reactjs Framework",
-        "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book."
+        "name": "SAP SCM",
+        "description": "Learn Reactjs from Industry Experts",
+        "icon": "Jsonfolder/Relatedgifs/physics.gif",
+        "alt": "SAP SCM icon"
       }
     ]
   },
@@ -530,44 +730,64 @@
     "title": "Related courses",
     "items": [
       {
-        "name": "Revealing the Power of Data",
-        "description": " Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged."
+        "name": "SAP HANA",
+        "description": "Learn AI from scratch",
+        "icon": "Jsonfolder/Relatedgifs/artificial-intelligence (1).gif",
+        "alt": " SAP HANA icon"
       },
       {
-        "name": "Human Resource Management System",
-        "description": " Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged."
+        "name": "SAP NETWEAVER",
+        "description": "Become a data science expert",
+        "icon": "Jsonfolder/Relatedgifs/pie-chart.gif",
+        "alt": "SAP NETWEAVER icon"
       },
       {
-        "name": "Vehicle Sales Analysis",
-        "description": " Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged."
+        "name": "SAP BW/BI",
+        "description": "Master data analytics skills",
+        "icon": "Jsonfolder/Relatedgifs/science.gif",
+        "alt": "SAP BI icon"
       },
       {
-        "name": "Supply Chain & Logistics Analysis",
-        "description": "I Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged."
+        "name": "SAP ABAP",
+        "description": "Salesforce developer courses",
+        "icon": "Jsonfolder/Relatedgifs/cloud--network.gif",
+        "alt": "SAP ABAP icon"
       },
       {
-        "name": "Face Detection",
-        "description": " Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged."
+        "name": "SAP FICO",
+        "description": "Design stunning user interfaces",
+        "icon": "Jsonfolder/Relatedgifs/computer.gif",
+        "alt": "SAP FICO icon"
       },
       {
-        "name": "Full-Stack Python",
-        "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book."
+        "name": "SAP MM",
+        "description": "Full-stack development with Python",
+        "icon": "Jsonfolder/Relatedgifs/coding.gif",
+        "alt": "SAP MM icon"
       },
       {
-        "name": "Full-Stack Java",
-        "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book."
+        "name": "SAP SD",
+        "description": "Full-stack development with Java",
+        "icon": "Jsonfolder/Relatedgifs/java (1).gif",
+        "alt": "SAP SD icon"
       },
       {
-        "name": "PowerBI",
-        "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book."
+        "name": "SAP HR/HCM",
+        "description": "Business intelligence with PowerBI",
+        "icon": "Jsonfolder/Relatedgifs/setting.gif",
+        "alt": "SAP HR/HCM icon"
       },
       {
-        "name": "Google Cloud Platform",
-        "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book."
+        "name": "SAP PM",
+        "description": "Learn GCP from experts",
+        "icon": "Jsonfolder/Relatedgifs/exchange.gif",
+        "alt": "SAP PM icon"
       },
       {
-        "name": "Reactjs Framework",
-        "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book."
+        "name": "SAP SCM",
+        "description": "Learn Reactjs from Industry Experts",
+        "icon": "Jsonfolder/Relatedgifs/physics.gif",
+        "alt": "SAP SCM icon"
       }
     ]
   },
@@ -576,44 +796,64 @@
     "title": "Related courses",
     "items": [
       {
-        "name": "Revealing the Power of Data",
-        "description": " Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged."
+        "name": "SAP HANA",
+        "description": "Learn AI from scratch",
+        "icon": "Jsonfolder/Relatedgifs/artificial-intelligence (1).gif",
+        "alt": " SAP HANA icon"
       },
       {
-        "name": "Human Resource Management System",
-        "description": " Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged."
+        "name": "SAP NETWEAVER",
+        "description": "Become a data science expert",
+        "icon": "Jsonfolder/Relatedgifs/pie-chart.gif",
+        "alt": "SAP NETWEAVER icon"
       },
       {
-        "name": "Vehicle Sales Analysis",
-        "description": " Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged."
+        "name": "SAP ABAP",
+        "description": "Master data analytics skills",
+        "icon": "Jsonfolder/Relatedgifs/science.gif",
+        "alt": "SAP ABAP icon"
       },
       {
-        "name": "Supply Chain & Logistics Analysis",
-        "description": "I Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged."
+        "name": "SAP BASIS",
+        "description": "Salesforce developer courses",
+        "icon": "Jsonfolder/Relatedgifs/cloud--network.gif",
+        "alt": "SAP BASIS icon"
       },
       {
-        "name": "Face Detection",
-        "description": " Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged."
+        "name": "SAP FICO",
+        "description": "Design stunning user interfaces",
+        "icon": "Jsonfolder/Relatedgifs/computer.gif",
+        "alt": "SAP FICO icon"
       },
       {
-        "name": "Full-Stack Python",
-        "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book."
+        "name": "SAP MM",
+        "description": "Full-stack development with Python",
+        "icon": "Jsonfolder/Relatedgifs/coding.gif",
+        "alt": "SAP MM icon"
       },
       {
-        "name": "Full-Stack Java",
-        "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book."
+        "name": "SAP SD",
+        "description": "Full-stack development with Java",
+        "icon": "Jsonfolder/Relatedgifs/java (1).gif",
+        "alt": "SAP SD icon"
       },
       {
-        "name": "PowerBI",
-        "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book."
+        "name": "SAP HR/HCM",
+        "description": "Business intelligence with PowerBI",
+        "icon": "Jsonfolder/Relatedgifs/setting.gif",
+        "alt": "SAP HR/HCMicon"
       },
       {
-        "name": "Google Cloud Platform",
-        "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book."
+        "name": "SAP PM",
+        "description": "Learn GCP from experts",
+        "icon": "Jsonfolder/Relatedgifs/exchange.gif",
+        "alt": "SAP PM icon"
       },
       {
-        "name": "Reactjs Framework",
-        "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book."
+        "name": "SAP SCM",
+        "description": "Learn Reactjs from Industry Experts",
+        "icon": "Jsonfolder/Relatedgifs/physics.gif",
+        "alt": "SAP SCM icon"
       }
     ]
   },
@@ -622,44 +862,64 @@
     "title": "Related courses",
     "items": [
       {
-        "name": "Revealing the Power of Data",
-        "description": " Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged."
+        "name": "SAP PP",
+        "description": "Learn AI from scratch",
+        "icon": "Jsonfolder/Relatedgifs/artificial-intelligence (1).gif",
+        "alt": " SAP PP icon"
       },
       {
-        "name": "Human Resource Management System",
-        "description": " Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged."
+        "name": "SAP QM",
+        "description": "Become a data science expert",
+        "icon": "Jsonfolder/Relatedgifs/pie-chart.gif",
+        "alt": "SAP QM icon"
       },
       {
-        "name": "Vehicle Sales Analysis",
-        "description": " Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged."
+        "name": "SAP PS",
+        "description": "Master data analytics skills",
+        "icon": "Jsonfolder/Relatedgifs/science.gif",
+        "alt": "SAP PS icon"
       },
       {
-        "name": "Supply Chain & Logistics Analysis",
-        "description": "I Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged."
+        "name": "SAP SUCCESSFACTOR",
+        "description": "Salesforce developer courses",
+        "icon": "Jsonfolder/Relatedgifs/cloud--network.gif",
+        "alt": "SAP SuccesFactor icon"
       },
       {
-        "name": "Face Detection",
-        "description": " Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged."
+        "name": "SAP FICO",
+        "description": "Design stunning user interfaces",
+        "icon": "Jsonfolder/Relatedgifs/computer.gif",
+        "alt": "SAP FICO icon"
       },
       {
-        "name": "Full-Stack Python",
-        "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book."
+        "name": "SAP MM",
+        "description": "Full-stack development with Python",
+        "icon": "Jsonfolder/Relatedgifs/coding.gif",
+        "alt": "SAP MM icon"
       },
       {
-        "name": "Full-Stack Java",
-        "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book."
+        "name": "SAP SD",
+        "description": "Full-stack development with Java",
+        "icon": "Jsonfolder/Relatedgifs/java (1).gif",
+        "alt": "SAP SD icon"
       },
       {
-        "name": "PowerBI",
-        "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book."
+        "name": "SAP HR/HCM",
+        "description": "Business intelligence with PowerBI",
+        "icon": "Jsonfolder/Relatedgifs/setting.gif",
+        "alt": "SAP HR/HCM icon"
       },
       {
-        "name": "Google Cloud Platform",
-        "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book."
+        "name": "SAP PM",
+        "description": "Learn GCP from experts",
+        "icon": "Jsonfolder/Relatedgifs/exchange.gif",
+        "alt": "SAP PM icon"
       },
       {
-        "name": "Reactjs Framework",
-        "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book."
+        "name": "SAP SCM",
+        "description": "Learn Reactjs from Industry Experts",
+        "icon": "Jsonfolder/Relatedgifs/physics.gif",
+        "alt": "SAP SCM icon"
       }
     ]
   },
@@ -668,44 +928,64 @@
     "title": "Related courses",
     "items": [
       {
-        "name": "Revealing the Power of Data",
-        "description": " Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged."
+        "name": "SAP PP",
+        "description": "Learn AI from scratch",
+        "icon": "Jsonfolder/Relatedgifs/artificial-intelligence (1).gif",
+        "alt": "SAP PP icon"
       },
       {
-        "name": "Human Resource Management System",
-        "description": " Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged."
+        "name": "SAP QM",
+        "description": "Become a data science expert",
+        "icon": "Jsonfolder/Relatedgifs/pie-chart.gif",
+        "alt": "SAP QM icon"
       },
       {
-        "name": "Vehicle Sales Analysis",
-        "description": " Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged."
+        "name": "SAP PS",
+        "description": "Master data analytics skills",
+        "icon": "Jsonfolder/Relatedgifs/science.gif",
+        "alt": "SAP PS icon"
       },
       {
-        "name": "Supply Chain & Logistics Analysis",
-        "description": "I Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged."
+        "name": "SAP SUCCESSFACTOR",
+        "description": "Salesforce developer courses",
+        "icon": "Jsonfolder/Relatedgifs/cloud--network.gif",
+        "alt": "SAP SuccessFactor icon"
       },
       {
-        "name": "Face Detection",
-        "description": " Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged."
+        "name": "SAP EWM",
+        "description": "Design stunning user interfaces",
+        "icon": "Jsonfolder/Relatedgifs/computer.gif",
+        "alt": "SAP EWM icon"
       },
       {
-        "name": "Full-Stack Python",
-        "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book."
+        "name": "SAP MM",
+        "description": "Full-stack development with Python",
+        "icon": "Jsonfolder/Relatedgifs/coding.gif",
+        "alt": "SAP MM icon"
       },
       {
-        "name": "Full-Stack Java",
-        "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book."
+        "name": "SAP SD",
+        "description": "Full-stack development with Java",
+        "icon": "Jsonfolder/Relatedgifs/java (1).gif",
+        "alt": "SAP SD icon"
       },
       {
-        "name": "PowerBI",
-        "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book."
+        "name": "SAP HR/HCM",
+        "description": "Business intelligence with PowerBI",
+        "icon": "Jsonfolder/Relatedgifs/setting.gif",
+        "alt": "SAP HR/HCM icon"
       },
       {
-        "name": "Google Cloud Platform",
-        "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book."
+        "name": "SAP PM",
+        "description": "Learn GCP from experts",
+        "icon": "Jsonfolder/Relatedgifs/exchange.gif",
+        "alt": "SAP PM icon"
       },
       {
-        "name": "Reactjs Framework",
-        "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book."
+        "name": "SAP SCM",
+        "description": "Learn Reactjs from Industry Experts",
+        "icon": "Jsonfolder/Relatedgifs/physics.gif",
+        "alt": "SAP SCM icon"
       }
     ]
   },
@@ -714,44 +994,64 @@
     "title": "Related courses",
     "items": [
       {
-        "name": "Revealing the Power of Data",
-        "description": " Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged."
+        "name": "SAP ABAP",
+        "description": "Learn AI from scratch",
+        "icon": "Jsonfolder/Relatedgifs/artificial-intelligence (1).gif",
+        "alt": "SAP ABAP icon"
       },
       {
-        "name": "Human Resource Management System",
-        "description": " Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged."
+        "name": "SAP NETWEAVER",
+        "description": "Become a data science expert",
+        "icon": "Jsonfolder/Relatedgifs/pie-chart.gif",
+        "alt": "SAP NETWEAVER icon"
       },
       {
-        "name": "Vehicle Sales Analysis",
-        "description": " Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged."
+        "name": "SAP BW/BI",
+        "description": "Master data analytics skills",
+        "icon": "Jsonfolder/Relatedgifs/science.gif",
+        "alt": "SAP BI icon"
       },
       {
-        "name": "Supply Chain & Logistics Analysis",
-        "description": "I Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged."
+        "name": "SAP BASIS",
+        "description": "Salesforce developer courses",
+        "icon": "Jsonfolder/Relatedgifs/cloud--network.gif",
+        "alt": "SAP BASIS icon"
       },
       {
-        "name": "Face Detection",
-        "description": " Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged."
+        "name": "SAP FICO",
+        "description": "Design stunning user interfaces",
+        "icon": "Jsonfolder/Relatedgifs/computer.gif",
+        "alt": "SAP FICO icon"
       },
       {
-        "name": "Full-Stack Python",
-        "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book."
+        "name": "SAP MM",
+        "description": "Full-stack development with Python",
+        "icon": "Jsonfolder/Relatedgifs/coding.gif",
+        "alt": "SAP MM icon"
       },
       {
-        "name": "Full-Stack Java",
-        "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book."
+        "name": "SAP SD",
+        "description": "Full-stack development with Java",
+        "icon": "Jsonfolder/Relatedgifs/java (1).gif",
+        "alt": "SAP SD icon"
       },
       {
-        "name": "PowerBI",
-        "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book."
+        "name": "SAP HR/HCM",
+        "description": "Business intelligence with PowerBI",
+        "icon": "Jsonfolder/Relatedgifs/setting.gif",
+        "alt": "SAP HR/HCM icon"
       },
       {
-        "name": "Google Cloud Platform",
-        "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book."
+        "name": "SAP PM",
+        "description": "Learn GCP from experts",
+        "icon": "Jsonfolder/Relatedgifs/exchange.gif",
+        "alt": "SAP PM icon"
       },
       {
-        "name": "Reactjs Framework",
-        "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book."
+        "name": "SAP SCM",
+        "description": "Learn Reactjs from Industry Experts",
+        "icon": "Jsonfolder/Relatedgifs/physics.gif",
+        "alt": "SAP SCM icon"
       }
     ]
   },
@@ -760,44 +1060,64 @@
     "title": "Related courses",
     "items": [
       {
-        "name": "Revealing the Power of Data",
-        "description": " Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged."
+        "name": "SAP PP",
+        "description": "Learn AI from scratch",
+        "icon": "Jsonfolder/Relatedgifs/artificial-intelligence (1).gif",
+        "alt": " SAP PP icon"
       },
       {
-        "name": "Human Resource Management System",
-        "description": " Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged."
+        "name": "SAP QM",
+        "description": "Become a data science expert",
+        "icon": "Jsonfolder/Relatedgifs/pie-chart.gif",
+        "alt": "SAP QM icon"
       },
       {
-        "name": "Vehicle Sales Analysis",
-        "description": " Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged."
+        "name": "SAP PS",
+        "description": "Master data analytics skills",
+        "icon": "Jsonfolder/Relatedgifs/science.gif",
+        "alt": "SAP PS icon"
       },
       {
-        "name": "Supply Chain & Logistics Analysis",
-        "description": "I Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged."
+        "name": "SAP SUCCESSFACTOR",
+        "description": "Salesforce developer courses",
+        "icon": "Jsonfolder/Relatedgifs/cloud--network.gif",
+        "alt": "SAP SuccessFactor icon"
       },
       {
-        "name": "Face Detection",
-        "description": " Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged."
+        "name": "SAP FICO",
+        "description": "Design stunning user interfaces",
+        "icon": "Jsonfolder/Relatedgifs/computer.gif",
+        "alt": "SAP FICO icon"
       },
       {
-        "name": "Full-Stack Python",
-        "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book."
+        "name": "SAP MM",
+        "description": "Full-stack development with Python",
+        "icon": "Jsonfolder/Relatedgifs/coding.gif",
+        "alt": "SAP MM icon"
       },
       {
-        "name": "Full-Stack Java",
-        "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book."
+        "name": "SAP SD",
+        "description": "Full-stack development with Java",
+        "icon": "Jsonfolder/Relatedgifs/java (1).gif",
+        "alt": "SAP SD icon"
       },
       {
-        "name": "PowerBI",
-        "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book."
+        "name": "SAP EWM",
+        "description": "Business intelligence with PowerBI",
+        "icon": "Jsonfolder/Relatedgifs/setting.gif",
+        "alt": "SAP EWM icon"
       },
       {
-        "name": "Google Cloud Platform",
-        "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book."
+        "name": "SAP PM",
+        "description": "Learn GCP from experts",
+        "icon": "Jsonfolder/Relatedgifs/exchange.gif",
+        "alt": "SAP PM icon"
       },
       {
-        "name": "Reactjs Framework",
-        "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book."
+        "name": "SAP SCM",
+        "description": "Learn Reactjs from Industry Experts",
+        "icon": "Jsonfolder/Relatedgifs/physics.gif",
+        "alt": "SAP SCM icon"
       }
     ]
   },
@@ -806,44 +1126,64 @@
     "title": "Related courses",
     "items": [
       {
-        "name": "Revealing the Power of Data",
-        "description": " Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged."
+        "name": "SAP PP",
+        "description": "Learn AI from scratch",
+        "icon": "Jsonfolder/Relatedgifs/artificial-intelligence (1).gif",
+        "alt": " SAP PP icon"
       },
       {
-        "name": "Human Resource Management System",
-        "description": " Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged."
+        "name": "SAP QM",
+        "description": "Become a data science expert",
+        "icon": "Jsonfolder/Relatedgifs/pie-chart.gif",
+        "alt": "SAP QM icon"
       },
       {
-        "name": "Vehicle Sales Analysis",
-        "description": " Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged."
+        "name": "SAP PS",
+        "description": "Master data analytics skills",
+        "icon": "Jsonfolder/Relatedgifs/science.gif",
+        "alt": "SAP PS icon"
       },
       {
-        "name": "Supply Chain & Logistics Analysis",
-        "description": "I Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged."
+        "name": "SAP SUCCESSFACTOR",
+        "description": "Salesforce developer courses",
+        "icon": "Jsonfolder/Relatedgifs/cloud--network.gif",
+        "alt": "SAP SuccessFactor icon"
       },
       {
-        "name": "Face Detection",
-        "description": " Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged."
+        "name": "SAP FICO",
+        "description": "Design stunning user interfaces",
+        "icon": "Jsonfolder/Relatedgifs/computer.gif",
+        "alt": "SAP FICO icon"
       },
       {
-        "name": "Full-Stack Python",
-        "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book."
+        "name": "SAP EWM",
+        "description": "Full-stack development with Python",
+        "icon": "Jsonfolder/Relatedgifs/coding.gif",
+        "alt": "SAP EWM icon"
       },
       {
-        "name": "Full-Stack Java",
-        "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book."
+        "name": "SAP SD",
+        "description": "Full-stack development with Java",
+        "icon": "Jsonfolder/Relatedgifs/java (1).gif",
+        "alt": "SAP SD icon"
       },
       {
-        "name": "PowerBI",
-        "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book."
+        "name": "SAP HR/HCM",
+        "description": "Business intelligence with PowerBI",
+        "icon": "Jsonfolder/Relatedgifs/setting.gif",
+        "alt": "SAP HR/HCM icon"
       },
       {
-        "name": "Google Cloud Platform",
-        "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book."
+        "name": "SAP PM",
+        "description": "Learn GCP from experts",
+        "icon": "Jsonfolder/Relatedgifs/exchange.gif",
+        "alt": "SAP PM icon"
       },
       {
-        "name": "Reactjs Framework",
-        "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book."
+        "name": "SAP SCM",
+        "description": "Learn Reactjs from Industry Experts",
+        "icon": "Jsonfolder/Relatedgifs/physics.gif",
+        "alt": "SAP SCM icon"
       }
     ]
   },
@@ -852,44 +1192,64 @@
     "title": "Related courses",
     "items": [
       {
-        "name": "Revealing the Power of Data",
-        "description": " Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged."
+        "name": "SAP PP",
+        "description": "Learn AI from scratch",
+        "icon": "Jsonfolder/Relatedgifs/artificial-intelligence (1).gif",
+        "alt": "SAP PP icon"
       },
       {
-        "name": "Human Resource Management System",
-        "description": " Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged."
+        "name": "SAP QM",
+        "description": "Become a data science expert",
+        "icon": "Jsonfolder/Relatedgifs/pie-chart.gif",
+        "alt": "SAP QM icon"
       },
       {
-        "name": "Vehicle Sales Analysis",
-        "description": " Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged."
+        "name": "SAP PS",
+        "description": "Master data analytics skills",
+        "icon": "Jsonfolder/Relatedgifs/science.gif",
+        "alt": "SAP PS icon"
       },
       {
-        "name": "Supply Chain & Logistics Analysis",
-        "description": "I Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged."
+        "name": "SAP SUCCESSFACTOR",
+        "description": "Salesforce developer courses",
+        "icon": "Jsonfolder/Relatedgifs/cloud--network.gif",
+        "alt": "SAP SuccessFactor icon"
       },
       {
-        "name": "Face Detection",
-        "description": " Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged."
+        "name": "SAP FICO",
+        "description": "Design stunning user interfaces",
+        "icon": "Jsonfolder/Relatedgifs/computer.gif",
+        "alt": "SAP FICO icon"
       },
       {
-        "name": "Full-Stack Python",
-        "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book."
+        "name": "SAP MM",
+        "description": "Full-stack development with Python",
+        "icon": "Jsonfolder/Relatedgifs/coding.gif",
+        "alt": "SAP MM icon"
       },
       {
-        "name": "Full-Stack Java",
-        "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book."
+        "name": "SAP SD",
+        "description": "Full-stack development with Java",
+        "icon": "Jsonfolder/Relatedgifs/java (1).gif",
+        "alt": "SAP SD icon"
       },
       {
-        "name": "PowerBI",
-        "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book."
+        "name": "SAP HR/HCM",
+        "description": "Business intelligence with PowerBI",
+        "icon": "Jsonfolder/Relatedgifs/setting.gif",
+        "alt": "SAP HR/HCM icon"
       },
       {
-        "name": "Google Cloud Platform",
-        "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book."
+        "name": "SAP PM",
+        "description": "Learn GCP from experts",
+        "icon": "Jsonfolder/Relatedgifs/exchange.gif",
+        "alt": "SAP PM icon"
       },
       {
-        "name": "Reactjs Framework",
-        "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book."
+        "name": "SAP SCM",
+        "description": "Learn Reactjs from Industry Experts",
+        "icon": "Jsonfolder/Relatedgifs/physics.gif",
+        "alt": "SAP SCM icon"
       }
     ]
   },
@@ -898,44 +1258,64 @@
     "title": "Related courses",
     "items": [
       {
-        "name": "Revealing the Power of Data",
-        "description": " Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged."
+        "name": "SAP PP",
+        "description": "Learn AI from scratch",
+        "icon": "Jsonfolder/Relatedgifs/artificial-intelligence (1).gif",
+        "alt": " SAP PP icon"
       },
       {
-        "name": "Human Resource Management System",
-        "description": " Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged."
+        "name": "SAP QM",
+        "description": "Become a data science expert",
+        "icon": "Jsonfolder/Relatedgifs/pie-chart.gif",
+        "alt": "SAP QM icon"
       },
       {
-        "name": "Vehicle Sales Analysis",
-        "description": " Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged."
+        "name": "SAP PS",
+        "description": "Master data analytics skills",
+        "icon": "Jsonfolder/Relatedgifs/science.gif",
+        "alt": "SAP PS icon"
       },
       {
-        "name": "Supply Chain & Logistics Analysis",
-        "description": "I Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged."
+        "name": "SAP SUCCESSFACTOR",
+        "description": "Salesforce developer courses",
+        "icon": "Jsonfolder/Relatedgifs/cloud--network.gif",
+        "alt": "SAP SuccessFactor icon"
       },
       {
-        "name": "Face Detection",
-        "description": " Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged."
+        "name": "SAP FICO",
+        "description": "Design stunning user interfaces",
+        "icon": "Jsonfolder/Relatedgifs/computer.gif",
+        "alt": "SAP FICO icon"
       },
       {
-        "name": "Full-Stack Python",
-        "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book."
+        "name": "SAP MM",
+        "description": "Full-stack development with Python",
+        "icon": "Jsonfolder/Relatedgifs/coding.gif",
+        "alt": "SAP MM icon"
       },
       {
-        "name": "Full-Stack Java",
-        "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book."
+        "name": "SAP SD",
+        "description": "Full-stack development with Java",
+        "icon": "Jsonfolder/Relatedgifs/java (1).gif",
+        "alt": "SAP SD icon"
       },
       {
-        "name": "PowerBI",
-        "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book."
+        "name": "SAP HR/HCM",
+        "description": "Business intelligence with PowerBI",
+        "icon": "Jsonfolder/Relatedgifs/setting.gif",
+        "alt": "SAP HR/HCM icon"
       },
       {
-        "name": "Google Cloud Platform",
-        "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book."
+        "name": "SAP EWM",
+        "description": "Learn GCP from experts",
+        "icon": "Jsonfolder/Relatedgifs/exchange.gif",
+        "alt": "SAP EWM icon"
       },
       {
-        "name": "Reactjs Framework",
-        "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book."
+        "name": "SAP SCM",
+        "description": "Learn Reactjs from Industry Experts",
+        "icon": "Jsonfolder/Relatedgifs/physics.gif",
+        "alt": "SAP SCM icon"
       }
     ]
   },
@@ -944,44 +1324,64 @@
     "title": "Related courses",
     "items": [
       {
-        "name": "Revealing the Power of Data",
-        "description": " Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged."
+        "name": "SAP EWM",
+        "description": "Learn AI from scratch",
+        "icon": "Jsonfolder/Relatedgifs/artificial-intelligence (1).gif",
+        "alt": "SAP EWM icon"
       },
       {
-        "name": "Human Resource Management System",
-        "description": " Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged."
+        "name": "SAP QM",
+        "description": "Become a data science expert",
+        "icon": "Jsonfolder/Relatedgifs/pie-chart.gif",
+        "alt": "SAP QM icon"
       },
       {
-        "name": "Vehicle Sales Analysis",
-        "description": " Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged."
+        "name": "SAP PS",
+        "description": "Master data analytics skills",
+        "icon": "Jsonfolder/Relatedgifs/science.gif",
+        "alt": "SAP PS icon"
       },
       {
-        "name": "Supply Chain & Logistics Analysis",
-        "description": "I Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged."
+        "name": "SAP SUCCESSFACTOR",
+        "description": "Salesforce developer courses",
+        "icon": "Jsonfolder/Relatedgifs/cloud--network.gif",
+        "alt": "SAP SuccessFactor icon"
       },
       {
-        "name": "Face Detection",
-        "description": " Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged."
+        "name": "SAP FICO",
+        "description": "Design stunning user interfaces",
+        "icon": "Jsonfolder/Relatedgifs/computer.gif",
+        "alt": "SAP FICO icon"
       },
       {
-        "name": "Full-Stack Python",
-        "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book."
+        "name": "SAP MM",
+        "description": "Full-stack development with Python",
+        "icon": "Jsonfolder/Relatedgifs/coding.gif",
+        "alt": "SAP MM icon"
       },
       {
-        "name": "Full-Stack Java",
-        "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book."
+        "name": "SAP SD",
+        "description": "Full-stack development with Java",
+        "icon": "Jsonfolder/Relatedgifs/java (1).gif",
+        "alt": "SAP SD icon"
       },
       {
-        "name": "PowerBI",
-        "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book."
+        "name": "SAP HR/HCM",
+        "description": "Business intelligence with PowerBI",
+        "icon": "Jsonfolder/Relatedgifs/setting.gif",
+        "alt": "SAP HR/HCM icon"
       },
       {
-        "name": "Google Cloud Platform",
-        "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book."
+        "name": "SAP PM",
+        "description": "Learn GCP from experts",
+        "icon": "Jsonfolder/Relatedgifs/exchange.gif",
+        "alt": "SAP PM icon"
       },
       {
-        "name": "Reactjs Framework",
-        "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book."
+        "name": "SAP SCM",
+        "description": "Learn Reactjs from Industry Experts",
+        "icon": "Jsonfolder/Relatedgifs/physics.gif",
+        "alt": "SAP SCM icon"
       }
     ]
   },
@@ -990,90 +1390,130 @@
     "title": "Related courses",
     "items": [
       {
-        "name": "Revealing the Power of Data",
-        "description": " Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged."
+        "name": "SAP PP",
+        "description": "Learn AI from scratch",
+        "icon": "Jsonfolder/Relatedgifs/artificial-intelligence (1).gif",
+        "alt": " SAP MM icon"
       },
       {
-        "name": "Human Resource Management System",
-        "description": " Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged."
+        "name": "SAP QM",
+        "description": "Become a data science expert",
+        "icon": "Jsonfolder/Relatedgifs/pie-chart.gif",
+        "alt": "SAP QM icon"
       },
       {
-        "name": "Vehicle Sales Analysis",
-        "description": " Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged."
+        "name": "SAP EWM",
+        "description": "Master data analytics skills",
+        "icon": "Jsonfolder/Relatedgifs/science.gif",
+        "alt": "SAP EWM icon"
       },
       {
-        "name": "Supply Chain & Logistics Analysis",
-        "description": "I Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged."
+        "name": "SAP SUCCESSFACTOR",
+        "description": "Salesforce developer courses",
+        "icon": "Jsonfolder/Relatedgifs/cloud--network.gif",
+        "alt": "SAP SuccessFactor icon"
       },
       {
-        "name": "Face Detection",
-        "description": " Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged."
+        "name": "SAP FICO",
+        "description": "Design stunning user interfaces",
+        "icon": "Jsonfolder/Relatedgifs/computer.gif",
+        "alt": "SAP FICO icon"
       },
       {
-        "name": "Full-Stack Python",
-        "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book."
+        "name": "SAP MM",
+        "description": "Full-stack development with Python",
+        "icon": "Jsonfolder/Relatedgifs/coding.gif",
+        "alt": "SAP MM icon"
       },
       {
-        "name": "Full-Stack Java",
-        "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book."
+        "name": "SAP SD",
+        "description": "Full-stack development with Java",
+        "icon": "Jsonfolder/Relatedgifs/java (1).gif",
+        "alt": "SAP SD icon"
       },
       {
-        "name": "PowerBI",
-        "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book."
+        "name": "SAP HR/HCM",
+        "description": "Business intelligence with PowerBI",
+        "icon": "Jsonfolder/Relatedgifs/setting.gif",
+        "alt": "SAP HR/HCM icon"
       },
       {
-        "name": "Google Cloud Platform",
-        "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book."
+        "name": "SAP PM",
+        "description": "Learn GCP from experts",
+        "icon": "Jsonfolder/Relatedgifs/exchange.gif",
+        "alt": "SAP PM icon"
       },
       {
-        "name": "Reactjs Framework",
-        "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book."
+        "name": "SAP SCM",
+        "description": "Learn Reactjs from Industry Experts",
+        "icon": "Jsonfolder/Relatedgifs/physics.gif",
+        "alt": "SAP SCM icon"
       }
     ]
   },
   "QMrelcourses": {
     "id": "QMrelcourses",
     "title": "Related courses",
-    "items": [
+    "items":[
       {
-        "name": "Revealing the Power of Data",
-        "description": " Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged."
+        "name": "SAP PP",
+        "description": "Learn AI from scratch",
+        "icon": "Jsonfolder/Relatedgifs/artificial-intelligence (1).gif",
+        "alt": "SAP PP icon"
       },
       {
-        "name": "Human Resource Management System",
-        "description": " Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged."
+        "name": "SAP EWM",
+        "description": "Become a data science expert",
+        "icon": "Jsonfolder/Relatedgifs/pie-chart.gif",
+        "alt": "SAP EWM icon"
       },
       {
-        "name": "Vehicle Sales Analysis",
-        "description": " Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged."
+        "name": "SAP PS",
+        "description": "Master data analytics skills",
+        "icon": "Jsonfolder/Relatedgifs/science.gif",
+        "alt": "SAP PS icon"
       },
       {
-        "name": "Supply Chain & Logistics Analysis",
-        "description": "I Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged."
+        "name": "SAP SUCCESSFACTOR",
+        "description": "Salesforce developer courses",
+        "icon": "Jsonfolder/Relatedgifs/cloud--network.gif",
+        "alt": "SAP SuccessFactor icon"
       },
       {
-        "name": "Face Detection",
-        "description": " Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged."
+        "name": "SAP FICO",
+        "description": "Design stunning user interfaces",
+        "icon": "Jsonfolder/Relatedgifs/computer.gif",
+        "alt": "SAP FICO icon"
       },
       {
-        "name": "Full-Stack Python",
-        "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book."
+        "name": "SAP MM",
+        "description": "Full-stack development with Python",
+        "icon": "Jsonfolder/Relatedgifs/coding.gif",
+        "alt": "SAP MM icon"
       },
       {
-        "name": "Full-Stack Java",
-        "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book."
+        "name": "SAP SD",
+        "description": "Full-stack development with Java",
+        "icon": "Jsonfolder/Relatedgifs/java (1).gif",
+        "alt": "SAP SD icon"
       },
       {
-        "name": "PowerBI",
-        "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book."
+        "name": "SAP HR/HCM",
+        "description": "Business intelligence with PowerBI",
+        "icon": "Jsonfolder/Relatedgifs/setting.gif",
+        "alt": "SAP HRHCM icon"
       },
       {
-        "name": "Google Cloud Platform",
-        "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book."
+        "name": "SAP PM",
+        "description": "Learn GCP from experts",
+        "icon": "Jsonfolder/Relatedgifs/exchange.gif",
+        "alt": "SAP PM icon"
       },
       {
-        "name": "Reactjs Framework",
-        "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book."
+        "name": "SAP SCM",
+        "description": "Learn Reactjs from Industry Experts",
+        "icon": "Jsonfolder/Relatedgifs/physics.gif",
+        "alt": "SAP SCM icon"
       }
     ]
   },
@@ -1082,44 +1522,64 @@
     "title": "Related courses",
     "items": [
       {
-        "name": "Revealing the Power of Data",
-        "description": " Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged."
+        "name": "SAP FICO",
+        "description": "Learn SAP FICO from scratch",
+        "icon": "Jsonfolder/Relatedgifs/artificial-intelligence (1).gif",
+        "alt": "SAP FICO icon"
       },
       {
-        "name": "Human Resource Management System",
-        "description": " Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged."
+        "name": "SAP MM",
+        "description": "Become a SAP MM expert",
+        "icon": "Jsonfolder/Relatedgifs/pie-chart.gif",
+        "alt": "SAP MM icon"
       },
       {
-        "name": "Vehicle Sales Analysis",
-        "description": " Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged."
+        "name": "SAP SD",
+        "description": "Master in SAP SD",
+        "icon": "Jsonfolder/Relatedgifs/science.gif",
+        "alt": "SAP SD icon"
       },
       {
-        "name": "Supply Chain & Logistics Analysis",
-        "description": "I Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged."
+        "name": "SAP HR/HCM",
+        "description": "Learn SAP HR/HCM from Experts ",
+        "icon": "Jsonfolder/Relatedgifs/cloud--network.gif",
+        "alt": "SAP HR/HCM icon"
       },
       {
-        "name": "Face Detection",
-        "description": " Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged."
+        "name": "SAP PP",
+        "description": "SAP PP",
+        "icon": "Jsonfolder/Relatedgifs/computer.gif",
+        "alt": "SAP PP icon"
       },
       {
-        "name": "Full-Stack Python",
-        "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book."
+        "name": "SAP QM",
+        "description": "Expertise in SAP QM",
+        "icon": "Jsonfolder/Relatedgifs/coding.gif",
+        "alt": "SAP QM icon"
       },
       {
-        "name": "Full-Stack Java",
-        "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book."
+        "name": "SAP PM",
+        "description": "Learn SAP PM from Experts",
+        "icon": "Jsonfolder/Relatedgifs/science.gif",
+        "alt": "SAP PM icon"
       },
       {
-        "name": "PowerBI",
-        "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book."
+        "name": "SAP PS",
+        "description": "Learn and Master in SAP PS",
+        "icon": "Jsonfolder/Relatedgifs/setting.gif",
+        "alt": "Chat GPT icon"
       },
       {
-        "name": "Google Cloud Platform",
-        "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book."
+        "name": "SAP EWM",
+        "description": "Learn SAP EWM from experts",
+        "icon": "Jsonfolder/Relatedgifs/exchange.gif",
+        "alt": "SAP EWM icon"
       },
       {
-        "name": "Reactjs Framework",
-        "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book."
+        "name": "SAP SuccessFactor",
+        "description": "Learn SAP Success Factor from Industry Experts",
+        "icon": "Jsonfolder/Relatedgifs/physics.gif",
+        "alt": "SAP SuccessFactor icon"
       }
     ]
   },
@@ -1128,44 +1588,64 @@
     "title": "Related courses",
     "items": [
       {
-        "name": "Revealing the Power of Data",
-        "description": " Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged."
+        "name": "SAP FICO",
+        "description": "Learn SAP FICO from scratch",
+        "icon": "Jsonfolder/Relatedgifs/artificial-intelligence (1).gif",
+        "alt": "SAP FICO icon"
       },
       {
-        "name": "Human Resource Management System",
-        "description": " Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged."
+        "name": "SAP MM",
+        "description": "Become a SAP MM expert",
+        "icon": "Jsonfolder/Relatedgifs/pie-chart.gif",
+        "alt": "SAP MM icon"
       },
       {
-        "name": "Vehicle Sales Analysis",
-        "description": " Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged."
+        "name": "SAP SusccessFactor",
+        "description": "Master in SAP Success Factor",
+        "icon": "Jsonfolder/Relatedgifs/science.gif",
+        "alt": "SAP SuccessFactor icon"
       },
       {
-        "name": "Supply Chain & Logistics Analysis",
-        "description": "I Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged."
+        "name": "SAP HR/HCM",
+        "description": "Learn SAP HR/HCM from Experts ",
+        "icon": "Jsonfolder/Relatedgifs/cloud--network.gif",
+        "alt": "SAP HR/HCM icon"
       },
       {
-        "name": "Face Detection",
-        "description": " Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged."
+        "name": "SAP PP",
+        "description": "SAP PP",
+        "icon": "Jsonfolder/Relatedgifs/computer.gif",
+        "alt": "SAP PP icon"
       },
       {
-        "name": "Full-Stack Python",
-        "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book."
+        "name": "SAP QM",
+        "description": "Expertise in SAP QM",
+        "icon": "Jsonfolder/Relatedgifs/coding.gif",
+        "alt": "SAP QM icon"
       },
       {
-        "name": "Full-Stack Java",
-        "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book."
+        "name": "SAP PM",
+        "description": "Learn SAP PM from Experts",
+        "icon": "Jsonfolder/Relatedgifs/science.gif",
+        "alt": "SAP PM icon"
       },
       {
-        "name": "PowerBI",
-        "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book."
+        "name": "SAP PS",
+        "description": "Learn and Master in SAP PS",
+        "icon": "Jsonfolder/Relatedgifs/setting.gif",
+        "alt": "Chat GPT icon"
       },
       {
-        "name": "Google Cloud Platform",
-        "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book."
+        "name": "SAP EWM",
+        "description": "Learn SAP EWM from experts",
+        "icon": "Jsonfolder/Relatedgifs/exchange.gif",
+        "alt": "SAP EWM icon"
       },
       {
-        "name": "Reactjs Framework",
-        "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book."
+        "name": "SAP SCM",
+        "description": "Learn SAP SCM from Industry Experts",
+        "icon": "Jsonfolder/Relatedgifs/physics.gif",
+        "alt": "SAP SCM icon"
       }
     ]
   },
@@ -1174,44 +1654,262 @@
     "title": "Related courses",
     "items": [
       {
-        "name": "Revealing the Power of Data",
-        "description": " Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged."
+        "name": "SAP FICO",
+        "description": "Learn SAP FICO from scratch",
+        "icon": "Jsonfolder/Relatedgifs/artificial-intelligence (1).gif",
+        "alt": "SAP FICO icon"
       },
       {
-        "name": "Human Resource Management System",
-        "description": " Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged."
+        "name": "SAP MM",
+        "description": "Become a SAP MM expert",
+        "icon": "Jsonfolder/Relatedgifs/pie-chart.gif",
+        "alt": "SAP MM icon"
       },
       {
-        "name": "Vehicle Sales Analysis",
-        "description": " Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged."
+        "name": "SAP SD",
+        "description": "Master in SAP SD",
+        "icon": "Jsonfolder/Relatedgifs/science.gif",
+        "alt": "SAP SD icon"
       },
       {
-        "name": "Supply Chain & Logistics Analysis",
-        "description": "I Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged."
+        "name": "SAP HR/HCM",
+        "description": "Learn SAP HR/HCM from Experts ",
+        "icon": "Jsonfolder/Relatedgifs/cloud--network.gif",
+        "alt": "SAP HR/HCM icon"
       },
       {
-        "name": "Face Detection",
-        "description": " Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged."
+        "name": "SAP PP",
+        "description": "SAP PP",
+        "icon": "Jsonfolder/Relatedgifs/computer.gif",
+        "alt": "SAP PP icon"
+      },
+      {
+        "name": "SAP QM",
+        "description": "Expertise in SAP QM",
+        "icon": "Jsonfolder/Relatedgifs/coding.gif",
+        "alt": "SAP QM icon"
+      },
+      {
+        "name": "SAP PM",
+        "description": "Learn SAP PM from Experts",
+        "icon": "Jsonfolder/Relatedgifs/science.gif",
+        "alt": "SAP PM icon"
+      },
+      {
+        "name": "SAP PS",
+        "description": "Learn and Master in SAP PS",
+        "icon": "Jsonfolder/Relatedgifs/setting.gif",
+        "alt": "Chat GPT icon"
+      },
+      {
+        "name": "SAP EWM",
+        "description": "Learn SAP EWM from experts",
+        "icon": "Jsonfolder/Relatedgifs/exchange.gif",
+        "alt": "SAP EWM icon"
+      },
+      {
+        "name": "SAP SCM",
+        "description": "Learn SAP SCM from Industry Experts",
+        "icon": "Jsonfolder/Relatedgifs/physics.gif",
+        "alt": "SAP SCM icon"
+      }
+    ]
+  },
+  "POWERBIrelcourses": {
+    "id": "Succrelcourses",
+    "title": "Related courses",
+    "items": [
+      {
+        "name": "SQL",
+        "description": "Learn SQL from scratch",
+        "icon": "Jsonfolder/Relatedgifs/artificial-intelligence (1).gif",
+        "alt": "SQL icon"
+      },
+      {
+        "name": "Tableau",
+        "description": "Become a Tableau expert",
+        "icon": "Jsonfolder/Relatedgifs/pie-chart.gif",
+        "alt": "Tableau icon"
+      },
+      {
+        "name": "Masters in Data Analytics",
+        "description": "Master data analytics skills",
+        "icon": "Jsonfolder/Relatedgifs/science.gif",
+        "alt": "Data Analytics icon"
+      },
+      {
+        "name": "Salesforce",
+        "description": "Salesforce developer courses",
+        "icon": "Jsonfolder/Relatedgifs/cloud--network.gif",
+        "alt": "Salesforce icon"
+      },
+      {
+        "name": "UI/UX Design",
+        "description": "Design stunning user interfaces",
+        "icon": "Jsonfolder/Relatedgifs/computer.gif",
+        "alt": "UI/UX icon"
       },
       {
         "name": "Full-Stack Python",
-        "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book."
+        "description": "Full-stack development with Python",
+        "icon": "Jsonfolder/Relatedgifs/coding.gif",
+        "alt": "Full Stack icon"
       },
       {
-        "name": "Full-Stack Java",
-        "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book."
+        "name": "Master in Data Science",
+        "description": "Full-stack development with Java",
+        "icon": "Jsonfolder/Relatedgifs/science.gif",
+        "alt": "Data Science icon"
       },
       {
-        "name": "PowerBI",
-        "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book."
+        "name": "Chat GPT & AI",
+        "description": "Learn Chat GPT & AI from Experts",
+        "icon": "Jsonfolder/Relatedgifs/setting.gif",
+        "alt": "Chat GPT icon"
       },
       {
-        "name": "Google Cloud Platform",
-        "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book."
+        "name": "Mern Stack",
+        "description": "Learn Mern Stack from experts",
+        "icon": "Jsonfolder/Relatedgifs/exchange.gif",
+        "alt": "Mern Stack icon"
       },
       {
         "name": "Reactjs Framework",
-        "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book."
+        "description": "Learn Reactjs from Industry Experts",
+        "icon": "Jsonfolder/Relatedgifs/physics.gif",
+        "alt": "Reactjs icon"
+      }
+    ]
+  },
+  "TABLEAUrelcourses": {
+    "id": "Succrelcourses",
+    "title": "Related courses",
+    "items": [
+      {
+        "name": "Power BI",
+        "description": "Learn Power BI from scratch",
+        "icon": "Jsonfolder/Relatedgifs/artificial-intelligence (1).gif",
+        "alt": "Power BI icon"
+      },
+      {
+        "name": "SQL",
+        "description": "Become a SQL expert",
+        "icon": "Jsonfolder/Relatedgifs/pie-chart.gif",
+        "alt": "SQL icon"
+      },
+      {
+        "name": "Masters in Data Analytics",
+        "description": "Master data analytics skills",
+        "icon": "Jsonfolder/Relatedgifs/science.gif",
+        "alt": "Data Analytics icon"
+      },
+      {
+        "name": "Salesforce",
+        "description": "Salesforce developer courses",
+        "icon": "Jsonfolder/Relatedgifs/cloud--network.gif",
+        "alt": "Salesforce icon"
+      },
+      {
+        "name": "UI/UX Design",
+        "description": "Design stunning user interfaces",
+        "icon": "Jsonfolder/Relatedgifs/computer.gif",
+        "alt": "UI/UX icon"
+      },
+      {
+        "name": "Full-Stack Python",
+        "description": "Full-stack development with Python",
+        "icon": "Jsonfolder/Relatedgifs/coding.gif",
+        "alt": "Full Stack icon"
+      },
+      {
+        "name": "Master in Data Science",
+        "description": "Full-stack development with Java",
+        "icon": "Jsonfolder/Relatedgifs/science.gif",
+        "alt": "Data Science icon"
+      },
+      {
+        "name": "Chat GPT & AI",
+        "description": "Learn Chat GPT & AI from Experts",
+        "icon": "Jsonfolder/Relatedgifs/setting.gif",
+        "alt": "Chat GPT icon"
+      },
+      {
+        "name": "Mern Stack",
+        "description": "Learn Mern Stack from experts",
+        "icon": "Jsonfolder/Relatedgifs/exchange.gif",
+        "alt": "Mern Stack icon"
+      },
+      {
+        "name": "Reactjs Framework",
+        "description": "Learn Reactjs from Industry Experts",
+        "icon": "Jsonfolder/Relatedgifs/physics.gif",
+        "alt": "Reactjs icon"
+      }
+    ]
+  },
+  "SQLrelcourses": {
+    "id": "Succrelcourses",
+    "title": "Related courses",
+    "items": [
+      {
+        "name": "Power BI",
+        "description": "Learn Power BI from scratch",
+        "icon": "Jsonfolder/Relatedgifs/artificial-intelligence (1).gif",
+        "alt": "Power BI icon"
+      },
+      {
+        "name": "Tableau",
+        "description": "Become a Tableau expert",
+        "icon": "Jsonfolder/Relatedgifs/pie-chart.gif",
+        "alt": "Tableau icon"
+      },
+      {
+        "name": "Masters in Data Analytics",
+        "description": "Master data analytics skills",
+        "icon": "Jsonfolder/Relatedgifs/science.gif",
+        "alt": "Data Analytics icon"
+      },
+      {
+        "name": "Salesforce",
+        "description": "Salesforce developer courses",
+        "icon": "Jsonfolder/Relatedgifs/cloud--network.gif",
+        "alt": "Salesforce icon"
+      },
+      {
+        "name": "UI/UX Design",
+        "description": "Design stunning user interfaces",
+        "icon": "Jsonfolder/Relatedgifs/computer.gif",
+        "alt": "UI/UX icon"
+      },
+      {
+        "name": "Full-Stack Python",
+        "description": "Full-stack development with Python",
+        "icon": "Jsonfolder/Relatedgifs/coding.gif",
+        "alt": "Full Stack icon"
+      },
+      {
+        "name": "Master in Data Science",
+        "description": "Full-stack development with Java",
+        "icon": "Jsonfolder/Relatedgifs/science.gif",
+        "alt": "Data Science icon"
+      },
+      {
+        "name": "Chat GPT & AI",
+        "description": "Learn Chat GPT & AI from Experts",
+        "icon": "Jsonfolder/Relatedgifs/setting.gif",
+        "alt": "Chat GPT icon"
+      },
+      {
+        "name": "Mern Stack",
+        "description": "Learn Mern Stack from experts",
+        "icon": "Jsonfolder/Relatedgifs/exchange.gif",
+        "alt": "Mern Stack icon"
+      },
+      {
+        "name": "Reactjs Framework",
+        "description": "Learn Reactjs from Industry Experts",
+        "icon": "Jsonfolder/Relatedgifs/physics.gif",
+        "alt": "Reactjs icon"
       }
     ]
   }

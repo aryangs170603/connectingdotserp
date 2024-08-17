@@ -1,7 +1,8 @@
-import React, { useState } from 'react';
-import './CurriculumAccordion.css';
+import React, { useState } from "react";
+import "./CurriculumAccordion.css";
 
 const CurriculumAccordion = ({ sections }) => {
+    localStorage.clear();
     const [activeIndex, setActiveIndex] = useState(null);
 
     const toggleSection = (index) => {
@@ -12,8 +13,8 @@ const CurriculumAccordion = ({ sections }) => {
         <div className="curriculum-accordion">
             {sections.map((section, index) => (
                 <div key={index} className="accordion-item">
-                    <div 
-                        className={`accordion-title ${activeIndex === index ? 'active' : ''}`}
+                    <div
+                        className={`accordion-title ${activeIndex === index ? "active" : ""}`}
                         onClick={() => toggleSection(index)}
                     >
                         <h3>{section.title}</h3>

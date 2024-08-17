@@ -10,6 +10,8 @@ import Councelor from '../CoursesComponents/Councelor';
 
 import ScrollToTop from '../components/ScrollToTop';
 import Program from '../CoursesComponents/ProgramHighlights';
+import Description from '../CoursesComponents/Description';
+import SAPMOD from '../CoursesComponents/sapmod';
 
 const SAPBASIS = () => {
   return (
@@ -19,13 +21,15 @@ const SAPBASIS = () => {
         <Header pageId="BasisHeader" pageType="basisheader" />
 
         {/* <DSHeader pageId="MDAHeader" /> */}
-        <Why pageId="WhyBasis " pageType="Whybasis" />
+        <Why pageId="WhyBasis" pageType="Whybasis" />
+        <SAPMOD pageId="SAPBASIS"  />
+        
         <Councelor />
         <Modules pageId="BASISmodule"  />
         <Trustus />
         <Certificate />
         <Program />
-
+        <Description pageId="sap-basis" />
         <FAQ pageId="BasisFAQ" pageType="basisfaq" />
         <RelatedCourses pageId="Basisrelcourses" />
       </main>

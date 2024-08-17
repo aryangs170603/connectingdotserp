@@ -1,0 +1,86 @@
+
+
+.unique-container {
+  max-width: 960px;
+}
+
+.unique-panel-default > .unique-panel-heading {
+  color: #333;
+  background-color: #fff;
+  border-color: #e4e5e7;
+  padding: 0;
+  user-select: none;
+}
+
+.unique-panel-default > .unique-panel-heading a {
+  display: block;
+  padding: 10px 15px;
+}
+
+.unique-panel-default > .unique-panel-heading a:after {
+  content: "";
+  position: relative;
+  top: 1px;
+  display: inline-block;
+  float: right;
+  transition: transform 0.25s linear;
+}
+
+.unique-panel-default > .unique-panel-heading a[aria-expanded="true"] {
+  background-color: #eee;
+}
+
+.unique-panel-default > .unique-panel-heading a[aria-expanded="true"]:after {
+  content: "\2212";
+  transform: rotate(180deg);
+}
+
+.unique-panel-default > .unique-panel-heading a[aria-expanded="false"]:after {
+  content: "\002b";
+  transform: rotate(90deg);
+}
+
+.unique-accordion-option {
+  width: 100%;
+  float: left;
+  clear: both;
+  margin: 15px 0;
+}
+
+.unique-accordion-option .unique-title {
+  font-size: 20px;
+  font-weight: bold;
+  float: left;
+  padding: 0;
+  margin: 0;
+}
+
+.unique-accordion-option .unique-toggle-accordion {
+  float: right;
+  font-size: 16px;
+  color: #6a6c6f;
+}
+
+.unique-accordion-option .unique-toggle-accordion:before {
+  content: "Expand All";
+}
+
+.unique-accordion-option .unique-toggle-accordion.active:before {
+  content: "Collapse All";
+}
+
+.unique-clearfix {
+  clear: both;
+}
+
+.unique-panel-group {
+  margin-bottom: 0;
+}
+
+.unique-panel-collapse {
+  transition: height 0.2s ease;
+}
+
+.unique-panel-body {
+  padding: 15px;
+}

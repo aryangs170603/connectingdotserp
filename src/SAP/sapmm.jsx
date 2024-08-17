@@ -10,6 +10,8 @@ import Councelor from '../CoursesComponents/Councelor';
 
 import ScrollToTop from '../components/ScrollToTop';
 import Program from '../CoursesComponents/ProgramHighlights';
+import Description from '../CoursesComponents/Description';
+import SAPMOD from '../CoursesComponents/sapmod';
 
 const SAPMM = () => {
   return (
@@ -20,12 +22,14 @@ const SAPMM = () => {
 
         {/* <DSHeader pageId="MDAHeader" /> */}
         <Why pageId="WhyMM" pageType="Whymm" />
+        <SAPMOD pageId="SAPMM"  />
+        
         <Councelor />
         <Modules pageId="MMmodule"  />
         <Trustus />
         <Certificate />
         <Program />
-
+        <Description pageId="sap-mm" />
         <FAQ pageId="MMFAQ" pageType="mmfaq" />
         <RelatedCourses pageId="MMrelcourses" />
       </main>

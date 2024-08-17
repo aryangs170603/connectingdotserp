@@ -1,211 +1,104 @@
-@import url("https://fonts.googleapis.com/css?family=Inter:400|Jura:400");
-
-
-:root {
-  --c: 238, 199, 99;
-  --t: 204, 204, 204;
-}
-.scroll-container{
-  background-color:white ;
+.sap-mod-container {
+  display: flex;
+  flex-direction: column;
+  background-color: white;
+  padding: 1.5rem;
+  border-radius: 0.5rem;
+  box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1), 0 4px 6px -2px rgba(0, 0, 0, 0.05);
+  gap: 1.5rem;
   max-width: 1800px;
   width: 97.5%;
   margin: 0 auto;
-}
-.scroll-article h1, p {
-  font-weight: normal;
+  margin-bottom: 20px;
+  align-items: center; /* Center items horizontally */
 }
 
-.scroll-article h1 {
-  font-size: 5rem;
-  margin: 0 0 3rem 0;
+.sap-mod-heading {
+  font-size: 2.5rem;
+  font-weight: bold;
+  margin-top: 0; 
+  margin-bottom: 10px; 
   text-align: center;
+  width: 100%; 
 }
 
-.scroll-article p {
-  line-height: 200%;
-  margin-bottom: 3rem;
+
+@media (min-width: 768px) {
+  .sap-mod-container {
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center; /* Center cards horizontally */
+  }
+
+  .sap-mod-card {
+    width: 45%; /* Adjust width of cards on larger screens */
+    margin: 10px; /* Add some margin between cards */
+  }
 }
 
-.scroll-button {
+/* Additional styles from your original CSS */
+.sap-mod-card {
+  flex: 1;
+  background-color: #e3e3e3;
+  color: black;
+  padding: 1.5rem;
+  border-radius: 0.5rem;
+  transition: all 0.3s;
+  transform: scale(1);
+  box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -1px rgba(0, 0, 0, 0.06);
+}
+
+.sap-mod-card:hover {
+  transform: scale(1.05);
+  box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1), 0 4px 6px -2px rgba(0, 0, 0, 0.05);
+}
+
+.sap-mod-button {
+  background-color: white;
+  color: black;
+  padding: 0.75rem;
+  border-radius: 0.5rem;
+  transition: all 0.3s;
+  transform: scale(1);
+  font-size: 1.125rem;
+  font-weight: 600;
+}
+
+.sap-mod-button:hover {
+  background-color: rgba(skyblue, 0.8);
+  transform: scale(1.05);
+  box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1), 0 4px 6px -2px rgba(0, 0, 0, 0.05);
+}
+
+.sap-mod-card-secondary {
+  background-color: var(--card);
+  color: var(--card-foreground);
+}
+
+.sap-mod-card-content {
   display: flex;
-  flex-direction: column;
+  justify-content: space-between;
   align-items: center;
-  font-size: 1.2rem;
-  gap: 1rem;
-  position: fixed;
-  bottom: 3rem;
-  right: 3rem;
-  cursor: pointer;
-  transition: all ease 0.3s;
+  padding: 1rem;
+  background-color: #50edb0;
+  transition: background-color 0.3s;
+  border-radius: 0.5rem;
+  transform: scale(1);
+  box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -1px rgba(0, 0, 0, 0.06);
 }
 
-.scroll-text {
-  text-shadow: 0 0 20px 1px rgb(var(--c), 1);
-  color: rgb(var(--c));
-  font-family: "Jura";
+.sap-mod-card-content:hover {
+  background-color: #50edb0;
+  transform: scale(1.05);
+  box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1), 0 4px 6px -2px rgba(0, 0, 0, 0.05);
 }
 
-.scroll-rectangles {
-  display: flex;
-  flex-direction: column-reverse;
-  align-items: flex-end;
-  gap: 0.5rem;
+.sap-mod-card-content.alt {
+  background-color: rgba(var(--muted), 0.8);
 }
 
-.scroll-rectangle {
-  opacity: 0;
-  transition: opacity 0.3s ease, transform 0.3s ease;
-  transform: translateY(20px);
-  box-shadow: 0 0 200px 5px rgb(var(--c), 1), 0 0 20px 1px rgb(var(--c), 0.3);
-}
 
-.scroll-rectangle:first-child {
-  opacity: 1;
-  transform: translateY(0);
-  background-color: rgba(var(--c), 1);
-}
-
-.scroll-button:hover .scroll-rectangle:not(:first-child) {
-  opacity: 1;
-  transform: translateY(0);
-}
-
-.scroll-rectangle:nth-child(1) {
-  width: 100px;
-  height: 15px;
-}
-.scroll-rectangle:nth-child(2) {
-  width: 70px;
-  height: 12px;
-  transition-delay: 0.05s;
-  background-color: rgba(var(--c), 0.9);
-}
-.scroll-rectangle:nth-child(3) {
-  width: 50px;
-  height: 9px;
-  transition-delay: 0.1s;
-  background-color: rgba(var(--c), 0.8);
-}
-.scroll-rectangle:nth-child(4) {
-  width: 40px;
-  height: 7px;
-  transition-delay: 0.15s;
-  background-color: rgba(var(--c), 0.7);
-}
-.scroll-rectangle:nth-child(5) {
-  width: 32px;
-  height: 6px;
-  transition-delay: 0.2s;
-  background-color: rgba(var(--c), 0.6);
-}
-.scroll-rectangle:nth-child(6) {
-  width: 28px;
-  height: 5px;
-  transition-delay: 0.25s;
-  background-color: rgba(var(--c), 0.5);
-}
-.scroll-rectangle:nth-child(7) {
-  width: 25px;
-  height: 4px;
-  transition-delay: 0.3s;
-  background-color: rgba(var(--c), 0.4);
-}
-.scroll-rectangle:nth-child(8) {
-  width: 22px;
-  height: 3px;
-  transition-delay: 0.35s;
-  background-color: rgba(var(--c), 0.3);
-}
-.scroll-button:not(:hover) .scroll-rectangle:nth-child(2) {
-  transition-delay: 0.35s;
-}
-.scroll-button:not(:hover) .scroll-rectangle:nth-child(3) {
-  transition-delay: 0.3s;
-}
-.scroll-button:not(:hover) .scroll-rectangle:nth-child(4) {
-  transition-delay: 0.25s;
-}
-.scroll-button:not(:hover) .scroll-rectangle:nth-child(5) {
-  transition-delay: 0.2s;
-}
-.scroll-button:not(:hover) .scroll-rectangle:nth-child(6) {
-  transition-delay: 0.15s;
-}
-.scroll-button:not(:hover) .scroll-rectangle:nth-child(7) {
-  transition-delay: 0.05s;
-}
-.scroll-button:not(:hover) .scroll-rectangle:nth-child(8) {
-  transition-delay: 0s;
-}
-
-/* additional styles */
-
-.scroll-container {
-  position: relative;
-  width: 100%;
-}
-
-.scroll-content {
-  border-style: solid;
-  border-color: rgb(var(--t), 0.2);
-  border-width: 0 1px 0 1px;
-  width: 60%;
-  height: auto;
-  margin: 0 15rem;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: flex-start;
-}
-
-.scroll-line-top {
-  width: 100%;
-  height: 1px;
-  background-color: rgb(var(--t), 0.2);
-  position: relative;
-  top: 5rem;
-}
-
-.scroll-line-bottom {
-  width: 100%;
-  height: 1px;
-  background-color: rgb(var(--t), 0.2);
-  position: relative;
-  bottom: 5rem;
-}
-
-.scroll-article {
-  position: relative;
-  margin: 10rem 4rem;
-}
-
-.scroll-ruler {
-  width: 2rem;
-  height: 100%;
-  position: absolute;
-  left: 4rem;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-}
-
-.scroll-lines {
-  width: 1px;
-  height: 100%;
-  background-color: rgb(var(--c), 0.2);
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  position: absolute;
-}
-
-.scroll-lines span {
-  width: 1rem;
-  background-color: rgb(var(--c), 0.4);
-  height: 1px;
-  position: absolute;
-}
-
-.scroll-mask-one {
-  position: fixed
+.sap-mod-note{
+  color: red;
+  margin-top: 10px;
 }

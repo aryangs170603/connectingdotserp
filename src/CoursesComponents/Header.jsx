@@ -12,12 +12,14 @@ const DSHeader = ({ pageId, pageType }) => {
     const [course, setCourse] = useState('');
 
     useEffect(() => {
+
+        localStorage.clear();
+        
         const fetchData = async () => {
             try {
                 setLoading(true);
                 setError(null);
 
-                // Cache implementation
                 const cachedData = localStorage.getItem(`dsHeader_${pageId}_${pageType}`);
                 if (cachedData) {
                     setData(JSON.parse(cachedData));
@@ -69,7 +71,6 @@ const DSHeader = ({ pageId, pageType }) => {
                     <div key={index} className="phone-input-it-ds" style={{ display: 'flex', gap: '0.5rem', maxWidth: '23.5vw' }}>
                         <select style={{ flex: '0 0 80px', padding: '0.5rem', height: '3.5vw', border: '1px solid #d1d5db', borderRadius: '0.375rem' }}>
                             <option>{input.countryCode}</option>
-                            {/* Add more country codes as needed */}
                         </select>
                         <input 
                             type={input.type} 
@@ -106,7 +107,12 @@ const DSHeader = ({ pageId, pageType }) => {
     }
 
     return (
-        <div className="container-it-ds-header">
+        <div
+            className="container-it-ds-header dynamic-bg"
+            style={{
+                backgroundImage: `url(/${data.backgroundImage})`
+            }}
+        >
             <Helmet>
                 <title>{data.title || 'Default Title'}</title>
                 <meta name="description" content={data.description || 'Default description'} />

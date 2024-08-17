@@ -10,6 +10,7 @@ import Councelor from '../CoursesComponents/Councelor';
 import Projects from '../CoursesComponents/Projects';
 import ScrollToTop from '../components/ScrollToTop';
 import Program from '../CoursesComponents/ProgramHighlights';
+import Description from '../CoursesComponents/Description';
 
 const UIUX = () => {
   return (
@@ -19,13 +20,16 @@ const UIUX = () => {
         <Header pageId="UIUXHeader" pageType="uiuxheader" />
         {/* <DSHeader pageId="MDAHeader" /> */}
         <Why pageId="WhyUIUX" pageType="Whyuiux" />
+        
         <Councelor />
          <Modules pageId="UIUXModule" />
         <Trustus />
         <Certificate />
         <Program />
         <Projects pageId="UIUXinduspro" pageType="uiuxinduspro" />
+        <Description pageId="uiux" />
         <FAQ pageId="UIUXFAQ" pageType="uiuxfaq" />
+        
         <RelatedCourses pageId="UIUXrelated" />
       </main>
     </div>

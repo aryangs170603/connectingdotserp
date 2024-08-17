@@ -10,6 +10,7 @@ import Councelor from '../CoursesComponents/Councelor';
 import Projects from '../CoursesComponents/Projects';
 import ScrollToTop from '../components/ScrollToTop';
 import Program from '../CoursesComponents/ProgramHighlights';
+import Description from '../CoursesComponents/Description';
 
 const Python = () => {
   return (
@@ -19,12 +20,14 @@ const Python = () => {
         <Header pageId="PythonHeader" pageType="pythonheader" />
         {/* <DSHeader pageId="MDAHeader" /> */}
         <Why pageId="WhyPython" pageType="Whypython" />
+        
         <Councelor />
          <Modules pageId="PythonModule" />
         <Trustus />
         <Certificate />
         <Program />
         <Projects pageId="Pythoninduspro" pageType="pythoninduspro" />
+        <Description pageId="python" />
         <FAQ pageId="PythonFAQ" pageType="pythonfaq" />
         <RelatedCourses pageId="Pythonrelated" />
       </main>

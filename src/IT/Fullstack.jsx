@@ -10,6 +10,7 @@ import Councelor from '../CoursesComponents/Councelor';
 import Projects from '../CoursesComponents/Projects';
 import ScrollToTop from '../components/ScrollToTop';
 import Program from '../CoursesComponents/ProgramHighlights';
+import Description from '../CoursesComponents/Description';
 
 const FullStack = () => {
   return (
@@ -20,12 +21,14 @@ const FullStack = () => {
 
         {/* <DSHeader pageId="MDAHeader" /> */}
         <Why pageId="WhyFullStack" pageType="Whyfullstack" />
+        
         <Councelor />
         <Modules pageId="FullStackmodule"  />
         <Trustus />
         <Certificate />
         <Program />
         <Projects pageId="FullStackinduspro" pageType="fullstackinduspro" />
+        <Description pageId="full-stack" />
         <FAQ pageId="FullStackFAQ" pageType="fullstackfaq" />
         <RelatedCourses pageId="FullStackrelcourses" />
       </main>

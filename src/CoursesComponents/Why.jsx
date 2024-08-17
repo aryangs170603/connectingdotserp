@@ -10,7 +10,7 @@ const DataScienceComponent = ({ pageId, pageType }) => {
     // Fetch JSON data
     const fetchData = async () => {
       try {
-        const response = await fetch('public/Jsonfolder/Whyds.json'); // Path to your JSON file
+        const response = await fetch('public/Jsonfolder/Whyds.json'); 
         if (!response.ok) {
           throw new Error('Network response was not ok');
         }

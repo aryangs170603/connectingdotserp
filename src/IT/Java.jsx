@@ -10,6 +10,7 @@ import Councelor from '../CoursesComponents/Councelor';
 import Projects from '../CoursesComponents/Projects';
 import ScrollToTop from '../components/ScrollToTop';
 import Program from '../CoursesComponents/ProgramHighlights';
+import Description from '../CoursesComponents/Description';
 
 const Java = () => {
   return (
@@ -19,12 +20,14 @@ const Java = () => {
         <Header pageId="JavaHeader" pageType="javaheader" />
         {/* <DSHeader pageId="MDAHeader" /> */}
         <Why pageId="WhyJava" pageType="Whyjava" />
+        
         <Councelor />
          <Modules pageId="JavaModule" />
         <Trustus />
         <Certificate />
         <Program />
         <Projects pageId="Javainduspro" pageType="javainduspro" />
+        <Description pageId="java" />
         <FAQ pageId="JavaFAQ" pageType="javafaq" />
         <RelatedCourses pageId="javarelated" />
       </main>

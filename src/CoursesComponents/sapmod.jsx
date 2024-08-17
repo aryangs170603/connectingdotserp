@@ -1,146 +1,86 @@
-import React, { useEffect } from 'react';
+import React, { useState, useEffect } from 'react';
 import './sapmod.css';
 
-const SapMod = () => {
-  const updateScroller = () => {
-    const section = document.querySelector('.scroll-content');
-    const sectionHeight = section.scrollHeight;
-    const sectionTop = section.getBoundingClientRect().top + window.scrollY;
-    const scrollY = window.scrollY;
-    const viewportHeight = window.innerHeight;
-
-    // Calculate the scroll position relative to the section
-    const scrollPosition = scrollY - sectionTop;
-    const maxScrollableHeight = sectionHeight - viewportHeight;
-
-    // Ensure that the progress only reaches 100% when the bottom of the section is in view
-    const scrollPercentage = Math.round(
-      (scrollPosition / maxScrollableHeight) * 100
-    );
-
-    const progress = Math.max(0, Math.min(scrollPercentage, 100));
-
-    // Update the progress text
-    document.querySelector('.scroll-mask-one').textContent = `${progress}%`;
-    document.querySelector('.scroll-mask-two').textContent = `${progress}%`;
-
-    // Hide the progress text if the user scrolls past the section
-    if (scrollY > sectionTop + sectionHeight) {
-      document.querySelector('.scroll-mask-one').style.display = 'none';
-      document.querySelector('.scroll-mask-two').style.display = 'none';
-    } else {
-      document.querySelector('.scroll-mask-one').style.display = 'block';
-      document.querySelector('.scroll-mask-two').style.display = 'block';
-    }
-
-    // Show/hide the scroll button based on scroll position
-    if (scrollPosition > 0.2 * sectionHeight) {
-      document.querySelector('.scroll-button').style.opacity = '1';
-    } else {
-      document.querySelector('.scroll-button').style.opacity = '0';
-    }
-  };
-  
+const SapModComponent = ({ pageId }) => {
+  const [data, setData] = useState(null);
+  const [loading, setLoading] = useState(true);
+  const [error, setError] = useState(null);
 
   useEffect(() => {
-    window.addEventListener('scroll', updateScroller);
-    window.addEventListener('resize', updateScroller);
-    updateScroller();
+    const fetchData = async () => {
+      try {
+        const response = await fetch('public/Jsonfolder/sapmod.json'); 
+        if (!response.ok) {
+          throw new Error('Network response was not ok');
+        }
+        const jsonData = await response.json();
 
-    return () => {
-      window.removeEventListener('scroll', updateScroller);
-      window.removeEventListener('resize', updateScroller);
+        const pageData = jsonData?.[pageId];
+
+        if (pageData) {
+          setData(pageData);
+        } else {
+          throw new Error('Page data not found');
+        }
+
+        setLoading(false);
+      } catch (error) {
+        console.error('Fetch error:', error);
+        setError(error);
+        setLoading(false);
+      }
     };
-  }, []);
+
+    fetchData();
+  }, [pageId]);
+
+  if (loading) {
+    return <p>Loading...</p>;
+  }
+
+  if (error) {
+    return <p>Error loading data: {error.message}</p>;
+  }
+
+  if (!data) {
+    return <p>No data available for the specified page.</p>;
+  }
 
   return (
-    <div className="scroll-container">
-      <div className="scroll-ruler">
-        <div className="scroll-mask-one">0%</div>
-        <div className="scroll-mask-two">0%</div>
-        <div className="scroll-lines">
-          {[...Array(25)].map((_, index) => (
-            <span key={index}></span>
+    <div className="sap-mod-container">
+      <h1 className="sap-mod-heading">CURRICULUM</h1>
+      <div className="sap-mod-card">
+        <h2 className="text-2xl font-bold mb-4"
+          dangerouslySetInnerHTML={{ __html: data.title2 }}
+        />
+        <p className="mb-4 text-lg">{data.description}</p>
+        <p className="text-base mb-6">{data.summary}</p>
+        <div className="space-y-4">
+          {data.features.map((feature, index) => (
+            <div key={index} className="flex items-center">
+              <span className="bg-primary-foreground text-primary rounded-full px-3 py-1 text-sm font-bold">
+                {feature.label}
+              </span>
+              <span className="ml-3 text-base">{feature.description}</span>
+            </div>
           ))}
         </div>
+        <button className="sap-mod-button mt-6">Download Brochure</button>
       </div>
+      <div className="sap-mod-card sap-mod-card-secondary">
+        <h3 className="text-xl font-semibold mb-6">{data.overview.title}</h3>
+        <div className="space-y-4">
+          {data.overview.modules.map((module, index) => (
+            <div key={index} className={`sap-mod-card-content ${index % 2 === 1 ? 'alt' : ''}`}>
+              <span className="text-lg">{module.name}</span>
 
-      <div className="scroll-content">
-        <div className="scroll-line-top"></div>
-
-        <div className="scroll-article">
-          <h1>Dune</h1>
-          <p>A beginning is the time for taking the most delicate care...</p>
-          <p>—from "Manual of Muad'Dib" by the Princess Irulan</p>
-          <p>In the week before their departure to Arrakis...</p>
-          <p>—from "The Fellowship of the Ring" by J.R.R. Tol</p>
-          <p>A beginning is the time for taking the most delicate care...</p>
-          <p>—from "Manual of Muad'Dib" by the Princess Irulan</p>
-          <p>In the week before their departure to Arrakis...</p>
-          <p>—from "The Fellowship of the Ring" by J.R.R. Tol</p>
-          <p>A beginning is the time for taking the most delicate care...</p>
-          <p>—from "Manual of Muad'Dib" by the Princess Irulan</p>
-          <p>In the week before their departure to Arrakis...</p>
-          <p>—from "The Fellowship of the Ring" by J.R.R. Tol</p>
-          <p>A beginning is the time for taking the most delicate care...</p>
-          <p>—from "Manual of Muad'Dib" by the Princess Irulan</p>
-          <p>In the week before their departure to Arrakis...</p>
-          <p>—from "The Fellowship of the Ring" by J.R.R. Tol</p>
-          <p>A beginning is the time for taking the most delicate care...</p>
-          <p>—from "Manual of Muad'Dib" by the Princess Irulan</p>
-          <p>In the week before their departure to Arrakis...</p>
-          <p>—from "The Fellowship of the Ring" by J.R.R. Tol</p>
-          <p>A beginning is the time for taking the most delicate care...</p>
-          <p>—from "Manual of Muad'Dib" by the Princess Irulan</p>
-          <p>In the week before their departure to Arrakis...</p>
-          <p>—from "The Fellowship of the Ring" by J.R.R. Tol</p>
-          <p>A beginning is the time for taking the most delicate care...</p>
-          <p>—from "Manual of Muad'Dib" by the Princess Irulan</p>
-          <p>In the week before their departure to Arrakis...</p>
-          <p>—from "The Fellowship of the Ring" by J.R.R. Tol</p>
-          <p>A beginning is the time for taking the most delicate care...</p>
-          <p>—from "Manual of Muad'Dib" by the Princess Irulan</p>
-          <p>In the week before their departure to Arrakis...</p>
-          <p>—from "The Fellowship of the Ring" by J.R.R. Tol</p>
-          <p>A beginning is the time for taking the most delicate care...</p>
-          <p>—from "Manual of Muad'Dib" by the Princess Irulan</p>
-          <p>In the week before their departure to Arrakis...</p>
-          <p>—from "The Fellowship of the Ring" by J.R.R. Tol</p>
-          <p>A beginning is the time for taking the most delicate care...</p>
-          <p>—from "Manual of Muad'Dib" by the Princess Irulan</p>
-          <p>In the week before their departure to Arrakis...</p>
-          <p>—from "The Fellowship of the Ring" by J.R.R. Tol</p>
-          <p>A beginning is the time for taking the most delicate care...</p>
-          <p>—from "Manual of Muad'Dib" by the Princess Irulan</p>
-          <p>In the week before their departure to Arrakis...</p>
-          <p>—from "The Fellowship of the Ring" by J.R.R. Tol</p>
-          <p>A beginning is the time for taking the most delicate care...</p>
-          <p>—from "Manual of Muad'Dib" by the Princess Irulan</p>
-          <p>In the week before their departure to Arrakis...</p>
-          <p>—from "The Fellowship of the Ring" by J.R.R. Tol</p>
-          {/* Add more content here as needed */}
-          <a
-            href="https://www.penguinrandomhouse.ca/books/352036/dune-by-frank-herbert/9780441013593/excerpt"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            Excerpt from Dune by Frank Herbert
-          </a>
-        </div>
-
-        <div className="scroll-line-bottom"></div>
-      </div>
-
-      <a className="scroll-button" href="#main">
-        <div className="scroll-rectangles">
-          {[...Array(8)].map((_, index) => (
-            <div className="scroll-rectangle" key={index}></div>
+            </div>
           ))}
+          <p className="sap-mod-note">*Note: To see the complete Modules Click on 'Download Brochure' button</p>
         </div>
-        <span className="scroll-text">Throttle up</span>
-      </a>
+      </div>
     </div>
   );
 };
 
-export default SapMod;
+export default SapModComponent;

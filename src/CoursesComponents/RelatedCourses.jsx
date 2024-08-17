@@ -11,6 +11,8 @@ const CoursesRelated = () => {
   const [activeIndex, setActiveIndex] = useState(0);
 
   useEffect(() => {
+
+     localStorage.clear();
     fetch('public/Jsonfolder/relateddata.json')  // Path to your JSON file
       .then(response => response.json())
       .then(data => setRelatedCourses(data.DSrelcourses.items))
