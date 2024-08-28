@@ -1,5 +1,6 @@
-import React, { useState, useEffect, useMemo, useCallback, lazy, Suspense } from 'react';
+import React, { useState, useEffect, useMemo, useCallback, lazy, Suspense, useContext } from 'react';
 import { Helmet } from 'react-helmet';
+import { CityContext } from '../CityContext'; // Import the CityContext
 import './Header.css';
 
 const ContactForm = lazy(() => import('../Homepage/ContactForm'));
@@ -10,11 +11,11 @@ const DSHeader = ({ pageId, pageType }) => {
     const [error, setError] = useState(null);
     const [showContactForm, setShowContactForm] = useState(false);
     const [course, setCourse] = useState('');
+    const city = useContext(CityContext); // Get the city from context
 
     useEffect(() => {
-
         localStorage.clear();
-        
+
         const fetchData = async () => {
             try {
                 setLoading(true);
@@ -27,7 +28,7 @@ const DSHeader = ({ pageId, pageType }) => {
                     return;
                 }
 
-                const response = await fetch('public/Jsonfolder/dsHeaderData.json');
+                const response = await fetch('/Jsonfolder/dsHeaderData.json');
                 if (!response.ok) {
                     throw new Error('Network response was not ok');
                 }
@@ -35,6 +36,20 @@ const DSHeader = ({ pageId, pageType }) => {
 
                 const pageData = jsonData[pageType]?.[pageId];
                 if (pageData) {
+                    // Replace placeholders with dynamic city
+                    pageData.title = pageData.title.replace(/{city}/g, city);
+                    pageData.subtitle = pageData.subtitle.replace(/{city}/g, city);
+                    pageData.description = pageData.description.replace(/{city}/g, city);
+                    pageData.features = pageData.features.map(feature => feature.replace(/{city}/g, city));
+                    pageData.alumni = pageData.alumni.map(company => ({
+                        ...company,
+                        name: company.name.replace(/{city}/g, city)
+                    }));
+                    pageData.buttons = pageData.buttons.map(button => ({
+                        ...button,
+                        text: button.text.replace(/{city}/g, city)
+                    }));
+
                     localStorage.setItem(`dsHeader_${pageId}_${pageType}`, JSON.stringify(pageData)); // Cache data
                     setData(pageData);
                 } else {
@@ -50,7 +65,7 @@ const DSHeader = ({ pageId, pageType }) => {
         };
 
         fetchData();
-    }, [pageId, pageType]);
+    }, [pageId, pageType, city]);
 
     const handleOpenContactForm = useCallback((courseName) => {
         setCourse(courseName);

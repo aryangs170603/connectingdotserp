@@ -29,7 +29,7 @@ const Mern = () => {
         <Projects pageId="Merninduspro" pageType="merninduspro" />
         <Description pageId="mern-stack" />
         <FAQ pageId="MernFAQ" pageType="mernfaq" />
-        <RelatedCourses pageId="Mernrelated" />
+        <RelatedCourses pageId="Mernrelcourses" />
       </main>
     </div>
   );

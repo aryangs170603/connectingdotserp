@@ -29,7 +29,7 @@ const Python = () => {
         <Projects pageId="Pythoninduspro" pageType="pythoninduspro" />
         <Description pageId="python" />
         <FAQ pageId="PythonFAQ" pageType="pythonfaq" />
-        <RelatedCourses pageId="Pythonrelated" />
+        <RelatedCourses pageId="Pythonrelcourses" />
       </main>
     </div>
   );

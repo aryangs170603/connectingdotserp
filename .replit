@@ -10,3 +10,7 @@ run = ["sh", "-c", "npm run"]
 localPort = 3000
 externalPort = 3000
 exposeLocalhost = true
+
+[auth]
+pageEnabled = false
+buttonEnabled = false

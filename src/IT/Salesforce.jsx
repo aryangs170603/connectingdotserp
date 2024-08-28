@@ -29,7 +29,7 @@ const Salesforce = () => {
         <Projects pageId="Salesinduspro" pageType="salesinduspro" />
         <Description pageId="salesforce" />
         <FAQ pageId="SalesFAQ" pageType="salesfaq" />
-        <RelatedCourses pageId="Salesrelated" />
+        <RelatedCourses pageId="Salesrelcourses" />
       </main>
     </div>
   );

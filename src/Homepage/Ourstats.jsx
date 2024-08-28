@@ -1,4 +1,6 @@
-import React, { useState } from "react";
+import React, { useState, useEffect } from "react";
+import AOS from "aos";
+import "aos/dist/aos.css";
 import "./Ourstats.css";
 import cert from "../Logos/Stats gifs/certificate.gif";
 import cv from "../Logos/Stats gifs/cv.gif";
@@ -8,14 +10,15 @@ import growth from "../Logos/Stats gifs/growth.gif";
 import mentors from "../Logos/Stats gifs/mentors.gif";
 
 const CardComponent = () => {
-  const [cardStates, setCardStates] = useState([
-    false,
-    false,
-    false,
-    false,
-    false,
-    false,
-  ]);
+  useEffect(() => {
+    AOS.init({
+      duration: 1000,
+      easing: "ease-out-cubic",
+      once: false,
+    });
+  }, []);
+
+  const [cardStates, setCardStates] = useState([false, false, false, false, false, false]);
 
   const handleMouseEnter = (index) => {
     setCardStates((prevStates) => {
@@ -36,18 +39,10 @@ const CardComponent = () => {
   const cardData = [
     { img: years, frontText: "Years of Legacy in <span class='highlightF'>IT</span>", backText: "<span class='highlightB'>Our Institute</span>, with over <span class='highlightB'>10+ Years</span> of excellence, consistently provides top-notch instruction and services." },
     { img: cv, frontText: "10000+ <span class='highlightF'>Students</span>", backText: "Our institute has educated over <span class='highlightB'>10000+ Students</span>, consistently providing top-notch instruction and services." },
-    {
-      img: growth,
-      frontText: "100x <span class='highlightF'>Growth</span>",
-      backText: "Our institute boasts a <span class='highlightB'>100 x Growth</span>, with graduates securing top salaries up to <span class='highlightB'>24 lakh</span> per annum",
-    },
-    {
-      img: mentors,
-      frontText: "100+ <span class='highlightF'>Mentors</span>",
-      backText: "Our institute features over <span class='highlightB'>100+ MNC professionals</span> as <span class='highlightB'>Mentors</span>, providing expert guidance and support.",
-    },
+    { img: growth, frontText: "100x <span class='highlightF'>Growth</span>", backText: "Our institute boasts a <span class='highlightB'>100 x Growth</span>, with graduates securing top salaries up to <span class='highlightB'>24 lakh</span> per annum" },
+    { img: mentors, frontText: "100+ <span class='highlightF'>Mentors</span>", backText: "Our institute features over <span class='highlightB'>100+ MNC professionals</span> as <span class='highlightB'>Mentors</span>, providing expert guidance and support." },
     { img: cert, frontText: "100% <span class='highlightF'>Practical</span> Based Courses", backText: "Our institute offers <span class='highlightB'>100% Practical</span>-based  <span class='highlightB'>Courses</span> tailored for industry needs." },
-    { img: jobs, frontText: "100+ <span class='highlightF'>Hiring</span> Partner", backText: "Our institute has over  <span class='highlightB'>100+ Hiring</span> partners, including <span class='highlightB'>Giants </span> like <span class='highlightB'>Google </span> and <span class='highlightB'>Microsoft </span>, as well as leading  <span class='highlightB'>MNCs</span>" },
+    { img: jobs, frontText: "100+ <span class='highlightF'>Hiring</span> Partner", backText: "Our institute has over  <span class='highlightB'>100+ Hiring</span> partners, including <span class='highlightB'>Giants</span> like <span class='highlightB'>Google</span> and <span class='highlightB'>Microsoft</span>, as well as leading  <span class='highlightB'>MNCs</span>" },
   ];
 
   return (
@@ -62,6 +57,8 @@ const CardComponent = () => {
             className="cardT2P-container"
             onMouseEnter={() => handleMouseEnter(index)}
             onMouseLeave={() => handleMouseLeave(index)}
+            data-aos="flip-right"
+            data-aos-delay={`${index * 100}`}
           >
             <div className={`cardT2P ${cardStates[index] ? "rotated" : ""}`}>
               <div className="cardT2P-contents cardT2P-front">

@@ -1,9 +1,10 @@
-import React from 'react';
+import React, { useEffect } from 'react';
 import { MapContainer, TileLayer, Marker, Popup } from 'react-leaflet';
 import 'leaflet/dist/leaflet.css';
 import './OurBranches.css';
 import L from 'leaflet';
-
+import AOS from 'aos';
+import 'aos/dist/aos.css';
 
 import markerIcon from 'leaflet/dist/images/marker-icon.png';
 import markerShadow from 'leaflet/dist/images/marker-shadow.png';
@@ -30,23 +31,26 @@ const branches = [
   },
   {
     city: 'Raipur',
-    address: ' New Panchsheel Nagar, Civil Lines, Raipur, Chhattisgarh 492001',
+    address: 'New Panchsheel Nagar, Civil Lines, Raipur, Chhattisgarh 492001',
     position: [21.237314571201736, 81.6539475802003],
     mapLink: 'https://g.co/kgs/dkg98uo',
   }
 ];
 
 const Branches = () => {
+  useEffect(() => {
+    AOS.init({ duration: 1000 });
+  }, []);
+
   return (
     <div className="branches-section">
-      <h2 className="branches-title">OUR BRANCHES</h2>
+      <h2 className="branches-title" data-aos="fade-up">OUR BRANCHES</h2>
       <div className="branches-container">
         {branches.map((branch, index) => (
-          <div className="branch-card" key={index}>
+          <div className="branch-card" key={index} data-aos="fade-up" data-aos-delay={index * 200}>
             <MapContainer center={branch.position} zoom={13} scrollWheelZoom={true} className="map-container">
               <TileLayer
                 url="https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png"
-               
               />
               <Marker position={branch.position}>
                 <Popup>
@@ -58,10 +62,11 @@ const Branches = () => {
               </Marker>
             </MapContainer>
             <h3>{branch.city}</h3>
-            <div className='add2'><a  href={branch.mapLink} target="_blank" rel="noopener noreferrer">
-              {branch.address}
-            </a>
-              </div>
+            <div className="add2">
+              <a href={branch.mapLink} target="_blank" rel="noopener noreferrer">
+                {branch.address}
+              </a>
+            </div>
           </div>
         ))}
       </div>

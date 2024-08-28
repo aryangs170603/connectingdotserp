@@ -1,0 +1,39 @@
+/* Dashboard.css */
+
+.dashboard-container {
+  padding: 20px;
+  background-color: #f4f4f4;
+}
+
+.dashboard-title {
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+
+.leads-table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.leads-table th,
+.leads-table td {
+  border: 1px solid #ddd;
+  padding: 8px;
+}
+
+.leads-table th {
+  background-color: #4CAF50;
+  color: white;
+}
+
+.leads-table td {
+  background-color: #f9f9f9;
+}
+
+.leads-table tr:nth-child(even) {
+  background-color: #f2f2f2;
+}
+
+.leads-table tr:hover {
+  background-color: #ddd;
+}

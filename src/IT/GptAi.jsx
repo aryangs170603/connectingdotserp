@@ -29,7 +29,7 @@ const GPT = () => {
         <Projects pageId="GPTinduspro" pageType="gptinduspro" />
         <Description pageId="gptai" />
         <FAQ pageId="GPTFAQ" pageType="GPTfaq" />
-        <RelatedCourses pageId="GPTrelated" />
+        <RelatedCourses pageId="GPTrelcourses" />
       </main>
     </div>
   );

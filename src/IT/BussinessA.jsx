@@ -29,7 +29,7 @@ const BussinessAnalytics = () => {
         <Projects pageId="BAinduspro" pageType="bainduapro" />
         <Description pageId="ba" />
         <FAQ pageId="BAFAQ" pageType="bafaq" />
-        <RelatedCourses pageId="BSrelated" />
+        <RelatedCourses pageId="BArelated" />
       </main>
     </div>
   );

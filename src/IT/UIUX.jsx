@@ -30,7 +30,7 @@ const UIUX = () => {
         <Description pageId="uiux" />
         <FAQ pageId="UIUXFAQ" pageType="uiuxfaq" />
         
-        <RelatedCourses pageId="UIUXrelated" />
+        <RelatedCourses pageId="UIUXrelcourses" />
       </main>
     </div>
   );

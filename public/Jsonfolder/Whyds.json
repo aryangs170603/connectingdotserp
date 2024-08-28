@@ -295,11 +295,11 @@
       "cards": [
         {
           "title": "What is <span class=\"highlight-span-cards\">SAP ABAP?</span>",
-          "content": "SAP ABAP (Advanced Business Application Programming) is the programming language used in SAP to develop applications on the SAP platform. It allows customization and extension of SAP applications."
+          "content": "SAP ABAP (Advanced Business Application Programming) is the programming language used in SAP to develop applications on the SAP platform. It allows customization and extension of SAP applications.Join the best SAP ABAP Course in {city}."
         },
         {
           "title":"What does a <span class=\"highlight-span-cards\">SAP ABAP Developer</span> do?",
-          "content": "An SAP ABAP Developer creates custom SAP applications, programs, and reports using the ABAP language. They work on developing and maintaining SAP modules, forms, and workflows.",
+          "content": "An SAP ABAP Developer creates custom SAP applications, programs, and reports using the ABAP language. They work on developing and maintaining SAP modules, forms, and workflows.Join the best SAP ABAP Course in {city}.",
           "listItems": [
             "Design and develop SAP applications.",
             "Customize and enhance existing SAP modules.",
@@ -308,7 +308,7 @@
         },
         {
           "title": "Why take <span class=\"highlight-span-cards\">SAP ABAP</span> training?",
-          "content": "SAP ABAP Developers are essential for customizing SAP systems. Our training covers the core concepts of ABAP programming, enabling you to build and extend SAP applications.",
+          "content": "SAP ABAP Developers are essential for customizing SAP systems. Our training covers the core concepts of ABAP programming, enabling you to build and extend SAP applications.Join the best SAP ABAP Course in {city}.",
           "listItems": [
             "SAP ABAP Developer",
             "SAP Consultant",
@@ -840,6 +840,26 @@
         }
       ]
     }
-  }
+  },
 
+
+  "Whydigim": {
+    "WhyDIGIM": {
+      "title": "Future of Digital Marketing?",
+      "cards": [
+        {
+          "title": "Why <span class=\"highlight-span-cards\">Digital Marketing</span>?",
+          "content": "Digital marketing allows businesses to reach a global audience cost-effectively, drive targeted traffic, and measure success with precise analytics."
+        },
+        {
+          "title": "What Does <span class=\"highlight-span-cards\">Advanced Digital Marketing</span> Do?",
+          "content": "An advanced digital marketer specializes in creating and executing sophisticated online marketing strategies. They use tools like SEO, PPC, content marketing, and data analytics to enhance brand visibility, target specific audiences, and achieve measurable business outcomes. Additionally, they monitor and optimize campaigns continuously to ensure maximum ROI, staying updated with the latest trends and technologies in digital marketing."
+        },
+        {
+          "title": "Why Take <span class=\"highlight-span-cards\">Digital Marketing</span> Training?",
+          "content": "Taking digital marketing training in Pune offers access to expert instructors, cutting-edge tools, and industry-relevant coursework, all within a city that is a hub for digital innovation and job opportunities. The training equips you with practical skills and certifications, enhancing your career prospects in a growing field."
+        }
+      ]
+    }
+  }
 }

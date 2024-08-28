@@ -1,94 +1,133 @@
 import React, { useState, useEffect } from 'react';
-import { Modal, Button, Form, Alert } from 'react-bootstrap';
+import axios from 'axios';
+import './PopupForm.css';
+import { useLocation } from 'react-router-dom';
 
-const ContactForm = () => {
-  const [show, setShow] = useState(false);
-  const [submitted, setSubmitted] = useState(false);
-
-  const handleClose = () => {
-    setShow(false);
-    setSubmitted(false);
-    // Set a timer to reopen the modal after 5 minutes (300000 milliseconds)
-    setTimeout(() => {
-      setShow(true);
-    }, 3000000);
-  };
-
-  const handleShow = () => setShow(true);
+const PopupForm = ({ onSubmitData }) => {
+  const location = useLocation();
+  const [isVisible, setIsVisible] = useState(false); // Initially hidden
+  const [name, setName] = useState('');
+  const [mobile, setMobile] = useState('');
+  const [email, setEmail] = useState('');
+  const [course, setCourse] = useState('');
+  const [isChecked, setIsChecked] = useState(false);
 
   useEffect(() => {
-    // Set a timer to show the modal 10 seconds after the component mounts
-    const timer = setTimeout(() => {
-      setShow(true);
-    }, 1000000);
+    if (location.pathname === '/AdminLogin' || location.pathname === '/Dashboard') {
+      setIsVisible(false);
+      return;
+    }
 
-    // Clear the timer if the component unmounts
-    return () => clearTimeout(timer);
-  }, []);
+    // Show popup after 15 seconds on page load
+    const showTimer = setTimeout(() => {
+      setIsVisible(true);
+    }, 15000); // 15 seconds
 
-  const handleSubmit = (event) => {
-    event.preventDefault();
-    // Add your form submission logic here
-    console.log("Form submitted");
-    setSubmitted(true);
-    // Uncomment the following line if you want to close the modal after form submission
-    // handleClose();
+    return () => clearTimeout(showTimer);
+  }, [location.pathname]);
+
+  useEffect(() => {
+    // Hide popup and reset the visibility timer
+    if (!isVisible) {
+      const hideTimer = setTimeout(() => {
+        setIsVisible(true);
+      }, 180000); // 3 minutes
+
+      return () => clearTimeout(hideTimer);
+    }
+  }, [isVisible]);
+
+  const handleSubmit = async (e) => {
+    e.preventDefault();
+
+    if (!isChecked) {
+      alert('Please agree to the terms and conditions and privacy policy.');
+      return;
+    }
+
+    const formData = {
+      name,
+      mobile,
+      email,
+      courseName: course,
+    };
+
+    try {
+      // Replace with your actual API endpoint
+      const response = await axios.post('https://your-api-endpoint.com/register', formData);
+      console.log('Response:', response.data);
+      alert('Registration complete!');
+      onSubmitData(formData);
+    } catch (error) {
+      console.error('Error submitting form:', error);
+      alert('An error occurred while submitting the form. Please try again.');
+    }
+
+    setName('');
+    setMobile('');
+    setEmail('');
+    setCourse('');
+    setIsChecked(false);
+    setIsVisible(false);
   };
 
+  if (!isVisible) return null;
+
   return (
-    <>
-      <Button variant="primary" onClick={handleShow}>
-        Contact Us
-      </Button>
-
-      <Modal show={show} onHide={handleClose} centered>
-        <Modal.Header closeButton>
-          <Modal.Title>Contact Us</Modal.Title>
-        </Modal.Header>
-        <Modal.Body>
-          {submitted && <Alert variant="success">Form submitted successfully!</Alert>}
-          <Form onSubmit={handleSubmit}>
-            <Form.Group controlId="formName">
-              <Form.Label>Name</Form.Label>
-              <Form.Control type="text" placeholder="Enter your name" required />
-            </Form.Group>
-
-            <Form.Group controlId="formMobile">
-              <Form.Label>Mobile Number</Form.Label>
-              <Form.Control type="text" placeholder="Enter your mobile number" required />
-            </Form.Group>
-            <Form.Group controlId="formEmail">
-              <Form.Label>Email ID</Form.Label>
-              <Form.Control type="email" placeholder="Enter your email id" required />
-            </Form.Group>
-
-            {/* <Form.Group controlId="formCourses">
-              <Form.Label>Courses</Form.Label>
-              <Form.Control as="select" required>
-                <option>SAP</option>
-                <option>IT Courses</option>
-                <option>Data Visualisation</option>
-                <option>Digital Marketing</option>
-                <option>HR Courses</option>
-              </Form.Control>
-            </Form.Group> */}
-
-            <Button variant="primary" type="submit" className="mt-3">
-              Submit
-            </Button>
-          </Form>
-        </Modal.Body>
-      </Modal>
-
-      <style jsx>{`
-        @media (max-width: 576px) {
-          .modal-content {
-            margin: 20px;
-          }
-        }
-      `}</style>
-    </>
+    <div className="popup-form-overlay">
+      <div className="popup-form-container">
+        <button className="close-button-pf-2" onClick={() => setIsVisible(false)}>×</button>
+        <div className="header-container">
+          <img src="src/Logos/Navbar/connectingdotslogoppf.png" alt="Logo" className="logo-ppf" />
+          <h2>Register now</h2>
+        </div>
+        <form onSubmit={handleSubmit}>
+          <input
+            type="text"
+            placeholder="Name*"
+            value={name}
+            onChange={(e) => setName(e.target.value)}
+            required
+          />
+          <input
+            type="email"
+            placeholder="E-mail*"
+            value={email}
+            onChange={(e) => setEmail(e.target.value)}
+            required
+          />
+          <input
+            type="tel"
+            placeholder="Mobile Number*"
+            value={mobile}
+            onChange={(e) => setMobile(e.target.value)}
+            required
+          />
+          <input
+            type="text"
+            placeholder="Which course are you looking for?*"
+            value={course}
+            onChange={(e) => setCourse(e.target.value)}
+            required
+          />
+          <div className="terms-checkbox">
+            <input
+              type="checkbox"
+              id="terms"
+              checked={isChecked}
+              onChange={(e) => setIsChecked(e.target.checked)}
+              required
+            />
+            <label htmlFor="terms">
+              I hereby accept the <a href="/terms" target="_blank" rel="noopener noreferrer">terms and conditions</a> and 
+              <a href="/privacy" target="_blank" rel="noopener noreferrer">privacy policy</a> of Connecting Dots ERP.
+            </label>
+          </div>
+          <button type="submit">Register</button>
+        </form>
+      </div>
+    </div>
   );
 };
 
-export default ContactForm;
+export default PopupForm;

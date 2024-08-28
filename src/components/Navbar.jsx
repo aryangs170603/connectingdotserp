@@ -244,7 +244,7 @@ const Header = () => {
           {[
             {
               name: "Advance Digital Marketing",
-              link: "/digital-marketing/advance-digital-marketing",
+              link: "/DigiM",
             },
             {
               name: "Pay Per Click Training",
@@ -343,18 +343,21 @@ const Header = () => {
             </Nav.Link>
           </div>
           <div className="dropdown2">
+
             <Nav.Link
-              className={`mx-lg-2 ${activeLink === "link2" ? "active" : ""}`}
-              href="#"
-              onClick={() => handleNavClick("link2")}
+              href="/AdminLogin"
+              target="_blank"
+              rel="noopener noreferrer"
+              className={`mx-lg-2 ${activeLink === "login" ? "active" : ""}`}
+              onClick={() => handleNavClick("login")}
             >
-              Corporate Training
+              Login
             </Nav.Link>
           </div>
         </Nav>
 
       </Container>
-    </Navbar>
+    </Navbar>  
 
   );
 };

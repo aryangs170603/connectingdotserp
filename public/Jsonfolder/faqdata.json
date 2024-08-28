@@ -297,11 +297,11 @@
       "video": "src/Logos/DSimages/faqvideo.mp4",
       "items": [
         {
-          "question": "Who should take this Full Stack course?",
+          "question": "Who should take this Full Stack course in {city}?",
           "answer": "This Data Analytics course is designed for professionals who want to gain expertise in analyzing data and making data-driven decisions."
         },
         {
-          "question": "Why is ConnectingDots's Full Stack program considered one of the best?",
+          "question": "Why is ConnectingDots's Full Stack program considered one of the best in {city}?",
           "answer": "The ConnectingDots Data Analytics program is highly regarded for its practical approach, focusing on real-world applications and tools used in the industry."
         },
         {

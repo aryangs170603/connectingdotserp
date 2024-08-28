@@ -30,7 +30,7 @@ const Datascience = () => {
         <Projects pageId="DSinduspro" pageType="dsinduspro" />
         <Description pageId="mds" />
         <FAQ pageId="DSFAQ" pageType="dsfaq" />
-        <RelatedCourses pageId="MDSrelated" />
+        <RelatedCourses pageId="DSrelated" />
         {/* <CurriculumAccordion /> */}
       </main>
     </div>

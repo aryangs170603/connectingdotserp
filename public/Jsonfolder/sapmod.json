@@ -5,6 +5,8 @@
     "title2": " <span class=\"highlight-span-cards\">SAP FICO</span> Curriculum",
     "description": "Industry-Aligned Curriculum for SAP FICO With Certification",
     "summary": "An exhaustive curriculum designed by our industry experts which will help you to get placed in your dream IT company",
+    "noteMaster": "We provide advance traning for sap fico",
+    "noteAdvance": "Advance",
     "features": [
      
       {
@@ -63,7 +65,7 @@
 
 
     "title2": "<span class=\"highlight-span-cards\">SAP ABAP</span> Curriculum",
-    "description": "Industry-Aligned Curriculum for SAP ABAP With Certification",
+    "description": "Industry-Aligned Curriculum for SAP ABAP in {city} With Certification",
     "summary": "An exhaustive curriculum designed by our industry experts which will help you to get placed in your dream IT company",
     "features": [
 
@@ -945,6 +947,65 @@
       ]
 
     }
+  },
+"DIGIM": {
+
+    "title2": "<span class=\"highlight-span-cards\">DIGITAL MARKETING</span> Curriculum",
+    "description": "Industry-Aligned Curriculum for DIGITAL MARKETING With Certification",
+    "summary": "An exhaustive curriculum designed by our industry experts which will help you to get placed in your dream IT company",
+    "features": [
+
+      {
+        "label": "10+",
+        "description": "Languages & Tools"
+      },
+      {
+        "label": "280+",
+        "description": "Live Sessions Hours"
+      }
+    ],
+    "overview": {
+      "title": "Curriculum Overview",
+      "modules": [
+        {
+          "name": "Introduction to SuccessFactors",
+          "duration": "2 Weeks"
+        },
+        {
+          "name": "Navigation Basics",
+          "duration": "2 Weeks"
+        },
+        {
+          "name": "Success Factors Employee Central",
+          "duration": "2.4 Weeks"
+        },
+        {
+          "name": "Role-Based Permissions",
+          "duration": "2.4 Weeks"
+        },
+        {
+          "name": "Setting Up Data Models",
+          "duration": "1.2 Weeks"
+        },
+        {
+          "name": "Business Rules",
+          "duration": "3 Weeks"
+        },
+        {
+          "name": "Working with Picklist",
+          "duration": "1.8 Weeks"
+        },
+        {
+          "name": "Position Management",
+          "duration": "4.4 Weeks"
+        },
+        {
+          "name": "Workflow, Alert Messages, and email Notifications",
+          "duration": "9 Weeks"
+        }
+      ]
+
+    }
   }
-  
+
 }

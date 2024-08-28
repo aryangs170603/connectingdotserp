@@ -62,7 +62,7 @@ const Courses = () => {
   return (
     <div className="courses-container text-center">
       <Helmet>
-        <title>Popular Courses | Your Website Name</title>
+        <title>Connecting Dots </title>
         <meta name="description" content="Explore our most popular courses including SAP, Data Science, Salesforce, and more. Enroll now and secure your seat!" />
         <meta name="keywords" content="SAP courses, Data Science, Salesforce, HR courses, Full-Stack Python, PowerBI, AWS, Azure, Google Cloud" />
       </Helmet>

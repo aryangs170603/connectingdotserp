@@ -62,11 +62,13 @@
   align-items: center;
   gap: 1rem;
   margin-top: 1.5rem;
+  border-radius: 30px;
 }
 
 .alumni-logos-it-ds {
   display: flex;
   gap: 0.5rem;
+  border-radius: 30px;
 }
 
 .buttons-it-ds {

@@ -20,9 +20,7 @@ const SAPFICO = () => {
         <Header pageId="FICOHeader" pageType="ficoheader" />
          <Why pageId="WhyFICO" pageType="Whyfico" />
         <SAPMOD pageId="SAPFICO"  />
-        {/* <DSHeader pageId="MDAHeader" /> */}
-       
-       
+        
         <Councelor />
         {/* < Interview /> */}
         <Trustus />

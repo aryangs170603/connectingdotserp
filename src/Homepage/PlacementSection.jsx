@@ -1,6 +1,8 @@
-import React, { useState } from 'react';
+import React, { useEffect, useState } from 'react';
 import { Carousel, Container, Row, Col, Card } from 'react-bootstrap';
 import 'bootstrap/dist/css/bootstrap.min.css';
+import AOS from 'aos';
+import 'aos/dist/aos.css';
 import './PlacementSection.css';
 
 import companyLogo from '../Logos/Placementsection/amazon.png';
@@ -39,13 +41,17 @@ const PlacementSection = () => {
   const chunkedStoriesDesktop = chunkArray(placementStories, 3);
   const chunkedStoriesMobile = chunkArray(placementStories, 1);
 
+  useEffect(() => {
+    AOS.init({ duration: 1000 });
+  }, []);
+
   const handleSelect = (selectedIndex) => {
     setIndex(selectedIndex);
   };
 
   return (
     <Container fluid className="placement-section text-center">
-      <h2 className="section-titleP">OUR STUDENTS PLACED AT</h2>
+      <h2 className="section-titleP" data-aos="fade-down">OUR STUDENTS PLACED AT</h2>
       <Carousel 
         indicators={false} 
         controls={true} 
@@ -53,13 +59,13 @@ const PlacementSection = () => {
         activeIndex={index}
         onSelect={handleSelect}
       >
-        {chunkedStoriesDesktop.map((storyChunk, index) => (
-          <Carousel.Item key={index}>
+        {chunkedStoriesDesktop.map((storyChunk, chunkIndex) => (
+          <Carousel.Item key={chunkIndex}>
             <Row>
               {storyChunk.map((story, storyIndex) => {
-                const cardClassName = `student-placement-card card-${index * 3 + storyIndex}`;
+                const cardClassName = `student-placement-card card-${chunkIndex * 3 + storyIndex}`;
                 return (
-                  <Col key={storyIndex} md={4} className="p-2">
+                  <Col key={storyIndex} md={4} className="p-2" data-aos="fade-up" data-aos-delay={`${storyIndex * 200}`}>
                     <Card className={cardClassName}>
                       <Card.Img variant="top" src={story.topImage} className="top-image" />
                       <Card.Body>
@@ -94,7 +100,7 @@ const PlacementSection = () => {
               {storyChunk.map((story, storyIndex) => {
                 const cardClassName = `student-placement-card card-${index * 1 + storyIndex}`;
                 return (
-                  <Col key={storyIndex} xs={12} className="p-2">
+                  <Col key={storyIndex} xs={12} className="p-2" data-aos="fade-up" data-aos-delay={`${storyIndex * 200}`}>
                     <Card className={cardClassName}>
                       <Card.Img variant="top" src={story.topImage} className="top-image" />
                       <Card.Body>

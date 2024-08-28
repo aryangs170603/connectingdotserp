@@ -1,6 +1,7 @@
-import React from "react";
+import React, { useEffect } from "react";
 import "./Keypoints.css";
-
+import AOS from "aos";
+import "aos/dist/aos.css";
 
 import logo3 from "../Logos/Keypoints/watchlogo.png";
 import logo4 from "../Logos/Keypoints/exp alt.png";
@@ -10,8 +11,12 @@ import logo8 from "../Logos/Keypoints/experiencelogo.png";
 import logo9 from "../Logos/Keypoints/cptraining.png";
 
 const Keypoints = () => {
+  useEffect(() => {
+    AOS.init({ duration: 1000 }); // Initialize AOS with duration for animations
+  }, []);
+
   const keyFeatures = [
-    { title: "10+ Years Experience ", desc: "Seasoned professional with over 10 years of experience in the field ." },
+    { title: "10+ Years Experience ", desc: "Seasoned professional with over 10 years of experience in the field." },
     { title: "MNC Experienced Professional", desc: "Learn from seasoned professionals with extensive industry experience and knowledge." },
     { title: "100% Job Assistance", desc: "Round-the-clock assistance to resolve queries and enhance the learning experience." },
     { title: "Corporate Style Training ", desc: "Craft impressive resumes to highlight your skills and achievements effectively." },
@@ -22,13 +27,13 @@ const Keypoints = () => {
   const homeAbout = [
     {
       cover: logo8,
-      title: "10+ Years Expeience ",
+      title: "10+ Years Experience",
       desc: "Seasoned professional with over 10 years of experience in the field",
       className: "logo1",
     },
     {
       cover: logo7,
-      title: "MNC Experienced Professional ",
+      title: "MNC Experienced Professional",
       desc: "Highly Qualified and Industry Experience Professionals for providing Real-Time Scenario Based Training.",
       className: "logo1",
     },
@@ -44,7 +49,6 @@ const Keypoints = () => {
       desc: "After Training Completion, we provide Job Assistance, Scheduled Interview for every Individual.",
       className: "logo5",
     },
-
     {
       cover: logo3,
       title: "Real Time Training & Project",
@@ -57,13 +61,12 @@ const Keypoints = () => {
       desc: "After Training Completion, we provide Job Assistance, Scheduled Interview for every Individual.",
       className: "logo3",
     }
-
   ];
 
   return (
     <div className="courses-container text-center">
-      <div className="keypoints-title">KEYPOINTS</div>
-      <div className="keypoints">
+      <div className="keypoints-title" data-aos="fade-down">KEYPOINTS</div>
+      <div className="keypoints" data-aos="fade-in">
         <div className="circle">
           {keyFeatures.map((feature, index) => (
             <div className={`feature feature${index}`} key={index}>
@@ -76,7 +79,7 @@ const Keypoints = () => {
         </div>
         <div className="key-notes">
           {homeAbout.map((feature, index) => (
-            <div className="note" key={index}>
+            <div className="note" key={index} data-aos="fade-up" data-aos-delay={`${index * 200}`}>
               <div className="img">
                 <img src={feature.cover} alt={feature.title} className={feature.className} />
               </div>

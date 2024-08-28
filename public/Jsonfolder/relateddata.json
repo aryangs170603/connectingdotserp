@@ -395,7 +395,7 @@
       }
     ]
   },
-  "Mernrelated": {
+  "Mernrelcourses": {
     "id": "Mernrelcourses",
     "title": "Related courses",
     "items": [
@@ -461,7 +461,7 @@
       }
     ]
   },
-  "UIUXrelated": {
+  "UIUXrelcourses": {
     "id": "UIUXrelcourses",
     "title": "Related courses",
     "items": [
@@ -527,7 +527,7 @@
       }
     ]
   },
-  "Pythonrelated": {
+  "Pythonrelcourses": {
     "id": "Pythonrelcourses",
     "title": "Related courses",
     "items": [
@@ -593,7 +593,7 @@
       }
     ]
   },
-  "Salesrelated": {
+  "Salesrelcourses": {
     "id": "Salesrelcourses",
     "title": "Related courses",
     "items": [
@@ -666,61 +666,61 @@
       {
         "name": "SAP HANA",
         "description": "Learn AI from scratch",
-        "icon": "Jsonfolder/Relatedgifs/artificial-intelligence (1).gif",
+        "icon": "",
         "alt": " SAP HANA icon"
       },
       {
         "name": "SAP NETWEAVER",
         "description": "Become a data science expert",
-        "icon": "Jsonfolder/Relatedgifs/pie-chart.gif",
+        "icon": "",
         "alt": "SAP NETWEAVER icon"
       },
       {
         "name": "SAP BW/BI",
         "description": "Master data analytics skills",
-        "icon": "Jsonfolder/Relatedgifs/science.gif",
+        "icon": "",
         "alt": "SAP BI icon"
       },
       {
         "name": "SAP BASIS",
         "description": "Salesforce developer courses",
-        "icon": "Jsonfolder/Relatedgifs/cloud--network.gif",
+        "icon": "",
         "alt": "SAP BASIS icon"
       },
       {
         "name": "SAP FICO",
         "description": "Design stunning user interfaces",
-        "icon": "Jsonfolder/Relatedgifs/computer.gif",
+        "icon": "",
         "alt": "SAP FICO icon"
       },
       {
         "name": "SAP MM",
         "description": "Full-stack development with Python",
-        "icon": "Jsonfolder/Relatedgifs/coding.gif",
+        "icon": "",
         "alt": "SAP MM icon"
       },
       {
         "name": "SAP SD",
         "description": "Full-stack development with Java",
-        "icon": "Jsonfolder/Relatedgifs/java (1).gif",
+        "icon": "",
         "alt": "sap SD icon"
       },
       {
         "name": "SAP HR/HCM",
         "description": "Business intelligence with PowerBI",
-        "icon": "Jsonfolder/Relatedgifs/setting.gif",
+        "icon": "",
         "alt": "SAP HR/HCM icon"
       },
       {
         "name": "SAP PM",
         "description": "Learn GCP from experts",
-        "icon": "Jsonfolder/Relatedgifs/exchange.gif",
+        "icon": "",
         "alt": "SAP PM icon"
       },
       {
         "name": "SAP SCM",
         "description": "Learn Reactjs from Industry Experts",
-        "icon": "Jsonfolder/Relatedgifs/physics.gif",
+        "icon": "",
         "alt": "SAP SCM icon"
       }
     ]
@@ -1716,7 +1716,7 @@
     ]
   },
   "POWERBIrelcourses": {
-    "id": "Succrelcourses",
+    "id": "PowerBIrelcourses",
     "title": "Related courses",
     "items": [
       {
@@ -1782,7 +1782,7 @@
     ]
   },
   "TABLEAUrelcourses": {
-    "id": "Succrelcourses",
+    "id": "Tableaurelcourses",
     "title": "Related courses",
     "items": [
       {
@@ -1848,7 +1848,7 @@
     ]
   },
   "SQLrelcourses": {
-    "id": "Succrelcourses",
+    "id": "SQLrelcourses",
     "title": "Related courses",
     "items": [
       {
