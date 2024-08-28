@@ -1,12 +1,14 @@
 .glow-text {
   font-size: 2rem; /* Adjust this value as needed */
   margin-top: 1vh; /* Adjust this value if there's too much space */
-  color: #00e1ff !important; /* Dark green text color */
-  font-family: 'Great Vibes', cursive;
- animation-name: glow;
-  animation-duration: 1s;
-  animation-iteration-count: infinite;
-  animation-direction: alternate;
+  color: #00e1ff !important; /* Base text color */
+  font-family: 'Lato', sans-serif;
+  display: inline-block;
+}
+
+.glow-text span {
+  opacity: 0;
+  animation: glow 1.5s infinite ease-in-out alternate;
   text-shadow: 
     1px 1px 1px #0a0b0a, /* Base shadow for 3D effect */
     2px 2px 2px #090909, /* Deeper shadow */
@@ -17,7 +19,8 @@
 }
 
 @keyframes glow {
-  from {
+  0% {
+    opacity: 0;
     text-shadow: 
       1px 1px 1px #0a0b0a,
       2px 2px 2px #090909,
@@ -26,7 +29,8 @@
       0px 0px 5px #0b788e, 
       0px 0px 5px #0a6e8f; 
   }
-  to {
+  100% {
+    opacity: 1;
     text-shadow: 
       1px 1px 1px #0a0b0a,
       2px 2px 2px #090909,

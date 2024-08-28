@@ -13,21 +13,23 @@ const PopupForm = ({ onSubmitData }) => {
   const [isChecked, setIsChecked] = useState(false);
 
   useEffect(() => {
-    if (location.pathname === '/AdminLogin' || location.pathname === '/Dashboard') {
+    // Hide popup on AdminLogin and Dashboard pages
+    const hiddenPages = ['/AdminLogin', '/Dashboard'];
+    if (hiddenPages.includes(location.pathname)) {
       setIsVisible(false);
       return;
     }
 
-    // Show popup after 15 seconds on page load
+    // Show popup after 15 seconds on allowed pages
     const showTimer = setTimeout(() => {
       setIsVisible(true);
-    }, 15000); // 15 seconds
+    }, 5000); // 15 seconds
 
     return () => clearTimeout(showTimer);
   }, [location.pathname]);
 
   useEffect(() => {
-    // Hide popup and reset the visibility timer
+    // Hide popup and reset visibility timer if it's not visible
     if (!isVisible) {
       const hideTimer = setTimeout(() => {
         setIsVisible(true);
@@ -35,6 +37,20 @@ const PopupForm = ({ onSubmitData }) => {
 
       return () => clearTimeout(hideTimer);
     }
+  }, [isVisible]);
+
+  // Add or remove no-scroll class based on isVisible state
+  useEffect(() => {
+    if (isVisible) {
+      document.body.classList.add('no-scroll'); // Prevent scrolling
+    } else {
+      document.body.classList.remove('no-scroll'); // Allow scrolling
+    }
+
+    // Cleanup function to ensure the class is removed when the component unmounts
+    return () => {
+      document.body.classList.remove('no-scroll');
+    };
   }, [isVisible]);
 
   const handleSubmit = async (e) => {
@@ -119,8 +135,8 @@ const PopupForm = ({ onSubmitData }) => {
               required
             />
             <label htmlFor="terms">
-              I hereby accept the <a href="/terms" target="_blank" rel="noopener noreferrer">terms and conditions</a> and 
-              <a href="/privacy" target="_blank" rel="noopener noreferrer">privacy policy</a> of Connecting Dots ERP.
+              I hereby accept the <a href="/terms" target="_blank" rel="noopener noreferrer">terms and conditions</a> and  
+              <a href="/privacy" target="_blank" rel="noopener noreferrer"> privacy policy</a> of Connecting Dots ERP.
             </label>
           </div>
           <button type="submit">Register</button>

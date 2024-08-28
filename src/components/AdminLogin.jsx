@@ -2,7 +2,7 @@ import React, { useState } from 'react';
 import { useNavigate } from 'react-router-dom';
 import './AdminLogin.css';
 
-const AdminLogin = () => {
+const AdminLogin = ({ onLogin }) => {  // Add the onLogin prop
   const [password, setPassword] = useState('');
   const navigate = useNavigate();
 
@@ -13,6 +13,7 @@ const AdminLogin = () => {
   const handleSubmit = (e) => {
     e.preventDefault();
     if (password === ADMIN_PASSWORD) {
+      onLogin(); // Set the user as authenticated
       navigate('/dashboard'); // Redirect to dashboard on successful login
     } else {
       alert('Incorrect password!');

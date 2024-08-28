@@ -346,8 +346,7 @@ const Header = () => {
 
             <Nav.Link
               href="/AdminLogin"
-              target="_blank"
-              rel="noopener noreferrer"
+              
               className={`mx-lg-2 ${activeLink === "login" ? "active" : ""}`}
               onClick={() => handleNavClick("login")}
             >

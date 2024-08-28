@@ -1,79 +1,78 @@
-/* PopupForm.css */
-
 .popup-form-overlay {
   position: fixed;
   top: 0;
   left: 0;
   width: 100%;
   height: 100%;
-  background-color: rgba(0, 0, 0, 0); 
+  background-color: rgba(0, 0, 0, 0); /* Semi-transparent background for the overlay */
   display: flex;
   justify-content: center;
   align-items: center;
   z-index: 1100;
-  padding: 20px; 
+  padding: 20px;
 }
 
 .popup-form-container {
-  background: translucent;
-  backdrop-filter: blur(50px);
+  background: transparent; /* Semi-transparent background for the form container */
+  backdrop-filter: blur(10px); /* Apply blur effect */
   padding: 30px;
   border-radius: 8px;
   width: 100%;
-  max-width: 380px; 
+  max-width: 380px;
   box-shadow: 0 0 15px rgba(0, 0, 0, 0.2);
-  position: relative; 
-  z-index: 1010; 
-  margin-bottom: 50px;
+  position: relative;
+  z-index: 1010; /* Ensure it's above the overlay */
+  margin-bottom: 80px;  
 }
 
 .close-button-pf-2 {
   position: absolute;
-  top: 1px;
-  right: 1px;
+  top: 10px; /* Adjusted for better visibility */
+  right: 10px; 
   color: black;
-  background-color: transparent; 
+  background-color: transparent;
   border: none;
   font-size: 25px;
   cursor: pointer;
-  z-index: 1020; 
-  transition: none; 
+  z-index: 1020;
+  transition: none;
 }
 
 .close-button-pf-2:hover {
-  color: #4a4a4a; 
-  background-color: transparent; 
+  color: #4a4a4a;
+  background-color: transparent;
 }
 
 .header-container {
   display: flex;
-  align-items: center; 
-  justify-content: center; 
+  align-items: center;
+  justify-content: center;
   margin-bottom: 20px;
 }
 
 .header-container .logo-ppf {
   width: 70px;
   height: 70px;
-  margin-right: 10px; 
-  margin-left: -30px
+  margin-right: 10px;
+  margin-left: -30px;
 }
 
 .header-container h2 {
   font-size: 24px;
   font-weight: bold;
-  color: #07001f;
+  color: #2277d3;
   margin: 0;
 }
+
 .popup-form-container form {
   display: flex;
   flex-direction: column;
-  gap: 15px; 
+  gap: 15px;
 }
 
 .popup-form-container form input {
   width: 100%;
-  padding: 15px; 
+  padding: 15px;
   border-radius: 4px;
   border: 1px solid #ccc;
   font-size: 14px;
@@ -86,7 +85,7 @@
 
 .terms-checkbox {
   display: flex;
-  align-items: center; 
+  align-items: center;
   font-size: 12px;
   line-height: 1.5;
   color: white;
@@ -112,7 +111,7 @@
 .popup-form-container form button {
   width: 100%;
   padding: 12px;
-  background-color: blue;
+  background-color: #2277d3;
   color: white;
   border: none;
   border-radius: 4px;
@@ -122,40 +121,58 @@
 }
 
 .popup-form-container form button:hover {
-  background-color: blue;
+  background-color: #4343d0; 
+}
+/* PopupForm.css */
+.no-scroll {
+  overflow: hidden;
 }
 
 
 /* Media Query for Responsive Adjustments */
 @media (max-width: 480px) {
+  .popup-form-overlay {
+    padding: 10px; 
+  }
+
   .popup-form-container {
-    padding: 20px; 
-    width: 80%;
-    margin-right: 100px;
+    padding: 15px; 
+    width: 80%; 
+    max-width: 280px; 
+    margin: 0; 
+    position: absolute; 
+    top: 10%; 
+    right: 44%; 
+    transform: translateX(-50%); 
+  }
+
+  .popup-form-container form input {
+    width: 100%; 
+    padding: 10px; 
+    border-radius: 3px; 
+    border: 1px solid #ccc;
+    font-size: 12px; 
+  }
+
+  .popup-form-container form button {
+    width: 100%; 
+    padding: 10px; 
+    font-size: 14px; 
   }
 
   .header-container {
-    flex-direction: column; 
-    align-items: flex-start; 
+    flex-direction: column;
+    align-items: center; /* Center content */
   }
 
   .header-container .logo-ppf {
-    width: 40px; 
-    height: 70px;
-    margin-right: 0; 
-    margin-bottom: 10px; 
-    margin-left: 20px;
-    margin-bottom: -40px;
+    width: 50px; /* Adjusted size */
+    height: 50px; /* Adjusted size */
+    margin: 0 0 10px 0; /* Adjusted margins */
   }
 
   .header-container h2 {
-    font-size: 20px; 
-    margin-left: 70px;
-    
-  }
-
-  .terms-checkbox label {
-    color: white;
+    font-size: 18px; /* Adjusted font size */
+    margin: 0; /* Removed margin */
   }
 }
-

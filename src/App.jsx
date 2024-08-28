@@ -1,56 +1,78 @@
-import React, { useState } from 'react';
-import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
-import '@fortawesome/fontawesome-free/css/all.min.css';
-import 'bootstrap/dist/css/bootstrap.min.css';
-import './App.css';
-import { CityProvider } from './CityContext';
-import Marquee1 from './Homepage/Marquee1';
-import Navbar from './components/Navbar';
-import Wave from './components/Wave';
-import Footer2 from './components/Footer2';
-import Stickyform from './components/Stickyform';
-import Whatsapp from './Homepage/FloatingWhatsApp';
-import Homepage from './Homepage';
-import Datascience from './IT/Datascience';
-import DataAnalytics from './IT/DataAnalytics';
-import BussinessAnalytics from './IT/BussinessA';
-import GptAi from './IT/GptAi';
-import Fullstack from './IT/Fullstack';
-import Java from './IT/Java';
-import Mern from './IT/MernStack';
-import UIUX from './IT/UIUX';
-import Python from './IT/Python';
-import Sales from './IT/Salesforce';
-import Chatbot from './components/Chatbot';
-import SAPEWM from './SAP/sapewm';
-import SAPABAP from './SAP/sapabap';
-import SAPBASIS from './SAP/sapbasis';
-import SAPBI from './SAP/sapbi';
-import SAPFICO from './SAP/sapfico';
-import SAPHANA from './SAP/saphana';
-import SAPHRHCM from './SAP/saphrhcm';
-import SAPMM from './SAP/sapmm';
-import SAPNET from './SAP/sapnetweaver';
-import SAPPM from './SAP/sappm';
-import SAPPP from './SAP/sappp';
-import SAPPS from './SAP/sapps';
-import SAPQM from './SAP/sapqm';
-import SAPSCM from './SAP/sapscm';
-import SAPSD from './SAP/sapsd';
-import SAPSUCC from './SAP/sapsuccess';
-import POWERBI from './Data Visual/powerbi';
-import SQL from './Data Visual/sql';
-import TABLEAU from './Data Visual/tableau';
-import DIGIM from './Digital Marketing/DigitM';
-import AdminLogin from './components/AdminLogin';
-import Dashboard from './components/Dashboard';
-import PopupForm from "./components/PopupForm"; // Ensure this matches the actual file name
+import React, { useState } from "react";
+import {
+  BrowserRouter as Router,
+  Route,
+  Routes,
+  Navigate,
+} from "react-router-dom";
+import "@fortawesome/fontawesome-free/css/all.min.css";
+import "bootstrap/dist/css/bootstrap.min.css";
+import "./App.css";
+import { CityProvider } from "./CityContext";
+import Marquee1 from "./Homepage/Marquee1";
+import Navbar from "./components/Navbar";
+import Wave from "./components/Wave";
+import Footer2 from "./components/Footer2";
+import Stickyform from "./components/Stickyform";
+import Whatsapp from "./Homepage/FloatingWhatsApp";
+import Homepage from "./Homepage";
+import Datascience from "./IT/Datascience";
+import DataAnalytics from "./IT/DataAnalytics";
+import BussinessAnalytics from "./IT/BussinessA";
+import GptAi from "./IT/GptAi";
+import Fullstack from "./IT/Fullstack";
+import Java from "./IT/Java";
+import Mern from "./IT/MernStack";
+import UIUX from "./IT/UIUX";
+import Python from "./IT/Python";
+import Sales from "./IT/Salesforce";
+import Chatbot from "./components/Chatbot";
+import SAPEWM from "./SAP/sapewm";
+import SAPABAP from "./SAP/sapabap";
+import SAPBASIS from "./SAP/sapbasis";
+import SAPBI from "./SAP/sapbi";
+import SAPFICO from "./SAP/sapfico";
+import SAPHANA from "./SAP/saphana";
+import SAPHRHCM from "./SAP/saphrhcm";
+import SAPMM from "./SAP/sapmm";
+import SAPNET from "./SAP/sapnetweaver";
+import SAPPM from "./SAP/sappm";
+import SAPPP from "./SAP/sappp";
+import SAPPS from "./SAP/sapps";
+import SAPQM from "./SAP/sapqm";
+import SAPSCM from "./SAP/sapscm";
+import SAPSD from "./SAP/sapsd";
+import SAPSUCC from "./SAP/sapsuccess";
+import POWERBI from "./Data Visual/powerbi";
+import SQL from "./Data Visual/sql";
+import TABLEAU from "./Data Visual/tableau";
+import DIGIM from "./Digital Marketing/DigitM";
+import AdminLogin from "./components/AdminLogin";
+import Dashboard from "./components/Dashboard";
+import PopupForm from "./components/PopupForm";
 
 function App() {
   const [temporaryLeads, setTemporaryLeads] = useState([]);
+  const [isAuthenticated, setIsAuthenticated] = useState(false);
+
+  const handleLogin = () => {
+    setIsAuthenticated(true);
+    localStorage.setItem("isAuthenticated", true);
+  };
 
   const handleFormData = (formData) => {
+    console.log("Form data received:", formData); // Debugging line
     setTemporaryLeads((prevLeads) => [...prevLeads, formData]);
+  };
+
+  const ProtectedRoute = ({ children }) => {
+    const isAuthenticated = localStorage.getItem("isAuthenticated");
+
+    if (!isAuthenticated) {
+      return <Navigate to="/AdminLogin" />;
+    }
+
+    return children;
   };
 
   return (
@@ -72,12 +94,27 @@ function App() {
             <Chatbot />
             <Routes>
               <Route path="/" element={<Homepage />} />
-              <Route path="/AdminLogin" element={<AdminLogin />} />
-              <Route path="/dashboard" element={<Dashboard temporaryLeads={temporaryLeads} />} />
+              <Route
+                path="/AdminLogin"
+                element={<AdminLogin onLogin={handleLogin} />}
+              />
+              {isAuthenticated && (
+                <Route
+                  path="/dashboard"
+                  element={
+                    <ProtectedRoute>
+                      <Dashboard temporaryLeads={temporaryLeads} />
+                    </ProtectedRoute>
+                  }
+                />
+              )}
               {/* IT PAGE */}
               <Route path="/Datascience" element={<Datascience />} />
               <Route path="/DataAnalytics" element={<DataAnalytics />} />
-              <Route path="/BussinessAnalytics" element={<BussinessAnalytics />} />
+              <Route
+                path="/BussinessAnalytics"
+                element={<BussinessAnalytics />}
+              />
               <Route path="/GPT" element={<GptAi />} />
               <Route path="/FullStack" element={<Fullstack />} />
               <Route path="/Java" element={<Java />} />

@@ -59,6 +59,25 @@ const SapModComponent = ({ pageId }) => {
     fetchData();
   }, [pageId, city]);
 
+  // This effect runs when the data has been successfully loaded
+  useEffect(() => {
+    if (data && data.noteAdvance) {
+      // Get the container where the word will be displayed
+      const container = document.getElementById('glow-container');
+      if (container) {
+        container.innerHTML = ''; // Clear any existing content
+
+        // Create a span for each letter in the noteAdvance word
+        data.noteAdvance.split('').forEach((letter, index) => {
+          const span = document.createElement('span');
+          span.textContent = letter;
+          span.style.animationDelay = `${index * 0.1}s`;
+          container.appendChild(span);
+        });
+      }
+    }
+  }, [data]);
+
   if (loading) {
     return <p>Loading...</p>;
   }
@@ -80,8 +99,10 @@ const SapModComponent = ({ pageId }) => {
         />
         <p className="mb-4 text-lg" data-aos="fade-left">{data.description}</p>
         <p className="text-base mb-6" data-aos="fade-up">{data.summary}</p>
-        
-        <p className="glow-text">{data.noteAdvance}</p>
+
+        {/* Glow Text Container */}
+        <div id="glow-container" className="glow-text"></div>
+
         <p className="text-danger mb-6">{data.noteMaster}</p>
         <div className="space-y-4">
           {data.features && data.features.length > 0 ? (

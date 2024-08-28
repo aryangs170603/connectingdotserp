@@ -65,7 +65,80 @@ const SContactForm = () => {
     <>
       {isMobileView && (
         <button className="contact-us-button" onClick={toggleFormVisibility}>
-          {isFormVisible ? "Close" : "Contact Us"}
+          
+          <button id="contactUsButton">Contact Us</button>
+
+         
+          <div id="contactFormContainer" class="hidden-sf">
+            <form class="contact-formS">
+              <label htmlFor="name">Name</label>
+              <input
+                type="text"
+                id="name"
+                name="name"
+                placeholder="Eg:Ram"
+                value={formData.name}
+                onChange={handleChange}
+                required
+              />
+              <label htmlFor="contact">Contact Number</label>
+              <input
+                type="text"
+                id="contact"
+                name="contact"
+                placeholder="Eg: +91-1234567890"
+                value={formData.contact}
+                onChange={handleChange}
+                maxLength={10}
+                required
+              />
+
+              <label htmlFor="course">Course</label>
+              <select
+                id="course"
+                name="course"
+                value={formData.course}
+                onChange={handleChange}
+                required
+              >
+                <option value="" disabled>Select a course</option>
+                <option value="SAP">SAP</option>
+                <option value="IT Courses">IT Courses</option>
+                <option value="Digital Marketing">Digital Marketing</option>
+                <option value="Data Visualisation">Data Visualisation</option>
+                <option value="HR Courses">HR Courses</option>
+              </select>
+
+              <label htmlFor="contact">Contact Number</label>
+              <input
+                type="text"
+                id="contact"
+                name="contact"
+                placeholder="Eg: +91-1234567890"
+                value={formData.contact}
+                onChange={handleChange}
+                maxLength={10}
+                required
+              />
+              <label htmlFor="course">Course</label>
+              <select
+                id="course"
+                name="course"
+                value={formData.course}
+                onChange={handleChange}
+                required
+              >
+                <option value="" disabled>Select a course</option>
+                <option value="SAP">SAP</option>
+                <option value="IT Courses">IT Courses</option>
+                <option value="Digital Marketing">Digital Marketing</option>
+                <option value="Data Visualisation">Data Visualisation</option>
+                <option value="HR Courses">HR Courses</option>
+              </select>
+              
+            </form>
+          </div>
+
         </button>
       )}
       {isFormVisible && (
