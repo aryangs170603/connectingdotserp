@@ -8,9 +8,9 @@ const Dashboard = () => {
 
   useEffect(() => {
     const fetchLeads = () => {
-      // Fetch leads from local storage
+      // Fetch leads from local storage and reverse the order
       const storedLeads = JSON.parse(localStorage.getItem('leads')) || [];
-      setLeads(storedLeads);
+      setLeads(storedLeads.reverse()); // Reverse to show the most recent first
     };
 
     fetchLeads();
@@ -18,7 +18,7 @@ const Dashboard = () => {
 
   const handleNewLead = () => {
     const storedLeads = JSON.parse(localStorage.getItem('leads')) || [];
-    setLeads(storedLeads); // Refresh the leads
+    setLeads(storedLeads.reverse()); // Refresh and reverse the leads
   };
 
   const indexOfLastLead = currentPage * leadsPerPage;

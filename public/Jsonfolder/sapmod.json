@@ -57,9 +57,12 @@
           "name": "Account Payables – Part 1 ",
           "duration": "9 Weeks"
         }
+
+    
       ]
      
-    }
+    },
+    "gifUrl": "Jsonfolder/images/artificial-intelligence (1).gif"
   },
   "SAPABAP": {
 
@@ -121,7 +124,8 @@
         }
       ]
 
-    }
+    },
+    "gifUrl": "Jsonfolder/images/joingif.gif"
   },
   "SAPBASIS": {
 
@@ -183,7 +187,8 @@
         }
       ]
 
-    }
+    },
+    "gifUrl": "Jsonfolder/images/joingif.gif"
   },
   "SAPBI": {
 
@@ -244,7 +249,8 @@
         }
       ]
 
-    }
+    },
+    "gifUrl": "Jsonfolder/images/joingif.gif"
   },
   "SAPEWM": {
 
@@ -305,7 +311,8 @@
         }
       ]
 
-    }
+    },
+    "gifUrl": "Jsonfolder/images/joingif.gif"
   },
   "SAPHANA": {
 
@@ -366,7 +373,8 @@
         }
       ]
 
-    }
+    },
+    "gifUrl": "Jsonfolder/images/joingif.gif"
   },
   "SAPHRHCM": {
 
@@ -427,7 +435,8 @@
         }
       ]
 
-    }
+    },
+    "gifUrl": "Jsonfolder/images/joingif.gif"
   },
   "SAPMM": {
 
@@ -488,7 +497,8 @@
         }
       ]
 
-    }
+    },
+    "gifUrl": "Jsonfolder/images/joingif.gif"
   },
   "SAPNETWEAVER": {
 
@@ -549,7 +559,8 @@
         }
       ]
 
-    }
+    },
+    "gifUrl": "Jsonfolder/images/joingif.gif"
   },
   "SAPPM": {
 
@@ -610,7 +621,8 @@
         }
       ]
 
-    }
+    },
+    "gifUrl": "Jsonfolder/images/joingif.gif"
   },
   "SAPPP": {
 
@@ -671,7 +683,8 @@
         }
       ]
 
-    }
+    },
+    "gifUrl": "Jsonfolder/images/joingif.gif"
   },
   "SAPPS": {
 
@@ -732,7 +745,8 @@
         }
       ]
 
-    }
+    },
+    "gifUrl": "Jsonfolder/images/joingif.gif"
   },
   "SAPQM": {
 
@@ -793,7 +807,8 @@
         }
       ]
 
-    }
+    },
+    "gifUrl": "Jsonfolder/images/joingif.gif"
   },
   "SAPSCM": {
 
@@ -854,7 +869,8 @@
         }
       ]
 
-    }
+    },
+    "gifUrl": "Jsonfolder/images/joingif.gif"
   },
   "SAPSD": {
 
@@ -915,7 +931,8 @@
         }
       ]
 
-    }
+    },
+    "gifUrl": "Jsonfolder/images/joingif.gif"
   },
   "SAP SUCCESS": {
 
@@ -976,7 +993,8 @@
         }
       ]
 
-    }
+    },
+    "gifUrl": "Jsonfolder/images/joingif.gif"
   },
 "DIGIM": {
 
@@ -1035,7 +1053,8 @@
         }
       ]
 
-    }
+    },
+    "gifUrl": "Jsonfolder/images/joingif.gif"
   }
 
 }

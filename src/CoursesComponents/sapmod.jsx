@@ -118,7 +118,12 @@ const SapModComponent = ({ pageId }) => {
             <p>No features available.</p>
           )}
         </div>
-        <button className="sap-mod-button mt-6" data-aos="fade-up">Download Brochure</button>
+
+        {/* Download Brochure Button with GIF */}
+        <div className="sap-mod-button-container mt-6" data-aos="fade-up">
+          <button className="sap-mod-button">Download Brochure</button>
+          <img src="Jsonfolder/path/artificial-intelligence (1).gif" alt="Download Animation" className="download-gif" />
+        </div>
       </div>
       <div className="sap-mod-card sap-mod-card-secondary" data-aos="fade-up">
         <h3 className="text-xl font-semibold mb-6">{data.overview.title}</h3>

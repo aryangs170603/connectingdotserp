@@ -25,15 +25,15 @@ const DIGITALMARKETING = () => {
         <SAPMOD pageId="DIGIM"  />
 
         <Councelor />
-        <Description pageId="digim" />
+        <Description pageId="digim" sectionIndex={0} />
         <Modules pageId="DIGIMmodule"  />
         <Trustus /> 
-        <Description pageId="digim2" />
+        <Description pageId="digim2" sectionIndex={1} />
         <Certificate />
         <Certif />
         <Program />
-        <Description pageId="digim3" />
-         <Description pageId="digim4" />
+        <Description pageId="digim3"  sectionIndex={0} />
+         <Description pageId="digim4"  sectionIndex={1} />
         <FAQ pageId="DIGIMFAQ" pageType="digimfaq" />
         <RelatedCourses pageId="digimrelcourses" />
       </main>

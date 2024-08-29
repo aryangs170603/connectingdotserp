@@ -287,7 +287,8 @@
       "Throughout the PPC Course Training in Pune, you'll gain hands-on experience in setting up, managing, and optimizing PPC campaigns. Our expert trainers will teach you advanced techniques such as keyword research, ad copy creation, bid management, and performance analysis. You'll also learn how to use various PPC tools and analytics to monitor and improve your campaigns continuously, ensuring you stay ahead of the competition.",
 
       "By the end of the PPC Training in Pune, you'll be equipped with the skills to design and execute powerful PPC strategies that deliver tangible business results. Whether you're a business owner, marketer, or aspiring PPC specialist, this course will give you the knowledge and confidence to excel in the fast-paced world of paid online advertising."
-    ]
+    ],
+    "videoUrl": "src/Logos/DGMpage/ppc.mp4" 
   },
 {
 "pageId": "digim2",
@@ -298,28 +299,28 @@
       "The course offers a blend of theoretical knowledge and practical application, allowing you to work on real-world SEO projects. Our SEO Classes in Pune are led by experienced trainers who will guide you through every step of the SEO process, from understanding the basics to mastering advanced strategies. You'll also learn how to use industry-leading SEO tools to analyze and optimize your website's performance, ensuring you're well-prepared to tackle the challenges of modern SEO.",
 
       "Upon completing the SEO Course in Pune with Placement, you'll be equipped with the skills to boost your website's visibility, improve its search engine rankings, and attract more organic traffic. Whether you're a business owner, digital marketer, or aspiring SEO specialist, this course will empower you with the knowledge and tools needed to succeed in the competitive field of SEO. Additionally, our Digital Marketing Online Course options provide flexibility for those looking to learn at their own pace."
-    ]
+    ],
+    "videoUrl": "src/Logos/DGMpage/seo.mp4"
   },
   {
-"pageId": "digim3",
+    "pageId": "digim3",
     "title": "Social Media Marketing Course in Pune",
     "paragraphs": [
       "Our Social Media Marketing Course in Pune is designed to provide you with the skills and knowledge to harness the power of social media platforms for business success. This comprehensive SMM Course in Pune covers all the major social media channels, including Facebook, Instagram, Twitter, LinkedIn, and more. You'll learn how to create engaging content, manage social media accounts, run effective campaigns, and measure your success using advanced analytics. Our Social Media Marketing Certification Pune ensures that you gain the credentials needed to stand out in the competitive market.",
-
       "The course combines theoretical insights with practical training, enabling you to apply what you learn to real-world scenarios. Our expert trainers at the Social Media Marketing Institute in Pune will guide you through the nuances of social media marketing, from building a strong brand presence to engaging with your audience and driving conversions. You'll also learn about the latest social media trends and tools in our social media Classes in Pune that can help you stay ahead of the competition.",
-
-      "By the end of the Advanced Social Media Marketing Course in Pune, you'll be proficient in creating and executing social media strategies that deliver measurable results. Whether you're a business owner, marketer, or aspiring social media specialist, this Social Media Management Course Pune will equip you with the skills needed to thrive in the fast-paced world of social media marketing. Our Social Media Marketing Coaching Pune also covers an extensive Social Media Marketing Syllabus Pune, offering both in-person and Online Social Media Course in Pune options for flexible learning."
-    ]
+        "By the end of the Advanced Social Media Marketing Course in Pune, you'll be proficient in creating and executing social media strategies that deliver measurable results. Whether you're a business owner, marketer, or aspiring social media specialist, this Social Media Management Course Pune will equip you with the skills needed to thrive in the fast-paced world of social media marketing. Our Social Media Marketing Coaching Pune also covers an extensive Social Media Marketing Syllabus Pune, offering both in-person and Online Social Media Course in Pune options for flexible learning."
+    ],
+    "videoUrl": "src/Logos/DGMpage/smm.mp4"
   },
-{
-"pageId": "digim4",
+  {
+    "pageId": "digim4",
     "title": "Advanced Analytics Training in Pune",
     "paragraphs": [
       "Our Advanced Analytics Training in Pune is tailored for professionals who want to deepen their understanding of data analytics and leverage it for business growth. This course covers a wide range of analytics techniques, including predictive analytics, data mining, and data visualization. You'll learn how to analyse large datasets, extract valuable insights, and make data-driven decisions that drive business success.",
-
       "The course offers a hands-on approach, allowing you to work on real-world data analytics projects. You'll gain proficiency in using advanced analytics tools such as Python, R, Tableau, and Excel. Our experienced trainers will guide you through the entire analytics process, from data collection and cleaning to model building and interpretation of results.",
-
-      "Upon completing the Advanced Google Analytics Training in Pune, you'll be equipped with the skills to analyse complex data, uncover hidden patterns, and provide actionable insights that can transform your business strategies. Whether you're a data analyst, business analyst, or marketing professional, this course will enhance your ability to make informed decisions based on data and analytics."
-    ]
+       "Upon completing the Advanced Google Analytics Training in Pune, you'll be equipped with the skills to analyse complex data, uncover hidden patterns, and provide actionable insights that can transform your business strategies. Whether you're a data analyst, business analyst, or marketing professional, this course will enhance your ability to make informed decisions based on data and analytics."
+    ],
+    "videoUrl": "src/Logos/DGMpage/aa.mp4"
   }
+  
 ]

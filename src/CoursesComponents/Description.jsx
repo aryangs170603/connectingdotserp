@@ -2,7 +2,7 @@ import React, { useEffect, useState, useContext } from 'react';
 import { CityContext } from '../CityContext';
 import './Description.css';
 
-const Description = ({ pageId }) => {
+const Description = ({ pageId, sectionIndex }) => {
   const [content, setContent] = useState(null);
   const city = useContext(CityContext);
 
@@ -18,7 +18,7 @@ const Description = ({ pageId }) => {
           const updatedParagraphs = pageContent.paragraphs.map(paragraph =>
             paragraph.replace(/{city}/g, city)
           );
-          setContent({ ...pageContent, paragraphs: updatedParagraphs });
+          setContent({ ...pageContent, paragraphs: updatedParagraphs, videoUrl: pageContent.videoUrl });
         }
       })
       .catch(error => console.error('Error fetching the content:', error));
@@ -29,11 +29,18 @@ const Description = ({ pageId }) => {
   }
 
   return (
-    <div className="description-container">
-      <h2 className="description-title">{content.title}</h2>
-      {content.paragraphs.map((paragraph, index) => (
-        <p key={index} className="description-paragraph">{paragraph}</p>
-      ))}
+    <div className={`description-container ${sectionIndex % 2 === 0 ? 'video-left' : 'video-right'}`}>
+      {content.videoUrl && (
+         <div className="description-video">
+         <video src={content.videoUrl} loop autoPlay muted controls={false} />
+       </div>
+      )}
+      <div className="description-content">
+        <h2 className="description-title">{content.title}</h2>
+        {content.paragraphs.map((paragraph, index) => (
+          <p key={index} className="description-paragraph">{paragraph}</p>
+        ))}
+      </div>
     </div>
   );
 };

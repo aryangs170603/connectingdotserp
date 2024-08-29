@@ -13,27 +13,22 @@ const PopupForm = ({ onSubmitData }) => {
 
   useEffect(() => {
     const hiddenPages = ['/AdminLogin', '/Dashboard'];
+
+    console.log("Current Path:", location.pathname);
+
     if (hiddenPages.includes(location.pathname)) {
       setIsVisible(false);
       return;
     }
 
     const showTimer = setTimeout(() => {
-      setIsVisible(true);
-    }, 5000); // 5 seconds
+      if (!hiddenPages.includes(location.pathname)) {
+        setIsVisible(true);
+      }
+    }, 5000); 
 
     return () => clearTimeout(showTimer);
   }, [location.pathname]);
-
-  useEffect(() => {
-    if (!isVisible) {
-      const hideTimer = setTimeout(() => {
-        setIsVisible(true);
-      }, 300000); // 5 minutes
-
-      return () => clearTimeout(hideTimer);
-    }
-  }, [isVisible]);
 
   useEffect(() => {
     if (isVisible) {
@@ -50,6 +45,32 @@ const PopupForm = ({ onSubmitData }) => {
   const handleSubmit = async (e) => {
     e.preventDefault();
 
+    // Name Validation
+    if (name.length > 50) {
+      alert('Name cannot exceed 50 characters.');
+      return;
+    }
+
+    // Mobile Number Validation
+    const mobilePattern = /^[0-9]{10}$/;
+    if (!mobilePattern.test(mobile)) {
+      alert('Mobile number must be exactly 10 digits and numeric.');
+      return;
+    }
+
+    // Email Validation
+    const emailPattern = /^[a-z]+[a-z0-9._]+@[a-z]+\.[a-z]{2,}$/;
+    if (!emailPattern.test(email)) {
+      alert('Invalid email format. Only lowercase letters, "@" and "." are allowed.');
+      return;
+    }
+                                                                          
+    // Course Validation
+    if (course.length > 50) {
+      alert('Course name cannot exceed 50 characters.');
+      return;
+    }
+
     if (!isChecked) {
       alert('Please agree to the terms and conditions and privacy policy.');
       return;
@@ -60,7 +81,7 @@ const PopupForm = ({ onSubmitData }) => {
       mobile,
       email,
       courseName: course,
-      date: new Date().toISOString(),  // Add timestamp for tracking
+      date: new Date().toISOString(),
     };
 
     // Save the form data to local storage
@@ -69,7 +90,7 @@ const PopupForm = ({ onSubmitData }) => {
     localStorage.setItem('leads', JSON.stringify(storedLeads));
 
     alert('Registration complete!');
-    onSubmitData(formData); // Trigger refresh in Dashboard
+    onSubmitData(formData); 
 
     setName('');
     setMobile('');
@@ -78,6 +99,11 @@ const PopupForm = ({ onSubmitData }) => {
     setIsChecked(false);
     setIsVisible(false);
   };
+
+  if (location.pathname === '/Dashboard' || location.pathname === '/AdminLogin') {
+    console.log("Popup is hidden on this page.");
+    return null;
+  }
 
   if (!isVisible) return null;
 
@@ -96,6 +122,7 @@ const PopupForm = ({ onSubmitData }) => {
             value={name}
             onChange={(e) => setName(e.target.value)}
             required
+            maxLength="50" // Limit input length
           />
           <input
             type="email"
@@ -103,6 +130,8 @@ const PopupForm = ({ onSubmitData }) => {
             value={email}
             onChange={(e) => setEmail(e.target.value)}
             required
+            pattern="[a-z]+[a-z0-9._]+@[a-z]+\.[a-z]{2,}$" // Regex for lowercase email
+            title="Email must be lowercase, contain '@', and end with a valid domain (e.g., .com, .org)."
           />
           <input
             type="tel"
@@ -110,6 +139,8 @@ const PopupForm = ({ onSubmitData }) => {
             value={mobile}
             onChange={(e) => setMobile(e.target.value)}
             required
+            pattern="[0-9]{10}" // Regex for 10-digit mobile number
+            title="Mobile number must be exactly 10 digits."
           />
           <input
             type="text"
@@ -117,6 +148,7 @@ const PopupForm = ({ onSubmitData }) => {
             value={course}
             onChange={(e) => setCourse(e.target.value)}
             required
+            maxLength="50" // Limit input length
           />
           <div className="terms-checkbox">
             <input

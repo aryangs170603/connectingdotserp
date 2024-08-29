@@ -1,4 +1,5 @@
 .description-container {
+  display: flex;
   max-width: 1800px;
   width: 97.5%;
   margin: 0 auto;
@@ -9,6 +10,31 @@
   background-color: #fff;
   margin-top: 20px;
   margin-bottom: 20px;
+  align-items: center;
+  
+
+}
+
+.description-video {
+  flex: 1;
+  padding: 20px;
+  
+}
+
+.description-video video {
+  width: 450px;
+  height: 390px;
+  border-radius: 8px;
+  object-fit: cover;
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.3), 
+                0 6px 6px rgba(0, 0, 0, 0.23); /* Adds a 3D shadow effect */
+                
+                
+}
+
+.description-content {
+  flex: 2;
+  padding: 20px;
 }
 
 .description-title {
@@ -30,9 +56,31 @@
   padding-right: 40px;
 }
 
+.video-left .description-video {
+  order: 1;
+}
+
+.video-left .description-content {
+  order: 2;
+}
+
+.video-right .description-video {
+  order: 2;
+}
+
+.video-right .description-content {
+  order: 1;
+}
+
 /* Additional styling for responsiveness */
 @media (max-width: 768px) {
   .description-container {
+    flex-direction: column;
+  }
+
+  .description-video,
+  .description-content {
+    order: unset;
     padding: 15px;
   }
 
