@@ -1,8 +1,7 @@
 .contact-formS {
-  position: -webkit-sticky; 
   position: sticky;
   bottom: 0;
-  z-index: 1000; 
+  z-index: 1000;
   max-width: 1800px;
   height: auto;
   width: 97.5%;
@@ -12,14 +11,8 @@
   padding: 5px;
   border-radius: 10px;
   box-shadow: 0 -2px 10px rgba(0, 0, 0, 0.1);
-  padding-top: 5px;
   font-family: 'Lato', sans-serif;
   color: #00abc2;
-}
-
-.contact-formS h2 {
-  margin-bottom: 20px;
-  color: white;
 }
 
 .form-row {
@@ -27,16 +20,16 @@
   flex-wrap: wrap;
   gap: 10px;
   justify-content: space-between;
-  align-items: center; /* Ensures vertical alignment */
+  align-items: center;
 }
 
 .form-group {
-  flex: 1; /* Makes the input fields flexible */
+  flex: 1 1 auto;
   display: flex;
   flex-direction: column;
   font-weight: bolder;
   margin-left: 20px;
-  height: 70px;
+  min-height: 70px;
 }
 
 .form-group label {
@@ -57,8 +50,7 @@ button {
   border: none;
   border-radius: 5px;
   cursor: pointer;
-  margin-left: 10px; /* Ensures spacing from the dropdown */
-  
+  margin-left: 10px;
 }
 
 button:hover {
@@ -71,7 +63,6 @@ button:hover {
     width: 100%;
     padding: 10px;
     margin: 0;
-    height: auto; /* Adjusts height for mobile */
   }
 
   .form-row {
@@ -82,7 +73,6 @@ button:hover {
   .form-group {
     flex: 1 1 100%;
     margin-left: 0;
-    height: auto;
   }
 
   button {
@@ -109,7 +99,6 @@ button:hover {
   .form-group {
     flex: 1 1 100%;
     margin-left: 0;
-    height: auto;
   }
 
   .form-group input,
@@ -126,15 +115,4 @@ button:hover {
   .contact-formS h2 {
     font-size: 18px;
   }
-}
-
-.close-form-button {
-  position: absolute;
-  top: 10px;
-  right: 10px;
-  background-color: red;
-  color: #fff;
-  border: none;
-  font-size: 20px;
-  cursor: pointer;
 }

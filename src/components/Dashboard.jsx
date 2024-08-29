@@ -7,50 +7,19 @@ const Dashboard = () => {
   const leadsPerPage = 30;
 
   useEffect(() => {
-    const fetchLeads = async () => {
-      try {
-        const response = await fetch('/api/leads');
-        const data = await response.json();
-        setLeads(data);
-      } catch (error) {
-        console.error('Error fetching leads:', error);
-      }
+    const fetchLeads = () => {
+      // Fetch leads from local storage
+      const storedLeads = JSON.parse(localStorage.getItem('leads')) || [];
+      setLeads(storedLeads);
     };
 
     fetchLeads();
   }, []);
 
-  const handleNewLead = async (newLead) => {
-    try {
-      await fetch('/api/leads', {
-        method: 'POST',
-        headers: {
-          'Content-Type': 'application/json',
-        },
-        body: JSON.stringify(newLead),
-      });
-
-      const response = await fetch('/api/leads');
-      const data = await response.json();
-      setLeads(data);
-    } catch (error) {
-      console.error('Error adding new lead:', error);
-    }
+  const handleNewLead = () => {
+    const storedLeads = JSON.parse(localStorage.getItem('leads')) || [];
+    setLeads(storedLeads); // Refresh the leads
   };
-
-  useEffect(() => {
-    const fetchLeads = async () => {
-      try {
-        const response = await fetch('/api/leads');
-        const data = await response.json();
-        setLeads(data);
-      } catch (error) {
-        console.error('Error fetching leads:', error);
-      }
-    };
-
-    fetchLeads();
-  }, []);
 
   const indexOfLastLead = currentPage * leadsPerPage;
   const indexOfFirstLead = indexOfLastLead - leadsPerPage;
@@ -113,7 +82,7 @@ const Dashboard = () => {
           <tbody>
             {currentLeads.length > 0 ? (
               currentLeads.map((lead, index) => (
-                <tr key={lead._id}>
+                <tr key={index}>
                   <td>{indexOfFirstLead + index + 1}</td>
                   <td>{lead.name}</td>
                   <td>{lead.mobile}</td>
@@ -123,7 +92,7 @@ const Dashboard = () => {
                 </tr>
               ))
             ) : (
-              Array.from({ length: 30 }).map((_, index) => (
+              Array.from({ length: leadsPerPage }).map((_, index) => (
                 <tr key={index}>
                   <td>{index + 1}</td>
                   <td></td>

@@ -1,0 +1,1792 @@
+{
+  "dataScienceCurriculum": {
+    "id": "DSCurriculumPage",
+    "title": "DATA SCIENCE CURRICULUM",
+    "tabs": [
+      {
+        "type": "beginner",
+        "duration": "15 Months",
+        "modules": [
+          {
+            "title": "Tableau + Excel",
+            "duration": "5 Months",
+            "content": [
+              "Basic Visual Analytics",
+              "More Charts and Graphs, Operations on Data and Calculations in Tableau",
+              "Advanced Visual Analytics and Level Of Detail (LOD) Expressions",
+              "Geographic Visualizations, Advanced Charts, and Worksheet and Workbook Formatting",
+              "Introduction to Excel and Formulas",
+              "Pivot Tables, Charts and Statistical functions"
+            ]
+          },
+          {
+            "title": "Python Basic to Advance",
+            "duration": "4 Months",
+            "content": [
+              "Basic Python Concepts",
+              "Control Flow and Functions",
+              "Data Structures and Classes",
+              "Exception Handling and Recursion",
+              "Regular Expressions and Libraries",
+              "Exploratory Data Analysis",
+              "Practical Applications"
+            ]
+          },
+          {
+            "title": "Structured Query Language(SQL)",
+            "duration": "3 Months",
+            "content": [
+              "CRUD Operations",
+              "Normalization",
+              "Joins (INNER, OUTER, LEFT, RIGHT, CROSS, SELF JOIN)",
+              "Transactions",
+              "Advanced Queries on University Schema",
+              "Stored Procedures",
+              "Common Table Expressions"
+            ]
+          },
+          {
+            "title": "Big Data Computing",
+            "duration": "3 Months",
+            "content": [
+              "Introduction to Big Data",
+              "Hadoop and Its Evolution",
+              "HDFS Architecture",
+              "Hadoop Ecosystem",
+              "HDFS Commands",
+              "Intro Linux Commands"
+            ]
+          },
+          {
+            "title": "Machine Learning Ops",
+            "duration": "1 Month",
+            "content": [
+              "Introduction to Machine Learning",
+              "Types of ML Algorithms",
+              "Feature Selection",
+              "Handling Categorical Data",
+              "Linear Regression",
+              "Logistic Regression",
+              "KNN (K-Nearest Neighbors)"
+            ]
+          }
+        ]
+      },
+      {
+        "type": "advanced",
+        "duration": "20 Months",
+        "modules": [
+          {
+            "title": "Data Structures and Algorithms",
+            "duration": "6 Months",
+            "content": [
+              "Sorting Algorithms",
+              "Searching Algorithms",
+              "Linked Lists",
+              "Stacks and Queues",
+              "Tree Traversal Techniques",
+              "Graphs",
+              "Advanced Topics"
+            ]
+          },
+          {
+            "title": "Data Engineering",
+            "duration": "5 Months",
+            "content": [
+              "Introduction to Data Engineering",
+              "Data Pipelines",
+              "ETL Processes",
+              "Data Warehousing"
+            ]
+          },
+          {
+            "title": "AI and Deep Learning",
+            "duration": "4 Months",
+            "content": [
+              "Introduction to AI",
+              "Deep Learning Architectures",
+              "Convolutional Neural Networks",
+              "Recurrent Neural Networks"
+            ]
+          },
+          {
+            "title": "Project Specializations",
+            "duration": "4 Months",
+            "content": [
+              "Specialization 1",
+              "Specialization 2",
+              "Specialization 3",
+              "Specialization 4"
+            ]
+          },
+          {
+            "title": "Production ML Systems",
+            "duration": "2 Months",
+            "content": [
+              "Production Machine Learning",
+              "Scaling ML Systems",
+              "ML System Design",
+              "Case Studies"
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "dataAnalyticsCurriculum": {
+    "id": "DACurriculumPage",
+    "title": "DATA Analytics CURRICULUM",
+    "tabs": [
+      {
+        "type": "beginner",
+        "duration": "15 Months",
+        "modules": [
+          {
+            "title": "Tableau + Excel",
+            "duration": "5 Months",
+            "content": [
+              "Lorem Ipsum has been the industry's standard dummy",
+              "Lorem Ipsum has been the industry's standard dummy",
+              "Lorem Ipsum has been the industry's standard dummy",
+              "Lorem Ipsum has been the industry's standard dummy",
+              "Lorem Ipsum has been the industry's standard dummy",
+              "Lorem Ipsum has been the industry's standard dummy"
+            ]
+          },
+          {
+            "title": "Python Basic to Advance",
+            "duration": "4 Months",
+            "content": [
+              "Lorem Ipsum has been the industry's standard dummy",
+              "Lorem Ipsum has been the industry's standard dummy",
+              "Lorem Ipsum has been the industry's standard dummy",
+              "Lorem Ipsum has been the industry's standard dummy",
+              "Lorem Ipsum has been the industry's standard dummy",
+              "Lorem Ipsum has been the industry's standard dummy"
+            ]
+          },
+          {
+            "title": "Structured Query Language(SQL)",
+            "duration": "3 Months",
+            "content": [
+              "Lorem Ipsum has been the industry's standard dummy",
+              "Lorem Ipsum has been the industry's standard dummy",
+              "Lorem Ipsum has been the industry's standard dummy",
+              "Lorem Ipsum has been the industry's standard dummy",
+              "Lorem Ipsum has been the industry's standard dummy",
+              "Lorem Ipsum has been the industry's standard dummy"
+            ]
+          },
+          {
+            "title": "Big Data Computing",
+            "duration": "3 Months",
+            "content": [
+              "Lorem Ipsum has been the industry's standard dummy",
+              "Lorem Ipsum has been the industry's standard dummy",
+              "Lorem Ipsum has been the industry's standard dummy",
+              "Lorem Ipsum has been the industry's standard dummy",
+              "Lorem Ipsum has been the industry's standard dummy",
+              "Lorem Ipsum has been the industry's standard dummy"
+            ]
+          },
+          {
+            "title": "Machine Learning Ops",
+            "duration": "1 Month",
+            "content": [
+              "Lorem Ipsum has been the industry's standard dummy",
+              "Lorem Ipsum has been the industry's standard dummy",
+              "Lorem Ipsum has been the industry's standard dummy",
+              "Lorem Ipsum has been the industry's standard dummy",
+              "Lorem Ipsum has been the industry's standard dummy",
+              "Lorem Ipsum has been the industry's standard dummy"
+            ]
+          }
+        ]
+      },
+      {
+        "type": "advanced",
+        "duration": "20 Months",
+        "modules": [
+          {
+            "title": "Data Structures and Algorithms",
+            "duration": "6 Months",
+            "content": [
+              "Lorem Ipsum has been the industry's standard dummy",
+              "Lorem Ipsum has been the industry's standard dummy",
+              "Lorem Ipsum has been the industry's standard dummy",
+              "Lorem Ipsum has been the industry's standard dummy",
+              "Lorem Ipsum has been the industry's standard dummy",
+              "Lorem Ipsum has been the industry's standard dummy"
+            ]
+          },
+          {
+            "title": "Data Engineering",
+            "duration": "5 Months",
+            "content": [
+              "Lorem Ipsum has been the industry's standard dummy",
+              "Lorem Ipsum has been the industry's standard dummy",
+              "Lorem Ipsum has been the industry's standard dummy",
+              "Lorem Ipsum has been the industry's standard dummy",
+              "Lorem Ipsum has been the industry's standard dummy",
+              "Lorem Ipsum has been the industry's standard dummy"
+            ]
+          },
+          {
+            "title": "AI and Deep Learning",
+            "duration": "4 Months",
+            "content": [
+              "Lorem Ipsum has been the industry's standard dummy",
+              "Lorem Ipsum has been the industry's standard dummy",
+              "Lorem Ipsum has been the industry's standard dummy",
+              "Lorem Ipsum has been the industry's standard dummy",
+              "Lorem Ipsum has been the industry's standard dummy",
+              "Lorem Ipsum has been the industry's standard dummy"
+            ]
+          },
+          {
+            "title": "Project Specializations",
+            "duration": "4 Months",
+            "content": [
+              "Lorem Ipsum has been the industry's standard dummy",
+              "Lorem Ipsum has been the industry's standard dummy",
+              "Lorem Ipsum has been the industry's standard dummy",
+              "Lorem Ipsum has been the industry's standard dummy",
+              "Lorem Ipsum has been the industry's standard dummy",
+              "Lorem Ipsum has been the industry's standard dummy"
+            ]
+          },
+          {
+            "title": "Production ML Systems",
+            "duration": "2 Months",
+            "content": [
+              "Lorem Ipsum has been the industry's standard dummy",
+              "Lorem Ipsum has been the industry's standard dummy",
+              "Lorem Ipsum has been the industry's standard dummy",
+              "Lorem Ipsum has been the industry's standard dummy",
+              "Lorem Ipsum has been the industry's standard dummy",
+              "Lorem Ipsum has been the industry's standard dummy"
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "BusinessAnalyticsCurriculum": {
+    "id": "BACurriculumPage",
+    "title": "Business Analytics CURRICULUM",
+    "tabs": [
+      {
+        "type": "beginner",
+        "duration": "15 Months",
+        "modules": [
+          {
+            "title": "Tableau + Excel",
+            "duration": "5 Months",
+            "content": [
+              "Lorem Ipsum has been the industry's standard dummy",
+              "Lorem Ipsum has been the industry's standard dummy",
+              "Lorem Ipsum has been the industry's standard dummy",
+              "Lorem Ipsum has been the industry's standard dummy",
+              "Lorem Ipsum has been the industry's standard dummy",
+              "Lorem Ipsum has been the industry's standard dummy"
+            ]
+          },
+          {
+            "title": "Python Basic to Advance",
+            "duration": "4 Months",
+            "content": [
+              "Lorem Ipsum has been the industry's standard dummy",
+              "Lorem Ipsum has been the industry's standard dummy",
+              "Lorem Ipsum has been the industry's standard dummy",
+              "Lorem Ipsum has been the industry's standard dummy",
+              "Lorem Ipsum has been the industry's standard dummy",
+              "Lorem Ipsum has been the industry's standard dummy"
+            ]
+          },
+          {
+            "title": "Structured Query Language(SQL)",
+            "duration": "3 Months",
+            "content": [
+              "Lorem Ipsum has been the industry's standard dummy",
+              "Lorem Ipsum has been the industry's standard dummy",
+              "Lorem Ipsum has been the industry's standard dummy",
+              "Lorem Ipsum has been the industry's standard dummy",
+              "Lorem Ipsum has been the industry's standard dummy",
+              "Lorem Ipsum has been the industry's standard dummy"
+            ]
+          },
+          {
+            "title": "Big Data Computing",
+            "duration": "3 Months",
+            "content": [
+              "Lorem Ipsum has been the industry's standard dummy",
+              "Lorem Ipsum has been the industry's standard dummy",
+              "Lorem Ipsum has been the industry's standard dummy",
+              "Lorem Ipsum has been the industry's standard dummy",
+              "Lorem Ipsum has been the industry's standard dummy",
+              "Lorem Ipsum has been the industry's standard dummy"
+            ]
+          },
+          {
+            "title": "Machine Learning Ops",
+            "duration": "1 Month",
+            "content": [
+              "Lorem Ipsum has been the industry's standard dummy",
+              "Lorem Ipsum has been the industry's standard dummy",
+              "Lorem Ipsum has been the industry's standard dummy",
+              "Lorem Ipsum has been the industry's standard dummy",
+              "Lorem Ipsum has been the industry's standard dummy",
+              "Lorem Ipsum has been the industry's standard dummy"
+            ]
+          }
+        ]
+      },
+      {
+        "type": "advanced",
+        "duration": "20 Months",
+        "modules": [
+          {
+            "title": "Data Structures and Algorithms",
+            "duration": "6 Months",
+            "content": [
+              "Lorem Ipsum has been the industry's standard dummy",
+              "Lorem Ipsum has been the industry's standard dummy",
+              "Lorem Ipsum has been the industry's standard dummy",
+              "Lorem Ipsum has been the industry's standard dummy",
+              "Lorem Ipsum has been the industry's standard dummy",
+              "Lorem Ipsum has been the industry's standard dummy"
+            ]
+          },
+          {
+            "title": "Data Engineering",
+            "duration": "5 Months",
+            "content": [
+              "Lorem Ipsum has been the industry's standard dummy",
+              "Lorem Ipsum has been the industry's standard dummy",
+              "Lorem Ipsum has been the industry's standard dummy",
+              "Lorem Ipsum has been the industry's standard dummy",
+              "Lorem Ipsum has been the industry's standard dummy",
+              "Lorem Ipsum has been the industry's standard dummy"
+            ]
+          },
+          {
+            "title": "AI and Deep Learning",
+            "duration": "4 Months",
+            "content": [
+              "Lorem Ipsum has been the industry's standard dummy",
+              "Lorem Ipsum has been the industry's standard dummy",
+              "Lorem Ipsum has been the industry's standard dummy",
+              "Lorem Ipsum has been the industry's standard dummy",
+              "Lorem Ipsum has been the industry's standard dummy",
+              "Lorem Ipsum has been the industry's standard dummy"
+            ]
+          },
+          {
+            "title": "Project Specializations",
+            "duration": "4 Months",
+            "content": [
+              "Lorem Ipsum has been the industry's standard dummy",
+              "Lorem Ipsum has been the industry's standard dummy",
+              "Lorem Ipsum has been the industry's standard dummy",
+              "Lorem Ipsum has been the industry's standard dummy",
+              "Lorem Ipsum has been the industry's standard dummy",
+              "Lorem Ipsum has been the industry's standard dummy"
+            ]
+          },
+          {
+            "title": "Production ML Systems",
+            "duration": "2 Months",
+            "content": [
+              "Lorem Ipsum has been the industry's standard dummy",
+              "Lorem Ipsum has been the industry's standard dummy",
+              "Lorem Ipsum has been the industry's standard dummy",
+              "Lorem Ipsum has been the industry's standard dummy",
+              "Lorem Ipsum has been the industry's standard dummy",
+              "Lorem Ipsum has been the industry's standard dummy"
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "ChatGPT&Ai": {
+    "id": "GPTCurriculumPage",
+    "title": "CHAT GPT AND AI CURRICULUM",
+    "tabs": [
+      {
+        "type": "beginner",
+        "duration": "15 Months",
+        "modules": [
+          {
+            "title": "Tableau + Excel",
+            "duration": "5 Months",
+            "content": [
+              "Lorem Ipsum has been the industry's standard dummy",
+              "Lorem Ipsum has been the industry's standard dummy",
+              "Lorem Ipsum has been the industry's standard dummy",
+              "Lorem Ipsum has been the industry's standard dummy",
+              "Lorem Ipsum has been the industry's standard dummy",
+              "Lorem Ipsum has been the industry's standard dummy"
+            ]
+          },
+          {
+            "title": "Python Basic to Advance",
+            "duration": "4 Months",
+            "content": [
+              "Lorem Ipsum has been the industry's standard dummy",
+              "Lorem Ipsum has been the industry's standard dummy",
+              "Lorem Ipsum has been the industry's standard dummy",
+              "Lorem Ipsum has been the industry's standard dummy",
+              "Lorem Ipsum has been the industry's standard dummy",
+              "Lorem Ipsum has been the industry's standard dummy"
+            ]
+          },
+          {
+            "title": "Structured Query Language(SQL)",
+            "duration": "3 Months",
+            "content": [
+              "Lorem Ipsum has been the industry's standard dummy",
+              "Lorem Ipsum has been the industry's standard dummy",
+              "Lorem Ipsum has been the industry's standard dummy",
+              "Lorem Ipsum has been the industry's standard dummy",
+              "Lorem Ipsum has been the industry's standard dummy",
+              "Lorem Ipsum has been the industry's standard dummy"
+            ]
+          },
+          {
+            "title": "Big Data Computing",
+            "duration": "3 Months",
+            "content": [
+              "Lorem Ipsum has been the industry's standard dummy",
+              "Lorem Ipsum has been the industry's standard dummy",
+              "Lorem Ipsum has been the industry's standard dummy",
+              "Lorem Ipsum has been the industry's standard dummy",
+              "Lorem Ipsum has been the industry's standard dummy",
+              "Lorem Ipsum has been the industry's standard dummy"
+            ]
+          },
+          {
+            "title": "Machine Learning Ops",
+            "duration": "1 Month",
+            "content": [
+              "Lorem Ipsum has been the industry's standard dummy",
+              "Lorem Ipsum has been the industry's standard dummy",
+              "Lorem Ipsum has been the industry's standard dummy",
+              "Lorem Ipsum has been the industry's standard dummy",
+              "Lorem Ipsum has been the industry's standard dummy",
+              "Lorem Ipsum has been the industry's standard dummy"
+            ]
+          }
+        ]
+      },
+      {
+        "type": "advanced",
+        "duration": "20 Months",
+        "modules": [
+          {
+            "title": "Data Structures and Algorithms",
+            "duration": "6 Months",
+            "content": [
+              "Lorem Ipsum has been the industry's standard dummy",
+              "Lorem Ipsum has been the industry's standard dummy",
+              "Lorem Ipsum has been the industry's standard dummy",
+              "Lorem Ipsum has been the industry's standard dummy",
+              "Lorem Ipsum has been the industry's standard dummy",
+              "Lorem Ipsum has been the industry's standard dummy"
+            ]
+          },
+          {
+            "title": "Data Engineering",
+            "duration": "5 Months",
+            "content": [
+              "Lorem Ipsum has been the industry's standard dummy",
+              "Lorem Ipsum has been the industry's standard dummy",
+              "Lorem Ipsum has been the industry's standard dummy",
+              "Lorem Ipsum has been the industry's standard dummy",
+              "Lorem Ipsum has been the industry's standard dummy",
+              "Lorem Ipsum has been the industry's standard dummy"
+            ]
+          },
+          {
+            "title": "AI and Deep Learning",
+            "duration": "4 Months",
+            "content": [
+              "Lorem Ipsum has been the industry's standard dummy",
+              "Lorem Ipsum has been the industry's standard dummy",
+              "Lorem Ipsum has been the industry's standard dummy",
+              "Lorem Ipsum has been the industry's standard dummy",
+              "Lorem Ipsum has been the industry's standard dummy",
+              "Lorem Ipsum has been the industry's standard dummy"
+            ]
+          },
+          {
+            "title": "Project Specializations",
+            "duration": "4 Months",
+            "content": [
+              "Lorem Ipsum has been the industry's standard dummy",
+              "Lorem Ipsum has been the industry's standard dummy",
+              "Lorem Ipsum has been the industry's standard dummy",
+              "Lorem Ipsum has been the industry's standard dummy",
+              "Lorem Ipsum has been the industry's standard dummy",
+              "Lorem Ipsum has been the industry's standard dummy"
+            ]
+          },
+          {
+            "title": "Production ML Systems",
+            "duration": "2 Months",
+            "content": [
+              "Lorem Ipsum has been the industry's standard dummy",
+              "Lorem Ipsum has been the industry's standard dummy",
+              "Lorem Ipsum has been the industry's standard dummy",
+              "Lorem Ipsum has been the industry's standard dummy",
+              "Lorem Ipsum has been the industry's standard dummy",
+              "Lorem Ipsum has been the industry's standard dummy"
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "FullStackmodule": {
+    "id": "fullstackCurriculumPage",
+    "title": "FULL STACK TRAINING CURRICULUM",
+    "tabs": [
+      {
+        "type": "beginner",
+        "duration": "15 Months",
+        "modules": [
+          {
+            "title": "Tableau + Excel",
+            "duration": "5 Months",
+            "content": [
+              "Lorem Ipsum has been the industry's standard dummy",
+              "Lorem Ipsum has been the industry's standard dummy",
+              "Lorem Ipsum has been the industry's standard dummy",
+              "Lorem Ipsum has been the industry's standard dummy",
+              "Lorem Ipsum has been the industry's standard dummy",
+              "Lorem Ipsum has been the industry's standard dummy"
+            ]
+          },
+          {
+            "title": "Python Basic to Advance",
+            "duration": "4 Months",
+            "content": [
+              "Lorem Ipsum has been the industry's standard dummy",
+              "Lorem Ipsum has been the industry's standard dummy",
+              "Lorem Ipsum has been the industry's standard dummy",
+              "Lorem Ipsum has been the industry's standard dummy",
+              "Lorem Ipsum has been the industry's standard dummy",
+              "Lorem Ipsum has been the industry's standard dummy"
+            ]
+          },
+          {
+            "title": "Structured Query Language(SQL)",
+            "duration": "3 Months",
+            "content": [
+              "Lorem Ipsum has been the industry's standard dummy",
+              "Lorem Ipsum has been the industry's standard dummy",
+              "Lorem Ipsum has been the industry's standard dummy",
+              "Lorem Ipsum has been the industry's standard dummy",
+              "Lorem Ipsum has been the industry's standard dummy",
+              "Lorem Ipsum has been the industry's standard dummy"
+            ]
+          },
+          {
+            "title": "Big Data Computing",
+            "duration": "3 Months",
+            "content": [
+              "Lorem Ipsum has been the industry's standard dummy",
+              "Lorem Ipsum has been the industry's standard dummy",
+              "Lorem Ipsum has been the industry's standard dummy",
+              "Lorem Ipsum has been the industry's standard dummy",
+              "Lorem Ipsum has been the industry's standard dummy",
+              "Lorem Ipsum has been the industry's standard dummy"
+            ]
+          },
+          {
+            "title": "Machine Learning Ops",
+            "duration": "1 Month",
+            "content": [
+              "Lorem Ipsum has been the industry's standard dummy",
+              "Lorem Ipsum has been the industry's standard dummy",
+              "Lorem Ipsum has been the industry's standard dummy",
+              "Lorem Ipsum has been the industry's standard dummy",
+              "Lorem Ipsum has been the industry's standard dummy",
+              "Lorem Ipsum has been the industry's standard dummy"
+            ]
+          }
+        ]
+      },
+      {
+        "type": "advanced",
+        "duration": "20 Months",
+        "modules": [
+          {
+            "title": "Data Structures and Algorithms",
+            "duration": "6 Months",
+            "content": [
+              "Lorem Ipsum has been the industry's standard dummy",
+              "Lorem Ipsum has been the industry's standard dummy",
+              "Lorem Ipsum has been the industry's standard dummy",
+              "Lorem Ipsum has been the industry's standard dummy",
+              "Lorem Ipsum has been the industry's standard dummy",
+              "Lorem Ipsum has been the industry's standard dummy"
+            ]
+          },
+          {
+            "title": "Data Engineering",
+            "duration": "5 Months",
+            "content": [
+              "Lorem Ipsum has been the industry's standard dummy",
+              "Lorem Ipsum has been the industry's standard dummy",
+              "Lorem Ipsum has been the industry's standard dummy",
+              "Lorem Ipsum has been the industry's standard dummy",
+              "Lorem Ipsum has been the industry's standard dummy",
+              "Lorem Ipsum has been the industry's standard dummy"
+            ]
+          },
+          {
+            "title": "AI and Deep Learning",
+            "duration": "4 Months",
+            "content": [
+              "Lorem Ipsum has been the industry's standard dummy",
+              "Lorem Ipsum has been the industry's standard dummy",
+              "Lorem Ipsum has been the industry's standard dummy",
+              "Lorem Ipsum has been the industry's standard dummy",
+              "Lorem Ipsum has been the industry's standard dummy",
+              "Lorem Ipsum has been the industry's standard dummy"
+            ]
+          },
+          {
+            "title": "Project Specializations",
+            "duration": "4 Months",
+            "content": [
+              "Lorem Ipsum has been the industry's standard dummy",
+              "Lorem Ipsum has been the industry's standard dummy",
+              "Lorem Ipsum has been the industry's standard dummy",
+              "Lorem Ipsum has been the industry's standard dummy",
+              "Lorem Ipsum has been the industry's standard dummy",
+              "Lorem Ipsum has been the industry's standard dummy"
+            ]
+          },
+          {
+            "title": "Production ML Systems",
+            "duration": "2 Months",
+            "content": [
+              "Lorem Ipsum has been the industry's standard dummy",
+              "Lorem Ipsum has been the industry's standard dummy",
+              "Lorem Ipsum has been the industry's standard dummy",
+              "Lorem Ipsum has been the industry's standard dummy",
+              "Lorem Ipsum has been the industry's standard dummy",
+              "Lorem Ipsum has been the industry's standard dummy"
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "Javamodule": {
+    "id": "JavaCurriculumPage",
+    "title": "JAVA TRAINING CURRICULUM",
+    "tabs": [
+      {
+        "type": "beginner",
+        "duration": "15 Months",
+        "modules": [
+          {
+            "title": "Tableau + Excel",
+            "duration": "5 Months",
+            "content": [
+              "Lorem Ipsum has been the industry's standard dummy",
+              "Lorem Ipsum has been the industry's standard dummy",
+              "Lorem Ipsum has been the industry's standard dummy",
+              "Lorem Ipsum has been the industry's standard dummy",
+              "Lorem Ipsum has been the industry's standard dummy",
+              "Lorem Ipsum has been the industry's standard dummy"
+            ]
+          },
+          {
+            "title": "Python Basic to Advance",
+            "duration": "4 Months",
+            "content": [
+              "Lorem Ipsum has been the industry's standard dummy",
+              "Lorem Ipsum has been the industry's standard dummy",
+              "Lorem Ipsum has been the industry's standard dummy",
+              "Lorem Ipsum has been the industry's standard dummy",
+              "Lorem Ipsum has been the industry's standard dummy",
+              "Lorem Ipsum has been the industry's standard dummy"
+            ]
+          },
+          {
+            "title": "Structured Query Language(SQL)",
+            "duration": "3 Months",
+            "content": [
+              "Lorem Ipsum has been the industry's standard dummy",
+              "Lorem Ipsum has been the industry's standard dummy",
+              "Lorem Ipsum has been the industry's standard dummy",
+              "Lorem Ipsum has been the industry's standard dummy",
+              "Lorem Ipsum has been the industry's standard dummy",
+              "Lorem Ipsum has been the industry's standard dummy"
+            ]
+          },
+          {
+            "title": "Big Data Computing",
+            "duration": "3 Months",
+            "content": [
+              "Lorem Ipsum has been the industry's standard dummy",
+              "Lorem Ipsum has been the industry's standard dummy",
+              "Lorem Ipsum has been the industry's standard dummy",
+              "Lorem Ipsum has been the industry's standard dummy",
+              "Lorem Ipsum has been the industry's standard dummy",
+              "Lorem Ipsum has been the industry's standard dummy"
+            ]
+          },
+          {
+            "title": "Machine Learning Ops",
+            "duration": "1 Month",
+            "content": [
+              "Lorem Ipsum has been the industry's standard dummy",
+              "Lorem Ipsum has been the industry's standard dummy",
+              "Lorem Ipsum has been the industry's standard dummy",
+              "Lorem Ipsum has been the industry's standard dummy",
+              "Lorem Ipsum has been the industry's standard dummy",
+              "Lorem Ipsum has been the industry's standard dummy"
+            ]
+          }
+        ]
+      },
+      {
+        "type": "advanced",
+        "duration": "20 Months",
+        "modules": [
+          {
+            "title": "Data Structures and Algorithms",
+            "duration": "6 Months",
+            "content": [
+              "Lorem Ipsum has been the industry's standard dummy",
+              "Lorem Ipsum has been the industry's standard dummy",
+              "Lorem Ipsum has been the industry's standard dummy",
+              "Lorem Ipsum has been the industry's standard dummy",
+              "Lorem Ipsum has been the industry's standard dummy",
+              "Lorem Ipsum has been the industry's standard dummy"
+            ]
+          },
+          {
+            "title": "Data Engineering",
+            "duration": "5 Months",
+            "content": [
+              "Lorem Ipsum has been the industry's standard dummy",
+              "Lorem Ipsum has been the industry's standard dummy",
+              "Lorem Ipsum has been the industry's standard dummy",
+              "Lorem Ipsum has been the industry's standard dummy",
+              "Lorem Ipsum has been the industry's standard dummy",
+              "Lorem Ipsum has been the industry's standard dummy"
+            ]
+          },
+          {
+            "title": "AI and Deep Learning",
+            "duration": "4 Months",
+            "content": [
+              "Lorem Ipsum has been the industry's standard dummy",
+              "Lorem Ipsum has been the industry's standard dummy",
+              "Lorem Ipsum has been the industry's standard dummy",
+              "Lorem Ipsum has been the industry's standard dummy",
+              "Lorem Ipsum has been the industry's standard dummy",
+              "Lorem Ipsum has been the industry's standard dummy"
+            ]
+          },
+          {
+            "title": "Project Specializations",
+            "duration": "4 Months",
+            "content": [
+              "Lorem Ipsum has been the industry's standard dummy",
+              "Lorem Ipsum has been the industry's standard dummy",
+              "Lorem Ipsum has been the industry's standard dummy",
+              "Lorem Ipsum has been the industry's standard dummy",
+              "Lorem Ipsum has been the industry's standard dummy",
+              "Lorem Ipsum has been the industry's standard dummy"
+            ]
+          },
+          {
+            "title": "Production ML Systems",
+            "duration": "2 Months",
+            "content": [
+              "Lorem Ipsum has been the industry's standard dummy",
+              "Lorem Ipsum has been the industry's standard dummy",
+              "Lorem Ipsum has been the industry's standard dummy",
+              "Lorem Ipsum has been the industry's standard dummy",
+              "Lorem Ipsum has been the industry's standard dummy",
+              "Lorem Ipsum has been the industry's standard dummy"
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "MernModule": {
+    "id": "MernCurriculumPage",
+    "title": "MERN STACK TRAINING CURRICULUM",
+    "tabs": [
+      {
+        "type": "beginner",
+        "duration": "15 Months",
+        "modules": [
+          {
+            "title": "Tableau + Excel",
+            "duration": "5 Months",
+            "content": [
+              "Lorem Ipsum has been the industry's standard dummy",
+              "Lorem Ipsum has been the industry's standard dummy",
+              "Lorem Ipsum has been the industry's standard dummy",
+              "Lorem Ipsum has been the industry's standard dummy",
+              "Lorem Ipsum has been the industry's standard dummy",
+              "Lorem Ipsum has been the industry's standard dummy"
+            ]
+          },
+          {
+            "title": "Python Basic to Advance",
+            "duration": "4 Months",
+            "content": [
+              "Lorem Ipsum has been the industry's standard dummy",
+              "Lorem Ipsum has been the industry's standard dummy",
+              "Lorem Ipsum has been the industry's standard dummy",
+              "Lorem Ipsum has been the industry's standard dummy",
+              "Lorem Ipsum has been the industry's standard dummy",
+              "Lorem Ipsum has been the industry's standard dummy"
+            ]
+          },
+          {
+            "title": "Structured Query Language(SQL)",
+            "duration": "3 Months",
+            "content": [
+              "Lorem Ipsum has been the industry's standard dummy",
+              "Lorem Ipsum has been the industry's standard dummy",
+              "Lorem Ipsum has been the industry's standard dummy",
+              "Lorem Ipsum has been the industry's standard dummy",
+              "Lorem Ipsum has been the industry's standard dummy",
+              "Lorem Ipsum has been the industry's standard dummy"
+            ]
+          },
+          {
+            "title": "Big Data Computing",
+            "duration": "3 Months",
+            "content": [
+              "Lorem Ipsum has been the industry's standard dummy",
+              "Lorem Ipsum has been the industry's standard dummy",
+              "Lorem Ipsum has been the industry's standard dummy",
+              "Lorem Ipsum has been the industry's standard dummy",
+              "Lorem Ipsum has been the industry's standard dummy",
+              "Lorem Ipsum has been the industry's standard dummy"
+            ]
+          },
+          {
+            "title": "Machine Learning Ops",
+            "duration": "1 Month",
+            "content": [
+              "Lorem Ipsum has been the industry's standard dummy",
+              "Lorem Ipsum has been the industry's standard dummy",
+              "Lorem Ipsum has been the industry's standard dummy",
+              "Lorem Ipsum has been the industry's standard dummy",
+              "Lorem Ipsum has been the industry's standard dummy",
+              "Lorem Ipsum has been the industry's standard dummy"
+            ]
+          }
+        ]
+      },
+      {
+        "type": "advanced",
+        "duration": "20 Months",
+        "modules": [
+          {
+            "title": "Data Structures and Algorithms",
+            "duration": "6 Months",
+            "content": [
+              "Lorem Ipsum has been the industry's standard dummy",
+              "Lorem Ipsum has been the industry's standard dummy",
+              "Lorem Ipsum has been the industry's standard dummy",
+              "Lorem Ipsum has been the industry's standard dummy",
+              "Lorem Ipsum has been the industry's standard dummy",
+              "Lorem Ipsum has been the industry's standard dummy"
+            ]
+          },
+          {
+            "title": "Data Engineering",
+            "duration": "5 Months",
+            "content": [
+              "Lorem Ipsum has been the industry's standard dummy",
+              "Lorem Ipsum has been the industry's standard dummy",
+              "Lorem Ipsum has been the industry's standard dummy",
+              "Lorem Ipsum has been the industry's standard dummy",
+              "Lorem Ipsum has been the industry's standard dummy",
+              "Lorem Ipsum has been the industry's standard dummy"
+            ]
+          },
+          {
+            "title": "AI and Deep Learning",
+            "duration": "4 Months",
+            "content": [
+              "Lorem Ipsum has been the industry's standard dummy",
+              "Lorem Ipsum has been the industry's standard dummy",
+              "Lorem Ipsum has been the industry's standard dummy",
+              "Lorem Ipsum has been the industry's standard dummy",
+              "Lorem Ipsum has been the industry's standard dummy",
+              "Lorem Ipsum has been the industry's standard dummy"
+            ]
+          },
+          {
+            "title": "Project Specializations",
+            "duration": "4 Months",
+            "content": [
+              "Lorem Ipsum has been the industry's standard dummy",
+              "Lorem Ipsum has been the industry's standard dummy",
+              "Lorem Ipsum has been the industry's standard dummy",
+              "Lorem Ipsum has been the industry's standard dummy",
+              "Lorem Ipsum has been the industry's standard dummy",
+              "Lorem Ipsum has been the industry's standard dummy"
+            ]
+          },
+          {
+            "title": "Production ML Systems",
+            "duration": "2 Months",
+            "content": [
+              "Lorem Ipsum has been the industry's standard dummy",
+              "Lorem Ipsum has been the industry's standard dummy",
+              "Lorem Ipsum has been the industry's standard dummy",
+              "Lorem Ipsum has been the industry's standard dummy",
+              "Lorem Ipsum has been the industry's standard dummy",
+              "Lorem Ipsum has been the industry's standard dummy"
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "UIUXModule": {
+    "id": "UIUXCurriculumPage",
+    "title": "UIUX TRAINING CURRICULUM",
+    "tabs": [
+      {
+        "type": "beginner",
+        "duration": "15 Months",
+        "modules": [
+          {
+            "title": "Tableau + Excel",
+            "duration": "5 Months",
+            "content": [
+              "Lorem Ipsum has been the industry's standard dummy",
+              "Lorem Ipsum has been the industry's standard dummy",
+              "Lorem Ipsum has been the industry's standard dummy",
+              "Lorem Ipsum has been the industry's standard dummy",
+              "Lorem Ipsum has been the industry's standard dummy",
+              "Lorem Ipsum has been the industry's standard dummy"
+            ]
+          },
+          {
+            "title": "Python Basic to Advance",
+            "duration": "4 Months",
+            "content": [
+              "Lorem Ipsum has been the industry's standard dummy",
+              "Lorem Ipsum has been the industry's standard dummy",
+              "Lorem Ipsum has been the industry's standard dummy",
+              "Lorem Ipsum has been the industry's standard dummy",
+              "Lorem Ipsum has been the industry's standard dummy",
+              "Lorem Ipsum has been the industry's standard dummy"
+            ]
+          },
+          {
+            "title": "Structured Query Language(SQL)",
+            "duration": "3 Months",
+            "content": [
+              "Lorem Ipsum has been the industry's standard dummy",
+              "Lorem Ipsum has been the industry's standard dummy",
+              "Lorem Ipsum has been the industry's standard dummy",
+              "Lorem Ipsum has been the industry's standard dummy",
+              "Lorem Ipsum has been the industry's standard dummy",
+              "Lorem Ipsum has been the industry's standard dummy"
+            ]
+          },
+          {
+            "title": "Big Data Computing",
+            "duration": "3 Months",
+            "content": [
+              "Lorem Ipsum has been the industry's standard dummy",
+              "Lorem Ipsum has been the industry's standard dummy",
+              "Lorem Ipsum has been the industry's standard dummy",
+              "Lorem Ipsum has been the industry's standard dummy",
+              "Lorem Ipsum has been the industry's standard dummy",
+              "Lorem Ipsum has been the industry's standard dummy"
+            ]
+          },
+          {
+            "title": "Machine Learning Ops",
+            "duration": "1 Month",
+            "content": [
+              "Lorem Ipsum has been the industry's standard dummy",
+              "Lorem Ipsum has been the industry's standard dummy",
+              "Lorem Ipsum has been the industry's standard dummy",
+              "Lorem Ipsum has been the industry's standard dummy",
+              "Lorem Ipsum has been the industry's standard dummy",
+              "Lorem Ipsum has been the industry's standard dummy"
+            ]
+          }
+        ]
+      },
+      {
+        "type": "advanced",
+        "duration": "20 Months",
+        "modules": [
+          {
+            "title": "Data Structures and Algorithms",
+            "duration": "6 Months",
+            "content": [
+              "Lorem Ipsum has been the industry's standard dummy",
+              "Lorem Ipsum has been the industry's standard dummy",
+              "Lorem Ipsum has been the industry's standard dummy",
+              "Lorem Ipsum has been the industry's standard dummy",
+              "Lorem Ipsum has been the industry's standard dummy",
+              "Lorem Ipsum has been the industry's standard dummy"
+            ]
+          },
+          {
+            "title": "Data Engineering",
+            "duration": "5 Months",
+            "content": [
+              "Lorem Ipsum has been the industry's standard dummy",
+              "Lorem Ipsum has been the industry's standard dummy",
+              "Lorem Ipsum has been the industry's standard dummy",
+              "Lorem Ipsum has been the industry's standard dummy",
+              "Lorem Ipsum has been the industry's standard dummy",
+              "Lorem Ipsum has been the industry's standard dummy"
+            ]
+          },
+          {
+            "title": "AI and Deep Learning",
+            "duration": "4 Months",
+            "content": [
+              "Lorem Ipsum has been the industry's standard dummy",
+              "Lorem Ipsum has been the industry's standard dummy",
+              "Lorem Ipsum has been the industry's standard dummy",
+              "Lorem Ipsum has been the industry's standard dummy",
+              "Lorem Ipsum has been the industry's standard dummy",
+              "Lorem Ipsum has been the industry's standard dummy"
+            ]
+          },
+          {
+            "title": "Project Specializations",
+            "duration": "4 Months",
+            "content": [
+              "Lorem Ipsum has been the industry's standard dummy",
+              "Lorem Ipsum has been the industry's standard dummy",
+              "Lorem Ipsum has been the industry's standard dummy",
+              "Lorem Ipsum has been the industry's standard dummy",
+              "Lorem Ipsum has been the industry's standard dummy",
+              "Lorem Ipsum has been the industry's standard dummy"
+            ]
+          },
+          {
+            "title": "Production ML Systems",
+            "duration": "2 Months",
+            "content": [
+              "Lorem Ipsum has been the industry's standard dummy",
+              "Lorem Ipsum has been the industry's standard dummy",
+              "Lorem Ipsum has been the industry's standard dummy",
+              "Lorem Ipsum has been the industry's standard dummy",
+              "Lorem Ipsum has been the industry's standard dummy",
+              "Lorem Ipsum has been the industry's standard dummy"
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "PythonModule": {
+    "id": "PythonCurriculumPage",
+    "title": "PYTHON TRAINING CURRICULUM",
+    "tabs": [
+      {
+        "type": "beginner",
+        "duration": "15 Months",
+        "modules": [
+          {
+            "title": "Tableau + Excel",
+            "duration": "5 Months",
+            "content": [
+              "Lorem Ipsum has been the industry's standard dummy",
+              "Lorem Ipsum has been the industry's standard dummy",
+              "Lorem Ipsum has been the industry's standard dummy",
+              "Lorem Ipsum has been the industry's standard dummy",
+              "Lorem Ipsum has been the industry's standard dummy",
+              "Lorem Ipsum has been the industry's standard dummy"
+            ]
+          },
+          {
+            "title": "Python Basic to Advance",
+            "duration": "4 Months",
+            "content": [
+              "Lorem Ipsum has been the industry's standard dummy",
+              "Lorem Ipsum has been the industry's standard dummy",
+              "Lorem Ipsum has been the industry's standard dummy",
+              "Lorem Ipsum has been the industry's standard dummy",
+              "Lorem Ipsum has been the industry's standard dummy",
+              "Lorem Ipsum has been the industry's standard dummy"
+            ]
+          },
+          {
+            "title": "Structured Query Language(SQL)",
+            "duration": "3 Months",
+            "content": [
+              "Lorem Ipsum has been the industry's standard dummy",
+              "Lorem Ipsum has been the industry's standard dummy",
+              "Lorem Ipsum has been the industry's standard dummy",
+              "Lorem Ipsum has been the industry's standard dummy",
+              "Lorem Ipsum has been the industry's standard dummy",
+              "Lorem Ipsum has been the industry's standard dummy"
+            ]
+          },
+          {
+            "title": "Big Data Computing",
+            "duration": "3 Months",
+            "content": [
+              "Lorem Ipsum has been the industry's standard dummy",
+              "Lorem Ipsum has been the industry's standard dummy",
+              "Lorem Ipsum has been the industry's standard dummy",
+              "Lorem Ipsum has been the industry's standard dummy",
+              "Lorem Ipsum has been the industry's standard dummy",
+              "Lorem Ipsum has been the industry's standard dummy"
+            ]
+          },
+          {
+            "title": "Machine Learning Ops",
+            "duration": "1 Month",
+            "content": [
+              "Lorem Ipsum has been the industry's standard dummy",
+              "Lorem Ipsum has been the industry's standard dummy",
+              "Lorem Ipsum has been the industry's standard dummy",
+              "Lorem Ipsum has been the industry's standard dummy",
+              "Lorem Ipsum has been the industry's standard dummy",
+              "Lorem Ipsum has been the industry's standard dummy"
+            ]
+          }
+        ]
+      },
+      {
+        "type": "advanced",
+        "duration": "20 Months",
+        "modules": [
+          {
+            "title": "Data Structures and Algorithms",
+            "duration": "6 Months",
+            "content": [
+              "Lorem Ipsum has been the industry's standard dummy",
+              "Lorem Ipsum has been the industry's standard dummy",
+              "Lorem Ipsum has been the industry's standard dummy",
+              "Lorem Ipsum has been the industry's standard dummy",
+              "Lorem Ipsum has been the industry's standard dummy",
+              "Lorem Ipsum has been the industry's standard dummy"
+            ]
+          },
+          {
+            "title": "Data Engineering",
+            "duration": "5 Months",
+            "content": [
+              "Lorem Ipsum has been the industry's standard dummy",
+              "Lorem Ipsum has been the industry's standard dummy",
+              "Lorem Ipsum has been the industry's standard dummy",
+              "Lorem Ipsum has been the industry's standard dummy",
+              "Lorem Ipsum has been the industry's standard dummy",
+              "Lorem Ipsum has been the industry's standard dummy"
+            ]
+          },
+          {
+            "title": "AI and Deep Learning",
+            "duration": "4 Months",
+            "content": [
+              "Lorem Ipsum has been the industry's standard dummy",
+              "Lorem Ipsum has been the industry's standard dummy",
+              "Lorem Ipsum has been the industry's standard dummy",
+              "Lorem Ipsum has been the industry's standard dummy",
+              "Lorem Ipsum has been the industry's standard dummy",
+              "Lorem Ipsum has been the industry's standard dummy"
+            ]
+          },
+          {
+            "title": "Project Specializations",
+            "duration": "4 Months",
+            "content": [
+              "Lorem Ipsum has been the industry's standard dummy",
+              "Lorem Ipsum has been the industry's standard dummy",
+              "Lorem Ipsum has been the industry's standard dummy",
+              "Lorem Ipsum has been the industry's standard dummy",
+              "Lorem Ipsum has been the industry's standard dummy",
+              "Lorem Ipsum has been the industry's standard dummy"
+            ]
+          },
+          {
+            "title": "Production ML Systems",
+            "duration": "2 Months",
+            "content": [
+              "Lorem Ipsum has been the industry's standard dummy",
+              "Lorem Ipsum has been the industry's standard dummy",
+              "Lorem Ipsum has been the industry's standard dummy",
+              "Lorem Ipsum has been the industry's standard dummy",
+              "Lorem Ipsum has been the industry's standard dummy",
+              "Lorem Ipsum has been the industry's standard dummy"
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "SalesModule": {
+    "id": "SalesCurriculumPage",
+    "title": "SALES FORCE TRAINING CURRICULUM",
+    "tabs": [
+      {
+        "type": "beginner",
+        "duration": "15 Months",
+        "modules": [
+          {
+            "title": "Tableau + Excel",
+            "duration": "5 Months",
+            "content": [
+              "Lorem Ipsum has been the industry's standard dummy",
+              "Lorem Ipsum has been the industry's standard dummy",
+              "Lorem Ipsum has been the industry's standard dummy",
+              "Lorem Ipsum has been the industry's standard dummy",
+              "Lorem Ipsum has been the industry's standard dummy",
+              "Lorem Ipsum has been the industry's standard dummy"
+            ]
+          },
+          {
+            "title": "Python Basic to Advance",
+            "duration": "4 Months",
+            "content": [
+              "Lorem Ipsum has been the industry's standard dummy",
+              "Lorem Ipsum has been the industry's standard dummy",
+              "Lorem Ipsum has been the industry's standard dummy",
+              "Lorem Ipsum has been the industry's standard dummy",
+              "Lorem Ipsum has been the industry's standard dummy",
+              "Lorem Ipsum has been the industry's standard dummy"
+            ]
+          },
+          {
+            "title": "Structured Query Language(SQL)",
+            "duration": "3 Months",
+            "content": [
+              "Lorem Ipsum has been the industry's standard dummy",
+              "Lorem Ipsum has been the industry's standard dummy",
+              "Lorem Ipsum has been the industry's standard dummy",
+              "Lorem Ipsum has been the industry's standard dummy",
+              "Lorem Ipsum has been the industry's standard dummy",
+              "Lorem Ipsum has been the industry's standard dummy"
+            ]
+          },
+          {
+            "title": "Big Data Computing",
+            "duration": "3 Months",
+            "content": [
+              "Lorem Ipsum has been the industry's standard dummy",
+              "Lorem Ipsum has been the industry's standard dummy",
+              "Lorem Ipsum has been the industry's standard dummy",
+              "Lorem Ipsum has been the industry's standard dummy",
+              "Lorem Ipsum has been the industry's standard dummy",
+              "Lorem Ipsum has been the industry's standard dummy"
+            ]
+          },
+          {
+            "title": "Machine Learning Ops",
+            "duration": "1 Month",
+            "content": [
+              "Lorem Ipsum has been the industry's standard dummy",
+              "Lorem Ipsum has been the industry's standard dummy",
+              "Lorem Ipsum has been the industry's standard dummy",
+              "Lorem Ipsum has been the industry's standard dummy",
+              "Lorem Ipsum has been the industry's standard dummy",
+              "Lorem Ipsum has been the industry's standard dummy"
+            ]
+          }
+        ]
+      },
+      {
+        "type": "advanced",
+        "duration": "20 Months",
+        "modules": [
+          {
+            "title": "Data Structures and Algorithms",
+            "duration": "6 Months",
+            "content": [
+              "Lorem Ipsum has been the industry's standard dummy",
+              "Lorem Ipsum has been the industry's standard dummy",
+              "Lorem Ipsum has been the industry's standard dummy",
+              "Lorem Ipsum has been the industry's standard dummy",
+              "Lorem Ipsum has been the industry's standard dummy",
+              "Lorem Ipsum has been the industry's standard dummy"
+            ]
+          },
+          {
+            "title": "Data Engineering",
+            "duration": "5 Months",
+            "content": [
+              "Lorem Ipsum has been the industry's standard dummy",
+              "Lorem Ipsum has been the industry's standard dummy",
+              "Lorem Ipsum has been the industry's standard dummy",
+              "Lorem Ipsum has been the industry's standard dummy",
+              "Lorem Ipsum has been the industry's standard dummy",
+              "Lorem Ipsum has been the industry's standard dummy"
+            ]
+          },
+          {
+            "title": "AI and Deep Learning",
+            "duration": "4 Months",
+            "content": [
+              "Lorem Ipsum has been the industry's standard dummy",
+              "Lorem Ipsum has been the industry's standard dummy",
+              "Lorem Ipsum has been the industry's standard dummy",
+              "Lorem Ipsum has been the industry's standard dummy",
+              "Lorem Ipsum has been the industry's standard dummy",
+              "Lorem Ipsum has been the industry's standard dummy"
+            ]
+          },
+          {
+            "title": "Project Specializations",
+            "duration": "4 Months",
+            "content": [
+              "Lorem Ipsum has been the industry's standard dummy",
+              "Lorem Ipsum has been the industry's standard dummy",
+              "Lorem Ipsum has been the industry's standard dummy",
+              "Lorem Ipsum has been the industry's standard dummy",
+              "Lorem Ipsum has been the industry's standard dummy",
+              "Lorem Ipsum has been the industry's standard dummy"
+            ]
+          },
+          {
+            "title": "Production ML Systems",
+            "duration": "2 Months",
+            "content": [
+              "Lorem Ipsum has been the industry's standard dummy",
+              "Lorem Ipsum has been the industry's standard dummy",
+              "Lorem Ipsum has been the industry's standard dummy",
+              "Lorem Ipsum has been the industry's standard dummy",
+              "Lorem Ipsum has been the industry's standard dummy",
+              "Lorem Ipsum has been the industry's standard dummy"
+            ]
+          }
+        ]
+      }
+    ]
+  }, 
+  "POWERBIModule": {
+    "id": "SalesCurriculumPage",
+    "title": "POWER BI CURRICULUM",
+    "tabs": [
+      {
+        "type": "beginner",
+        "duration": "15 Months",
+        "modules": [
+          {
+            "title": " Introduction to Power BI ",
+            "duration": "5 Months",
+            "content": [
+              "Lorem Ipsum has been the industry's standard dummy",
+              "Lorem Ipsum has been the industry's standard dummy",
+              "Lorem Ipsum has been the industry's standard dummy",
+              "Lorem Ipsum has been the industry's standard dummy",
+              "Lorem Ipsum has been the industry's standard dummy",
+              "Lorem Ipsum has been the industry's standard dummy"
+            ]
+          },
+          {
+            "title": " Data Extraction",
+            "duration": "4 Months",
+            "content": [
+              "Lorem Ipsum has been the industry's standard dummy",
+              "Lorem Ipsum has been the industry's standard dummy",
+              "Lorem Ipsum has been the industry's standard dummy",
+              "Lorem Ipsum has been the industry's standard dummy",
+              "Lorem Ipsum has been the industry's standard dummy",
+              "Lorem Ipsum has been the industry's standard dummy"
+            ]
+          },
+          {
+            "title": "Structured Query Language(SQL)",
+            "duration": "3 Months",
+            "content": [
+              "Lorem Ipsum has been the industry's standard dummy",
+              "Lorem Ipsum has been the industry's standard dummy",
+              "Lorem Ipsum has been the industry's standard dummy",
+              "Lorem Ipsum has been the industry's standard dummy",
+              "Lorem Ipsum has been the industry's standard dummy",
+              "Lorem Ipsum has been the industry's standard dummy"
+            ]
+          },
+          {
+            "title": "Big Data Computing",
+            "duration": "3 Months",
+            "content": [
+              "Lorem Ipsum has been the industry's standard dummy",
+              "Lorem Ipsum has been the industry's standard dummy",
+              "Lorem Ipsum has been the industry's standard dummy",
+              "Lorem Ipsum has been the industry's standard dummy",
+              "Lorem Ipsum has been the industry's standard dummy",
+              "Lorem Ipsum has been the industry's standard dummy"
+            ]
+          },
+          {
+            "title": "Machine Learning Ops",
+            "duration": "1 Month",
+            "content": [
+              "Lorem Ipsum has been the industry's standard dummy",
+              "Lorem Ipsum has been the industry's standard dummy",
+              "Lorem Ipsum has been the industry's standard dummy",
+              "Lorem Ipsum has been the industry's standard dummy",
+              "Lorem Ipsum has been the industry's standard dummy",
+              "Lorem Ipsum has been the industry's standard dummy"
+            ]
+          }
+        ]
+      },
+      {
+        "type": "advanced",
+        "duration": "20 Months",
+        "modules": [
+          {
+            "title": "Data Structures and Algorithms",
+            "duration": "6 Months",
+            "content": [
+              "Lorem Ipsum has been the industry's standard dummy",
+              "Lorem Ipsum has been the industry's standard dummy",
+              "Lorem Ipsum has been the industry's standard dummy",
+              "Lorem Ipsum has been the industry's standard dummy",
+              "Lorem Ipsum has been the industry's standard dummy",
+              "Lorem Ipsum has been the industry's standard dummy"
+            ]
+          },
+          {
+            "title": "Data Engineering",
+            "duration": "5 Months",
+            "content": [
+              "Lorem Ipsum has been the industry's standard dummy",
+              "Lorem Ipsum has been the industry's standard dummy",
+              "Lorem Ipsum has been the industry's standard dummy",
+              "Lorem Ipsum has been the industry's standard dummy",
+              "Lorem Ipsum has been the industry's standard dummy",
+              "Lorem Ipsum has been the industry's standard dummy"
+            ]
+          },
+          {
+            "title": "AI and Deep Learning",
+            "duration": "4 Months",
+            "content": [
+              "Lorem Ipsum has been the industry's standard dummy",
+              "Lorem Ipsum has been the industry's standard dummy",
+              "Lorem Ipsum has been the industry's standard dummy",
+              "Lorem Ipsum has been the industry's standard dummy",
+              "Lorem Ipsum has been the industry's standard dummy",
+              "Lorem Ipsum has been the industry's standard dummy"
+            ]
+          },
+          {
+            "title": "Project Specializations",
+            "duration": "4 Months",
+            "content": [
+              "Lorem Ipsum has been the industry's standard dummy",
+              "Lorem Ipsum has been the industry's standard dummy",
+              "Lorem Ipsum has been the industry's standard dummy",
+              "Lorem Ipsum has been the industry's standard dummy",
+              "Lorem Ipsum has been the industry's standard dummy",
+              "Lorem Ipsum has been the industry's standard dummy"
+            ]
+          },
+          {
+            "title": "Production ML Systems",
+            "duration": "2 Months",
+            "content": [
+              "Lorem Ipsum has been the industry's standard dummy",
+              "Lorem Ipsum has been the industry's standard dummy",
+              "Lorem Ipsum has been the industry's standard dummy",
+              "Lorem Ipsum has been the industry's standard dummy",
+              "Lorem Ipsum has been the industry's standard dummy",
+              "Lorem Ipsum has been the industry's standard dummy"
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "TABLEAUModule": {
+    "id": "SalesCurriculumPage",
+    "title": "TABLEAU CURRICULUM",
+    "tabs": [
+      {
+        "type": "beginner",
+        "duration": "15 Months",
+        "modules": [
+          {
+            "title": "Tableau + Excel",
+            "duration": "5 Months",
+            "content": [
+              "Lorem Ipsum has been the industry's standard dummy",
+              "Lorem Ipsum has been the industry's standard dummy",
+              "Lorem Ipsum has been the industry's standard dummy",
+              "Lorem Ipsum has been the industry's standard dummy",
+              "Lorem Ipsum has been the industry's standard dummy",
+              "Lorem Ipsum has been the industry's standard dummy"
+            ]
+          },
+          {
+            "title": "Python Basic to Advance",
+            "duration": "4 Months",
+            "content": [
+              "Lorem Ipsum has been the industry's standard dummy",
+              "Lorem Ipsum has been the industry's standard dummy",
+              "Lorem Ipsum has been the industry's standard dummy",
+              "Lorem Ipsum has been the industry's standard dummy",
+              "Lorem Ipsum has been the industry's standard dummy",
+              "Lorem Ipsum has been the industry's standard dummy"
+            ]
+          },
+          {
+            "title": "Structured Query Language(SQL)",
+            "duration": "3 Months",
+            "content": [
+              "Lorem Ipsum has been the industry's standard dummy",
+              "Lorem Ipsum has been the industry's standard dummy",
+              "Lorem Ipsum has been the industry's standard dummy",
+              "Lorem Ipsum has been the industry's standard dummy",
+              "Lorem Ipsum has been the industry's standard dummy",
+              "Lorem Ipsum has been the industry's standard dummy"
+            ]
+          },
+          {
+            "title": "Big Data Computing",
+            "duration": "3 Months",
+            "content": [
+              "Lorem Ipsum has been the industry's standard dummy",
+              "Lorem Ipsum has been the industry's standard dummy",
+              "Lorem Ipsum has been the industry's standard dummy",
+              "Lorem Ipsum has been the industry's standard dummy",
+              "Lorem Ipsum has been the industry's standard dummy",
+              "Lorem Ipsum has been the industry's standard dummy"
+            ]
+          },
+          {
+            "title": "Machine Learning Ops",
+            "duration": "1 Month",
+            "content": [
+              "Lorem Ipsum has been the industry's standard dummy",
+              "Lorem Ipsum has been the industry's standard dummy",
+              "Lorem Ipsum has been the industry's standard dummy",
+              "Lorem Ipsum has been the industry's standard dummy",
+              "Lorem Ipsum has been the industry's standard dummy",
+              "Lorem Ipsum has been the industry's standard dummy"
+            ]
+          }
+        ]
+      },
+      {
+        "type": "advanced",
+        "duration": "20 Months",
+        "modules": [
+          {
+            "title": "Data Structures and Algorithms",
+            "duration": "6 Months",
+            "content": [
+              "Lorem Ipsum has been the industry's standard dummy",
+              "Lorem Ipsum has been the industry's standard dummy",
+              "Lorem Ipsum has been the industry's standard dummy",
+              "Lorem Ipsum has been the industry's standard dummy",
+              "Lorem Ipsum has been the industry's standard dummy",
+              "Lorem Ipsum has been the industry's standard dummy"
+            ]
+          },
+          {
+            "title": "Data Engineering",
+            "duration": "5 Months",
+            "content": [
+              "Lorem Ipsum has been the industry's standard dummy",
+              "Lorem Ipsum has been the industry's standard dummy",
+              "Lorem Ipsum has been the industry's standard dummy",
+              "Lorem Ipsum has been the industry's standard dummy",
+              "Lorem Ipsum has been the industry's standard dummy",
+              "Lorem Ipsum has been the industry's standard dummy"
+            ]
+          },
+          {
+            "title": "AI and Deep Learning",
+            "duration": "4 Months",
+            "content": [
+              "Lorem Ipsum has been the industry's standard dummy",
+              "Lorem Ipsum has been the industry's standard dummy",
+              "Lorem Ipsum has been the industry's standard dummy",
+              "Lorem Ipsum has been the industry's standard dummy",
+              "Lorem Ipsum has been the industry's standard dummy",
+              "Lorem Ipsum has been the industry's standard dummy"
+            ]
+          },
+          {
+            "title": "Project Specializations",
+            "duration": "4 Months",
+            "content": [
+              "Lorem Ipsum has been the industry's standard dummy",
+              "Lorem Ipsum has been the industry's standard dummy",
+              "Lorem Ipsum has been the industry's standard dummy",
+              "Lorem Ipsum has been the industry's standard dummy",
+              "Lorem Ipsum has been the industry's standard dummy",
+              "Lorem Ipsum has been the industry's standard dummy"
+            ]
+          },
+          {
+            "title": "Production ML Systems",
+            "duration": "2 Months",
+            "content": [
+              "Lorem Ipsum has been the industry's standard dummy",
+              "Lorem Ipsum has been the industry's standard dummy",
+              "Lorem Ipsum has been the industry's standard dummy",
+              "Lorem Ipsum has been the industry's standard dummy",
+              "Lorem Ipsum has been the industry's standard dummy",
+              "Lorem Ipsum has been the industry's standard dummy"
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "SQLModule": {
+    "id": "SalesCurriculumPage",
+    "title": "SQL CURRICULUM",
+    "tabs": [
+      {
+        "type": "beginner",
+        "duration": "15 Months",
+        "modules": [
+          {
+            "title": "Tableau + Excel",
+            "duration": "5 Months",
+            "content": [
+              "Lorem Ipsum has been the industry's standard dummy",
+              "Lorem Ipsum has been the industry's standard dummy",
+              "Lorem Ipsum has been the industry's standard dummy",
+              "Lorem Ipsum has been the industry's standard dummy",
+              "Lorem Ipsum has been the industry's standard dummy",
+              "Lorem Ipsum has been the industry's standard dummy"
+            ]
+          },
+          {
+            "title": "Python Basic to Advance",
+            "duration": "4 Months",
+            "content": [
+              "Lorem Ipsum has been the industry's standard dummy",
+              "Lorem Ipsum has been the industry's standard dummy",
+              "Lorem Ipsum has been the industry's standard dummy",
+              "Lorem Ipsum has been the industry's standard dummy",
+              "Lorem Ipsum has been the industry's standard dummy",
+              "Lorem Ipsum has been the industry's standard dummy"
+            ]
+          },
+          {
+            "title": "Structured Query Language(SQL)",
+            "duration": "3 Months",
+            "content": [
+              "Lorem Ipsum has been the industry's standard dummy",
+              "Lorem Ipsum has been the industry's standard dummy",
+              "Lorem Ipsum has been the industry's standard dummy",
+              "Lorem Ipsum has been the industry's standard dummy",
+              "Lorem Ipsum has been the industry's standard dummy",
+              "Lorem Ipsum has been the industry's standard dummy"
+            ]
+          },
+          {
+            "title": "Big Data Computing",
+            "duration": "3 Months",
+            "content": [
+              "Lorem Ipsum has been the industry's standard dummy",
+              "Lorem Ipsum has been the industry's standard dummy",
+              "Lorem Ipsum has been the industry's standard dummy",
+              "Lorem Ipsum has been the industry's standard dummy",
+              "Lorem Ipsum has been the industry's standard dummy",
+              "Lorem Ipsum has been the industry's standard dummy"
+            ]
+          },
+          {
+            "title": "Machine Learning Ops",
+            "duration": "1 Month",
+            "content": [
+              "Lorem Ipsum has been the industry's standard dummy",
+              "Lorem Ipsum has been the industry's standard dummy",
+              "Lorem Ipsum has been the industry's standard dummy",
+              "Lorem Ipsum has been the industry's standard dummy",
+              "Lorem Ipsum has been the industry's standard dummy",
+              "Lorem Ipsum has been the industry's standard dummy"
+            ]
+          }
+        ]
+      },
+      {
+        "type": "advanced",
+        "duration": "20 Months",
+        "modules": [
+          {
+            "title": "Data Structures and Algorithms",
+            "duration": "6 Months",
+            "content": [
+              "Lorem Ipsum has been the industry's standard dummy",
+              "Lorem Ipsum has been the industry's standard dummy",
+              "Lorem Ipsum has been the industry's standard dummy",
+              "Lorem Ipsum has been the industry's standard dummy",
+              "Lorem Ipsum has been the industry's standard dummy",
+              "Lorem Ipsum has been the industry's standard dummy"
+            ]
+          },
+          {
+            "title": "Data Engineering",
+            "duration": "5 Months",
+            "content": [
+              "Lorem Ipsum has been the industry's standard dummy",
+              "Lorem Ipsum has been the industry's standard dummy",
+              "Lorem Ipsum has been the industry's standard dummy",
+              "Lorem Ipsum has been the industry's standard dummy",
+              "Lorem Ipsum has been the industry's standard dummy",
+              "Lorem Ipsum has been the industry's standard dummy"
+            ]
+          },
+          {
+            "title": "AI and Deep Learning",
+            "duration": "4 Months",
+            "content": [
+              "Lorem Ipsum has been the industry's standard dummy",
+              "Lorem Ipsum has been the industry's standard dummy",
+              "Lorem Ipsum has been the industry's standard dummy",
+              "Lorem Ipsum has been the industry's standard dummy",
+              "Lorem Ipsum has been the industry's standard dummy",
+              "Lorem Ipsum has been the industry's standard dummy"
+            ]
+          },
+          {
+            "title": "Project Specializations",
+            "duration": "4 Months",
+            "content": [
+              "Lorem Ipsum has been the industry's standard dummy",
+              "Lorem Ipsum has been the industry's standard dummy",
+              "Lorem Ipsum has been the industry's standard dummy",
+              "Lorem Ipsum has been the industry's standard dummy",
+              "Lorem Ipsum has been the industry's standard dummy",
+              "Lorem Ipsum has been the industry's standard dummy"
+            ]
+          },
+          {
+            "title": "Production ML Systems",
+            "duration": "2 Months",
+            "content": [
+              "Lorem Ipsum has been the industry's standard dummy",
+              "Lorem Ipsum has been the industry's standard dummy",
+              "Lorem Ipsum has been the industry's standard dummy",
+              "Lorem Ipsum has been the industry's standard dummy",
+              "Lorem Ipsum has been the industry's standard dummy",
+              "Lorem Ipsum has been the industry's standard dummy"
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}

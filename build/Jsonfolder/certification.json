@@ -1,0 +1,27 @@
+[
+  {
+    "label": "Search Engine Optimization",
+    "imageUrl": "public/Jsonfolder/images/SEO.jpg",
+    "alt": "SEO icon"
+  },
+  {
+    "label": "Email Marketing",
+    "imageUrl": "public/Jsonfolder/images/email.jpg"
+  },
+  {
+    "label": "Content Marketing",
+    "imageUrl": "public/Jsonfolder/images/Content.jpg"
+  },
+  {
+    "label": "PPC",
+    "imageUrl": "public/Jsonfolder/images/campaign.jpg"
+  },
+  {
+    "label": "Social Media Marketing",
+    "imageUrl": "public/Jsonfolder/images/Social.jpg"
+  },
+  {
+    "label": "Design Thinking",
+    "imageUrl": "public/Jsonfolder/images/Design.png"
+  }
+]

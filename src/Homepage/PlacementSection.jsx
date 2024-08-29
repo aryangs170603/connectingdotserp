@@ -20,7 +20,7 @@ import companylogo4 from '../Logos/Placementsection/agconsultancy.png';
 import companylogo5 from '../Logos/Placementsection/marketlegos.png';
 
 const placementStories = [
-  { name: 'Preetesh Pardeshi', salary: '10 LPA', degree: 'Trained on- SAP ABAP', company: 'Placed in', logo: companylogo4, topImage: faceImage1 },
+  { name: 'Preetesh Pardeshi', salary: '24 LPA', degree: 'Trained on- SAP ABAP', company: 'Placed in', logo: companylogo4, topImage: faceImage1 },
   { name: 'Nikhilesh Landge', salary: '12 LPA', degree: 'Trained on- SAP SD', company: 'Placed in', logo: companylogo3, topImage: faceImage2 },
   { name: 'Shubham Desale', salary: '9 LPA', degree: 'Trained on- SAP MM', company: 'Placed in', logo: companylogo2, topImage: faceImage3 },
   { name: 'Nitesh Kumar', salary: '15 LPA', degree: 'Trained on- SAP FICO', company: 'Placed in', logo: companylogo5, topImage: faceImage4 },

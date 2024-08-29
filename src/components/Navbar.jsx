@@ -301,11 +301,11 @@ const Header = () => {
           style={{ display: "block" }}
         >
           {[
-            { name: "Core HR", link: "/hr-courses/core-hr" },
-            { name: "HR Payroll", link: "/hr-courses/hr-payroll" },
-            { name: "HR Management", link: "/hr-courses/hr-management" },
-            { name: "SAP HR(HCM)", link: "/hr-courses/sap-hr-hcm" },
-            { name: "HR Analytics", link: "/hr-courses/hr-analytics" },
+            { name: "Core HR", link: "/HR-Core" },
+            { name: "HR Payroll", link: "HR-Payroll" },
+            { name: "HR Management", link: "/HR-Management" },
+            { name: "SAP HR(HCM)", link: "/HR-SAPHCM" },
+            { name: "HR Analytics", link: "/HR-Analytics" },
           ].map((item, index) => (
             <li key={index}>
               <Link className="dropdown-item" to={item.link}>

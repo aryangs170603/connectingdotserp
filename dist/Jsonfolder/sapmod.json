@@ -1,0 +1,1041 @@
+{
+  "SAPFICO": {
+    
+    
+    "title2": " <span class=\"highlight-span-cards\">SAP FICO</span> Curriculum",
+    "description": "Industry-Aligned Curriculum for SAP FICO With Certification",
+    "summary": "An exhaustive curriculum designed by our industry experts which will help you to get placed in your dream IT company",
+    "noteMaster": "We provide advance traning for sap fico",
+    "noteAdvance": "Advance",
+    "features": [
+     
+      {
+        "label": "10+",
+        "description": "Languages & Tools"
+      },
+      {
+        "label": "280+",
+        "description": "Live Sessions Hours"
+      }
+    ],
+    "overview": {
+      "title": "Curriculum Overview",
+      "modules": [
+        {
+          "name": "Overview of SAP ",
+          "duration": "2 Weeks"
+        },
+        {
+          "name": "Introduction to FI/CO ",
+          "duration": "2 Weeks"
+        },
+        {
+          "name": "GL and Enterprise Structure – Part 1 ",
+          "duration": "2.4 Weeks"
+        },
+        {
+          "name": "GL and Enterprise Structure – Part 2 ",
+          "duration": "2.4 Weeks"
+        },
+        {
+          "name": " GL New Concepts – Part 1 ",
+          "duration": "1.2 Weeks"
+        },
+        {
+          "name": "New GL Concepts – Part 2 ",
+          "duration": "3 Weeks"
+        },
+        {
+          "name": "S/4HANA Finance (Simple Finance) – Part 1 ",
+          "duration": "1.8 Weeks"
+        },
+        {
+          "name": "S/4HANA Finance (Simple Finance) – Part 2 ",
+          "duration": "4.4 Weeks"
+        },
+        {
+          "name": "Account Payables – Part 1 ",
+          "duration": "9 Weeks"
+        }
+      ]
+     
+    }
+  },
+  "SAPABAP": {
+
+
+    "title2": "<span class=\"highlight-span-cards\">SAP ABAP</span> Curriculum",
+    "description": "Industry-Aligned Curriculum for SAP ABAP in {city} With Certification",
+    "summary": "An exhaustive curriculum designed by our industry experts which will help you to get placed in your dream IT company",
+    "noteMaster": "We provide advance traning for sap abap",
+    "noteAdvance": "Advance",
+    "features": [
+
+      {
+        "label": "10+",
+        "description": "Languages & Tools"
+      },
+      {
+        "label": "280+",
+        "description": "Live Sessions Hours"
+      }
+    ],
+    "overview": {
+      "title": "Curriculum Overview",
+      "modules": [
+        {
+          "name": "Introduction",
+          "duration": "2 Weeks"
+        },
+        {
+          "name": "Architecture of R/3 System ",
+          "duration": "2 Weeks"
+        },
+        {
+          "name": "Components of ABAP Dictionary",
+          "duration": "2.4 Weeks"
+        },
+        {
+          "name": "ABAP Programming",
+          "duration": "2.4 Weeks"
+        },
+        {
+          "name": "ABAP Database Access ",
+          "duration": "1.2 Weeks"
+        },
+        {
+          "name": "Modularization Techniques  ",
+          "duration": "3 Weeks"
+        },
+        {
+          "name": "Open SQL and Additional Topics ",
+          "duration": "1.8 Weeks"
+        },
+        {
+          "name": "List Generation Techniques ",
+          "duration": "4.4 Weeks"
+        },
+        {
+          "name": "Performance Analysis ",
+          "duration": "9 Weeks"
+        }
+      ]
+
+    }
+  },
+  "SAPBASIS": {
+
+
+    "title2": "<span class=\"highlight-span-cards\">SAP BASIS</span> Curriculum",
+    "description": "Industry-Aligned Curriculum for SAP BASIS With Certification",
+    "summary": "An exhaustive curriculum designed by our industry experts which will help you to get placed in your dream IT company",
+    "noteMaster": "We provide advance traning for sap basis",
+    "noteAdvance": "Advance",
+    "features": [
+
+      {
+        "label": "10+",
+        "description": "Languages & Tools"
+      },
+      {
+        "label": "280+",
+        "description": "Live Sessions Hours"
+      }
+    ],
+    "overview": {
+      "title": "Curriculum Overview",
+      "modules": [
+        {
+          "name": " Introduction to SAP R/3 Basis",
+          "duration": "2 Weeks"
+        },
+        {
+          "name": " Architecture of SAP R/3 Application server",
+          "duration": "2 Weeks"
+        },
+        {
+          "name": " Client Administration",
+          "duration": "2.4 Weeks"
+        },
+        {
+          "name": " User Managements ",
+          "duration": "2.4 Weeks"
+        },
+        {
+          "name": "Background Jobs",
+          "duration": "1.2 Weeks"
+        },
+        {
+          "name": " Profile and Operation Modes ",
+          "duration": "3 Weeks"
+        },
+        {
+          "name": "Patch Adminstration ",
+          "duration": "1.8 Weeks"
+        },
+        {
+          "name": "CCMS",
+          "duration": "4.4 Weeks"
+        },
+        {
+          "name": "Memory Management and Miscellaneous",
+          "duration": "9 Weeks"
+        }
+      ]
+
+    }
+  },
+  "SAPBI": {
+
+    "title2": "<span class=\"highlight-span-cards\">SAP BI</span> Curriculum",
+    "description": "Industry-Aligned Curriculum for SAP BI With Certification",
+    "summary": "An exhaustive curriculum designed by our industry experts which will help you to get placed in your dream IT company",
+    "noteMaster": "We provide advance traning for sap bi",
+    "noteAdvance": "Advance",
+    "features": [
+
+      {
+        "label": "10+",
+        "description": "Languages & Tools"
+      },
+      {
+        "label": "280+",
+        "description": "Live Sessions Hours"
+      }
+    ],
+    "overview": {
+      "title": "Curriculum Overview",
+      "modules": [
+        {
+          "name": "SQL",
+          "duration": "2 Weeks"
+        },
+        {
+          "name": "Excel",
+          "duration": "2 Weeks"
+        },
+        {
+          "name": "POWER BI",
+          "duration": "2.4 Weeks"
+        },
+        {
+          "name": "Tableau",
+          "duration": "2.4 Weeks"
+        },
+        {
+          "name": "Divining into World of Data",
+          "duration": "1.2 Weeks"
+        },
+        {
+          "name": "Python",
+          "duration": "3 Weeks"
+        },
+        {
+          "name": "Analysis with Python",
+          "duration": "1.8 Weeks"
+        },
+        {
+          "name": "Machine Learning",
+          "duration": "4.4 Weeks"
+        },
+        {
+          "name": "Artificial Intelligence",
+          "duration": "9 Weeks"
+        }
+      ]
+
+    }
+  },
+  "SAPEWM": {
+
+    "title2": "<span class=\"highlight-span-cards\">SAP EWM</span> Curriculum",
+    "description": "Industry-Aligned Curriculum for SAP EWM With Certification",
+    "summary": "An exhaustive curriculum designed by our industry experts which will help you to get placed in your dream IT company",
+    "noteMaster": "We provide advance traning for sap ewm",
+    "noteAdvance": "Advance",
+    "features": [
+
+      {
+        "label": "10+",
+        "description": "Languages & Tools"
+      },
+      {
+        "label": "280+",
+        "description": "Live Sessions Hours"
+      }
+    ],
+    "overview": {
+      "title": "Curriculum Overview",
+      "modules": [
+        {
+          "name": " Overview of EWM and WM",
+          "duration": "2 Weeks"
+        },
+        {
+          "name": "Introduction to Organization Elements ",
+          "duration": "2 Weeks"
+        },
+        {
+          "name": "Create Organization Elements",
+          "duration": "2.4 Weeks"
+        },
+        {
+          "name": "WM organization Structure Creation",
+          "duration": "2.4 Weeks"
+        },
+        {
+          "name": "Create SD organization Structure ",
+          "duration": "1.2 Weeks"
+        },
+        {
+          "name": "Master Data",
+          "duration": "3 Weeks"
+        },
+        {
+          "name": "Product Master Data and transfers ",
+          "duration": "1.8 Weeks"
+        },
+        {
+          "name": "Warehouse Management Process Flow",
+          "duration": "4.4 Weeks"
+        },
+        {
+          "name": " Warehouse Management Put away Strategy",
+          "duration": "9 Weeks"
+        }
+      ]
+
+    }
+  },
+  "SAPHANA": {
+
+    "title2": "<span class=\"highlight-span-cards\">SAP S/4 HANA</span> Curriculum",
+    "description": "Industry-Aligned Curriculum for SAP HANA With Certification",
+    "summary": "An exhaustive curriculum designed by our industry experts which will help you to get placed in your dream IT company",
+    "noteMaster": "We provide advance traning for sap hana",
+    "noteAdvance": "Advance",
+    "features": [
+
+      {
+        "label": "10+",
+        "description": "Languages & Tools"
+      },
+      {
+        "label": "280+",
+        "description": "Live Sessions Hours"
+      }
+    ],
+    "overview": {
+      "title": "Curriculum Overview",
+      "modules": [
+        {
+          "name": "SQL",
+          "duration": "2 Weeks"
+        },
+        {
+          "name": "Excel",
+          "duration": "2 Weeks"
+        },
+        {
+          "name": "POWER BI",
+          "duration": "2.4 Weeks"
+        },
+        {
+          "name": "Tableau",
+          "duration": "2.4 Weeks"
+        },
+        {
+          "name": "Divining into World of Data",
+          "duration": "1.2 Weeks"
+        },
+        {
+          "name": "Python",
+          "duration": "3 Weeks"
+        },
+        {
+          "name": "Analysis with Python",
+          "duration": "1.8 Weeks"
+        },
+        {
+          "name": "Machine Learning",
+          "duration": "4.4 Weeks"
+        },
+        {
+          "name": "Artificial Intelligence",
+          "duration": "9 Weeks"
+        }
+      ]
+
+    }
+  },
+  "SAPHRHCM": {
+
+    "title2": "<span class=\"highlight-span-cards\">SAP HR/HCM</span> Curriculum",
+    "description": "Industry-Aligned Curriculum for SAP HR/HCM With Certification",
+    "summary": "An exhaustive curriculum designed by our industry experts which will help you to get placed in your dream IT company",
+    "noteMaster": "We provide advance traning for sap hr/hcm",
+    "noteAdvance": "Advance",
+    "features": [
+
+      {
+        "label": "10+",
+        "description": "Languages & Tools"
+      },
+      {
+        "label": "280+",
+        "description": "Live Sessions Hours"
+      }
+    ],
+    "overview": {
+      "title": "Curriculum Overview",
+      "modules": [
+        {
+          "name": "SQL",
+          "duration": "2 Weeks"
+        },
+        {
+          "name": "Excel",
+          "duration": "2 Weeks"
+        },
+        {
+          "name": "POWER BI",
+          "duration": "2.4 Weeks"
+        },
+        {
+          "name": "Tableau",
+          "duration": "2.4 Weeks"
+        },
+        {
+          "name": "Divining into World of Data",
+          "duration": "1.2 Weeks"
+        },
+        {
+          "name": "Python",
+          "duration": "3 Weeks"
+        },
+        {
+          "name": "Analysis with Python",
+          "duration": "1.8 Weeks"
+        },
+        {
+          "name": "Machine Learning",
+          "duration": "4.4 Weeks"
+        },
+        {
+          "name": "Artificial Intelligence",
+          "duration": "9 Weeks"
+        }
+      ]
+
+    }
+  },
+  "SAPMM": {
+
+    "title2": "<span class=\"highlight-span-cards\">SAP MM</span> Curriculum",
+    "description": "Industry-Aligned Curriculum for SAP MM With Certification",
+    "summary": "An exhaustive curriculum designed by our industry experts which will help you to get placed in your dream IT company",
+    "noteMaster": "We provide advance traning for sap mm",
+    "noteAdvance": "Advance",
+    "features": [
+
+      {
+        "label": "10+",
+        "description": "Languages & Tools"
+      },
+      {
+        "label": "280+",
+        "description": "Live Sessions Hours"
+      }
+    ],
+    "overview": {
+      "title": "Curriculum Overview",
+      "modules": [
+        {
+          "name": " Introduction to ERP, SAP, R/3 Architecture & S4HANA ",
+          "duration": "2 Weeks"
+        },
+        {
+          "name": " Basic Settings / Navigation",
+          "duration": "2 Weeks"
+        },
+        {
+          "name": " Organizational Structure",
+          "duration": "2.4 Weeks"
+        },
+        {
+          "name": "Master Data – Part 1 ",
+          "duration": "2.4 Weeks"
+        },
+        {
+          "name": "Master Data – Part 2 ",
+          "duration": "1.2 Weeks"
+        },
+        {
+          "name": "Source Determination ",
+          "duration": "3 Weeks"
+        },
+        {
+          "name": "Purchasing Data – Part1",
+          "duration": "1.8 Weeks"
+        },
+        {
+          "name": "Outline agreement",
+          "duration": "4.4 Weeks"
+        },
+        {
+          "name": " Release Procedure for purchasing documents",
+          "duration": "9 Weeks"
+        }
+      ]
+
+    }
+  },
+  "SAPNETWEAVER": {
+
+    "title2": "<span class=\"highlight-span-cards\">SAP NETWEAVER</span> Curriculum",
+    "description": "Industry-Aligned Curriculum for SAP NETWEAVER With Certification",
+    "summary": "An exhaustive curriculum designed by our industry experts which will help you to get placed in your dream IT company",
+    "noteMaster": "We provide advance traning for sap netweaver",
+    "noteAdvance": "Advance",
+    "features": [
+
+      {
+        "label": "10+",
+        "description": "Languages & Tools"
+      },
+      {
+        "label": "280+",
+        "description": "Live Sessions Hours"
+      }
+    ],
+    "overview": {
+      "title": "Curriculum Overview",
+      "modules": [
+        {
+          "name": "SQL",
+          "duration": "2 Weeks"
+        },
+        {
+          "name": "Excel",
+          "duration": "2 Weeks"
+        },
+        {
+          "name": "POWER BI",
+          "duration": "2.4 Weeks"
+        },
+        {
+          "name": "Tableau",
+          "duration": "2.4 Weeks"
+        },
+        {
+          "name": "Divining into World of Data",
+          "duration": "1.2 Weeks"
+        },
+        {
+          "name": "Python",
+          "duration": "3 Weeks"
+        },
+        {
+          "name": "Analysis with Python",
+          "duration": "1.8 Weeks"
+        },
+        {
+          "name": "Machine Learning",
+          "duration": "4.4 Weeks"
+        },
+        {
+          "name": "Artificial Intelligence",
+          "duration": "9 Weeks"
+        }
+      ]
+
+    }
+  },
+  "SAPPM": {
+
+    "title2": "<span class=\"highlight-span-cards\">SAP PM</span> Curriculum",
+    "description": "Industry-Aligned Curriculum for SAP PM With Certification",
+    "summary": "An exhaustive curriculum designed by our industry experts which will help you to get placed in your dream IT company",
+    "noteMaster": "We provide advance traning for sap pm",
+    "noteAdvance": "Advance",
+    "features": [
+
+      {
+        "label": "10+",
+        "description": "Languages & Tools"
+      },
+      {
+        "label": "280+",
+        "description": "Live Sessions Hours"
+      }
+    ],
+    "overview": {
+      "title": "Curriculum Overview",
+      "modules": [
+        {
+          "name": "SQL",
+          "duration": "2 Weeks"
+        },
+        {
+          "name": "Excel",
+          "duration": "2 Weeks"
+        },
+        {
+          "name": "POWER BI",
+          "duration": "2.4 Weeks"
+        },
+        {
+          "name": "Tableau",
+          "duration": "2.4 Weeks"
+        },
+        {
+          "name": "Divining into World of Data",
+          "duration": "1.2 Weeks"
+        },
+        {
+          "name": "Python",
+          "duration": "3 Weeks"
+        },
+        {
+          "name": "Analysis with Python",
+          "duration": "1.8 Weeks"
+        },
+        {
+          "name": "Machine Learning",
+          "duration": "4.4 Weeks"
+        },
+        {
+          "name": "Artificial Intelligence",
+          "duration": "9 Weeks"
+        }
+      ]
+
+    }
+  },
+  "SAPPP": {
+
+    "title2": "<span class=\"highlight-span-cards\">SAP PP</span> Curriculum",
+    "description": "Industry-Aligned Curriculum for SAP PP With Certification",
+    "summary": "An exhaustive curriculum designed by our industry experts which will help you to get placed in your dream IT company",
+    "noteMaster": "We provide advance traning for sap pp",
+    "noteAdvance": "Advance",
+    "features": [
+
+      {
+        "label": "10+",
+        "description": "Languages & Tools"
+      },
+      {
+        "label": "280+",
+        "description": "Live Sessions Hours"
+      }
+    ],
+    "overview": {
+      "title": "Curriculum Overview",
+      "modules": [
+        {
+          "name": "Introduction to ERP, SAP R/3, S4 HANA Architecture",
+          "duration": "2 Weeks"
+        },
+        {
+          "name": "Navigation & Basic settings in SAP",
+          "duration": "2 Weeks"
+        },
+        {
+          "name": "Organizational Structure of an enterprise in the SAP R/3 system",
+          "duration": "2.4 Weeks"
+        },
+        {
+          "name": "Master Data - Bill of Material",
+          "duration": "2.4 Weeks"
+        },
+        {
+          "name": "Work centre Management",
+          "duration": "1.2 Weeks"
+        },
+        {
+          "name": "Master Data - Routing",
+          "duration": "3 Weeks"
+        },
+        {
+          "name": "Planning",
+          "duration": "1.8 Weeks"
+        },
+        {
+          "name": "Flexible Planning - Standard SOP Planning",
+          "duration": "4.4 Weeks"
+        },
+        {
+          "name": "Demand Management",
+          "duration": "9 Weeks"
+        }
+      ]
+
+    }
+  },
+  "SAPPS": {
+
+    "title2": "<span class=\"highlight-span-cards\">SAP PS</span> Curriculum",
+    "description": "Industry-Aligned Curriculum for SAP PS With Certification",
+    "summary": "An exhaustive curriculum designed by our industry experts which will help you to get placed in your dream IT company",
+    "noteMaster": "We provide advance traning for sap ps",
+    "noteAdvance": "Advance",
+    "features": [
+
+      {
+        "label": "10+",
+        "description": "Languages & Tools"
+      },
+      {
+        "label": "280+",
+        "description": "Live Sessions Hours"
+      }
+    ],
+    "overview": {
+      "title": "Curriculum Overview",
+      "modules": [
+        {
+          "name": "SQL",
+          "duration": "2 Weeks"
+        },
+        {
+          "name": "Excel",
+          "duration": "2 Weeks"
+        },
+        {
+          "name": "POWER BI",
+          "duration": "2.4 Weeks"
+        },
+        {
+          "name": "Tableau",
+          "duration": "2.4 Weeks"
+        },
+        {
+          "name": "Divining into World of Data",
+          "duration": "1.2 Weeks"
+        },
+        {
+          "name": "Python",
+          "duration": "3 Weeks"
+        },
+        {
+          "name": "Analysis with Python",
+          "duration": "1.8 Weeks"
+        },
+        {
+          "name": "Machine Learning",
+          "duration": "4.4 Weeks"
+        },
+        {
+          "name": "Artificial Intelligence",
+          "duration": "9 Weeks"
+        }
+      ]
+
+    }
+  },
+  "SAPQM": {
+
+    "title2": "<span class=\"highlight-span-cards\">SAP QM</span> Curriculum",
+    "description": "Industry-Aligned Curriculum for SAP QM With Certification",
+    "summary": "An exhaustive curriculum designed by our industry experts which will help you to get placed in your dream IT company",
+    "noteMaster": "We provide advance traning for sap qm",
+    "noteAdvance": "Advance",
+    "features": [
+
+      {
+        "label": "10+",
+        "description": "Languages & Tools"
+      },
+      {
+        "label": "280+",
+        "description": "Live Sessions Hours"
+      }
+    ],
+    "overview": {
+      "title": "Curriculum Overview",
+      "modules": [
+        {
+          "name": "Introduction to ERP, SAP R/3, S4 HANA Architecture",
+          "duration": "2 Weeks"
+        },
+        {
+          "name": "Navigation & Basic settings in SAP",
+          "duration": "2 Weeks"
+        },
+        {
+          "name": "Organizational Structure of an enterprise in the SAP R/3 system",
+          "duration": "2.4 Weeks"
+        },
+        {
+          "name": "Master Data - Bill of Material",
+          "duration": "2.4 Weeks"
+        },
+        {
+          "name": "Work centre Management",
+          "duration": "1.2 Weeks"
+        },
+        {
+          "name": "Master Data - Routing",
+          "duration": "3 Weeks"
+        },
+        {
+          "name": "Planning",
+          "duration": "1.8 Weeks"
+        },
+        {
+          "name": "Flexible Planning - Standard SOP Planning",
+          "duration": "4.4 Weeks"
+        },
+        {
+          "name": "Demand Management",
+          "duration": "9 Weeks"
+        }
+      ]
+
+    }
+  },
+  "SAPSCM": {
+
+    "title2": "<span class=\"highlight-span-cards\">SAP SCM</span> Curriculum",
+    "description": "Industry-Aligned Curriculum for SAP SCM With Certification",
+    "summary": "An exhaustive curriculum designed by our industry experts which will help you to get placed in your dream IT company",
+    "noteMaster": "We provide advance traning for sap scm",
+    "noteAdvance": "Advance",
+    "features": [
+
+      {
+        "label": "10+",
+        "description": "Languages & Tools"
+      },
+      {
+        "label": "280+",
+        "description": "Live Sessions Hours"
+      }
+    ],
+    "overview": {
+      "title": "Curriculum Overview",
+      "modules": [
+        {
+          "name": "Forecast, Sales, Procurement, Manufacturing, and Warehouse Processing",
+          "duration": "2 Weeks"
+        },
+        {
+          "name": "Forecasting",
+          "duration": "2 Weeks"
+        },
+        {
+          "name": "Order to Ship Process",
+          "duration": "2.4 Weeks"
+        },
+        {
+          "name": "SCM Master Data",
+          "duration": "2.4 Weeks"
+        },
+        {
+          "name": "Divining into World of Data",
+          "duration": "1.2 Weeks"
+        },
+        {
+          "name": "Demand",
+          "duration": "3 Weeks"
+        },
+        {
+          "name": "Procure to Receipt Process",
+          "duration": "1.8 Weeks"
+        },
+        {
+          "name": "Demand Planning in ECC and SCM",
+          "duration": "4.4 Weeks"
+        },
+        {
+          "name": "Demand Management",
+          "duration": "9 Weeks"
+        }
+      ]
+
+    }
+  },
+  "SAPSD": {
+
+    "title2": "<span class=\"highlight-span-cards\">SAP SD</span> Curriculum",
+    "description": "Industry-Aligned Curriculum for SAP SD With Certification",
+    "summary": "An exhaustive curriculum designed by our industry experts which will help you to get placed in your dream IT company",
+    "noteMaster": "We provide advance traning for sap sd",
+    "noteAdvance": "Advance",
+    "features": [
+
+      {
+        "label": "10+",
+        "description": "Languages & Tools"
+      },
+      {
+        "label": "280+",
+        "description": "Live Sessions Hours"
+      }
+    ],
+    "overview": {
+      "title": "Curriculum Overview",
+      "modules": [
+        {
+          "name": "Introduction to ERP SAP R/3 HANA",
+          "duration": "2 Weeks"
+        },
+        {
+          "name": "Introduction to SAP R/3 Architecture",
+          "duration": "2 Weeks"
+        },
+        {
+          "name": "Basic Settings / SAP Navigation",
+          "duration": "2.4 Weeks"
+        },
+        {
+          "name": "Organizational Structure in SAP R/3 System",
+          "duration": "2.4 Weeks"
+        },
+        {
+          "name": "Master Data - Customer Master Record [ CMR] ",
+          "duration": "1.2 Weeks"
+        },
+        {
+          "name": "Master Data - Material Master Record",
+          "duration": "3 Weeks"
+        },
+        {
+          "name": "Master Data - Customer Master Info Record [ CMIR]",
+          "duration": "1.8 Weeks"
+        },
+        {
+          "name": "Documents",
+          "duration": "4.4 Weeks"
+        },
+        {
+          "name": "Pricing",
+          "duration": "9 Weeks"
+        }
+      ]
+
+    }
+  },
+  "SAP SUCCESS": {
+
+    "title2": "<span class=\"highlight-span-cards\">SAP SUCCESSFACTOR</span> Curriculum",
+    "description": "Industry-Aligned Curriculum for SAP SUCCESSFACTOR With Certification",
+    "summary": "An exhaustive curriculum designed by our industry experts which will help you to get placed in your dream IT company",
+    "noteMaster": "We provide advance traning for sap successfactor",
+    "noteAdvance": "Advance",
+    "features": [
+
+      {
+        "label": "10+",
+        "description": "Languages & Tools"
+      },
+      {
+        "label": "280+",
+        "description": "Live Sessions Hours"
+      }
+    ],
+    "overview": {
+      "title": "Curriculum Overview",
+      "modules": [
+        {
+          "name": "Introduction to SuccessFactors",
+          "duration": "2 Weeks"
+        },
+        {
+          "name": "Navigation Basics",
+          "duration": "2 Weeks"
+        },
+        {
+          "name": "Success Factors Employee Central",
+          "duration": "2.4 Weeks"
+        },
+        {
+          "name": "Role-Based Permissions",
+          "duration": "2.4 Weeks"
+        },
+        {
+          "name": "Setting Up Data Models",
+          "duration": "1.2 Weeks"
+        },
+        {
+          "name": "Business Rules",
+          "duration": "3 Weeks"
+        },
+        {
+          "name": "Working with Picklist",
+          "duration": "1.8 Weeks"
+        },
+        {
+          "name": "Position Management",
+          "duration": "4.4 Weeks"
+        },
+        {
+          "name": "Workflow, Alert Messages, and email Notifications",
+          "duration": "9 Weeks"
+        }
+      ]
+
+    }
+  },
+"DIGIM": {
+
+    "title2": "<span class=\"highlight-span-cards\">DIGITAL MARKETING</span> Curriculum",
+    "description": "Industry-Aligned Curriculum for DIGITAL MARKETING With Certification",
+    "summary": "An exhaustive curriculum designed by our industry experts which will help you to get placed in your dream IT company",
+    "features": [
+
+      {
+        "label": "10+",
+        "description": "Languages & Tools"
+      },
+      {
+        "label": "280+",
+        "description": "Live Sessions Hours"
+      }
+    ],
+    "overview": {
+      "title": "Curriculum Overview",
+      "modules": [
+        {
+          "name": "Introduction to SuccessFactors",
+          "duration": "2 Weeks"
+        },
+        {
+          "name": "Navigation Basics",
+          "duration": "2 Weeks"
+        },
+        {
+          "name": "Success Factors Employee Central",
+          "duration": "2.4 Weeks"
+        },
+        {
+          "name": "Role-Based Permissions",
+          "duration": "2.4 Weeks"
+        },
+        {
+          "name": "Setting Up Data Models",
+          "duration": "1.2 Weeks"
+        },
+        {
+          "name": "Business Rules",
+          "duration": "3 Weeks"
+        },
+        {
+          "name": "Working with Picklist",
+          "duration": "1.8 Weeks"
+        },
+        {
+          "name": "Position Management",
+          "duration": "4.4 Weeks"
+        },
+        {
+          "name": "Workflow, Alert Messages, and email Notifications",
+          "duration": "9 Weeks"
+        }
+      ]
+
+    }
+  }
+
+}

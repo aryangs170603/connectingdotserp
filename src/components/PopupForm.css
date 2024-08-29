@@ -4,7 +4,8 @@
   left: 0;
   width: 100%;
   height: 100%;
-  background-color: rgba(0, 0, 0, 0); /* Semi-transparent background for the overlay */
+  background-color: rgba(0, 0, 0, 0.25); /* Semi-transparent background for the overlay */
+  
   display: flex;
   justify-content: center;
   align-items: center;
@@ -50,18 +51,24 @@
   margin-bottom: 20px;
 }
 
-.header-container .logo-ppf {
+.logo-ppf {
   width: 70px;
   height: 70px;
   margin-right: 10px;
   margin-left: -30px;
+  transition: all 0.3s ease-in-out;
+  shadow: 0 0 10px #ffffff, 0 0 20px #ffffff, 0 0 30px #ffffff; /* Glow effect */
 }
+
+
 
 .header-container h2 {
   font-size: 24px;
   font-weight: bold;
   color: #2277d3;
   margin: 0;
+  text-shadow: 0 0 10px #ffffff, 0 0 20px #ffffff, 0 0 30px #ffffff; /* Glow effect */
+  transition: text-shadow 0.3s ease-in-out;
 }
 
 .popup-form-container form {
@@ -142,7 +149,7 @@
     margin: 0; 
     position: absolute; 
     top: 10%; 
-    right: 44%; 
+    right: -2%; 
     transform: translateX(-50%); 
   }
 

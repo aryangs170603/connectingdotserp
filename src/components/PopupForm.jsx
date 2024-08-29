@@ -1,11 +1,10 @@
 import React, { useState, useEffect } from 'react';
-import axios from 'axios';
 import './PopupForm.css';
 import { useLocation } from 'react-router-dom';
 
 const PopupForm = ({ onSubmitData }) => {
   const location = useLocation();
-  const [isVisible, setIsVisible] = useState(false); // Initially hidden
+  const [isVisible, setIsVisible] = useState(false); 
   const [name, setName] = useState('');
   const [mobile, setMobile] = useState('');
   const [email, setEmail] = useState('');
@@ -13,41 +12,36 @@ const PopupForm = ({ onSubmitData }) => {
   const [isChecked, setIsChecked] = useState(false);
 
   useEffect(() => {
-    // Hide popup on AdminLogin and Dashboard pages
     const hiddenPages = ['/AdminLogin', '/Dashboard'];
     if (hiddenPages.includes(location.pathname)) {
       setIsVisible(false);
       return;
     }
 
-    // Show popup after 15 seconds on allowed pages
     const showTimer = setTimeout(() => {
       setIsVisible(true);
-    }, 5000); // 15 seconds
+    }, 5000); // 5 seconds
 
     return () => clearTimeout(showTimer);
   }, [location.pathname]);
 
   useEffect(() => {
-    // Hide popup and reset visibility timer if it's not visible
     if (!isVisible) {
       const hideTimer = setTimeout(() => {
         setIsVisible(true);
-      }, 180000); // 3 minutes
+      }, 300000); // 5 minutes
 
       return () => clearTimeout(hideTimer);
     }
   }, [isVisible]);
 
-  // Add or remove no-scroll class based on isVisible state
   useEffect(() => {
     if (isVisible) {
-      document.body.classList.add('no-scroll'); // Prevent scrolling
+      document.body.classList.add('no-scroll'); 
     } else {
-      document.body.classList.remove('no-scroll'); // Allow scrolling
+      document.body.classList.remove('no-scroll'); 
     }
 
-    // Cleanup function to ensure the class is removed when the component unmounts
     return () => {
       document.body.classList.remove('no-scroll');
     };
@@ -66,18 +60,16 @@ const PopupForm = ({ onSubmitData }) => {
       mobile,
       email,
       courseName: course,
+      date: new Date().toISOString(),  // Add timestamp for tracking
     };
 
-    try {
-      // Replace with your actual API endpoint
-      const response = await axios.post('https://your-api-endpoint.com/register', formData);
-      console.log('Response:', response.data);
-      alert('Registration complete!');
-      onSubmitData(formData);
-    } catch (error) {
-      console.error('Error submitting form:', error);
-      alert('An error occurred while submitting the form. Please try again.');
-    }
+    // Save the form data to local storage
+    const storedLeads = JSON.parse(localStorage.getItem('leads')) || [];
+    storedLeads.push(formData);
+    localStorage.setItem('leads', JSON.stringify(storedLeads));
+
+    alert('Registration complete!');
+    onSubmitData(formData); // Trigger refresh in Dashboard
 
     setName('');
     setMobile('');

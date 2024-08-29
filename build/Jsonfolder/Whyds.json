@@ -1,0 +1,865 @@
+{
+  "Whyds": {
+    "WhyDS": {
+      "title": "Why Data Science?",
+      "cards": [
+        {
+          "title": "What is <span class=\"highlight-span-cards\">Data Science?</span>",
+          "content": "Data Science involves <span class=\"highlight-span-cards\">extracting actionable insights</span> from raw data using various scientific methods, algorithms, and processes. It provides tools for working with data from diverse sources, including financial logs, multimedia files, and sensors."
+        },
+        {
+          "title": "What does a <span class=\"highlight-span-cards\">Data Scientist</span> do?",
+          "content": "A data scientist analyzes data to provide actionable insights for various processes. They possess strong <span class=\"highlight-span-cards\">statistical</span>, <span class=\"highlight-span-cards\">analytical</span>, and <span class=\"highlight-span-cards\">technical skills</span> to work with structured and unstructured data.",
+          "listItems": [
+            "Identify data sources and collect data.",
+            "Analyze data effectively.",
+            "Formulate strategies to solve business challenges."
+          ]
+        },
+        {
+          "title": "Why take <span class=\"highlight-span-cards\">Data Science</span> training?",
+          "content": "Data scientists are in high demand across industries, making a <span class=\"highlight-span-cards\">Data Science certification</span> valuable. Our training course is designed for both beginners and professionals to equip them with essential skills.",
+          "listItems": [  
+            "Junior/Senior Data Scientist",
+            "Forecasting/Risk Analyst",
+            "Machine Learning Engineer"
+          ]
+        }
+      ]
+    }
+  },
+  "Whyda": {
+    "WhyDA": {
+      "title": "Why Data Analytics?",
+      "cards": [
+        {
+          "title": "What is <span class=\"highlight-span-cards\">Data Analytics?</span>",
+          "content": "A data analyst collects, processes, and performs statistical analyses on data. They are skilled in <span class=\"highlight-span-cards\">data visualization</span>, <span class=\"highlight-span-cards\">data mining</span>, and <span class=\"highlight-span-cards\">SQL</span>."
+        },
+        {
+          "title": "What does a <span class=\"highlight-span-cards\">Data Analyst</span> do?",
+          "content": "A data scientist analyzes data to provide actionable insights for various processes. They possess strong <span class=\"highlight-span-cards\">statistical</span>, <span class=\"highlight-span-cards\">analytical</span>, and <span class=\"highlight-span-cards\">technical skills</span> to work with structured and unstructured data.",
+          "listItems": [
+            "Interpret data and analyze results.",
+            "Develop and implement data analyses.",
+            "Work with management to prioritize business needs."
+          ]
+        },
+        {
+          "title": "Why take <span class=\"highlight-span-cards\">Data Analytics</span> training?",
+          "content": "Data analysts are in high demand across industries, making a <span class=\"highlight-span-cards\">Data Analytics certification</span> valuable. Our training course is designed for both beginners and professionals to equip them with essential skills.",
+          "listItems": [
+            "Data Analyst",
+            "Business Analyst",
+            "Operations Analyst"
+          ]
+        }
+      ]
+    }
+  },
+  "Whyba": {
+    "WhyBA": {
+      "title": "Why Business Analytics?",
+      "cards": [
+        {
+          "title": "What is <span class=\"highlight-span-cards\">Business Analytics?</span>",
+          "content": "Business Analytics focuses on using data, statistical analysis, and business intelligence tools to gain insights and support business decision-making."
+        },
+        {
+          "title": "What does a <span class=\"highlight-span-cards\">Business Analyst</span> do?",
+          "content": "A business analyst bridges the gap between IT and business by assessing processes, determining requirements, and delivering data-driven recommendations.",
+          "listItems": [
+            "Analyze business processes.",
+            "Identify areas for improvement.",
+            "Provide data-driven insights."
+          ]
+        },
+        {
+          "title": "Why take <span class=\"highlight-span-cards\">Business Analytics</span> training?",
+          "content": "Business Analysts are key to driving business success. Our course teaches you to use data analytics, statistical tools, and business intelligence for optimal business outcomes.",
+          "listItems": [
+            "Business Analyst",
+            "Management Consultant",
+            "Data Analyst"
+          ]
+        }
+      ]
+    }
+  },
+  "Whygpt": {
+    "WhyGPT": {
+      "title": "Why CHAT GPT & AI?",
+      "cards": [
+        {
+          "title": "What is <span class=\"highlight-span-cards\">ChatGPT and AI?</span>",
+          "content": "ChatGPT is a state-of-the-art language model developed by OpenAI. It uses advanced AI techniques like machine learning and natural language processing to generate human-like text."
+        },
+        {
+          "title": "What does an <span class=\"highlight-span-cards\">AI Developer</span> do?",
+          "content": "An AI developer designs and develops AI models and systems. They work on algorithms, data processing, and integration with existing technologies.",
+          "listItems": [
+            "Develop AI models and algorithms.",
+            "Integrate AI with business processes.",
+            "Continuously improve AI systems."
+          ]
+        },
+        {
+          "title": "Why take <span class=\"highlight-span-cards\">AI</span> training?",
+          "content": "AI is transforming industries. Our course provides you with essential AI skills, including machine learning, deep learning, and natural language processing.",
+          "listItems": [
+            "AI Developer",
+            "Machine Learning Engineer",
+            "Data Scientist"
+          ]
+        }
+      ]
+    }
+  },
+  "Whyfullstack": {
+    "WhyFullStack": {
+      "title": "Why FULL STACK TRAINING ?",
+      "cards": [
+        {
+          "title": "What is <span class=\"highlight-span-cards\">Full Stack Development?</span>",
+          "content": "Full Stack Development involves working on both the front-end and back-end of web applications. It requires knowledge of databases, server management, and client-side technologies."
+        },
+        {
+          "title": "What does a <span class=\"highlight-span-cards\">Full Stack Developer</span> do?",
+          "content": "A Full Stack Developer is proficient in both front-end and back-end development. They work on server, networking, and hosting environments as well as client interfaces.",
+          "listItems": [
+            "Design and develop web applications.",
+            "Work on databases, servers, and front-end.",
+            "Ensure cross-platform functionality."
+          ]
+        },
+        {
+          "title": "Why take <span class=\"highlight-span-cards\">Full Stack</span> training?",
+          "content": "Full Stack Developers are in high demand. Our training covers all aspects of web development, from front-end to back-end, making you job-ready.",
+          "listItems": [
+            "Full Stack Developer",
+            "Web Developer",
+            "Software Engineer"
+          ]
+        }
+      ]
+    }
+  },
+  "Whyjava": {
+    "WhyJava": {
+      "title": "Why Java ?",
+      "cards": [
+        {
+          "title": "What is <span class=\"highlight-span-cards\">Java Development?</span>",
+          "content": "Java Development involves building applications using the Java programming language. Java is widely used for building enterprise-scale applications, web applications, and mobile apps."
+        },
+        {
+          "title": "What does a <span class=\"highlight-span-cards\">Java Developer</span> do?",
+          "content": "A Java Developer designs and develops applications using Java. They work on building scalable, high-performance applications that can handle large volumes of data.",
+          "listItems": [
+            "Design and develop Java applications.",
+            "Maintain and optimize existing applications.",
+            "Ensure application performance and scalability."
+          ]
+        },
+        {
+          "title": "Why take <span class=\"highlight-span-cards\">Java</span> training?",
+          "content": "Java Developers are crucial for building enterprise-level applications. Our course covers Java programming, frameworks, and tools to make you a proficient developer.",
+          "listItems": [
+            "Java Developer",
+            "Software Engineer",
+            "Backend Developer"
+          ]
+        }
+      ]
+    }
+  },
+  "Whymern": {
+    "WhyMern": {
+      "title": "Why MERN ?",
+      "cards": [
+        {
+          "title": "What is <span class=\"highlight-span-cards\">MERN Stack?</span>",
+          "content": "MERN Stack is a popular web development stack that includes MongoDB, Express.js, React, and Node.js. It allows developers to build full-stack web applications using JavaScript."
+        },
+        {
+          "title": "What does a <span class=\"highlight-span-cards\">MERN Stack Developer</span> do?",
+          "content":  "A MERN Stack Developer works on building full-stack applications using the MERN stack. They are proficient in both front-end and back-end development.",
+          "listItems": [
+            "Develop web applications using the MERN stack.",
+            "Work on both client-side and server-side.",
+            "Ensure application scalability and performance."
+          ]
+        },
+        {
+          "title": "Why take <span class=\"highlight-span-cards\">MERN Stack</span> training?",
+          "content": "MERN Stack Developers are in high demand for building modern web applications. Our training equips you with the skills needed to master the MERN stack.",
+          "listItems": [
+            "MERN Stack Developer",
+            "Web Developer",
+            "Full Stack Developer"
+          ]
+        }
+      ]
+    }
+  },
+  "Whyuiux": {
+    "WhyUIUX": {
+      "title": "Why UI/UX ?",
+      "cards": [
+        {
+          "title": "What is <span class=\"highlight-span-cards\">UI/UX Design?</span>",
+          "content": "UI/UX Design involves creating user interfaces that are both visually appealing and easy to use. It focuses on enhancing user satisfaction by improving the usability and accessibility of a product."
+        },
+        {
+          "title": "What does a <span class=\"highlight-span-cards\">UI/UX Designer</span> do?",
+          "content": "A UI/UX Designer creates intuitive user interfaces and experiences. They work on designing the visual layout as well as improving the user journey.",
+          "listItems": [
+            "Design user interfaces for web and mobile.",
+            "Conduct user research and usability testing.",
+            "Collaborate with developers to implement designs."
+          ]
+        },
+        {
+          "title": "Why take <span class=\"highlight-span-cards\">UI/UX Design</span> training?",
+          "content":"UI/UX Designers are essential in creating successful products. Our course covers all aspects of UI/UX design, from research to prototyping, making you industry-ready.",
+          "listItems": [
+            "UI/UX Designer",
+            "Product Designer",
+            "Interaction Designer"
+          ]
+        }
+      ]
+    }
+  },
+  "Whypython": {
+    "WhyPython": {
+      "title": "Why Python?",
+      "cards": [
+        {
+          "title":  "What is <span class=\"highlight-span-cards\">Python Development?</span>",
+          "content": "Python Development involves using the Python programming language to build software applications. Python is known for its simplicity and versatility, making it ideal for web development, data analysis, and automation."
+        },
+        {
+          "title": "What does a <span class=\"highlight-span-cards\">Python Developer</span> do?",
+          "content": "A Python Developer writes server-side web application logic, works on integrating front-end elements, and develops back-end components.",
+          "listItems": [
+            "Write reusable and efficient code.",
+            "Implement security and data protection.",
+            "Integrate user-facing elements with server-side logic."
+          ]
+        },
+        {
+          "title": "Why take <span class=\"highlight-span-cards\">Python</span> training?",
+          "content": "Python is a versatile language used in various domains. Our course covers Python programming, frameworks, and libraries, preparing you for a career in Python development.",
+          "listItems": [
+            "Python Developer",
+            "Software Engineer",
+            "Data Scientist"
+          ]
+        }
+      ]
+    }
+  },
+  "Whysales": {
+    "WhySales": {
+      "title": "Why Salesforce ?",
+      "cards": [
+        {
+          "title": "What is <span class=\"highlight-span-cards\">Salesforce Development?</span>",
+          "content": "Salesforce Development involves building and customizing applications on the Salesforce platform. Salesforce is a leading CRM (Customer Relationship Management) platform used by businesses worldwide."
+        },
+        {
+          "title": "What does a <span class=\"highlight-span-cards\">Salesforce Developer</span> do?",
+          "content": "A Salesforce Developer creates custom applications, integrations, and functionalities on the Salesforce platform. They are skilled in using Apex, Visualforce, and other Salesforce technologies.",
+          "listItems": [
+            "Develop custom Salesforce applications.",
+            "Integrate Salesforce with other systems.",
+            "Customize Salesforce functionalities."
+          ]
+        },
+        {
+          "title":"Why take <span class=\"highlight-span-cards\">Salesforce</span> training?",
+          "content": "Salesforce Developers are in high demand for their expertise in building business solutions. Our training covers Salesforce development, customization, and integration.",
+          "listItems": [
+            "Salesforce Developer",
+            "CRM Developer",
+            "Salesforce Consultant"
+          ]
+        }
+      ]
+    }
+  },
+  "Whyabap": {
+    "WhyAbap": {
+      "title": "Why SAP ABAP ?",
+      "cards": [
+        {
+          "title": "What is <span class=\"highlight-span-cards\">SAP ABAP?</span>",
+          "content": "SAP ABAP (Advanced Business Application Programming) is the programming language used in SAP to develop applications on the SAP platform. It allows customization and extension of SAP applications.Join the best SAP ABAP Course in {city}."
+        },
+        {
+          "title":"What does a <span class=\"highlight-span-cards\">SAP ABAP Developer</span> do?",
+          "content": "An SAP ABAP Developer creates custom SAP applications, programs, and reports using the ABAP language. They work on developing and maintaining SAP modules, forms, and workflows.Join the best SAP ABAP Course in {city}.",
+          "listItems": [
+            "Design and develop SAP applications.",
+            "Customize and enhance existing SAP modules.",
+            "Work on SAP workflows and reports."
+          ]
+        },
+        {
+          "title": "Why take <span class=\"highlight-span-cards\">SAP ABAP</span> training?",
+          "content": "SAP ABAP Developers are essential for customizing SAP systems. Our training covers the core concepts of ABAP programming, enabling you to build and extend SAP applications.Join the best SAP ABAP Course in {city}.",
+          "listItems": [
+            "SAP ABAP Developer",
+            "SAP Consultant",
+            "Technical Analyst"
+          ]
+        }
+      ]
+    }
+  },
+  "Whybasis": {
+    "WhyBasis": {
+      "title": "Why SAP BASIS ?",
+      "cards": [
+        {
+          "title": "What is <span class=\"highlight-span-cards\">SAP BASIS?</span>",
+          "content": "SAP BASIS (Business Application Software Integrated Solution) is the technical foundation that enables SAP applications to function. It includes middleware programs and tools that support the interoperability and portability of SAP applications across systems and databases."
+        },
+        {
+          "title": "What does a <span class=\"highlight-span-cards\">SAP BASIS Administrator</span> do?",
+          "content": "A SAP BASIS Administrator manages the SAP environment, including installation, configuration, and maintenance of SAP servers and applications.",
+          "listItems": [
+            "Install and configure SAP systems.",
+            "Manage system upgrades and patches.",
+            "Monitor system performance and troubleshoot issues."
+          ]
+        },
+        {
+          "title": "Why take <span class=\"highlight-span-cards\">SAP BASIS</span> training?",
+          "content": "SAP BASIS Administrators ensure the smooth operation of SAP systems. Our training provides the necessary skills to manage, configure, and maintain SAP environments.",
+          "listItems": [
+            "SAP BASIS Administrator",
+            "SAP System Administrator",
+            "SAP Consultant"
+          ]
+        }
+      ]
+    }
+  },
+  "Whybwbi": {
+    "WhyBwbi": {
+      "title": "Why SAP BI ?",
+      "cards": [
+        {
+          "title": "What is <span class=\"highlight-span-cards\">SAP BI?</span>",
+          "content": "SAP BI (Business Intelligence) is a platform that provides data analysis, reporting, and information delivery to help businesses make data-driven decisions. It allows the integration of data from different sources and provides tools for analysis and reporting."
+        },
+        {
+          "title": "What does a <span class=\"highlight-span-cards\">SAP BI Consultant</span> do?",
+          "content": "A SAP BI Consultant designs, develops, and implements BI solutions using SAP tools. They work on data modeling, reporting, and analytics.",
+          "listItems": [
+            "Develop and implement SAP BI solutions.",
+            "Perform data extraction, transformation, and loading (ETL).",
+            "Create reports and dashboards for business analysis."
+          ]
+        },
+        {
+          "title": "Why take <span class=\"highlight-span-cards\">SAP BI</span> training?",
+          "content": "SAP BI Consultants are crucial for transforming data into actionable insights. Our training covers data warehousing, reporting, and analytics using SAP BI tools.",
+          "listItems": [
+            "SAP BI Consultant",
+            "Data Analyst",
+            "BI Developer"
+          ]
+        }
+      ]
+    }
+  },
+  "Whyewm": {
+    "WhyEWM": {
+      "title": "Why SAP EWM ?",
+      "cards": [
+        {
+          "title":  "What is <span class=\"highlight-span-cards\">SAP EWM?</span>",
+          "content": "SAP EWM (Extended Warehouse Management) is a comprehensive warehouse management system that provides flexible, automated support for processing goods movements and managing inventory in the warehouse."
+        },
+        {
+          "title": "What does a <span class=\"highlight-span-cards\">SAP EWM Consultant</span> do?",
+          "content": "A SAP EWM Consultant designs and implements warehouse management solutions using SAP EWM. They work on integrating SAP EWM with other SAP modules and optimizing warehouse processes.",
+          "listItems": [
+            "Implement SAP EWM solutions.",
+            "Optimize warehouse operations.",
+            "Integrate SAP EWM with other SAP modules."
+          ]
+        },
+        {
+          "title": "Why take <span class=\"highlight-span-cards\">SAP EWM</span> training?",
+          "content": "SAP EWM Consultants play a key role in optimizing warehouse operations. Our training covers warehouse management, inventory management, and integration with SAP modules.",
+          "listItems": [
+            "SAP EWM Consultant",
+            "Warehouse Manager",
+            "Logistics Consultant"
+          ]
+        }
+      ]
+    }
+  },
+  "Whyfico": {
+    "WhyFICO": {
+      "title": "Why SAP FICO ?",
+      "cards": [
+        {
+          "title": "What is <span class=\"highlight-span-cards\">SAP FICO?</span>",
+          "content": "SAP FICO (Financial Accounting and Controlling) is a core SAP module that helps organizations manage their financial data. It is used for financial reporting, planning, and monitoring, and helps in making business decisions."
+        },
+        {
+          "title": "What does a <span class=\"highlight-span-cards\">SAP FICO Consultant</span> do?",
+          "content": "A SAP FICO Consultant implements and manages SAP FICO modules, ensuring accurate financial reporting and effective financial control.",
+          "listItems": [
+            "Implement SAP FICO modules.",
+            "Manage financial reporting and analysis.",
+            "Optimize financial processes and controls."
+          ]
+        },
+        {
+          "title": "Why take <span class=\"highlight-span-cards\">SAP FICO</span> training?",
+          "content": "SAP FICO Consultants are vital for managing an organization’s financials. Our training covers financial accounting, controlling, and integration with other SAP modules.",
+          "listItems": [
+            "SAP FICO Consultant",
+            "Financial Analyst",
+            "SAP Financial Controller"
+          ]
+        }
+      ]
+    }
+  },
+  "Whyhana": {
+    "WhyHana": {
+      "title": "Why SAP S/4 HANA ?",
+      "cards": [
+        {
+          "title": "What is <span class=\"highlight-span-cards\">SAP HANA?</span>",
+          "content": "SAP HANA (High-Performance Analytic Appliance) is an in-memory database and application platform that allows organizations to process large volumes of data in real-time, enabling faster data processing and analysis."
+        },
+        {
+          "title": "What does a <span class=\"highlight-span-cards\">SAP HANA Consultant</span> do?",
+          "content": "A SAP HANA Consultant works on implementing and managing SAP HANA solutions, ensuring high performance and scalability of data-driven applications.",
+          "listItems": [
+            "Implement SAP HANA solutions.",
+            "Optimize data processing and storage.",
+            "Integrate SAP HANA with other SAP modules."
+          ]
+        },
+        {
+          "title": "Why take <span class=\"highlight-span-cards\">SAP HANA</span> training?",
+          "content": "SAP HANA Consultants are essential for managing high-performance data processing. Our training covers in-memory computing, data management, and real-time analytics using SAP HANA.",
+          "listItems": [
+            "SAP HANA Consultant",
+            "Data Architect",
+            "SAP Data Specialist"
+          ]
+        }
+      ]
+    }
+  },
+  "Whyhrhcm": {
+    "WhyHRHCM": {
+      "title": "Why SAP HR/HCM ?",
+      "cards": [
+        {
+          "title": "What is <span class=\"highlight-span-cards\">SAP HR/HCM?</span>",
+          "content": "SAP HR (Human Resources) or HCM (Human Capital Management) is a module that helps organizations manage their human resources, including payroll, recruitment, employee management, and performance appraisals."
+        },
+        {
+          "title": "What does a <span class=\"highlight-span-cards\">SAP HR/HCM Consultant</span> do?",
+          "content": "A SAP HR/HCM Consultant implements HR solutions using SAP, managing employee data, payroll, and other HR-related activities.",
+          "listItems": [
+            "Implement and manage SAP HR/HCM modules.",
+            "Handle payroll and employee data.",
+            "Optimize HR processes."
+          ]
+        },
+        {
+          "title": "Why take <span class=\"highlight-span-cards\">SAP HR/HCM</span> training?",
+          "content":  "SAP HR/HCM Consultants are vital for managing an organization’s workforce. Our training covers employee management, payroll, and HR processes using SAP HR/HCM.",
+          "listItems": [
+            "SAP HR/HCM Consultant",
+            "HR Manager",
+            "Payroll Specialist"
+          ]
+        }
+      ]
+    }
+  },
+
+  "Whymm": {
+    "WhyMM": {
+      "title": "Why SAP MM ?",
+      "cards": [
+        {
+          "title": "What is <span class=\"highlight-span-cards\">SAP MM?</span>",
+          "content": "SAP MM (Material Management) is a module in SAP ERP that helps organizations manage their procurement processes, including purchasing, inventory management, and vendor evaluation."
+        },
+        {
+          "title": "What does a <span class=\"highlight-span-cards\">SAP MM Consultant</span> do?",
+          "content": "A SAP MM Consultant implements and manages the SAP MM module, ensuring efficient procurement, inventory management, and material planning.",
+          "listItems": [
+            "Implement and manage SAP MM modules.",
+            "Optimize procurement processes.",
+            "Handle inventory management."
+          ]
+        },
+        {
+          "title": "Why take <span class=\"highlight-span-cards\">SAP MM</span> training?",
+          "content": "SAP MM Consultants are essential for efficient material management. Our training covers procurement, inventory management, and material planning using SAP MM.",
+          "listItems": [
+            "SAP MM Consultant",
+            "Procurement Specialist",
+            "Inventory Manager"
+          ]
+        }
+      ]
+    }
+  },
+  "Whynet": {
+    "WhyNet": {
+      "title": "Why SAP NETWEAVER ?",
+      "cards": [
+        {
+          "title": "What is <span class=\"highlight-span-cards\">SAP NetWeaver?</span>",
+          "content":"SAP NetWeaver is a technology platform that integrates SAP applications, provides development and runtime environments, and facilitates the interoperability of SAP and non-SAP applications."
+        },
+        {
+          "title": "What does a <span class=\"highlight-span-cards\">SAP NetWeaver Consultant</span> do?",
+          "content": "A SAP NetWeaver Consultant designs, develops, and manages applications on the SAP NetWeaver platform, ensuring integration and efficient operation of SAP systems.",
+          "listItems": [
+            "Design and implement SAP NetWeaver solutions.",
+            "Integrate SAP and non-SAP applications.",
+            "Manage and optimize SAP environments."
+          ]
+        },
+        {
+          "title": "Why take <span class=\"highlight-span-cards\">SAP NetWeaver</span> training?",
+          "content": "SAP NetWeaver Consultants are key to integrating SAP systems. Our training covers application development, integration, and system management using SAP NetWeaver.",
+          "listItems": [
+            "SAP NetWeaver Consultant",
+            "SAP Integration Specialist",
+            "Technical Architect"
+          ]
+        }
+      ]
+    }
+  },
+  "Whypm": {
+    "WhyPM": {
+      "title": "Why SAP PM ?",
+      "cards": [
+        {
+          "title": "What is <span class=\"highlight-span-cards\">SAP PM?</span>",
+          "content": "SAP PM (Plant Maintenance) is a module in SAP ERP that helps organizations manage the maintenance of equipment and facilities, ensuring high availability and reliability of production processes."
+        },
+        {
+          "title": "What does a <span class=\"highlight-span-cards\">SAP PM Consultant</span> do?",
+          "content": "A SAP PM Consultant implements and manages SAP PM solutions, ensuring effective maintenance planning, scheduling, and execution.",
+          "listItems": [
+            "Implement and manage SAP PM modules.",
+            "Optimize maintenance processes.",
+            "Ensure equipment availability and reliability."
+          ]
+        },
+        {
+          "title": "Why take <span class=\"highlight-span-cards\">SAP PM</span> training?",
+          "content": "SAP PM Consultants play a crucial role in maintaining equipment and facilities. Our training covers maintenance planning, scheduling, and execution using SAP PM.",
+          "listItems": [
+            "Junior/Senior Data Analyst",
+            "Business Intelligence Analyst",
+            "Data Engineer"
+          ]
+        }
+      ]
+    }
+  },
+  "Whypp": {
+    "WhyPP": {
+      "title": "Why SAP PP ?",
+      "cards": [
+        {
+          "title": "What is <span class=\"highlight-span-cards\">SAP PP?</span>",
+          "content": "SAP PP (Production Planning) is a module in SAP ERP that helps organizations manage their production processes, including planning, scheduling, and controlling the manufacturing activities."
+        },
+        {
+          "title": "What does a <span class=\"highlight-span-cards\">SAP PP Consultant</span> do?",
+          "content": "A SAP PP Consultant implements and manages SAP PP solutions, ensuring efficient production planning, scheduling, and control.",
+          "listItems": [
+            "Implement and manage SAP PP modules.",
+            "Optimize production processes.",
+            "Ensure efficient manufacturing operations."
+          ]
+        },
+        {
+          "title": "Why take <span class=\"highlight-span-cards\">SAP PP</span> training?",
+          "content": "SAP PP Consultants are essential for efficient production planning. Our training covers production planning, scheduling, and control using SAP PP.",
+          "listItems": [
+            "SAP PP Consultant",
+            "Production Planner",
+            "Manufacturing Manager"
+          ]
+        }
+      ]
+    }
+  },
+  "Whyps": {
+    "WhyPS": {
+      "title": "Why SAP PS ?",
+      "cards": [
+        {
+          "title": "What is <span class=\"highlight-span-cards\">SAP PS?</span>",
+          "content": "SAP PS (Project Systems) is a module in SAP ERP that helps organizations manage their projects, including planning, execution, and monitoring of project activities."
+        },
+        {
+          "title": "What does a <span class=\"highlight-span-cards\">SAP PS Consultant</span> do?",
+          "content": "A SAP PS Consultant implements and manages SAP PS solutions, ensuring efficient project planning, execution, and control.",
+          "listItems": [
+            "Implement and manage SAP PS modules.",
+            "Optimize project planning and execution.",
+            "Ensure timely project delivery."
+          ]
+        },
+        {
+          "title": "Why take <span class=\"highlight-span-cards\">SAP PS</span> training?",
+          "content": "SAP PS Consultants are crucial for effective project management. Our training covers project planning, execution, and monitoring using SAP PS.",
+          "listItems": [
+            "SAP PS Consultant",
+            "Project Manager",
+            "Project Planner"
+          ]
+        }
+      ]
+    }
+  },
+  "Whyqm": {
+    "WhyQM": {
+      "title": "Why SAP QM ?",
+      "cards": [
+        {
+          "title": "What is <span class=\"highlight-span-cards\">SAP QM?</span>",
+          "content": "SAP QM (Quality Management) is a module in SAP ERP that helps organizations manage their quality processes, including quality planning, inspection, and control."
+        },
+        {
+          "title": "What does a <span class=\"highlight-span-cards\">SAP QM Consultant</span> do?",
+          "content": "A SAP QM Consultant implements and manages SAP QM solutions, ensuring high-quality standards in production and procurement processes.",
+          "listItems": [
+            "Implement and manage SAP QM modules.",
+            "Optimize quality processes.",
+            "Ensure compliance with quality standards."
+          ]
+        },
+        {
+          "title":  "Why take <span class=\"highlight-span-cards\">SAP QM</span> training?",
+          "content": "SAP QM Consultants play a key role in ensuring product quality. Our training covers quality planning, inspection, and control using SAP QM.",
+          "listItems": [
+            "SAP QM Consultant",
+            "Quality Manager",
+            "Compliance Specialist"
+          ]
+        }
+      ]
+    }
+  },
+  "Whyscm": {
+    "WhySCM": {
+      "title": "Why SAP SCM?",
+      "cards": [
+        {
+          "title":  "What is <span class=\"highlight-span-cards\">SAP SCM?</span>",
+          "content": "SAP SCM (Supply Chain Management) is a module in SAP ERP that helps organizations manage their supply chain processes, including procurement, production, and distribution."
+        },
+        {
+          "title": "What does a <span class=\"highlight-span-cards\">SAP SCM Consultant</span> do?",
+          "content": "A SAP SCM Consultant implements and manages SAP SCM solutions, ensuring efficient supply chain operations from procurement to delivery.",
+          "listItems": [
+            "Implement and manage SAP SCM modules.",
+            "Optimize supply chain processes.",
+            "Ensure efficient procurement and distribution."
+          ]
+        },
+        {
+          "title": "Why take <span class=\"highlight-span-cards\">SAP SCM</span> training?",
+          "content": "SAP SCM Consultants are essential for managing supply chains. Our training covers procurement, production, and distribution processes using SAP SCM.",
+          "listItems": [
+            "SAP SCM Consultant",
+            "Supply Chain Manager",
+            "Logistics Specialist"
+          ]
+        }
+      ]
+    }
+  },
+  "Whysd": {
+    "WhySD": {
+      "title": "Why SAP SD ?",
+      "cards": [
+        {
+          "title": "What is <span class=\"highlight-span-cards\">SAP SD?</span>",
+          "content": "SAP SD (Sales and Distribution) is a module in SAP ERP that helps organizations manage their sales and distribution processes, including sales order processing, pricing, and delivery."
+        },
+        {
+          "title":"What does a <span class=\"highlight-span-cards\">SAP SD Consultant</span> do?",
+          "content": "A SAP SD Consultant implements and manages SAP SD solutions, ensuring efficient sales order processing, pricing, and distribution.",
+          "listItems": [
+            "Implement and manage SAP SD modules.",
+            "Optimize sales and distribution processes.",
+            "Ensure accurate order processing and delivery."
+          ]
+        },
+        {
+          "title": "Why take <span class=\"highlight-span-cards\">SAP SD</span> training?",
+          "content": "SAP SD Consultants are crucial for managing sales and distribution. Our training covers sales order processing, pricing, and delivery using SAP SD.",
+          "listItems": [
+            "SAP SD Consultant",
+            "Sales Manager",
+            "Distribution Specialist"
+          ]
+        }
+      ]
+    }
+  },
+  "Whysucc": {
+    "WhySucc": {
+      "title": "Why SAP SUCCESSFACTOR ?",
+      "cards": [
+        {
+          "title": "What is <span class=\"highlight-span-cards\">SAP SuccessFactors?</span>",
+          "content": "SAP SuccessFactors is a cloud-based Human Capital Management (HCM) solution that helps organizations manage their human resources processes, including recruitment, onboarding, and performance management."
+        },
+        {
+          "title": "What does a <span class=\"highlight-span-cards\">SAP SuccessFactors Consultant</span> do?",
+          "content": "A SAP SuccessFactors Consultant implements and manages SuccessFactors solutions, ensuring efficient HR processes from recruitment to performance management.",
+          "listItems": [
+            "Implement and manage SAP SuccessFactors modules.",
+            "Optimize HR processes.",
+            "Ensure effective talent management."
+          ]
+        },
+        {
+          "title": "Why take <span class=\"highlight-span-cards\">SAP SuccessFactors</span> training?",
+          "content": "SAP SuccessFactors Consultants are essential for managing HR processes. Our training covers recruitment, onboarding, and performance management using SuccessFactors.",
+          "listItems": [
+            "SAP SuccessFactors Consultant",
+            "HR Manager",
+            "Talent Management Specialist"
+          ]
+        }
+      ]
+    }
+  },
+  "Whypowerbi": {
+    "WhyPOWERBI": {
+      "title": "Why Power BI ?",
+      "cards": [
+        {
+          "title": "What is <span class=\"highlight-span-cards\">Power BI?</span>",
+          "content": "Power BI is a business analytics tool by Microsoft that enables users to visualize data and share insights across their organization. It allows users to connect to multiple data sources and create interactive, visually appealing dashboards and reports."
+        },
+        {
+          "title": "What does a <span class=\"highlight-span-cards\">Power BI Developer</span> do?",
+          "content": "A Power BI Developer is responsible for building and maintaining Power BI reports and dashboards. They work with business teams to understand their data needs and help them make data-driven decisions through effective visualization.",
+          "listItems": [
+            "Develop and maintain Power BI reports.",
+            "Integrate Power BI with various data sources.",
+            "Optimize and improve existing dashboards."
+          ]
+        },
+        {
+          "title": "Why take <span class=\"highlight-span-cards\">Power BI</span> training?",
+          "content": "Power BI skills are essential for anyone looking to work in data analytics or business intelligence. Our training provides comprehensive knowledge of Power BI, equipping you with the skills to create impactful reports and dashboards.",
+          "listItems": [
+            "Power BI Developer",
+            "Data Analyst",
+            "Business Intelligence Consultant"
+          ]
+        }
+      ]
+    }
+  },
+  "Whytableau": {
+    "WhyTABLEAU": {
+      "title": "Why Tableau ?",
+      "cards": [
+        {
+          "title": "What is <span class=\"highlight-span-cards\">Tableau?</span>",
+          "content": "Tableau is a powerful data visualization tool used in the Business Intelligence industry. It helps users create interactive and shareable dashboards that visualize trends, variations, and density of the data in the form of graphs and charts."
+        },
+        {
+          "title": "What does a <span class=\"highlight-span-cards\">Tableau Developer</span> do?",
+          "content": "A Tableau Developer is responsible for designing, developing, and maintaining Tableau dashboards and reports. They work closely with business stakeholders to understand their data visualization needs and transform raw data into actionable insights.",
+          "listItems": [
+            "Create and manage Tableau dashboards.",
+            "Collaborate with business teams to gather requirements.",
+            "Ensure data accuracy and consistency in reports."
+          ]
+        },
+        {
+          "title": "Why take <span class=\"highlight-span-cards\">Tableau</span> training?",
+          "content": "Tableau Developers are in high demand for their ability to transform complex data into easy-to-understand visualizations. Our training covers everything from the basics to advanced Tableau features, preparing you for a career in data visualization.",
+          "listItems": [
+            "Tableau Developer",
+            "Data Analyst",
+            "Business Intelligence Analyst"
+          ]
+        }
+      ]
+    }
+  },
+  "Whysql": {
+    "WhySQL": {
+      "title": "Why SQL ?",
+      "cards": [
+        {
+          "title": "What is <span class=\"highlight-span-cards\">SQL?</span>",
+          "content": "SQL (Structured Query Language) is a standard programming language used for managing and manipulating relational databases. It is essential for querying and retrieving data, updating records, and managing database systems."
+        },
+        {
+          "title": "What does a <span class=\"highlight-span-cards\">SQL Developer</span> do?",
+          "content": "A SQL Developer writes queries to interact with databases, create and manage database structures, and ensure data integrity. They work closely with application developers to integrate database solutions into software applications.",
+          "listItems": [
+            "Write and optimize SQL queries.",
+            "Manage and maintain database systems.",
+            "Ensure data integrity and security."
+          ]
+        },
+        {
+          "title": "Why take <span class=\"highlight-span-cards\">SQL</span> training?",
+          "content": "SQL is the foundation of data management, making it a critical skill for data professionals. Our training covers fundamental to advanced SQL concepts, preparing you for roles in database management and data analysis.",
+          "listItems": [
+            "SQL Developer",
+            "Database Administrator",
+            "Data Analyst"
+          ]
+        }
+      ]
+    }
+  },
+
+
+  "Whydigim": {
+    "WhyDIGIM": {
+      "title": "Future of Digital Marketing?",
+      "cards": [
+        {
+          "title": "Why <span class=\"highlight-span-cards\">Digital Marketing</span>?",
+          "content": "Digital marketing allows businesses to reach a global audience cost-effectively, drive targeted traffic, and measure success with precise analytics."
+        },
+        {
+          "title": "What Does <span class=\"highlight-span-cards\">Advanced Digital Marketing</span> Do?",
+          "content": "An advanced digital marketer specializes in creating and executing sophisticated online marketing strategies. They use tools like SEO, PPC, content marketing, and data analytics to enhance brand visibility, target specific audiences, and achieve measurable business outcomes. Additionally, they monitor and optimize campaigns continuously to ensure maximum ROI, staying updated with the latest trends and technologies in digital marketing."
+        },
+        {
+          "title": "Why Take <span class=\"highlight-span-cards\">Digital Marketing</span> Training?",
+          "content": "Taking digital marketing training in Pune offers access to expert instructors, cutting-edge tools, and industry-relevant coursework, all within a city that is a hub for digital innovation and job opportunities. The training equips you with practical skills and certifications, enhancing your career prospects in a growing field."
+        }
+      ]
+    }
+  }
+}

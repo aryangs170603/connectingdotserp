@@ -50,6 +50,11 @@ import DIGIM from "./Digital Marketing/DigitM";
 import AdminLogin from "./components/AdminLogin";
 import Dashboard from "./components/Dashboard";
 import PopupForm from "./components/PopupForm";
+import HRAnalytics from "./Hr Courses/HRAnalytics"
+import Core from "./Hr Courses/Core"
+import Manage from "./Hr Courses/Management"
+import Payroll from "./Hr Courses/Payroll"
+import SAPHCM from "./Hr Courses/SAPHCM"
 
 function App() {
   const [temporaryLeads, setTemporaryLeads] = useState([]);
@@ -145,6 +150,13 @@ function App() {
               <Route path="/TABLEAU" element={<TABLEAU />} />
               {/* Digital Marketing */}
               <Route path="/DIGIM" element={<DIGIM />} />
+              {/* HR courses */}
+              <Route path="/HR-Analytic" element={<HRAnalytics />} />
+              <Route path="/HR-Core" element={<Core />} />
+              <Route path="/HR-Management" element={<Manage />} />
+              <Route path="/HR-Payroll" element={<Payroll />} />
+              <Route path="/HR-SAPHCM" element={<SAPHCM />} />
+              
             </Routes>
           </main>
 

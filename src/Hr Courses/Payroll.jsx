@@ -35,4 +35,4 @@ const PAYROLL = () => {
   );
 };
 
-export default MANAGE;
+export default PAYROLL;

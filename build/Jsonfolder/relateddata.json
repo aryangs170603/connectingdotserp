@@ -1,0 +1,1916 @@
+{
+  "DSrelcourses": {
+    "id": "DSrelcourses",
+    "title": "RELATED COURSES",
+    "items": [
+      {
+        "name": "CHat GPT & AI",
+        "description": "Learn AI from scratch",
+        "icon": "Jsonfolder/Relatedgifs/artificial-intelligence (1).gif",
+        "alt": "AI icon"
+      },
+      {
+        "name": "Tableau",
+        "description": "Become a data science expert",
+        "icon": "Jsonfolder/Relatedgifs/pie-chart.gif",
+        "alt": "TABLEAU icon"
+      },
+      {
+        "name": "Masters in Data Analytics",
+        "description": "Master data analytics skills",
+        "icon": "Jsonfolder/Relatedgifs/science.gif",
+        "alt": " Data Analytics icon"
+      },
+      {
+        "name": "Salesforce",
+        "description": "Salesforce developer courses",
+        "icon": "Jsonfolder/Relatedgifs/cloud--network.gif",
+        "alt": "SALESFORCE icon"
+      },
+      {
+        "name": "UI/UX Design",
+        "description": "Design stunning user interfaces",
+        "icon": "Jsonfolder/Relatedgifs/computer.gif",
+        "alt": "UI/UX icon"
+      },
+      {
+        "name": "Full-Stack Python",
+        "description": "Full-stack development with Python",
+        "icon": "Jsonfolder/Relatedgifs/coding.gif",
+        "alt": "Full Stack icon"
+      },
+      {
+        "name": "Full-Stack Java",
+        "description": "Full-stack development with Java",
+        "icon": "Jsonfolder/Relatedgifs/java (1).gif",
+        "alt": "Java icon"
+      },
+      {
+        "name": "PowerBI",
+        "description": "Business intelligence with PowerBI",
+        "icon": "Jsonfolder/Relatedgifs/setting.gif",
+        "alt": "Power BI icon"
+      },
+      {
+        "name": "SQL",
+        "description": "Learn GCP from experts",
+        "icon": "Jsonfolder/Relatedgifs/exchange.gif",
+        "alt": " SQL icon"
+      },
+      {
+        "name": "Reactjs Framework",
+        "description": "Learn Reactjs from Industry Experts",
+        "icon": "Jsonfolder/Relatedgifs/physics.gif",
+        "alt": "React icon"
+      }
+    ]
+  },
+  "DArelcourses": {
+    "id": "DArelcourses",
+    "title": "ANOTHER COMPONENT",
+    "items":  [
+      {
+        "name": "Chat GPT & AI",
+        "description": "Learn AI from scratch",
+        "icon": "Jsonfolder/Relatedgifs/artificial-intelligence (1).gif",
+        "alt": "AI icon"
+      },
+      {
+        "name": "Masters in Data Science",
+        "description": "Become a data science expert",
+        "icon": "Jsonfolder/Relatedgifs/pie-chart.gif",
+        "alt": "Data Science icon"
+      },
+      {
+        "name": "Tableau",
+        "description": "Master data analytics skills",
+        "icon": "Jsonfolder/Relatedgifs/science.gif",
+        "alt": "TABLEAU icon"
+      },
+      {
+        "name": "Salesforce",
+        "description": "Salesforce developer courses",
+        "icon": "Jsonfolder/Relatedgifs/cloud--network.gif",
+        "alt": "SALESFORCE icon"
+      },
+      {
+        "name": "UI/UX Design",
+        "description": "Design stunning user interfaces",
+        "icon": "Jsonfolder/Relatedgifs/computer.gif",
+        "alt": "UI/UX icon"
+      },
+      {
+        "name": "Full-Stack Python",
+        "description": "Full-stack development with Python",
+        "icon": "Jsonfolder/Relatedgifs/coding.gif",
+        "alt": "Full stack icon"
+      },
+      {
+        "name": "Full-Stack Java",
+        "description": "Full-stack development with Java",
+        "icon": "Jsonfolder/Relatedgifs/java (1).gif",
+        "alt": "Java icon"
+      },
+      {
+        "name": "PowerBI",
+        "description": "Business intelligence with PowerBI",
+        "icon": "Jsonfolder/Relatedgifs/setting.gif",
+        "alt": "Power BI icon"
+      },
+      {
+        "name": "SQL",
+        "description": "Learn GCP from experts",
+        "icon": "Jsonfolder/Relatedgifs/exchange.gif",
+        "alt": "SQL icon"
+      },
+      {
+        "name": "Reactjs Framework",
+        "description": "Learn Reactjs from Industry Experts",
+        "icon": "Jsonfolder/Relatedgifs/physics.gif",
+        "alt": "React icon"
+      }
+    ]
+  },
+  "BArelcourses": {
+    "id": "BArelcourses",
+    "title": "ANOTHER COMPONENT",
+    "items":  [
+      {
+        "name": "Chat GPT & AI",
+        "description": "Learn AI from scratch",
+        "icon": "Jsonfolder/Relatedgifs/artificial-intelligence (1).gif",
+        "alt": "AI icon"
+      },
+      {
+        "name": "Masters in Data Science",
+        "description": "Become a data science expert",
+        "icon": "Jsonfolder/Relatedgifs/pie-chart.gif",
+        "alt": "Data Science icon"
+      },
+      {
+        "name": "Masters in Data Analytics",
+        "description": "Master data analytics skills",
+        "icon": "Jsonfolder/Relatedgifs/science.gif",
+        "alt": "Data Analytics icon"
+      },
+      {
+        "name": "Salesforce",
+        "description": "Salesforce developer courses",
+        "icon": "Jsonfolder/Relatedgifs/cloud--network.gif",
+        "alt": "SALESFORCE icon"
+      },
+      {
+        "name": "UI/UX Design",
+        "description": "Design stunning user interfaces",
+        "icon": "Jsonfolder/Relatedgifs/computer.gif",
+        "alt": "UI/UX icon"
+      },
+      {
+        "name": "Full-Stack Python",
+        "description": "Full-stack development with Python",
+        "icon": "Jsonfolder/Relatedgifs/coding.gif",
+        "alt": "Full Stack icon"
+      },
+      {
+        "name": "Full-Stack Java",
+        "description": "Full-stack development with Java",
+        "icon": "Jsonfolder/Relatedgifs/java (1).gif",
+        "alt": "Java icon"
+      },
+      {
+        "name": "PowerBI",
+        "description": "Business intelligence with PowerBI",
+        "icon": "Jsonfolder/Relatedgifs/setting.gif",
+        "alt": "Power Bi icon"
+      },
+      {
+        "name": "SQL",
+        "description": "Learn GCP from experts",
+        "icon": "Jsonfolder/Relatedgifs/exchange.gif",
+        "alt": "SQL icon"
+      },
+      {
+        "name": "Reactjs Framework",
+        "description": "Learn Reactjs from Industry Experts",
+        "icon": "Jsonfolder/Relatedgifs/physics.gif",
+        "alt": "React icon"
+      }
+    ]
+  },
+  "GPTrelcourses": {
+    "id": "GPTrelcourses",
+    "title": "ANOTHER COMPONENT",
+    "items":  [
+      {
+        "name": "Tableau",
+        "description": "Learn AI from scratch",
+        "icon": "Jsonfolder/Relatedgifs/artificial-intelligence (1).gif",
+        "alt": "Tableau icon"
+      },
+      {
+        "name": "Masters in Data Science",
+        "description": "Become a data science expert",
+        "icon": "Jsonfolder/Relatedgifs/pie-chart.gif",
+        "alt": "Data Science icon"
+      },
+      {
+        "name": "Masters in Data Analytics",
+        "description": "Master data analytics skills",
+        "icon": "Jsonfolder/Relatedgifs/science.gif",
+        "alt": "Data Analytics icon"
+      },
+      {
+        "name": "Salesforce",
+        "description": "Salesforce developer courses",
+        "icon": "Jsonfolder/Relatedgifs/cloud--network.gif",
+        "alt": "SALESFORCE icon"
+      },
+      {
+        "name": "UI/UX Design",
+        "description": "Design stunning user interfaces",
+        "icon": "Jsonfolder/Relatedgifs/computer.gif",
+        "alt": "UI/UX icon"
+      },
+      {
+        "name": "Full-Stack Python",
+        "description": "Full-stack development with Python",
+        "icon": "Jsonfolder/Relatedgifs/coding.gif",
+        "alt": "Full Stack icon"
+      },
+      {
+        "name": "Full-Stack Java",
+        "description": "Full-stack development with Java",
+        "icon": "Jsonfolder/Relatedgifs/java (1).gif",
+        "alt": "Java icon"
+      },
+      {
+        "name": "PowerBI",
+        "description": "Business intelligence with PowerBI",
+        "icon": "Jsonfolder/Relatedgifs/setting.gif",
+        "alt": "Power BI icon"
+      },
+      {
+        "name": "SQL",
+        "description": "Learn GCP from experts",
+        "icon": "Jsonfolder/Relatedgifs/exchange.gif",
+        "alt": "SQL icon"
+      },
+      {
+        "name": "Reactjs Framework",
+        "description": "Learn Reactjs from Industry Experts",
+        "icon": "Jsonfolder/Relatedgifs/physics.gif",
+        "alt": "React icon"
+      }
+    ]
+  },
+  "FullStackrelcourses": {
+    "id": "FullStackrelcourses",
+    "title": "Related courses",
+    "items":  [
+      {
+        "name": "Chat GPT & AI",
+        "description": "Learn AI from scratch",
+        "icon": "Jsonfolder/Relatedgifs/artificial-intelligence (1).gif",
+        "alt": "AI icon"
+      },
+      {
+        "name": "Masters in Data Science",
+        "description": "Become a data science expert",
+        "icon": "Jsonfolder/Relatedgifs/pie-chart.gif",
+        "alt": "Data Science icon"
+      },
+      {
+        "name": "Masters in Data Analytics",
+        "description": "Master data analytics skills",
+        "icon": "Jsonfolder/Relatedgifs/science.gif",
+        "alt": "Data Analytics icon"
+      },
+      {
+        "name": "Salesforce",
+        "description": "Salesforce developer courses",
+        "icon": "Jsonfolder/Relatedgifs/cloud--network.gif",
+        "alt": "SALESFORCE icon"
+      },
+      {
+        "name": "UI/UX Design",
+        "description": "Design stunning user interfaces",
+        "icon": "Jsonfolder/Relatedgifs/computer.gif",
+        "alt": "UI/UX icon"
+      },
+      {
+        "name": "Tableau",
+        "description": "Full-stack development with Python",
+        "icon": "Jsonfolder/Relatedgifs/coding.gif",
+        "alt": "Tableau icon"
+      },
+      {
+        "name": "Full-Stack Java",
+        "description": "Full-stack development with Java",
+        "icon": "Jsonfolder/Relatedgifs/java (1).gif",
+        "alt": "Java icon"
+      },
+      {
+        "name": "PowerBI",
+        "description": "Business intelligence with PowerBI",
+        "icon": "Jsonfolder/Relatedgifs/setting.gif",
+        "alt": "Power BI icon"
+      },
+      {
+        "name": "SQL",
+        "description": "Learn GCP from experts",
+        "icon": "Jsonfolder/Relatedgifs/exchange.gif",
+        "alt": "SQL icon"
+      },
+      {
+        "name": "Reactjs Framework",
+        "description": "Learn Reactjs from Industry Experts",
+        "icon": "Jsonfolder/Relatedgifs/physics.gif",
+        "alt": "React icon"
+      }
+    ]
+  },
+  "Javarelcourses": {
+    "id": "Javarelcourses",
+    "title": "Related courses",
+    "items": [
+      {
+        "name": "Chat GPT & AI",
+        "description": "Learn AI from scratch",
+        "icon": "Jsonfolder/Relatedgifs/artificial-intelligence (1).gif",
+        "alt": "AI icon"
+      },
+      {
+        "name": "Masters in Data Science",
+        "description": "Become a data science expert",
+        "icon": "Jsonfolder/Relatedgifs/pie-chart.gif",
+        "alt": "Data Science icon"
+      },
+      {
+        "name": "Masters in Data Analytics",
+        "description": "Master data analytics skills",
+        "icon": "Jsonfolder/Relatedgifs/science.gif",
+        "alt": "Data Analytics icon"
+      },
+      {
+        "name": "Salesforce",
+        "description": "Salesforce developer courses",
+        "icon": "Jsonfolder/Relatedgifs/cloud--network.gif",
+        "alt": "SALESFORCE icon"
+      },
+      {
+        "name": "UI/UX Design",
+        "description": "Design stunning user interfaces",
+        "icon": "Jsonfolder/Relatedgifs/computer.gif",
+        "alt": "UI/UX icon"
+      },
+      {
+        "name": "Full-Stack Python",
+        "description": "Full-stack development with Python",
+        "icon": "Jsonfolder/Relatedgifs/coding.gif",
+        "alt": "Full Stack icon"
+      },
+      {
+        "name": "Tableau",
+        "description": "Full-stack development with Java",
+        "icon": "Jsonfolder/Relatedgifs/java (1).gif",
+        "alt": "Tableau icon"
+      },
+      {
+        "name": "PowerBI",
+        "description": "Business intelligence with PowerBI",
+        "icon": "Jsonfolder/Relatedgifs/setting.gif",
+        "alt": "Power BI icon"
+      },
+      {
+        "name": "SQL",
+        "description": "Learn GCP from experts",
+        "icon": "Jsonfolder/Relatedgifs/exchange.gif",
+        "alt": "SQL icon"
+      },
+      {
+        "name": "Reactjs Framework",
+        "description": "Learn Reactjs from Industry Experts",
+        "icon": "Jsonfolder/Relatedgifs/physics.gif",
+        "alt": "React icon"
+      }
+    ]
+  },
+  "Mernrelcourses": {
+    "id": "Mernrelcourses",
+    "title": "Related courses",
+    "items": [
+      {
+        "name": "Chat GPT & AI",
+        "description": "Learn AI from scratch",
+        "icon": "Jsonfolder/Relatedgifs/artificial-intelligence (1).gif",
+        "alt": "AI icon"
+      },
+      {
+        "name": "Masters in Data Science",
+        "description": "Become a data science expert",
+        "icon": "Jsonfolder/Relatedgifs/pie-chart.gif",
+        "alt": "Data Science icon"
+      },
+      {
+        "name": "Masters in Data Analytics",
+        "description": "Master data analytics skills",
+        "icon": "Jsonfolder/Relatedgifs/science.gif",
+        "alt": "Data Analytics icon"
+      },
+      {
+        "name": "Salesforce",
+        "description": "Salesforce developer courses",
+        "icon": "Jsonfolder/Relatedgifs/cloud--network.gif",
+        "alt": "SALESFORCE icon"
+      },
+      {
+        "name": "UI/UX Design",
+        "description": "Design stunning user interfaces",
+        "icon": "Jsonfolder/Relatedgifs/computer.gif",
+        "alt": "UI/UX icon"
+      },
+      {
+        "name": "Full-Stack Python",
+        "description": "Full-stack development with Python",
+        "icon": "Jsonfolder/Relatedgifs/coding.gif",
+        "alt": "Full Stack icon"
+      },
+      {
+        "name": "Full-Stack Java",
+        "description": "Full-stack development with Java",
+        "icon": "Jsonfolder/Relatedgifs/java (1).gif",
+        "alt": "Java icon"
+      },
+      {
+        "name": "PowerBI",
+        "description": "Business intelligence with PowerBI",
+        "icon": "Jsonfolder/Relatedgifs/setting.gif",
+        "alt": "Power BI icon"
+      },
+      {
+        "name": "SQL",
+        "description": "Learn GCP from experts",
+        "icon": "Jsonfolder/Relatedgifs/exchange.gif",
+        "alt": "SQL icon"
+      },
+      {
+        "name": "Reactjs Framework",
+        "description": "Learn Reactjs from Industry Experts",
+        "icon": "Jsonfolder/Relatedgifs/physics.gif",
+        "alt": "React icon"
+      }
+    ]
+  },
+  "UIUXrelcourses": {
+    "id": "UIUXrelcourses",
+    "title": "Related courses",
+    "items": [
+      {
+        "name": "Chat GPT & AI",
+        "description": "Learn AI from scratch",
+        "icon": "Jsonfolder/Relatedgifs/artificial-intelligence (1).gif",
+        "alt": "AI icon"
+      },
+      {
+        "name": "Masters in Data Science",
+        "description": "Become a data science expert",
+        "icon": "Jsonfolder/Relatedgifs/pie-chart.gif",
+        "alt": "Data Science icon"
+      },
+      {
+        "name": "Masters in Data Analytics",
+        "description": "Master data analytics skills",
+        "icon": "Jsonfolder/Relatedgifs/science.gif",
+        "alt": "Data Analytics icon"
+      },
+      {
+        "name": "Salesforce",
+        "description": "Salesforce developer courses",
+        "icon": "Jsonfolder/Relatedgifs/cloud--network.gif",
+        "alt": "SALESFORCE icon"
+      },
+      {
+        "name": "Tableau",
+        "description": "Design stunning user interfaces",
+        "icon": "Jsonfolder/Relatedgifs/computer.gif",
+        "alt": "Tableau icon"
+      },
+      {
+        "name": "Full-Stack Python",
+        "description": "Full-stack development with Python",
+        "icon": "Jsonfolder/Relatedgifs/coding.gif",
+        "alt": "Full Stack icon"
+      },
+      {
+        "name": "Full-Stack Java",
+        "description": "Full-stack development with Java",
+        "icon": "Jsonfolder/Relatedgifs/java (1).gif",
+        "alt": "Java icon"
+      },
+      {
+        "name": "PowerBI",
+        "description": "Business intelligence with PowerBI",
+        "icon": "Jsonfolder/Relatedgifs/setting.gif",
+        "alt": "Power Bi icon"
+      },
+      {
+        "name": "SQL",
+        "description": "Learn GCP from experts",
+        "icon": "Jsonfolder/Relatedgifs/exchange.gif",
+        "alt": "SQL icon"
+      },
+      {
+        "name": "Reactjs Framework",
+        "description": "Learn Reactjs from Industry Experts",
+        "icon": "Jsonfolder/Relatedgifs/physics.gif",
+        "alt": "React icon"
+      }
+    ]
+  },
+  "Pythonrelcourses": {
+    "id": "Pythonrelcourses",
+    "title": "Related courses",
+    "items": [
+      {
+        "name": "Chat GPT & AI",
+        "description": "Learn AI from scratch",
+        "icon": "Jsonfolder/Relatedgifs/artificial-intelligence (1).gif",
+        "alt": "AI icon"
+      },
+      {
+        "name": "Masters in Data Science",
+        "description": "Become a data science expert",
+        "icon": "Jsonfolder/Relatedgifs/pie-chart.gif",
+        "alt": "Data Science icon"
+      },
+      {
+        "name": "Masters in Data Analytics",
+        "description": "Master data analytics skills",
+        "icon": "Jsonfolder/Relatedgifs/science.gif",
+        "alt": "Data Analytics icon"
+      },
+      {
+        "name": "Salesforce",
+        "description": "Salesforce developer courses",
+        "icon": "Jsonfolder/Relatedgifs/cloud--network.gif",
+        "alt": "SALESFORCE icon"
+      },
+      {
+        "name": "UI/UX Design",
+        "description": "Design stunning user interfaces",
+        "icon": "Jsonfolder/Relatedgifs/computer.gif",
+        "alt": "UI/UX icon"
+      },
+      {
+        "name": "Tableau",
+        "description": "Full-stack development with Python",
+        "icon": "Jsonfolder/Relatedgifs/coding.gif",
+        "alt": "Tableau icon"
+      },
+      {
+        "name": "Full-Stack Java",
+        "description": "Full-stack development with Java",
+        "icon": "Jsonfolder/Relatedgifs/java (1).gif",
+        "alt": "Java icon"
+      },
+      {
+        "name": "PowerBI",
+        "description": "Business intelligence with PowerBI",
+        "icon": "Jsonfolder/Relatedgifs/setting.gif",
+        "alt": "Power BI icon"
+      },
+      {
+        "name": "SQL",
+        "description": "Learn GCP from experts",
+        "icon": "Jsonfolder/Relatedgifs/exchange.gif",
+        "alt": "SQL icon"
+      },
+      {
+        "name": "Reactjs Framework",
+        "description": "Learn Reactjs from Industry Experts",
+        "icon": "Jsonfolder/Relatedgifs/physics.gif",
+        "alt": "React icon"
+      }
+    ]
+  },
+  "Salesrelcourses": {
+    "id": "Salesrelcourses",
+    "title": "Related courses",
+    "items": [
+      {
+        "name": "Chat GPT & AI",
+        "description": "Learn AI from scratch",
+        "icon": "Jsonfolder/Relatedgifs/artificial-intelligence (1).gif",
+        "alt": "AI icon"
+      },
+      {
+        "name": "Masters in Data Science",
+        "description": "Become a data science expert",
+        "icon": "Jsonfolder/Relatedgifs/pie-chart.gif",
+        "alt": "Data Science icon"
+      },
+      {
+        "name": "Masters in Data Analytics",
+        "description": "Master data analytics skills",
+        "icon": "Jsonfolder/Relatedgifs/science.gif",
+        "alt": "Data Analytics icon"
+      },
+      {
+        "name": "Tableau",
+        "description": "Salesforce developer courses",
+        "icon": "Jsonfolder/Relatedgifs/cloud--network.gif",
+        "alt": "Tableau icon"
+      },
+      {
+        "name": "UI/UX Design",
+        "description": "Design stunning user interfaces",
+        "icon": "Jsonfolder/Relatedgifs/computer.gif",
+        "alt": "UI/UX icon"
+      },
+      {
+        "name": "Full-Stack Python",
+        "description": "Full-stack development with Python",
+        "icon": "Jsonfolder/Relatedgifs/coding.gif",
+        "alt": "Full Stack icon"
+      },
+      {
+        "name": "Full-Stack Java",
+        "description": "Full-stack development with Java",
+        "icon": "Jsonfolder/Relatedgifs/java (1).gif",
+        "alt": "Java icon"
+      },
+      {
+        "name": "PowerBI",
+        "description": "Business intelligence with PowerBI",
+        "icon": "Jsonfolder/Relatedgifs/setting.gif",
+        "alt": "Power BI icon"
+      },
+      {
+        "name": "SQL",
+        "description": "Learn GCP from experts",
+        "icon": "Jsonfolder/Relatedgifs/exchange.gif",
+        "alt": "SQL icon"
+      },
+      {
+        "name": "Reactjs Framework",
+        "description": "Learn Reactjs from Industry Experts",
+        "icon": "Jsonfolder/Relatedgifs/physics.gif",
+        "alt": "React icon"
+      }
+    ]
+  },
+  "Abaprelcourses": {
+    "id": "Abaprelcourses",
+    "title": "Related courses",
+    "items": [
+      {
+        "name": "SAP HANA",
+        "description": "Learn AI from scratch",
+        "icon": "",
+        "alt": " SAP HANA icon"
+      },
+      {
+        "name": "SAP NETWEAVER",
+        "description": "Become a data science expert",
+        "icon": "",
+        "alt": "SAP NETWEAVER icon"
+      },
+      {
+        "name": "SAP BW/BI",
+        "description": "Master data analytics skills",
+        "icon": "",
+        "alt": "SAP BI icon"
+      },
+      {
+        "name": "SAP BASIS",
+        "description": "Salesforce developer courses",
+        "icon": "",
+        "alt": "SAP BASIS icon"
+      },
+      {
+        "name": "SAP FICO",
+        "description": "Design stunning user interfaces",
+        "icon": "",
+        "alt": "SAP FICO icon"
+      },
+      {
+        "name": "SAP MM",
+        "description": "Full-stack development with Python",
+        "icon": "",
+        "alt": "SAP MM icon"
+      },
+      {
+        "name": "SAP SD",
+        "description": "Full-stack development with Java",
+        "icon": "",
+        "alt": "sap SD icon"
+      },
+      {
+        "name": "SAP HR/HCM",
+        "description": "Business intelligence with PowerBI",
+        "icon": "",
+        "alt": "SAP HR/HCM icon"
+      },
+      {
+        "name": "SAP PM",
+        "description": "Learn GCP from experts",
+        "icon": "",
+        "alt": "SAP PM icon"
+      },
+      {
+        "name": "SAP SCM",
+        "description": "Learn Reactjs from Industry Experts",
+        "icon": "",
+        "alt": "SAP SCM icon"
+      }
+    ]
+  },
+  "Basisrelcourses": {
+    "id": "Basisrelcourses",
+    "title": "Related courses",
+    "items": [
+      {
+        "name": "SAP HANA",
+        "description": "Learn AI from scratch",
+        "icon": "Jsonfolder/Relatedgifs/artificial-intelligence (1).gif",
+        "alt": " SAP HANA icon"
+      },
+      {
+        "name": "SAP NETWEAVER",
+        "description": "Become a data science expert",
+        "icon": "Jsonfolder/Relatedgifs/pie-chart.gif",
+        "alt": "SAP NETWEAVER icon"
+      },
+      {
+        "name": "SAP BW/BI",
+        "description": "Master data analytics skills",
+        "icon": "Jsonfolder/Relatedgifs/science.gif",
+        "alt": "SAP BI icon"
+      },
+      {
+        "name": "SAP ABAP",
+        "description": "Salesforce developer courses",
+        "icon": "Jsonfolder/Relatedgifs/cloud--network.gif",
+        "alt": "SAP ABAP icon"
+      },
+      {
+        "name": "SAP FICO",
+        "description": "Design stunning user interfaces",
+        "icon": "Jsonfolder/Relatedgifs/computer.gif",
+        "alt": "SAP FICO icon"
+      },
+      {
+        "name": "SAP MM",
+        "description": "Full-stack development with Python",
+        "icon": "Jsonfolder/Relatedgifs/coding.gif",
+        "alt": "SAP MM icon"
+      },
+      {
+        "name": "SAP SD",
+        "description": "Full-stack development with Java",
+        "icon": "Jsonfolder/Relatedgifs/java (1).gif",
+        "alt": "SAP SD icon"
+      },
+      {
+        "name": "SAP HR/HCM",
+        "description": "Business intelligence with PowerBI",
+        "icon": "Jsonfolder/Relatedgifs/setting.gif",
+        "alt": "SAP HR/HCM icon"
+      },
+      {
+        "name": "SAP PM",
+        "description": "Learn GCP from experts",
+        "icon": "Jsonfolder/Relatedgifs/exchange.gif",
+        "alt": "SAP PM icon"
+      },
+      {
+        "name": "SAP SCM",
+        "description": "Learn Reactjs from Industry Experts",
+        "icon": "Jsonfolder/Relatedgifs/physics.gif",
+        "alt": "SAP SCM icon"
+      }
+    ]
+  },
+  "Bwbirelated": {
+    "id": "Bwbirelcourses",
+    "title": "Related courses",
+    "items": [
+      {
+        "name": "SAP HANA",
+        "description": "Learn AI from scratch",
+        "icon": "Jsonfolder/Relatedgifs/artificial-intelligence (1).gif",
+        "alt": " SAP HANA icon"
+      },
+      {
+        "name": "SAP NETWEAVER",
+        "description": "Become a data science expert",
+        "icon": "Jsonfolder/Relatedgifs/pie-chart.gif",
+        "alt": "SAP NETWEAVER icon"
+      },
+      {
+        "name": "SAP ABAP",
+        "description": "Master data analytics skills",
+        "icon": "Jsonfolder/Relatedgifs/science.gif",
+        "alt": "SAP ABAP icon"
+      },
+      {
+        "name": "SAP BASIS",
+        "description": "Salesforce developer courses",
+        "icon": "Jsonfolder/Relatedgifs/cloud--network.gif",
+        "alt": "SAP BASIS icon"
+      },
+      {
+        "name": "SAP FICO",
+        "description": "Design stunning user interfaces",
+        "icon": "Jsonfolder/Relatedgifs/computer.gif",
+        "alt": "SAP FICO icon"
+      },
+      {
+        "name": "SAP MM",
+        "description": "Full-stack development with Python",
+        "icon": "Jsonfolder/Relatedgifs/coding.gif",
+        "alt": "SAP MM icon"
+      },
+      {
+        "name": "SAP SD",
+        "description": "Full-stack development with Java",
+        "icon": "Jsonfolder/Relatedgifs/java (1).gif",
+        "alt": "SAP SD icon"
+      },
+      {
+        "name": "SAP HR/HCM",
+        "description": "Business intelligence with PowerBI",
+        "icon": "Jsonfolder/Relatedgifs/setting.gif",
+        "alt": "SAP HR/HCMicon"
+      },
+      {
+        "name": "SAP PM",
+        "description": "Learn GCP from experts",
+        "icon": "Jsonfolder/Relatedgifs/exchange.gif",
+        "alt": "SAP PM icon"
+      },
+      {
+        "name": "SAP SCM",
+        "description": "Learn Reactjs from Industry Experts",
+        "icon": "Jsonfolder/Relatedgifs/physics.gif",
+        "alt": "SAP SCM icon"
+      }
+    ]
+  },
+  "EWMrelcourses": {
+    "id": "EWMrelcourses",
+    "title": "Related courses",
+    "items": [
+      {
+        "name": "SAP PP",
+        "description": "Learn AI from scratch",
+        "icon": "Jsonfolder/Relatedgifs/artificial-intelligence (1).gif",
+        "alt": " SAP PP icon"
+      },
+      {
+        "name": "SAP QM",
+        "description": "Become a data science expert",
+        "icon": "Jsonfolder/Relatedgifs/pie-chart.gif",
+        "alt": "SAP QM icon"
+      },
+      {
+        "name": "SAP PS",
+        "description": "Master data analytics skills",
+        "icon": "Jsonfolder/Relatedgifs/science.gif",
+        "alt": "SAP PS icon"
+      },
+      {
+        "name": "SAP SUCCESSFACTOR",
+        "description": "Salesforce developer courses",
+        "icon": "Jsonfolder/Relatedgifs/cloud--network.gif",
+        "alt": "SAP SuccesFactor icon"
+      },
+      {
+        "name": "SAP FICO",
+        "description": "Design stunning user interfaces",
+        "icon": "Jsonfolder/Relatedgifs/computer.gif",
+        "alt": "SAP FICO icon"
+      },
+      {
+        "name": "SAP MM",
+        "description": "Full-stack development with Python",
+        "icon": "Jsonfolder/Relatedgifs/coding.gif",
+        "alt": "SAP MM icon"
+      },
+      {
+        "name": "SAP SD",
+        "description": "Full-stack development with Java",
+        "icon": "Jsonfolder/Relatedgifs/java (1).gif",
+        "alt": "SAP SD icon"
+      },
+      {
+        "name": "SAP HR/HCM",
+        "description": "Business intelligence with PowerBI",
+        "icon": "Jsonfolder/Relatedgifs/setting.gif",
+        "alt": "SAP HR/HCM icon"
+      },
+      {
+        "name": "SAP PM",
+        "description": "Learn GCP from experts",
+        "icon": "Jsonfolder/Relatedgifs/exchange.gif",
+        "alt": "SAP PM icon"
+      },
+      {
+        "name": "SAP SCM",
+        "description": "Learn Reactjs from Industry Experts",
+        "icon": "Jsonfolder/Relatedgifs/physics.gif",
+        "alt": "SAP SCM icon"
+      }
+    ]
+  },
+  "FICOrelcourses": {
+    "id": "Ficorelcourses",
+    "title": "Related courses",
+    "items": [
+      {
+        "name": "SAP PP",
+        "description": "Learn AI from scratch",
+        "icon": "Jsonfolder/Relatedgifs/artificial-intelligence (1).gif",
+        "alt": "SAP PP icon"
+      },
+      {
+        "name": "SAP QM",
+        "description": "Become a data science expert",
+        "icon": "Jsonfolder/Relatedgifs/pie-chart.gif",
+        "alt": "SAP QM icon"
+      },
+      {
+        "name": "SAP PS",
+        "description": "Master data analytics skills",
+        "icon": "Jsonfolder/Relatedgifs/science.gif",
+        "alt": "SAP PS icon"
+      },
+      {
+        "name": "SAP SUCCESSFACTOR",
+        "description": "Salesforce developer courses",
+        "icon": "Jsonfolder/Relatedgifs/cloud--network.gif",
+        "alt": "SAP SuccessFactor icon"
+      },
+      {
+        "name": "SAP EWM",
+        "description": "Design stunning user interfaces",
+        "icon": "Jsonfolder/Relatedgifs/computer.gif",
+        "alt": "SAP EWM icon"
+      },
+      {
+        "name": "SAP MM",
+        "description": "Full-stack development with Python",
+        "icon": "Jsonfolder/Relatedgifs/coding.gif",
+        "alt": "SAP MM icon"
+      },
+      {
+        "name": "SAP SD",
+        "description": "Full-stack development with Java",
+        "icon": "Jsonfolder/Relatedgifs/java (1).gif",
+        "alt": "SAP SD icon"
+      },
+      {
+        "name": "SAP HR/HCM",
+        "description": "Business intelligence with PowerBI",
+        "icon": "Jsonfolder/Relatedgifs/setting.gif",
+        "alt": "SAP HR/HCM icon"
+      },
+      {
+        "name": "SAP PM",
+        "description": "Learn GCP from experts",
+        "icon": "Jsonfolder/Relatedgifs/exchange.gif",
+        "alt": "SAP PM icon"
+      },
+      {
+        "name": "SAP SCM",
+        "description": "Learn Reactjs from Industry Experts",
+        "icon": "Jsonfolder/Relatedgifs/physics.gif",
+        "alt": "SAP SCM icon"
+      }
+    ]
+  },
+  "Hanarelcourses": {
+    "id": "Hanarelcourses",
+    "title": "Related courses",
+    "items": [
+      {
+        "name": "SAP ABAP",
+        "description": "Learn AI from scratch",
+        "icon": "Jsonfolder/Relatedgifs/artificial-intelligence (1).gif",
+        "alt": "SAP ABAP icon"
+      },
+      {
+        "name": "SAP NETWEAVER",
+        "description": "Become a data science expert",
+        "icon": "Jsonfolder/Relatedgifs/pie-chart.gif",
+        "alt": "SAP NETWEAVER icon"
+      },
+      {
+        "name": "SAP BW/BI",
+        "description": "Master data analytics skills",
+        "icon": "Jsonfolder/Relatedgifs/science.gif",
+        "alt": "SAP BI icon"
+      },
+      {
+        "name": "SAP BASIS",
+        "description": "Salesforce developer courses",
+        "icon": "Jsonfolder/Relatedgifs/cloud--network.gif",
+        "alt": "SAP BASIS icon"
+      },
+      {
+        "name": "SAP FICO",
+        "description": "Design stunning user interfaces",
+        "icon": "Jsonfolder/Relatedgifs/computer.gif",
+        "alt": "SAP FICO icon"
+      },
+      {
+        "name": "SAP MM",
+        "description": "Full-stack development with Python",
+        "icon": "Jsonfolder/Relatedgifs/coding.gif",
+        "alt": "SAP MM icon"
+      },
+      {
+        "name": "SAP SD",
+        "description": "Full-stack development with Java",
+        "icon": "Jsonfolder/Relatedgifs/java (1).gif",
+        "alt": "SAP SD icon"
+      },
+      {
+        "name": "SAP HR/HCM",
+        "description": "Business intelligence with PowerBI",
+        "icon": "Jsonfolder/Relatedgifs/setting.gif",
+        "alt": "SAP HR/HCM icon"
+      },
+      {
+        "name": "SAP PM",
+        "description": "Learn GCP from experts",
+        "icon": "Jsonfolder/Relatedgifs/exchange.gif",
+        "alt": "SAP PM icon"
+      },
+      {
+        "name": "SAP SCM",
+        "description": "Learn Reactjs from Industry Experts",
+        "icon": "Jsonfolder/Relatedgifs/physics.gif",
+        "alt": "SAP SCM icon"
+      }
+    ]
+  },
+  "HRHCMrelCOURSES": {
+    "id": "Hrhcmrelcourses",
+    "title": "Related courses",
+    "items": [
+      {
+        "name": "SAP PP",
+        "description": "Learn AI from scratch",
+        "icon": "Jsonfolder/Relatedgifs/artificial-intelligence (1).gif",
+        "alt": " SAP PP icon"
+      },
+      {
+        "name": "SAP QM",
+        "description": "Become a data science expert",
+        "icon": "Jsonfolder/Relatedgifs/pie-chart.gif",
+        "alt": "SAP QM icon"
+      },
+      {
+        "name": "SAP PS",
+        "description": "Master data analytics skills",
+        "icon": "Jsonfolder/Relatedgifs/science.gif",
+        "alt": "SAP PS icon"
+      },
+      {
+        "name": "SAP SUCCESSFACTOR",
+        "description": "Salesforce developer courses",
+        "icon": "Jsonfolder/Relatedgifs/cloud--network.gif",
+        "alt": "SAP SuccessFactor icon"
+      },
+      {
+        "name": "SAP FICO",
+        "description": "Design stunning user interfaces",
+        "icon": "Jsonfolder/Relatedgifs/computer.gif",
+        "alt": "SAP FICO icon"
+      },
+      {
+        "name": "SAP MM",
+        "description": "Full-stack development with Python",
+        "icon": "Jsonfolder/Relatedgifs/coding.gif",
+        "alt": "SAP MM icon"
+      },
+      {
+        "name": "SAP SD",
+        "description": "Full-stack development with Java",
+        "icon": "Jsonfolder/Relatedgifs/java (1).gif",
+        "alt": "SAP SD icon"
+      },
+      {
+        "name": "SAP EWM",
+        "description": "Business intelligence with PowerBI",
+        "icon": "Jsonfolder/Relatedgifs/setting.gif",
+        "alt": "SAP EWM icon"
+      },
+      {
+        "name": "SAP PM",
+        "description": "Learn GCP from experts",
+        "icon": "Jsonfolder/Relatedgifs/exchange.gif",
+        "alt": "SAP PM icon"
+      },
+      {
+        "name": "SAP SCM",
+        "description": "Learn Reactjs from Industry Experts",
+        "icon": "Jsonfolder/Relatedgifs/physics.gif",
+        "alt": "SAP SCM icon"
+      }
+    ]
+  },
+  "MMrelcourses": {
+    "id": "Mmrelcourses",
+    "title": "Related courses",
+    "items": [
+      {
+        "name": "SAP PP",
+        "description": "Learn AI from scratch",
+        "icon": "Jsonfolder/Relatedgifs/artificial-intelligence (1).gif",
+        "alt": " SAP PP icon"
+      },
+      {
+        "name": "SAP QM",
+        "description": "Become a data science expert",
+        "icon": "Jsonfolder/Relatedgifs/pie-chart.gif",
+        "alt": "SAP QM icon"
+      },
+      {
+        "name": "SAP PS",
+        "description": "Master data analytics skills",
+        "icon": "Jsonfolder/Relatedgifs/science.gif",
+        "alt": "SAP PS icon"
+      },
+      {
+        "name": "SAP SUCCESSFACTOR",
+        "description": "Salesforce developer courses",
+        "icon": "Jsonfolder/Relatedgifs/cloud--network.gif",
+        "alt": "SAP SuccessFactor icon"
+      },
+      {
+        "name": "SAP FICO",
+        "description": "Design stunning user interfaces",
+        "icon": "Jsonfolder/Relatedgifs/computer.gif",
+        "alt": "SAP FICO icon"
+      },
+      {
+        "name": "SAP EWM",
+        "description": "Full-stack development with Python",
+        "icon": "Jsonfolder/Relatedgifs/coding.gif",
+        "alt": "SAP EWM icon"
+      },
+      {
+        "name": "SAP SD",
+        "description": "Full-stack development with Java",
+        "icon": "Jsonfolder/Relatedgifs/java (1).gif",
+        "alt": "SAP SD icon"
+      },
+      {
+        "name": "SAP HR/HCM",
+        "description": "Business intelligence with PowerBI",
+        "icon": "Jsonfolder/Relatedgifs/setting.gif",
+        "alt": "SAP HR/HCM icon"
+      },
+      {
+        "name": "SAP PM",
+        "description": "Learn GCP from experts",
+        "icon": "Jsonfolder/Relatedgifs/exchange.gif",
+        "alt": "SAP PM icon"
+      },
+      {
+        "name": "SAP SCM",
+        "description": "Learn Reactjs from Industry Experts",
+        "icon": "Jsonfolder/Relatedgifs/physics.gif",
+        "alt": "SAP SCM icon"
+      }
+    ]
+  },
+  "netrelcourses": {
+    "id": "Netrelcourses",
+    "title": "Related courses",
+    "items": [
+      {
+        "name": "SAP PP",
+        "description": "Learn AI from scratch",
+        "icon": "Jsonfolder/Relatedgifs/artificial-intelligence (1).gif",
+        "alt": "SAP PP icon"
+      },
+      {
+        "name": "SAP QM",
+        "description": "Become a data science expert",
+        "icon": "Jsonfolder/Relatedgifs/pie-chart.gif",
+        "alt": "SAP QM icon"
+      },
+      {
+        "name": "SAP PS",
+        "description": "Master data analytics skills",
+        "icon": "Jsonfolder/Relatedgifs/science.gif",
+        "alt": "SAP PS icon"
+      },
+      {
+        "name": "SAP SUCCESSFACTOR",
+        "description": "Salesforce developer courses",
+        "icon": "Jsonfolder/Relatedgifs/cloud--network.gif",
+        "alt": "SAP SuccessFactor icon"
+      },
+      {
+        "name": "SAP FICO",
+        "description": "Design stunning user interfaces",
+        "icon": "Jsonfolder/Relatedgifs/computer.gif",
+        "alt": "SAP FICO icon"
+      },
+      {
+        "name": "SAP MM",
+        "description": "Full-stack development with Python",
+        "icon": "Jsonfolder/Relatedgifs/coding.gif",
+        "alt": "SAP MM icon"
+      },
+      {
+        "name": "SAP SD",
+        "description": "Full-stack development with Java",
+        "icon": "Jsonfolder/Relatedgifs/java (1).gif",
+        "alt": "SAP SD icon"
+      },
+      {
+        "name": "SAP HR/HCM",
+        "description": "Business intelligence with PowerBI",
+        "icon": "Jsonfolder/Relatedgifs/setting.gif",
+        "alt": "SAP HR/HCM icon"
+      },
+      {
+        "name": "SAP PM",
+        "description": "Learn GCP from experts",
+        "icon": "Jsonfolder/Relatedgifs/exchange.gif",
+        "alt": "SAP PM icon"
+      },
+      {
+        "name": "SAP SCM",
+        "description": "Learn Reactjs from Industry Experts",
+        "icon": "Jsonfolder/Relatedgifs/physics.gif",
+        "alt": "SAP SCM icon"
+      }
+    ]
+  },
+  "PMrelcourses": {
+    "id": "Pmrelcourses",
+    "title": "Related courses",
+    "items": [
+      {
+        "name": "SAP PP",
+        "description": "Learn AI from scratch",
+        "icon": "Jsonfolder/Relatedgifs/artificial-intelligence (1).gif",
+        "alt": " SAP PP icon"
+      },
+      {
+        "name": "SAP QM",
+        "description": "Become a data science expert",
+        "icon": "Jsonfolder/Relatedgifs/pie-chart.gif",
+        "alt": "SAP QM icon"
+      },
+      {
+        "name": "SAP PS",
+        "description": "Master data analytics skills",
+        "icon": "Jsonfolder/Relatedgifs/science.gif",
+        "alt": "SAP PS icon"
+      },
+      {
+        "name": "SAP SUCCESSFACTOR",
+        "description": "Salesforce developer courses",
+        "icon": "Jsonfolder/Relatedgifs/cloud--network.gif",
+        "alt": "SAP SuccessFactor icon"
+      },
+      {
+        "name": "SAP FICO",
+        "description": "Design stunning user interfaces",
+        "icon": "Jsonfolder/Relatedgifs/computer.gif",
+        "alt": "SAP FICO icon"
+      },
+      {
+        "name": "SAP MM",
+        "description": "Full-stack development with Python",
+        "icon": "Jsonfolder/Relatedgifs/coding.gif",
+        "alt": "SAP MM icon"
+      },
+      {
+        "name": "SAP SD",
+        "description": "Full-stack development with Java",
+        "icon": "Jsonfolder/Relatedgifs/java (1).gif",
+        "alt": "SAP SD icon"
+      },
+      {
+        "name": "SAP HR/HCM",
+        "description": "Business intelligence with PowerBI",
+        "icon": "Jsonfolder/Relatedgifs/setting.gif",
+        "alt": "SAP HR/HCM icon"
+      },
+      {
+        "name": "SAP EWM",
+        "description": "Learn GCP from experts",
+        "icon": "Jsonfolder/Relatedgifs/exchange.gif",
+        "alt": "SAP EWM icon"
+      },
+      {
+        "name": "SAP SCM",
+        "description": "Learn Reactjs from Industry Experts",
+        "icon": "Jsonfolder/Relatedgifs/physics.gif",
+        "alt": "SAP SCM icon"
+      }
+    ]
+  },
+  "PPrelcourses": {
+    "id": "PPrelcourses",
+    "title": "Related courses",
+    "items": [
+      {
+        "name": "SAP EWM",
+        "description": "Learn AI from scratch",
+        "icon": "Jsonfolder/Relatedgifs/artificial-intelligence (1).gif",
+        "alt": "SAP EWM icon"
+      },
+      {
+        "name": "SAP QM",
+        "description": "Become a data science expert",
+        "icon": "Jsonfolder/Relatedgifs/pie-chart.gif",
+        "alt": "SAP QM icon"
+      },
+      {
+        "name": "SAP PS",
+        "description": "Master data analytics skills",
+        "icon": "Jsonfolder/Relatedgifs/science.gif",
+        "alt": "SAP PS icon"
+      },
+      {
+        "name": "SAP SUCCESSFACTOR",
+        "description": "Salesforce developer courses",
+        "icon": "Jsonfolder/Relatedgifs/cloud--network.gif",
+        "alt": "SAP SuccessFactor icon"
+      },
+      {
+        "name": "SAP FICO",
+        "description": "Design stunning user interfaces",
+        "icon": "Jsonfolder/Relatedgifs/computer.gif",
+        "alt": "SAP FICO icon"
+      },
+      {
+        "name": "SAP MM",
+        "description": "Full-stack development with Python",
+        "icon": "Jsonfolder/Relatedgifs/coding.gif",
+        "alt": "SAP MM icon"
+      },
+      {
+        "name": "SAP SD",
+        "description": "Full-stack development with Java",
+        "icon": "Jsonfolder/Relatedgifs/java (1).gif",
+        "alt": "SAP SD icon"
+      },
+      {
+        "name": "SAP HR/HCM",
+        "description": "Business intelligence with PowerBI",
+        "icon": "Jsonfolder/Relatedgifs/setting.gif",
+        "alt": "SAP HR/HCM icon"
+      },
+      {
+        "name": "SAP PM",
+        "description": "Learn GCP from experts",
+        "icon": "Jsonfolder/Relatedgifs/exchange.gif",
+        "alt": "SAP PM icon"
+      },
+      {
+        "name": "SAP SCM",
+        "description": "Learn Reactjs from Industry Experts",
+        "icon": "Jsonfolder/Relatedgifs/physics.gif",
+        "alt": "SAP SCM icon"
+      }
+    ]
+  },
+  "PSrelcourses": {
+    "id": "PSrelcourses",
+    "title": "Related courses",
+    "items": [
+      {
+        "name": "SAP PP",
+        "description": "Learn AI from scratch",
+        "icon": "Jsonfolder/Relatedgifs/artificial-intelligence (1).gif",
+        "alt": " SAP MM icon"
+      },
+      {
+        "name": "SAP QM",
+        "description": "Become a data science expert",
+        "icon": "Jsonfolder/Relatedgifs/pie-chart.gif",
+        "alt": "SAP QM icon"
+      },
+      {
+        "name": "SAP EWM",
+        "description": "Master data analytics skills",
+        "icon": "Jsonfolder/Relatedgifs/science.gif",
+        "alt": "SAP EWM icon"
+      },
+      {
+        "name": "SAP SUCCESSFACTOR",
+        "description": "Salesforce developer courses",
+        "icon": "Jsonfolder/Relatedgifs/cloud--network.gif",
+        "alt": "SAP SuccessFactor icon"
+      },
+      {
+        "name": "SAP FICO",
+        "description": "Design stunning user interfaces",
+        "icon": "Jsonfolder/Relatedgifs/computer.gif",
+        "alt": "SAP FICO icon"
+      },
+      {
+        "name": "SAP MM",
+        "description": "Full-stack development with Python",
+        "icon": "Jsonfolder/Relatedgifs/coding.gif",
+        "alt": "SAP MM icon"
+      },
+      {
+        "name": "SAP SD",
+        "description": "Full-stack development with Java",
+        "icon": "Jsonfolder/Relatedgifs/java (1).gif",
+        "alt": "SAP SD icon"
+      },
+      {
+        "name": "SAP HR/HCM",
+        "description": "Business intelligence with PowerBI",
+        "icon": "Jsonfolder/Relatedgifs/setting.gif",
+        "alt": "SAP HR/HCM icon"
+      },
+      {
+        "name": "SAP PM",
+        "description": "Learn GCP from experts",
+        "icon": "Jsonfolder/Relatedgifs/exchange.gif",
+        "alt": "SAP PM icon"
+      },
+      {
+        "name": "SAP SCM",
+        "description": "Learn Reactjs from Industry Experts",
+        "icon": "Jsonfolder/Relatedgifs/physics.gif",
+        "alt": "SAP SCM icon"
+      }
+    ]
+  },
+  "QMrelcourses": {
+    "id": "QMrelcourses",
+    "title": "Related courses",
+    "items":[
+      {
+        "name": "SAP PP",
+        "description": "Learn AI from scratch",
+        "icon": "Jsonfolder/Relatedgifs/artificial-intelligence (1).gif",
+        "alt": "SAP PP icon"
+      },
+      {
+        "name": "SAP EWM",
+        "description": "Become a data science expert",
+        "icon": "Jsonfolder/Relatedgifs/pie-chart.gif",
+        "alt": "SAP EWM icon"
+      },
+      {
+        "name": "SAP PS",
+        "description": "Master data analytics skills",
+        "icon": "Jsonfolder/Relatedgifs/science.gif",
+        "alt": "SAP PS icon"
+      },
+      {
+        "name": "SAP SUCCESSFACTOR",
+        "description": "Salesforce developer courses",
+        "icon": "Jsonfolder/Relatedgifs/cloud--network.gif",
+        "alt": "SAP SuccessFactor icon"
+      },
+      {
+        "name": "SAP FICO",
+        "description": "Design stunning user interfaces",
+        "icon": "Jsonfolder/Relatedgifs/computer.gif",
+        "alt": "SAP FICO icon"
+      },
+      {
+        "name": "SAP MM",
+        "description": "Full-stack development with Python",
+        "icon": "Jsonfolder/Relatedgifs/coding.gif",
+        "alt": "SAP MM icon"
+      },
+      {
+        "name": "SAP SD",
+        "description": "Full-stack development with Java",
+        "icon": "Jsonfolder/Relatedgifs/java (1).gif",
+        "alt": "SAP SD icon"
+      },
+      {
+        "name": "SAP HR/HCM",
+        "description": "Business intelligence with PowerBI",
+        "icon": "Jsonfolder/Relatedgifs/setting.gif",
+        "alt": "SAP HRHCM icon"
+      },
+      {
+        "name": "SAP PM",
+        "description": "Learn GCP from experts",
+        "icon": "Jsonfolder/Relatedgifs/exchange.gif",
+        "alt": "SAP PM icon"
+      },
+      {
+        "name": "SAP SCM",
+        "description": "Learn Reactjs from Industry Experts",
+        "icon": "Jsonfolder/Relatedgifs/physics.gif",
+        "alt": "SAP SCM icon"
+      }
+    ]
+  },
+  "SCMrelcourses": {
+    "id": "SCMrelcourses",
+    "title": "Related courses",
+    "items": [
+      {
+        "name": "SAP FICO",
+        "description": "Learn SAP FICO from scratch",
+        "icon": "Jsonfolder/Relatedgifs/artificial-intelligence (1).gif",
+        "alt": "SAP FICO icon"
+      },
+      {
+        "name": "SAP MM",
+        "description": "Become a SAP MM expert",
+        "icon": "Jsonfolder/Relatedgifs/pie-chart.gif",
+        "alt": "SAP MM icon"
+      },
+      {
+        "name": "SAP SD",
+        "description": "Master in SAP SD",
+        "icon": "Jsonfolder/Relatedgifs/science.gif",
+        "alt": "SAP SD icon"
+      },
+      {
+        "name": "SAP HR/HCM",
+        "description": "Learn SAP HR/HCM from Experts ",
+        "icon": "Jsonfolder/Relatedgifs/cloud--network.gif",
+        "alt": "SAP HR/HCM icon"
+      },
+      {
+        "name": "SAP PP",
+        "description": "SAP PP",
+        "icon": "Jsonfolder/Relatedgifs/computer.gif",
+        "alt": "SAP PP icon"
+      },
+      {
+        "name": "SAP QM",
+        "description": "Expertise in SAP QM",
+        "icon": "Jsonfolder/Relatedgifs/coding.gif",
+        "alt": "SAP QM icon"
+      },
+      {
+        "name": "SAP PM",
+        "description": "Learn SAP PM from Experts",
+        "icon": "Jsonfolder/Relatedgifs/science.gif",
+        "alt": "SAP PM icon"
+      },
+      {
+        "name": "SAP PS",
+        "description": "Learn and Master in SAP PS",
+        "icon": "Jsonfolder/Relatedgifs/setting.gif",
+        "alt": "Chat GPT icon"
+      },
+      {
+        "name": "SAP EWM",
+        "description": "Learn SAP EWM from experts",
+        "icon": "Jsonfolder/Relatedgifs/exchange.gif",
+        "alt": "SAP EWM icon"
+      },
+      {
+        "name": "SAP SuccessFactor",
+        "description": "Learn SAP Success Factor from Industry Experts",
+        "icon": "Jsonfolder/Relatedgifs/physics.gif",
+        "alt": "SAP SuccessFactor icon"
+      }
+    ]
+  },
+  "SDrelcourses": {
+    "id": "SDrelcourses",
+    "title": "Related courses",
+    "items": [
+      {
+        "name": "SAP FICO",
+        "description": "Learn SAP FICO from scratch",
+        "icon": "Jsonfolder/Relatedgifs/artificial-intelligence (1).gif",
+        "alt": "SAP FICO icon"
+      },
+      {
+        "name": "SAP MM",
+        "description": "Become a SAP MM expert",
+        "icon": "Jsonfolder/Relatedgifs/pie-chart.gif",
+        "alt": "SAP MM icon"
+      },
+      {
+        "name": "SAP SusccessFactor",
+        "description": "Master in SAP Success Factor",
+        "icon": "Jsonfolder/Relatedgifs/science.gif",
+        "alt": "SAP SuccessFactor icon"
+      },
+      {
+        "name": "SAP HR/HCM",
+        "description": "Learn SAP HR/HCM from Experts ",
+        "icon": "Jsonfolder/Relatedgifs/cloud--network.gif",
+        "alt": "SAP HR/HCM icon"
+      },
+      {
+        "name": "SAP PP",
+        "description": "SAP PP",
+        "icon": "Jsonfolder/Relatedgifs/computer.gif",
+        "alt": "SAP PP icon"
+      },
+      {
+        "name": "SAP QM",
+        "description": "Expertise in SAP QM",
+        "icon": "Jsonfolder/Relatedgifs/coding.gif",
+        "alt": "SAP QM icon"
+      },
+      {
+        "name": "SAP PM",
+        "description": "Learn SAP PM from Experts",
+        "icon": "Jsonfolder/Relatedgifs/science.gif",
+        "alt": "SAP PM icon"
+      },
+      {
+        "name": "SAP PS",
+        "description": "Learn and Master in SAP PS",
+        "icon": "Jsonfolder/Relatedgifs/setting.gif",
+        "alt": "Chat GPT icon"
+      },
+      {
+        "name": "SAP EWM",
+        "description": "Learn SAP EWM from experts",
+        "icon": "Jsonfolder/Relatedgifs/exchange.gif",
+        "alt": "SAP EWM icon"
+      },
+      {
+        "name": "SAP SCM",
+        "description": "Learn SAP SCM from Industry Experts",
+        "icon": "Jsonfolder/Relatedgifs/physics.gif",
+        "alt": "SAP SCM icon"
+      }
+    ]
+  },
+  "Succrelcourses": {
+    "id": "Succrelcourses",
+    "title": "Related courses",
+    "items": [
+      {
+        "name": "SAP FICO",
+        "description": "Learn SAP FICO from scratch",
+        "icon": "Jsonfolder/Relatedgifs/artificial-intelligence (1).gif",
+        "alt": "SAP FICO icon"
+      },
+      {
+        "name": "SAP MM",
+        "description": "Become a SAP MM expert",
+        "icon": "Jsonfolder/Relatedgifs/pie-chart.gif",
+        "alt": "SAP MM icon"
+      },
+      {
+        "name": "SAP SD",
+        "description": "Master in SAP SD",
+        "icon": "Jsonfolder/Relatedgifs/science.gif",
+        "alt": "SAP SD icon"
+      },
+      {
+        "name": "SAP HR/HCM",
+        "description": "Learn SAP HR/HCM from Experts ",
+        "icon": "Jsonfolder/Relatedgifs/cloud--network.gif",
+        "alt": "SAP HR/HCM icon"
+      },
+      {
+        "name": "SAP PP",
+        "description": "SAP PP",
+        "icon": "Jsonfolder/Relatedgifs/computer.gif",
+        "alt": "SAP PP icon"
+      },
+      {
+        "name": "SAP QM",
+        "description": "Expertise in SAP QM",
+        "icon": "Jsonfolder/Relatedgifs/coding.gif",
+        "alt": "SAP QM icon"
+      },
+      {
+        "name": "SAP PM",
+        "description": "Learn SAP PM from Experts",
+        "icon": "Jsonfolder/Relatedgifs/science.gif",
+        "alt": "SAP PM icon"
+      },
+      {
+        "name": "SAP PS",
+        "description": "Learn and Master in SAP PS",
+        "icon": "Jsonfolder/Relatedgifs/setting.gif",
+        "alt": "Chat GPT icon"
+      },
+      {
+        "name": "SAP EWM",
+        "description": "Learn SAP EWM from experts",
+        "icon": "Jsonfolder/Relatedgifs/exchange.gif",
+        "alt": "SAP EWM icon"
+      },
+      {
+        "name": "SAP SCM",
+        "description": "Learn SAP SCM from Industry Experts",
+        "icon": "Jsonfolder/Relatedgifs/physics.gif",
+        "alt": "SAP SCM icon"
+      }
+    ]
+  },
+  "POWERBIrelcourses": {
+    "id": "PowerBIrelcourses",
+    "title": "Related courses",
+    "items": [
+      {
+        "name": "SQL",
+        "description": "Learn SQL from scratch",
+        "icon": "Jsonfolder/Relatedgifs/artificial-intelligence (1).gif",
+        "alt": "SQL icon"
+      },
+      {
+        "name": "Tableau",
+        "description": "Become a Tableau expert",
+        "icon": "Jsonfolder/Relatedgifs/pie-chart.gif",
+        "alt": "Tableau icon"
+      },
+      {
+        "name": "Masters in Data Analytics",
+        "description": "Master data analytics skills",
+        "icon": "Jsonfolder/Relatedgifs/science.gif",
+        "alt": "Data Analytics icon"
+      },
+      {
+        "name": "Salesforce",
+        "description": "Salesforce developer courses",
+        "icon": "Jsonfolder/Relatedgifs/cloud--network.gif",
+        "alt": "Salesforce icon"
+      },
+      {
+        "name": "UI/UX Design",
+        "description": "Design stunning user interfaces",
+        "icon": "Jsonfolder/Relatedgifs/computer.gif",
+        "alt": "UI/UX icon"
+      },
+      {
+        "name": "Full-Stack Python",
+        "description": "Full-stack development with Python",
+        "icon": "Jsonfolder/Relatedgifs/coding.gif",
+        "alt": "Full Stack icon"
+      },
+      {
+        "name": "Master in Data Science",
+        "description": "Full-stack development with Java",
+        "icon": "Jsonfolder/Relatedgifs/science.gif",
+        "alt": "Data Science icon"
+      },
+      {
+        "name": "Chat GPT & AI",
+        "description": "Learn Chat GPT & AI from Experts",
+        "icon": "Jsonfolder/Relatedgifs/setting.gif",
+        "alt": "Chat GPT icon"
+      },
+      {
+        "name": "Mern Stack",
+        "description": "Learn Mern Stack from experts",
+        "icon": "Jsonfolder/Relatedgifs/exchange.gif",
+        "alt": "Mern Stack icon"
+      },
+      {
+        "name": "Reactjs Framework",
+        "description": "Learn Reactjs from Industry Experts",
+        "icon": "Jsonfolder/Relatedgifs/physics.gif",
+        "alt": "Reactjs icon"
+      }
+    ]
+  },
+  "TABLEAUrelcourses": {
+    "id": "Tableaurelcourses",
+    "title": "Related courses",
+    "items": [
+      {
+        "name": "Power BI",
+        "description": "Learn Power BI from scratch",
+        "icon": "Jsonfolder/Relatedgifs/artificial-intelligence (1).gif",
+        "alt": "Power BI icon"
+      },
+      {
+        "name": "SQL",
+        "description": "Become a SQL expert",
+        "icon": "Jsonfolder/Relatedgifs/pie-chart.gif",
+        "alt": "SQL icon"
+      },
+      {
+        "name": "Masters in Data Analytics",
+        "description": "Master data analytics skills",
+        "icon": "Jsonfolder/Relatedgifs/science.gif",
+        "alt": "Data Analytics icon"
+      },
+      {
+        "name": "Salesforce",
+        "description": "Salesforce developer courses",
+        "icon": "Jsonfolder/Relatedgifs/cloud--network.gif",
+        "alt": "Salesforce icon"
+      },
+      {
+        "name": "UI/UX Design",
+        "description": "Design stunning user interfaces",
+        "icon": "Jsonfolder/Relatedgifs/computer.gif",
+        "alt": "UI/UX icon"
+      },
+      {
+        "name": "Full-Stack Python",
+        "description": "Full-stack development with Python",
+        "icon": "Jsonfolder/Relatedgifs/coding.gif",
+        "alt": "Full Stack icon"
+      },
+      {
+        "name": "Master in Data Science",
+        "description": "Full-stack development with Java",
+        "icon": "Jsonfolder/Relatedgifs/science.gif",
+        "alt": "Data Science icon"
+      },
+      {
+        "name": "Chat GPT & AI",
+        "description": "Learn Chat GPT & AI from Experts",
+        "icon": "Jsonfolder/Relatedgifs/setting.gif",
+        "alt": "Chat GPT icon"
+      },
+      {
+        "name": "Mern Stack",
+        "description": "Learn Mern Stack from experts",
+        "icon": "Jsonfolder/Relatedgifs/exchange.gif",
+        "alt": "Mern Stack icon"
+      },
+      {
+        "name": "Reactjs Framework",
+        "description": "Learn Reactjs from Industry Experts",
+        "icon": "Jsonfolder/Relatedgifs/physics.gif",
+        "alt": "Reactjs icon"
+      }
+    ]
+  },
+  "SQLrelcourses": {
+    "id": "SQLrelcourses",
+    "title": "Related courses",
+    "items": [
+      {
+        "name": "Power BI",
+        "description": "Learn Power BI from scratch",
+        "icon": "Jsonfolder/Relatedgifs/artificial-intelligence (1).gif",
+        "alt": "Power BI icon"
+      },
+      {
+        "name": "Tableau",
+        "description": "Become a Tableau expert",
+        "icon": "Jsonfolder/Relatedgifs/pie-chart.gif",
+        "alt": "Tableau icon"
+      },
+      {
+        "name": "Masters in Data Analytics",
+        "description": "Master data analytics skills",
+        "icon": "Jsonfolder/Relatedgifs/science.gif",
+        "alt": "Data Analytics icon"
+      },
+      {
+        "name": "Salesforce",
+        "description": "Salesforce developer courses",
+        "icon": "Jsonfolder/Relatedgifs/cloud--network.gif",
+        "alt": "Salesforce icon"
+      },
+      {
+        "name": "UI/UX Design",
+        "description": "Design stunning user interfaces",
+        "icon": "Jsonfolder/Relatedgifs/computer.gif",
+        "alt": "UI/UX icon"
+      },
+      {
+        "name": "Full-Stack Python",
+        "description": "Full-stack development with Python",
+        "icon": "Jsonfolder/Relatedgifs/coding.gif",
+        "alt": "Full Stack icon"
+      },
+      {
+        "name": "Master in Data Science",
+        "description": "Full-stack development with Java",
+        "icon": "Jsonfolder/Relatedgifs/science.gif",
+        "alt": "Data Science icon"
+      },
+      {
+        "name": "Chat GPT & AI",
+        "description": "Learn Chat GPT & AI from Experts",
+        "icon": "Jsonfolder/Relatedgifs/setting.gif",
+        "alt": "Chat GPT icon"
+      },
+      {
+        "name": "Mern Stack",
+        "description": "Learn Mern Stack from experts",
+        "icon": "Jsonfolder/Relatedgifs/exchange.gif",
+        "alt": "Mern Stack icon"
+      },
+      {
+        "name": "Reactjs Framework",
+        "description": "Learn Reactjs from Industry Experts",
+        "icon": "Jsonfolder/Relatedgifs/physics.gif",
+        "alt": "Reactjs icon"
+      }
+    ]
+  }
+}
