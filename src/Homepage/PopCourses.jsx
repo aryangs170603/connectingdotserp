@@ -62,7 +62,7 @@ const Courses = () => {
   return (
     <div className="courses-container text-center">
       <Helmet>
-        <title>Connecting Dots </title>
+        <title>Connecting Dots</title>
         <meta name="description" content="Explore our most popular courses including SAP, Data Science, Salesforce, and more. Enroll now and secure your seat!" />
         <meta name="keywords" content="SAP courses, Data Science, Salesforce, HR courses, Full-Stack Python, PowerBI, AWS, Azure, Google Cloud" />
       </Helmet>
@@ -89,7 +89,7 @@ const Courses = () => {
         ))}
       </div>
       <div className="mb-3">
-        <Button className="outline-btnn ">Download Brochure</Button>
+        <Button className="outline-btnn">Download Brochure</Button>
         <Button className="outline-btnn" onClick={() => handleEnrollNowClick('Book Demo for Free')}>Book Demo</Button>
       </div>
       {showModal && (

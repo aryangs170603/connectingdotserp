@@ -8,7 +8,7 @@
   height: 70px;
   width: 100%;
   max-width: 1800px;
-  margin: 0 auto;
+  margin: 0 auto; 
   z-index: 1000;
   box-shadow: 0 5px 25px -2px rgb(0 0 0 / 30%);
 }
@@ -35,17 +35,7 @@
   height: auto;
 }
 
-/* Hamburger Menu */
-.hamburger {
-  display: none; /* Initially hidden for large screens */
-  cursor: pointer;
-  color: #ffffff;
-}
 
-.hamburger i {
-  font-size: 24px;
-  color: #ffffff; /* Dark color for better visibility */
-}
 
 /* Sidebar Styles */
 .sidebar {
@@ -55,12 +45,15 @@
   width: 250px;
   height: 100%;
   background-color: #ffffff;
-  color: #fff;
+  color: #343a40;
   padding: 20px;
-  z-index: 1000;
+  z-index: 1500;
   display: flex;
   flex-direction: column;
+  box-shadow: 0 5px 25px -2px rgb(0 0 0 / 30%);
+  overflow-y: auto; /* Allow vertical scrolling */
 }
+
 
 .sidebar .nav-link {
   color: #fff;
@@ -116,6 +109,20 @@
   right: 100%;
   left: auto;
 }
+/* Desktop Dropdown - No Scroll */
+.dropdown-menu {
+  max-height: none;
+  overflow-y: visible;
+}
+
+/* Mobile Dropdown - With Scroll */
+@media (max-width: 768px) {
+  .hamburger-menu .dropdown-menu {
+    max-height: 200px; /* Adjust as needed */
+    overflow-y: auto;
+  }
+}
+
 
 .dropdown-item {
   font-weight: bold;
@@ -138,15 +145,7 @@
   border-bottom: none;
 }
 
-.view-more {
-  font-weight: bold;
-  color: #0d2bc5;
-}
 
-.view-more:hover {
-  color: #0d2bc5;
-  text-decoration: underline;
-}
 
 .dropdown {
   margin-top: 10px;
@@ -276,11 +275,12 @@
 
 .navbar-toggler {
   border: none;
-  font-size: 1.25rem;
+  outline: none;
   padding: 0;
-  margin-left: auto;
-  position: relative;
+  background-color: transparent;
+  cursor: pointer;
 }
+
 
 .navbar-toggler:focus,
 .btn-close:focus {
@@ -469,15 +469,89 @@
   margin-right: -210px;
 }
 
+
+/* Hamburger Styles */
+.navbar-toggler {
+  border: none;
+  font-size: 1.25rem;
+  padding: 0;
+  margin-left: auto;
+  position: relative;
+}
+
+.navbar-toggler:focus,
+.btn-close:focus {
+  box-shadow: none;
+  outline: none;
+}
+
+.navbar-toggler-icon {
+  width: 25px;
+  height: 2px;
+  background-color: #343a40;
+  display: block;
+  position: relative;
+  transition: all 0.3s ease-in-out;
+}
+
+.navbar-toggler-icon::before,
+.navbar-toggler-icon::after {
+  content: "";
+  width: 25px;
+  height: 2px;
+  background-color: #343a40;
+  position: absolute;
+  transition: all 0.3s ease-in-out;
+}
+
+.navbar-toggler-icon::before {
+  top: -8px;
+}
+
+.navbar-toggler-icon::after {
+  top: 8px;
+}
+
+.sidebar {
+  position: fixed;
+  top: 0;
+  right: 0;
+  width: 250px;
+  height: 100%;
+  background-color: #fff;
+  color: #343a40;
+  padding: 20px;
+  z-index: 1000;
+  display: flex;
+  flex-direction: column;
+  box-shadow: 0 5px 25px -2px rgb(0 0 0 / 30%);
+}
+
+.sidebar .nav-link {
+  color: #343a40;
+  margin-bottom: 10px;
+  font-size: 16px;
+}
+
+.sidebar .dropdown-menu {
+  background-color: #fff;
+  border: none;
+}
+
+.sidebar .dropdown-item {
+  color: #343a40;
+  margin-left: 20px;
+}
+
+
 @media (max-width: 991px) {
   .header {
     flex-direction: column;
     align-items: flex-start;
   }
-.navbar-nav{
-  display: none;
-}
-  
+  .navbar-nav {
+    display: none;
+  }
   .logo {
     margin-bottom: 10px;
   }
@@ -533,3 +607,42 @@
     opacity: 1;
   }
 }
+/* Sidebar dropdowns for smaller screens */
+@media (max-width: 992px) {
+  .sidebar .dropdown-menu {
+    position: static;
+    float: none;
+    background-color: #fff;
+    box-shadow: none;
+    display: none;
+  }
+
+  .sidebar .dropdown-menu.show {
+    display: block;
+    margin-top: 0;
+    border-top: 1px solid #e9ecef;
+  }
+
+  .sidebar .dropdown-item {
+    padding: 10px 15px;
+  }
+
+  .sidebar .nav-link[aria-expanded="true"]::after {
+    transform: rotate(90deg);
+  }
+
+  .sidebar .dropdown-toggle::after {
+    display: inline-block;
+    margin-left: 10px;
+    vertical-align: middle;
+    content: "\f0d7"; /* FontAwesome down arrow */
+    font-family: 'Font Awesome 5 Free';
+    font-weight: 900;
+    transition: transform 0.2s ease;
+  }
+
+  .sidebar .dropdown-toggle[aria-expanded="true"]::after {
+    transform: rotate(-90deg);
+  }
+}
+

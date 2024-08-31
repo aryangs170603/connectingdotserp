@@ -234,9 +234,10 @@ button {
 }
 
 
-
 /* slide2 */
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800;900&display=swap");
+
+/* General styling for the carousel slide */
 .carousel-slide2 {
   display: flex;
   align-items: center;
@@ -248,12 +249,19 @@ button {
   width: 100%;
   margin: 0 auto;
   z-index: 1;
+  flex-wrap: wrap; /* Wrap content on smaller screens */
 }
 
-.carousel-text2{
+/* Text styling */
+.carousel-text2 {
   font-family: 'Lato', sans-serif;
   font-weight: bold;
+  flex: 1;
+  margin-bottom: 20px;
+  text-align: center;
 }
+
+/* Card box styling */
 .cardBox2 {
   width: 500px;
   height: 500px;
@@ -264,9 +272,12 @@ button {
   border-radius: 20px;
   box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 10px 0px, rgba(0, 0, 0, 0.5) 0px 2px 25px 0px;
   margin-right: 80px;
-  
+  margin-left: auto;
+  margin-right: auto;
+  flex-shrink: 0; /* Prevent shrinking */
 }
 
+/* Card content styling */
 .cardH2 {
   position: absolute;
   width: 98%;
@@ -286,21 +297,21 @@ button {
   box-shadow: rgba(0, 0, 0, 0.7) 0px 3px 6px -2px inset, rgba(0, 0, 0, 0.7) 0px 8px 6px -8px inset;
 }
 
-.cardH2 .content2 {
-  transform: translateY(0);
-  opacity: 1;
-  transition: none;
+/* Image transition styling */
+.transition-image {
+  width: 90%;
+  height: auto;
+  border-radius: 8px;
+  transition: opacity 0.5s ease-in-out;
 }
 
+/* Glowing animation */
 .cardBox2::before {
   content: "";
   position: absolute;
   width: 40%;
   height: 150%;
-  background: #40e0d0;
-  background: -webkit-linear-gradient(to right, #04015a, #0b3293, #2ab0f8, #53daff);
   background: linear-gradient(to right, #04015a, #0b3293, #2ab0f8, #53daff);
-  
   transform-origin: center;
   animation: glowing 5s linear infinite;
 }
@@ -314,13 +325,57 @@ button {
   }
 }
 
-.transition-image {
-  width: 90%;
-  height: auto;
-  border-radius: 8px;
-  transition: opacity 0.5s ease-in-out;
+/* Media Queries for Responsiveness */
+@media (max-width: 1200px) {
+  .carousel-slide2 {
+    flex-direction: column;
+    height: auto;
+    padding: 20px;
+  }
+
+  .carousel-text2 {
+    margin-bottom: 30px;
+    text-align: center;
+  }
+
+  .cardBox2 {
+    width: 450px;
+    height: 450px;
+    margin-bottom: 20px;
+  }
 }
 
+@media (max-width: 768px) {
+  .carousel-slide2 {
+    padding: 10px;
+  }
+
+  .carousel-text2 {
+    font-size: 1.5rem;
+    margin-bottom: 20px;
+  }
+
+  .cardBox2 {
+    width: 350px;
+    height: 350px;
+  }
+}
+
+@media (max-width: 576px) {
+  .carousel-slide2 {
+    padding: 5px;
+  }
+
+  .carousel-text2 {
+    font-size: 1.2rem;
+    margin-bottom: 15px;
+  }
+
+  .cardBox2 {
+    width: 300px;
+    height: 300px;
+  }
+}
 
 
 /* slide3 */

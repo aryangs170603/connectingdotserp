@@ -1,0 +1,295 @@
+{
+  "forms": {
+    "default": {
+      "title": "Enroll Now in",
+      "fields": [
+        {
+          "name": "name",
+          "label": "Your Name",
+          "type": "text"
+        },
+        {
+          "name": "email",
+          "label": "Your Email",
+          "type": "email"
+        },
+        {
+          "name": "phone",
+          "label": "Your Phone Number",
+          "type": "tel"
+        },
+        {
+          "name": "message",
+          "label": "Your Message",
+          "type": "textarea"
+        }
+      ],
+      "submitButton": "Submit"
+    },
+    "SAP S/4 HANA Courses": {
+      "title": "Enroll in SAP S/4 HANA",
+      "fields": [
+        {
+          "name": "name",
+          "label": "Your Name",
+          "type": "text"
+        },
+        {
+          "name": "email",
+          "label": "Your Email",
+          "type": "email"
+        },
+        {
+          "name": "company",
+          "label": "Your Company",
+          "type": "text"
+        },
+        {
+          "name": "phone",
+          "label": "Your Phone Number",
+          "type": "tel"
+        }
+      ],
+      "submitButton": "Join SAP Course"
+    },
+    "Masters in Data Science": {
+      "title": "Enroll in Data Science",
+      "fields": [
+        {
+          "name": "name",
+          "label": "Your Name",
+          "type": "text"
+        },
+        {
+          "name": "email",
+          "label": "Your Email",
+          "type": "email"
+        },
+        {
+          "name": "background",
+          "label": "Your Educational Background",
+          "type": "text"
+        },
+        {
+          "name": "phone",
+          "label": "Your Phone Number",
+          "type": "tel"
+        }
+      ],
+      "submitButton": "Join Data Science"
+    },
+    "Masters in Data Analytics": {
+      "title": "Enroll in Data Analytics",
+      "fields": [
+        {
+          "name": "name",
+          "label": "Your Name",
+          "type": "text"
+        },
+        {
+          "name": "email",
+          "label": "Your Email",
+          "type": "email"
+        },
+        {
+          "name": "experience",
+          "label": "Your Experience",
+          "type": "number"
+        },
+        {
+          "name": "phone",
+          "label": "Your Phone Number",
+          "type": "tel"
+        }
+      ],
+      "submitButton": "Join Data Analytics"
+    },
+    "Salesforce": {
+      "title": "Enroll in Salesforce",
+      "fields": [
+        {
+          "name": "name",
+          "label": "Your Name",
+          "type": "text"
+        },
+        {
+          "name": "email",
+          "label": "Your Email",
+          "type": "email"
+        },
+        {
+          "name": "position",
+          "label": "Your Position",
+          "type": "text"
+        },
+        {
+          "name": "phone",
+          "label": "Your Phone Number",
+          "type": "tel"
+        }
+      ],
+      "submitButton": "Join Salesforce"
+    },
+    "HR Courses": {
+      "title": "Enroll in HR Courses",
+      "fields": [
+        {
+          "name": "name",
+          "label": "Your Name",
+          "type": "text"
+        },
+        {
+          "name": "email",
+          "label": "Your Email",
+          "type": "email"
+        },
+        {
+          "name": "department",
+          "label": "Your Department",
+          "type": "text"
+        },
+        {
+          "name": "phone",
+          "label": "Your Phone Number",
+          "type": "tel"
+        }
+      ],
+      "submitButton": "Join HR Courses"
+    },
+    "Full-Stack Python": {
+      "title": "Enroll in Full-Stack Python",
+      "fields": [
+        {
+          "name": "name",
+          "label": "Your Name",
+          "type": "text"
+        },
+        {
+          "name": "email",
+          "label": "Your Email",
+          "type": "email"
+        },
+        {
+          "name": "skillLevel",
+          "label": "Your Skill Level",
+          "type": "text"
+        },
+        {
+          "name": "phone",
+          "label": "Your Phone Number",
+          "type": "tel"
+        }
+      ],
+      "submitButton": "Join Python Course"
+    },
+    "Full-Stack Java": {
+      "title": "Enroll in Full-Stack Java",
+      "fields": [
+        {
+          "name": "name",
+          "label": "Your Name",
+          "type": "text"
+        },
+        {
+          "name": "email",
+          "label": "Your Email",
+          "type": "email"
+        },
+        {
+          "name": "experience",
+          "label": "Your Experience in Java",
+          "type": "number"
+        },
+        {
+          "name": "phone",
+          "label": "Your Phone Number",
+          "type": "tel"
+        }
+      ],
+      "submitButton": "Join Java Course"
+    },
+    "PowerBI": {
+      "title": "Enroll in PowerBI",
+      "fields": [
+        {
+          "name": "name",
+          "label": "Your Name",
+          "type": "text"
+        },
+        {
+          "name": "email",
+          "label": "Your Email",
+          "type": "email"
+        },
+        {
+          "name": "currentRole",
+          "label": "Your Current Role",
+          "type": "text"
+        },
+        {
+          "name": "phone",
+          "label": "Your Phone Number",
+          "type": "tel"
+        }
+      ],
+      "submitButton": "Join PowerBI Course"
+    },
+    "AWS/Azure/Google Cloud Platform": {
+      "title": "Enroll in Cloud Platform",
+      "fields": [
+        {
+          "name": "name",
+          "label": "Your Name",
+          "type": "text"
+        },
+        {
+          "name": "email",
+          "label": "Your Email",
+          "type": "email"
+        },
+        {
+          "name": "interest",
+          "label": "Your Cloud Interest (AWS/Azure/GCP)",
+          "type": "text"
+        },
+        {
+          "name": "phone",
+          "label": "Your Phone Number",
+          "type": "tel"
+        }
+      ],
+      "submitButton": "Join Cloud Platform"
+    },
+    "forms": {
+        "default": {
+            "title": "Contact Us",
+            "inputs": [
+                {
+                    "name": "name",
+                    "type": "text",
+                    "placeholder": "Your Name"
+                },
+                {
+                    "name": "contact",
+                    "type": "text",
+                    "placeholder": "Your Contact Number"
+                },
+                {
+                    "name": "course",
+                    "type": "select",
+                    "placeholder": "Select a Course",
+                    "options": [
+                        "SAP",
+                        "IT Courses",
+                        "Digital Marketing",
+                        "Data Visualisation",
+                        "HR Courses"
+                    ]
+                }
+            ],
+            "submitText": "Submit"
+        }
+    }
+  }
+
+}

@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import { Link } from "react-router-dom";
-import { Navbar, Container, Nav } from "react-bootstrap";
+import { Navbar, Container, Nav, Button } from "react-bootstrap";
 import logo from "/src/Logos/Navbar/connecting dot erp logo.png";
 import "bootstrap/dist/css/bootstrap.min.css";
 import "./Navbar.css";
@@ -15,9 +15,11 @@ const Header = () => {
     dropdown5: false,
     dropdown6: false,
   });
+  const [isSidebarVisible, setIsSidebarVisible] = useState(false);
 
   const handleNavClick = (link) => {
     setActiveLink(link);
+    setIsSidebarVisible(false); // Close the sidebar on nav item click
   };
 
   const handleMouseEnter = (dropdown) =>
@@ -319,45 +321,87 @@ const Header = () => {
   );
 
   return (
-    <Navbar expand="lg" className="header-nav">
-      <Container fluid className="align-items-center justify-content-between">
-        <div className="logo">
-          <Link to="/">
-            <img src={logo} alt="Connecting Dots ERP Logo" />
-          </Link>
-        </div>
+    <>
+      <Navbar expand="lg" className="header-nav">
+        <Container fluid className="align-items-center justify-content-between">
+          <div className="logo">
+            <Link to="/">
+              <img src={logo} alt="Connecting Dots ERP Logo" />
+            </Link>
+          </div>
 
-        <Nav className="navbar-nav justify-content-end flex-grow-1 pe-3">
-          {renderDropdownSAP()}
-          {renderDropdownITCourses()}
-          {renderDropdownDataVisualisation()}
-          {renderDropdownDigitalMarketing()}
-          {renderDropdownHRCourses()}
-          <div className="dropdown2">
-            <Nav.Link
-              className={`mx-lg-2 ${activeLink === "link1" ? "active" : ""}`}
-              href="#"
+          {/* Hamburger Button */}
+          <Button
+            className="navbar-toggler"
+            aria-controls="basic-navbar-nav"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+            onClick={() => setIsSidebarVisible(!isSidebarVisible)}
+          >
+            <span className="navbar-toggler-icon"></span>
+          </Button>
+
+          <Nav className="navbar-nav justify-content-end flex-grow-1 pe-3 d-none d-lg-flex">
+            {renderDropdownSAP()}
+            {renderDropdownITCourses()}
+            {renderDropdownDataVisualisation()}
+            {renderDropdownDigitalMarketing()}
+            {renderDropdownHRCourses()}
+            <div className="dropdown2">
+              <Nav.Link
+                className={`mx-lg-2 ${activeLink === "link1" ? "active" : ""}`}
+                href="#"
+                onClick={() => handleNavClick("link1")}
+              >
+                Placement
+              </Nav.Link>
+            </div>
+            <div className="dropdown2">
+              <Nav.Link
+                href="/AdminLogin"
+                className={`mx-lg-2 ${activeLink === "login" ? "active" : ""}`}
+                onClick={() => handleNavClick("login")}
+              >
+                Login
+              </Nav.Link>
+            </div>
+          </Nav>
+        </Container>
+      </Navbar>
+
+      {/* Sidebar for Smaller Screens */}
+      {isSidebarVisible && (
+        <div className="sidebar">
+          <div className="sidebar-header">
+            <Button
+              className="btn-close"
+              onClick={() => setIsSidebarVisible(false)}
+            />
+          </div>
+          <Nav className="flex-column">
+            <Link
+              className="nav-link"
+              to="/"
               onClick={() => handleNavClick("link1")}
             >
               Placement
-            </Nav.Link>
-          </div>
-          <div className="dropdown2">
-
-            <Nav.Link
-              href="/AdminLogin"
-              
-              className={`mx-lg-2 ${activeLink === "login" ? "active" : ""}`}
+            </Link>
+            <Link
+              className="nav-link"
+              to="/AdminLogin"
               onClick={() => handleNavClick("login")}
             >
               Login
-            </Nav.Link>
-          </div>
-        </Nav>
-
-      </Container>
-    </Navbar>  
-
+            </Link>
+            {renderDropdownSAP()}
+            {renderDropdownITCourses()}
+            {renderDropdownDataVisualisation()}
+            {renderDropdownDigitalMarketing()}
+            {renderDropdownHRCourses()}
+          </Nav>
+        </div>
+      )}
+    </>
   );
 };
 

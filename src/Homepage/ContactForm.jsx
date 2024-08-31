@@ -1,60 +1,68 @@
-import React, { useState } from 'react';
-import emailjs from 'emailjs-com';
-import './ContactForm.css';
+import React, { useState, useEffect } from 'react';
 
-const ContactForm = ({ onClose, course }) => {
-  const [formData, setFormData] = useState({
-    name: '',
-    mobile: '',
-    email: '',
-  });
+const ContactForm = ({ course, onClose }) => {
+  const [formData, setFormData] = useState(null);
+
+  useEffect(() => {
+    const fetchData = async () => {
+      try {
+        const response = await fetch('/Jsonfolder/formData.json'); // Ensure the correct path
+        const data = await response.json();
+        console.log('Fetched Form Data:', data.forms[course] || data.forms.default); // Debug: Check fetched form data
+        setFormData(data.forms[course] || data.forms.default);
+      } catch (error) {
+        console.error('Error fetching form data:', error);
+      }
+    };
+
+    fetchData();
+  }, [course]);
+
+  if (!formData) {
+    return <div>Loading form...</div>; // Show a loading state
+  }
+
+  const [formValues, setFormValues] = useState({});
+  
+  useEffect(() => {
+    const initialFormValues = {};
+    formData.fields.forEach(field => {
+      initialFormValues[field.name] = '';
+    });
+    setFormValues(initialFormValues);
+  }, [formData.fields]);
 
   const handleChange = (event) => {
     const { name, value } = event.target;
-    setFormData({ ...formData, [name]: value });
+    setFormValues({ ...formValues, [name]: value });
   };
 
   const handleSubmit = (event) => {
     event.preventDefault();
-
-    emailjs.send(
-      'service_mbz2yyi', // Replace with EmailJS service ID
-      'YOUR_TEMPLATE_ID', // Replace with EmailJS template ID
-      {
-        course,
-        name: formData.name,
-        mobile: formData.mobile,
-        email: formData.email,
-        to_email: 'manishshinde19996@gmail.com', // email address to send the form data to
-      },
-      'YOUR_USER_ID' // Replace with EmailJS user ID
-    ).then((response) => {
-      console.log('SUCCESS!', response.status, response.text);
-      onClose(); 
-    }).catch((err) => {
-      console.error('FAILED...', err);
-    });
+    console.log('Form Submitted:', formValues);
+    onClose(); // Close modal after submission
   };
 
   return (
     <div className="modal">
       <div className="modal-content">
         <span className="close-btn" onClick={onClose}>&times;</span>
-        <h2 className='headinn'>Enroll in {course}</h2>
+        <h2 className="headinn">{formData.title} {course}</h2>
         <form className="contact-form" onSubmit={handleSubmit}>
-          <div className="form-group">
-            <label htmlFor="name">Name:</label>
-            <input type="text" id="name" name="name" value={formData.name} onChange={handleChange} required />
-          </div>
-          <div className="form-group">
-            <label htmlFor="mobile">Mobile Number:</label>
-            <input type="text" id="mobile" name="mobile" value={formData.mobile} onChange={handleChange} required />
-          </div>
-          <div className="form-group">
-            <label htmlFor="email">Email ID:</label>
-            <input type="email" id="email" name="email" value={formData.email} onChange={handleChange} required />
-          </div>
-          <button type="submit" className="submit-btn">Enroll</button>
+          {formData.fields.map((field, index) => (
+            <div className="form-group" key={index}>
+              <label htmlFor={field.name}>{field.label}</label>
+              <input
+                type={field.type}
+                id={field.name}
+                name={field.name}
+                value={formValues[field.name]}
+                onChange={handleChange}
+                required
+              />
+            </div>
+          ))}
+          <button type="submit" className="submit-btn">{formData.submitButton}</button>
         </form>
       </div>
     </div>

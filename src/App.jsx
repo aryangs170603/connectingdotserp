@@ -55,7 +55,7 @@ import Core from "./Hr Courses/Core"
 import Manage from "./Hr Courses/Management"
 import Payroll from "./Hr Courses/Payroll"
 import SAPHCM from "./Hr Courses/SAPHCM"
-
+import Pagenotfound from "./components/NotFoundPage";
 function App() {
   const [temporaryLeads, setTemporaryLeads] = useState([]);
   const [isAuthenticated, setIsAuthenticated] = useState(false);
@@ -156,7 +156,7 @@ function App() {
               <Route path="/HR-Management" element={<Manage />} />
               <Route path="/HR-Payroll" element={<Payroll />} />
               <Route path="/HR-SAPHCM" element={<SAPHCM />} />
-              
+              <Route path="*" element={<Pagenotfound />} /> {/* Fixed comment format */}
             </Routes>
           </main>
 
