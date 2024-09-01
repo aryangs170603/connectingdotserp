@@ -3,7 +3,7 @@
   top: 50% !important; /* Centers the chat widget vertically */
   right: 20px !important; /* Keeps the widget 20px from the right edge */
   transform: translateY(-50%) !important; /* Adjusts the position to be truly centered */
-  z-index: 1000 !important;
+  z-index: 1000 ;
 }
 
 @media (max-width: 768px) {

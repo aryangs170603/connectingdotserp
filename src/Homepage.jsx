@@ -17,20 +17,16 @@ import OurBranches from "./Homepage/OurBranches";
 import Chevron from "./Homepage/Chevron";
 import FeedbackandReviews from "./Homepage/FeedbackandReviews";
 //import Navbar from './components/AboutUs.jsx';
-// import PopupForm from './components/PopupForm';
+
 import Ourclients from "./Homepage/Ourclients";
 
 function Homepage() {
   return (
     <div className="App">
-     
-      {/* <About/> */}
-     
       <main>
         <HeaderCarousel />
         <Marquee2 />
         <Chevron />
-        {/* <PopupForm/> */}
         <Keypoints />
         <Ourclients />
         <PopCourses />

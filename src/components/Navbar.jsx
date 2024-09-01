@@ -19,7 +19,7 @@ const Header = () => {
 
   const handleNavClick = (link) => {
     setActiveLink(link);
-    setIsSidebarVisible(false); // Close the sidebar on nav item click
+    setIsSidebarVisible(false); 
   };
 
   const handleMouseEnter = (dropdown) =>
@@ -153,7 +153,6 @@ const Header = () => {
                 { name: "MERN STACK", link: "/Mern" },
                 { name: "UI/UX DESIGN", link: "/UIUX" },
                 { name: "PYTHON", link: "/Python" },
-
                 { name: "SALESFORCE", link: "/Salesforce" },
               ],
             },
@@ -350,10 +349,10 @@ const Header = () => {
             <div className="dropdown2">
               <Nav.Link
                 className={`mx-lg-2 ${activeLink === "link1" ? "active" : ""}`}
-                href="#"
+                href="/about-us"
                 onClick={() => handleNavClick("link1")}
               >
-                Placement
+                About us
               </Nav.Link>
             </div>
             <div className="dropdown2">
@@ -381,10 +380,10 @@ const Header = () => {
           <Nav className="flex-column">
             <Link
               className="nav-link"
-              to="/"
+              to="/about-us"
               onClick={() => handleNavClick("link1")}
             >
-              Placement
+              About us
             </Link>
             <Link
               className="nav-link"

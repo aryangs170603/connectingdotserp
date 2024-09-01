@@ -4,18 +4,35 @@
 =======================*/
 
 
-.page_404{ padding:40px 0; background:#fff; font-family: 'Arvo', serif;
+.page_404 {
+    padding: 40px 0;
+    background: #fff;
+    display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10px 20px;
+  background-color: #fff;
+ ;
+  
+  width: 97.5%;
+  max-width: 1800px;
+  margin: 0 auto; 
+  z-index: 1000;
+  box-shadow: 0 5px 25px -2px rgb(0 0 0 / 30%);
+}
+.four_zero_four_bg {
+    background-image: url(https://cdn.dribbble.com/users/285475/screenshots/2083086/dribbble_1.gif);
+    height: 80vh; /* Full viewport height */
+    width: 80vw;  /* Full viewport width */
+    background-position: center;
+    background-s8ize: cover; /* Cover the entire container */
+    background-repeat: no-repeat; /* Prevent repeating the image */
+    background-attachment: fixed; /* Keep the background image fixed while scrolling */
+    display: flex; /* Center align items */
+    justify-content: center; /* Center horizontally */
+    align-items: center; /* Center vertically */
 }
 
-.page_404  img{ width:100%;}
-
-.four_zero_four_bg{
- 
- background-image: url(https://cdn.dribbble.com/users/285475/screenshots/2083086/dribbble_1.gif);
-    height: 600px;
-    background-position: center;
-    background-size: cover;
- }
  
  
  .four_zero_four_bg h1{

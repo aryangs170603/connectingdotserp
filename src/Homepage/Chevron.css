@@ -132,64 +132,89 @@
   border-left-color:  #182E4A;
 }
 
-
-/* Responsive styles for mobile screens */
 @media (max-width: 768px) {
   .containerCH h1 {
     font-size: 1.5rem;
+    align-items: center;
   }
 
   .phases {
     width: 100%;
     max-width: 320px;
-    margin: 0 auto; /* Center the phases container */
+    margin: 0 auto;
   }
 
   .phases ul {
     display: block;
     padding: 0;
-    margin: 0 auto; /* Center the phases list */
+    margin: 0 auto;
   }
- .chevron-item{
-   margin-left: 35px;
- }
+
   .phases ul li {
+    
     display: flex;
-    justify-content: center; /* Center each list item */
-    margin-bottom: 10px;
+    justify-content: center;
+    margin-bottom: 90px; /* More spacing between chevrons */
     position: relative;
-    width: 100%;
-    max-width: 240px; /* Adjust the width of each list item */
+    width: 40%;
+    max-width: 260px; /* Slightly increase width */
+    
+    margin-left: 50px;
   }
 
   .phases ul li a {
     width: 100%;
-    padding: 10px 15px;
+    height: 200px;
+    padding: 15px 20px; /* Increase padding */
+    background: #5aadd3;
+    border-radius: 10px;
+    position: relative;
+    text-align: center;
+  }
+  .chevron-item h4 {
+    margin-top: 60px;
   }
 
-  /* Alternating chevron arrows */
-  .phases ul li:nth-child(odd) a:after {
-    border-left: 40px solid #5aadd3;
-    right: -40px;
+  /* Downward pointing chevron */
+  .phases ul li a:after {
+    content: "";
+    border-left: 20px solid transparent;
+    border-right: 20px solid transparent;
+    border-top: 20px solid #5aadd3;
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    top: 100%; /* Position below the chevron */
+    z-index: 1;
+    width: 0;
+    height: 0;
   }
 
+  .phases ul li a:before {
+    content: "";
+    border-left: 20px solid transparent;
+    border-right: 20px solid transparent;
+    border-bottom: 20px solid #5aadd3;
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    bottom: 100%; /* Position above the chevron */
+    z-index: 1;
+    width: 0;
+    height: 0;
+  }
+
+  /* Adjustments for even and odd items */
+  .phases ul li:nth-child(odd) a:after,
   .phases ul li:nth-child(even) a:after {
-    border-right: 40px solid #5aadd3;
-    border-left: none;
-    left: -40px;
-    right: auto;
+    border-top: 50px solid #5aadd3;
+    border-width: 55px ;
   }
 
-  .phases ul li:nth-child(odd) a:before {
-    border-left: 40px solid white;
-    left: 0;
-  }
-
+  
   .phases ul li:nth-child(even) a:before {
-    border-right: 40px solid white;
-    border-left: none;
-    left: auto;
-    right: 0;
+    border-top: 50px solid #ffffff;
+    border-width: 55px;
   }
 }
 
@@ -200,18 +225,14 @@
 
   .phases ul li a {
     font-size: 14px;
-    padding: 8px 10px;
-  }
-}
-
-
-@media (max-width: 576px) {
-  .containerCH h1 {
-    font-size: 1.25rem;
+    padding: 12px 16px;
   }
 
-  .phases ul li a {
-    font-size: 14px;
-    padding: 8px 10px;
+  .phases ul li a:after,
+  .phases ul li a:before {
+    border-left: 15px solid transparent;
+    border-right: 15px solid transparent;
+    border-top-width: 15px;
+    border-bottom-width: 15px;
   }
 }

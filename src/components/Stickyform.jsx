@@ -15,10 +15,10 @@ const SContactForm = () => {
     const handleResize = () => {
       if (window.innerWidth <= 768) {
         setIsMobileView(true);
-        setIsFormVisible(false); // Keep the form hidden initially on mobile
+        setIsFormVisible(false); 
       } else {
         setIsMobileView(false);
-        setIsFormVisible(true); // Show the form on desktop view
+        setIsFormVisible(true); 
       }
     };
 

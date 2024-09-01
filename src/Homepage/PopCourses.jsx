@@ -34,6 +34,7 @@ const courses = [
 const Courses = () => {
   const [showModal, setShowModal] = useState(false);
   const [selectedCourse, setSelectedCourse] = useState(null);
+  const [formData, setFormData] = useState(null);
 
   useEffect(() => {
     AOS.init({ duration: 1000 });
@@ -49,9 +50,20 @@ const Courses = () => {
     };
   }, [showModal]);
 
-  const handleEnrollNowClick = (course) => {
-    setSelectedCourse(course);
+  const handleEnrollNowClick = (courseName) => {
+    fetchFormData(courseName);
+    setSelectedCourse(courseName);
     setShowModal(true);
+  };
+
+  const fetchFormData = async (courseName) => {
+    try {
+      const response = await fetch('Jsonfolder/formData.json');
+      const data = await response.json();
+      setFormData(data.forms[courseName] || data.forms['default']);
+    } catch (error) {
+      console.error('Error fetching form data:', error);
+    }
   };
 
   const handleCloseModal = () => {
@@ -92,9 +104,9 @@ const Courses = () => {
         <Button className="outline-btnn">Download Brochure</Button>
         <Button className="outline-btnn" onClick={() => handleEnrollNowClick('Book Demo for Free')}>Book Demo</Button>
       </div>
-      {showModal && (
+      {showModal && formData && (
         <Suspense fallback={<div>Loading...</div>}>
-          <ContactForm onClose={handleCloseModal} course={selectedCourse} />
+          <ContactForm onClose={handleCloseModal} formData={formData} />
         </Suspense>
       )}
     </div>

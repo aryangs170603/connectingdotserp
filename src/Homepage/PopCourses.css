@@ -43,13 +43,13 @@ body.modal-open {
 
 .course-card {
   background-color: #fff;
-  padding: 20px; /* Decreased from 30px to 20px */
+  padding: 20px; 
   text-align: center;
   margin: 10px;
   transition: 0.5s;
   box-shadow: 0 5px 25px -2px rgb(0 0 0 / 30%);
   position: relative;
-  width: 220px; /* Decreased from 300px to 220px */
+  width: 220px; 
   height: auto;
   border-radius: 5px;
   font-family: 'Lato', sans-serif;
@@ -67,8 +67,8 @@ body.modal-open {
 }
 
 .course-icon {
-  width: 60px; /* Decreased from 80px to 60px */
-  height: 60px; /* Decreased from 80px to 60px */
+  width: 60px; 
+  height: 60px; 
   border-radius: 0%;
   overflow: hidden;
   padding: 0;
@@ -82,14 +82,14 @@ body.modal-open {
 }
 
 .course-card h3 {
-  font-size: 18px; /* Decreased from 20px to 18px */
+  font-size: 18px; 
   font-weight: 500;
-  margin-top: 15px; /* Decreased from 20px to 15px */
+  margin-top: 15px; 
   margin-bottom: 10px;
 }
 
 .course-card p {
-  font-size: 14px; /* Decreased from 16px to 14px */
+  font-size: 14px; 
   color: #666;
 }
 
@@ -159,32 +159,32 @@ body.modal-open {
 
 @media screen and (max-width: 1200px) {
   .course-card {
-    width: calc(25% - 20px); /* 4 cards per row with margin */
+    width: calc(25% - 20px); 
   }
 }
 
 @media screen and (max-width: 768px) {
   .course-card {
-    width: calc(33.33% - 20px); /* 3 cards per row with margin */
+    width: calc(33.33% - 20px);
   }
 }
 
 @media screen and (max-width: 576px) {
   .course-card {
-    width: calc(50% - 20px); /* 2 cards per row with margin */
+    width: calc(50% - 20px); 
   }
 
   .course-icon img {
-    width: 40px; /* Decreased from 50px to 40px */
-    height: 40px; /* Decreased from 50px to 40px */
+    width: 40px; 
+    height: 40px; 
   }
 
   .course-card h3 {
-    font-size: 16px; /* Decreased from 18px to 16px */
+    font-size: 16px; 
   }
 
   .course-card p {
-    font-size: 12px; /* Decreased from 14px to 12px */
+    font-size: 12px; 
   }
 
   .outline-btn {
