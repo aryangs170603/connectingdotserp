@@ -1,22 +1,27 @@
-import React, { useState } from 'react';
-import { useNavigate } from 'react-router-dom';
-import './AdminLogin.css';
+import React, { useState } from "react";
+import { useNavigate } from "react-router-dom";
+import "./AdminLogin.css";
 
-const AdminLogin = ({ onLogin }) => {  // Add the onLogin prop
-  const [password, setPassword] = useState('');
+const AdminLogin = ({ onLogin }) => {
+  const [email, setEmail] = useState("");
+  const [password, setPassword] = useState("");
   const navigate = useNavigate();
 
-  // Access the environment variable using Vite
-  const ADMIN_PASSWORD = import.meta.env.VITE_ADMIN_PASSWORD;
-  console.log('Admin Password from env:', ADMIN_PASSWORD); // Debugging line
+  // Access the environment variables using Vite
+  const ADMIN_EMAILS = import.meta.env.VITE_ADMIN_EMAILS.split(",");
+  const ADMIN_PASSWORDS = import.meta.env.VITE_ADMIN_PASSWORDS.split(",");
 
   const handleSubmit = (e) => {
     e.preventDefault();
-    if (password === ADMIN_PASSWORD) {
+
+    // Check if the email and password match any of the allowed users
+    const userIndex = ADMIN_EMAILS.indexOf(email);
+
+    if (userIndex !== -1 && ADMIN_PASSWORDS[userIndex] === password) {
       onLogin(); // Set the user as authenticated
-      navigate('/dashboard'); // Redirect to dashboard on successful login
+      navigate("/dashboard"); // Redirect to dashboard on successful login
     } else {
-      alert('Incorrect password!');
+      alert("Incorrect email or password!");
     }
   };
 
@@ -26,18 +31,33 @@ const AdminLogin = ({ onLogin }) => {  // Add the onLogin prop
         <form onSubmit={handleSubmit}>
           <h2>Admin Log-In</h2>
           <div className="inputbox">
+            <ion-icon name="person-outline"></ion-icon>
+            <input
+              type="email"
+              name="Email"
+              id="EmailId"
+              value={email}
+              onChange={(e) => setEmail(e.target.value)}
+              required
+            />
+            <label htmlFor="EmailId">Email Address</label>
+          </div>
+
+          <div className="inputbox">
             <ion-icon name="lock-closed-outline"></ion-icon>
-            <input 
-              type="password" 
-              name="password" 
-              id="loginPassword" 
+            <input
+              type="password"
+              name="password"
+              id="loginPassword"
               value={password}
               onChange={(e) => setPassword(e.target.value)}
-              required 
+              required
             />
             <label htmlFor="loginPassword">Password</label>
           </div>
-          <button type="submit" className="adminbtn">Log In</button>
+          <button type="submit" className="adminbtn">
+            Log In
+          </button>
         </form>
       </div>
     </section>

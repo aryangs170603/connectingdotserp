@@ -995,9 +995,9 @@
       },
                 "ficoheader": {
                       "FICOHeader": {
-                          "title": "SAP FICO Training Program",
-                          "subtitle": "SAP FICO Course",
-                          "description": "Unlock the power of data with Connecting Dots SAP FICO course, mastering crucial skills for success in the field, all backed by secure placement support.",
+                          "title": "SAP FICO Course in {city}",
+                          "subtitle": "Practical Based Job Oriented Training",
+                          "description": "An SAP FICO course in Pune is crucial as it equips professionals with essential skills in financial management and controlling, vital for effective business operations. It also enhances career prospects by meeting the high demand for SAP FICO experts in various industries.",
                            "backgroundImage": "src/Logos/DSimages/dsheader.gif", 
                           "features": [
                               "Live Class",

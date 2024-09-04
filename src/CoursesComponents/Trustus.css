@@ -3,10 +3,11 @@
   max-width: 1800px;
   width: 97.5%;
   margin: 0 auto;
-  background-color: #f0f0f0; 
-   padding: 40px;
+  background-color: #f0f0f0;
+  padding: 40px;
   margin-bottom: 20px;
 }
+
 .container-it-ds-title {
   font-size: 34px;
   font-weight: bolder;
@@ -21,8 +22,6 @@
   justify-content: center;
   margin-top: -40px;
   padding-right: 50px;
-  
-  
 }
 
 .logos-it-ds {
@@ -31,10 +30,9 @@
   overflow: hidden;
   justify-content: space-between;
   width: 30%; 
-   padding: 20px;
+  padding: 20px;
   margin-left: 50px;
   margin-top: 80px;
-   
 }
 
 .marquee-it-ds {
@@ -52,20 +50,16 @@
 
 @keyframes marquee-it-ds {
   0% { transform: translateY(0); }
-  100% { transform: translateY(-50%); } 
+  100% { transform: translateY(-50%); }
 }
 
 .logo-it-ds {
   margin-bottom: 16px;
 }
 
-
-
-
-
 .info-it-ds {
   width: 50%; 
-   padding: 20px;
+  padding: 20px;
   margin-left: 80px;
 }
 
@@ -78,8 +72,7 @@
 
 .description-it-ds {
   margin-top: 16px;
-  color: #6b7280; 
-  
+  color: #6b7280;
 }
 
 .statistics-it-ds {
@@ -94,9 +87,74 @@
 .number-it-ds {
   font-size: 2.5rem;
   font-weight: bold;
-  color: #4f46e5; 
+  color: #4f46e5;
 }
 
 .label-it-ds {
-  color: #6b7280; 
+  color: #6b7280;
+}
+
+/* Mobile-specific adjustments */
+@media (max-width: 767px) {
+  .container-it-ds {
+    flex-direction: column; /* Stack content vertically */
+    padding: 20px;
+  }
+
+  .container-it-ds-title {
+    font-size: 2rem;
+    margin-bottom: 20px;
+    letter-spacing: 4px;
+    text-align: center; /* Center the title on mobile */
+    margin-top: 0;
+    padding-right: 0;
+  }
+
+  .logos-it-ds {
+    flex-direction: column; /* Stack logos vertically */
+    align-items: center;
+    width: 100%; /* Full width */
+    margin-left: 0;
+    margin-top: 20px;
+    padding: 0; /* Remove padding */
+  }
+
+  .marquee-it-ds {
+    width: 100%; /* Full width */
+    height: 200px; /* Reduce height for mobile */
+  }
+
+  .marquee-content-it-ds {
+    flex-direction: row; /* Horizontal scrolling on mobile */
+    animation: marquee-it-ds-horizontal 10s linear infinite;
+  }
+
+  @keyframes marquee-it-ds-horizontal {
+    0% { transform: translateX(0); }
+    100% { transform: translateX(-100%); }
+  }
+
+  .logo-it-ds {
+    margin: 0 8px; /* Adjust margin for horizontal scroll */
+    height: 40px; /* Reduce logo size for mobile */
+  }
+
+  .info-it-ds {
+    width: 100%; /* Full width */
+    margin-left: 0; /* Remove margin */
+    text-align: center; /* Center text on mobile */
+    margin-top: 20px; /* Adjust margin */
+  }
+
+  .title-it-ds {
+    font-size: 1.5rem; /* Adjust font size for mobile */
+  }
+
+  .description-it-ds {
+    text-align: center; /* Center the description text */
+  }
+
+  .statistics-it-ds {
+    text-align: center; /* Center the statistics */
+  }
 }

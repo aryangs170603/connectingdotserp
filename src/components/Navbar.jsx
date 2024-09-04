@@ -355,15 +355,7 @@ const Header = () => {
                 About us
               </Nav.Link>
             </div>
-            <div className="dropdown2">
-              <Nav.Link
-                href="/AdminLogin"
-                className={`mx-lg-2 ${activeLink === "login" ? "active" : ""}`}
-                onClick={() => handleNavClick("login")}
-              >
-                Login
-              </Nav.Link>
-            </div>
+            
           </Nav>
         </Container>
       </Navbar>

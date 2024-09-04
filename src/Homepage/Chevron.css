@@ -136,6 +136,7 @@
   .containerCH h1 {
     font-size: 1.5rem;
     align-items: center;
+    text-align: center;
   }
 
   .phases {
@@ -151,14 +152,12 @@
   }
 
   .phases ul li {
-    
     display: flex;
     justify-content: center;
     margin-bottom: 90px; /* More spacing between chevrons */
     position: relative;
     width: 40%;
     max-width: 260px; /* Slightly increase width */
-    
     margin-left: 50px;
   }
 

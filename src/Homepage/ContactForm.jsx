@@ -1,37 +1,19 @@
 import React, { useState, useEffect } from 'react';
+import './ContactForm.css'; // Ensure this file includes necessary styling
 
-const ContactForm = ({ course, onClose }) => {
-  const [formData, setFormData] = useState(null);
+const ContactForm = ({ course, formData, onClose }) => {
   const [formValues, setFormValues] = useState({});
 
   useEffect(() => {
-    const fetchData = async () => {
-      try {
-        const response = await fetch('/Jsonfolder/formData.json'); // Ensure the correct path
-        const data = await response.json();
-        const selectedFormData = data.forms[course] || data.forms.default;
-
-        console.log('Fetched Form Data:', selectedFormData); // Debug: Check fetched form data
-
-        // Initialize form values based on the fields
-        const initialFormValues = {};
-        selectedFormData.fields.forEach(field => {
-          initialFormValues[field.name] = '';
-        });
-
-        setFormValues(initialFormValues);
-        setFormData(selectedFormData);
-      } catch (error) {
-        console.error('Error fetching form data:', error);
-      }
-    };
-
-    fetchData();
-  }, [course]);
-
-  if (!formData) {
-    return <div>Loading form...</div>; // Show a loading state
-  }
+    // Initialize form values based on the fields
+    if (formData && formData.fields) {
+      const initialFormValues = {};
+      formData.fields.forEach(field => {
+        initialFormValues[field.name] = ''; // Initialize with an empty string
+      });
+      setFormValues(initialFormValues);
+    }
+  }, [formData]);
 
   const handleChange = (event) => {
     const { name, value } = event.target;
@@ -42,13 +24,13 @@ const ContactForm = ({ course, onClose }) => {
     event.preventDefault();
     try {
       console.log('Form Submitted:', formValues);
-      // Add your form submission logic here (e.g., send data to the server)
       onClose(); // Close modal after submission
     } catch (error) {
       console.error('Error submitting form:', error);
-      // Optionally, show an error message to the user
     }
   };
+
+  if (!formData) return null; // Prevent rendering if formData is not yet available
 
   return (
     <div className="modal-overlay">
@@ -64,7 +46,7 @@ const ContactForm = ({ course, onClose }) => {
                   type={field.type}
                   id={field.name}
                   name={field.name}
-                  value={formValues[field.name]}
+                  value={formValues[field.name] || ''} // Default to an empty string
                   onChange={handleChange}
                   required
                 />

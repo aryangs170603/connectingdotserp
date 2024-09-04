@@ -1,6 +1,7 @@
 {
   "forms": {
     "default": {
+      "id": "default",
       "title": "Enroll Now in",
       "fields": [
         {
@@ -28,6 +29,8 @@
     },
     "SAP S/4 HANA Courses": {
       "title": "Enroll in SAP S/4 HANA",
+      "id": "sap-s4hana",
+
       "fields": [
         {
           "name": "name",
@@ -54,6 +57,7 @@
     },
     "Masters in Data Science": {
       "title": "Enroll in Data Science",
+      "id": "data-science",
       "fields": [
         {
           "name": "name",
@@ -80,6 +84,7 @@
     },
     "Masters in Data Analytics": {
       "title": "Enroll in Data Analytics",
+      "id": "data-analytics",
       "fields": [
         {
           "name": "name",
@@ -106,6 +111,7 @@
     },
     "Salesforce": {
       "title": "Enroll in Salesforce",
+      "id": "salesforce",
       "fields": [
         {
           "name": "name",
@@ -132,6 +138,7 @@
     },
     "HR Courses": {
       "title": "Enroll in HR Courses",
+      "id": "hr-courses",
       "fields": [
         {
           "name": "name",
@@ -158,6 +165,7 @@
     },
     "Full-Stack Python": {
       "title": "Enroll in Full-Stack Python",
+      "id": "full-stack-python",
       "fields": [
         {
           "name": "name",
@@ -184,6 +192,7 @@
     },
     "Full-Stack Java": {
       "title": "Enroll in Full-Stack Java",
+      "id": "full-stack-java",
       "fields": [
         {
           "name": "name",
@@ -210,6 +219,7 @@
     },
     "PowerBI": {
       "title": "Enroll in PowerBI",
+      "id": "power-bi",
       "fields": [
         {
           "name": "name",
@@ -236,6 +246,7 @@
     },
     "AWS/Azure/Google Cloud Platform": {
       "title": "Enroll in Cloud Platform",
+      "id": "aws-azure-gcp",
       "fields": [
         {
           "name": "name",

@@ -1,13 +1,12 @@
-import React, { useState, useEffect, Suspense, lazy } from 'react';
+import React, { useState, useEffect } from 'react';
 import AOS from 'aos';
 import 'aos/dist/aos.css';
 import { Helmet } from 'react-helmet';
-import LazyLoad from 'react-lazyload';
 import { Button } from 'react-bootstrap';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import './PopCourses.css';
 
-const ContactForm = lazy(() => import('./ContactForm'));
+import ContactForm from './ContactForm';
 
 import img1 from '../Icons/sap (3).png';
 import img2 from '../Icons/MnDS.png';
@@ -20,26 +19,26 @@ import img8 from '../Icons/business-intelligence.png';
 import img9 from '../Icons/cloud-data.png';
 
 const courses = [
-  { name: 'SAP S/4 HANA Courses', count: 25, icon: img1 },
-  { name: 'Masters in Data Science', count: 25, icon: img2 },
-  { name: 'Masters in Data Analytics', count: 16, icon: img3 },
-  { name: 'Salesforce', count: 30, icon: img4 },
-  { name: 'HR Courses', count: 8, icon: img5 },
-  { name: 'Full-Stack Python', count: 12, icon: img6 },
-  { name: 'Full-Stack Java', count: 17, icon: img7 },
-  { name: 'PowerBI', count: 17, icon: img8 },
-  { name: 'AWS/Azure/Google Cloud Platform', count: 17, icon: img9 },
+  { id: 'sap_hana', name: 'SAP S/4 HANA Courses', count: 25, icon: img1 },
+  { id: 'data_science', name: 'Masters in Data Science', count: 25, icon: img2 },
+  { id: 'data_analytics', name: 'Masters in Data Analytics', count: 16, icon: img3 },
+  { id: 'salesforce', name: 'Salesforce', count: 30, icon: img4 },
+  { id: 'hr_courses', name: 'HR Courses', count: 8, icon: img5 },
+  { id: 'python', name: 'Full-Stack Python', count: 12, icon: img6 },
+  { id: 'java', name: 'Full-Stack Java', count: 17, icon: img7 },
+  { id: 'powerbi', name: 'PowerBI', count: 17, icon: img8 },
+  { id: 'cloud_platform', name: 'AWS/Azure/Google Cloud Platform', count: 17, icon: img9 },
 ];
 
 const Courses = () => {
-  const [showModal, setShowModal] = useState(false);
-  const [selectedCourse, setSelectedCourse] = useState(null);
+  const [showPopupForm, setShowPopupForm] = useState(false);
+  const [selectedCourseId, setSelectedCourseId] = useState(null);
   const [formData, setFormData] = useState(null);
 
   useEffect(() => {
     AOS.init({ duration: 1000 });
 
-    if (showModal) {
+    if (showPopupForm) {
       document.body.classList.add('modal-open');
     } else {
       document.body.classList.remove('modal-open');
@@ -48,27 +47,27 @@ const Courses = () => {
     return () => {
       document.body.classList.remove('modal-open');
     };
-  }, [showModal]);
+  }, [showPopupForm]);
 
-  const handleEnrollNowClick = (courseName) => {
-    fetchFormData(courseName);
-    setSelectedCourse(courseName);
-    setShowModal(true);
+  const handleEnrollNowClick = (courseId) => {
+    fetchFormData(courseId);
+    setSelectedCourseId(courseId);
+    setShowPopupForm(true);
   };
 
-  const fetchFormData = async (courseName) => {
+  const fetchFormData = async (courseId) => {
     try {
       const response = await fetch('Jsonfolder/formData.json');
       const data = await response.json();
-      setFormData(data.forms[courseName] || data.forms['default']);
+      setFormData(data.forms[courseId] || data.forms['default']);
     } catch (error) {
       console.error('Error fetching form data:', error);
     }
   };
 
-  const handleCloseModal = () => {
-    setShowModal(false);
-    setSelectedCourse(null);
+  const handleClosePopupForm = () => {
+    setShowPopupForm(false);
+    setSelectedCourseId(null);
   };
 
   return (
@@ -83,17 +82,15 @@ const Courses = () => {
         <h2>OUR POPULAR COURSES</h2>
       </div>
       <div className="courses-grid">
-        {courses.map((course, index) => (
+        {courses.map((course) => (
           <div
-            key={index}
+            key={course.id}
             className="course-card"
-            onClick={() => handleEnrollNowClick(course.name)}
+            onClick={() => handleEnrollNowClick(course.id)}
             data-aos="fade-up"
           >
             <div className="icon-container">
-              <LazyLoad height={100} offset={100}>
-                <img src={course.icon} alt={`${course.name} icon`} className="course-icon" />
-              </LazyLoad>
+              <img src={course.icon} alt={`${course.name} icon`} className="course-icon" />
             </div>
             <h3>{course.name}</h3>
             <p>{course.count} Seats Left</p>
@@ -101,13 +98,18 @@ const Courses = () => {
         ))}
       </div>
       <div className="mb-3">
-        <Button className="outline-btnn">Download Brochure</Button>
-        <Button className="outline-btnn" onClick={() => handleEnrollNowClick('Book Demo for Free')}>Book Demo</Button>
+        {/* Download Brochure Button */}
+        <Button 
+          className="outline-btnn" 
+          onClick={() => window.open('https://drive.google.com/uc?export=download&id=1MNNq4w8dcw88Q9fSIh5Y4s-UmTonmCsc', '_blank')}
+        >
+          Download Brochure
+        </Button>
+
+        <Button className="outline-btnn" onClick={() => handleEnrollNowClick('demo')}>Book Demo</Button>
       </div>
-      {showModal && formData && (
-        <Suspense fallback={<div>Loading...</div>}>
-          <ContactForm onClose={handleCloseModal} formData={formData} />
-        </Suspense>
+      {showPopupForm && formData && (
+        <ContactForm course={selectedCourseId} formData={formData} onClose={handleClosePopupForm} />
       )}
     </div>
   );

@@ -2,7 +2,7 @@ import React, { useState, useEffect, useContext } from 'react';
 import AOS from 'aos';
 import 'aos/dist/aos.css';
 import './sapmod.css';
-import { CityContext } from '../CityContext'; 
+import { CityContext } from '../CityContext';
 
 const SapModComponent = ({ pageId }) => {
   const [data, setData] = useState(null);
@@ -59,15 +59,11 @@ const SapModComponent = ({ pageId }) => {
     fetchData();
   }, [pageId, city]);
 
-  // This effect runs when the data has been successfully loaded
   useEffect(() => {
     if (data && data.noteAdvance) {
-      // Get the container where the word will be displayed
       const container = document.getElementById('glow-container');
       if (container) {
-        container.innerHTML = ''; // Clear any existing content
-
-        // Create a span for each letter in the noteAdvance word
+        container.innerHTML = '';
         data.noteAdvance.split('').forEach((letter, index) => {
           const span = document.createElement('span');
           span.textContent = letter;
@@ -94,13 +90,13 @@ const SapModComponent = ({ pageId }) => {
     <div className="sap-mod-container">
       <h1 className="sap-mod-heading" data-aos="fade-up">CURRICULUM</h1>
       <div className="sap-mod-card" data-aos="fade-right">
-        <h2 className="text-2xl font-bold mb-4"
+        <h2
+          className="text-2xl font-bold mb-4"
           dangerouslySetInnerHTML={{ __html: data.title2 }}
         />
         <p className="mb-4 text-lg" data-aos="fade-left">{data.description}</p>
         <p className="text-base mb-6" data-aos="fade-up">{data.summary}</p>
 
-        {/* Glow Text Container */}
         <div id="glow-container" className="glow-text"></div>
 
         <p className="text-danger mb-6">{data.noteMaster}</p>
@@ -119,10 +115,25 @@ const SapModComponent = ({ pageId }) => {
           )}
         </div>
 
-        {/* Download Brochure Button with GIF */}
         <div className="sap-mod-button-container mt-6" data-aos="fade-up">
-          <button className="sap-mod-button">Download Brochure</button>
-          <img src="Jsonfolder/path/artificial-intelligence (1).gif" alt="Download Animation" className="download-gif" />
+          <button
+            className="sap-mod-button"
+            onClick={() => {
+              if (data.downloadLink) {
+                window.open(data.downloadLink, '_blank');
+              } else {
+                alert('Download link is not available.');
+              }
+            }}
+          >
+            Download Brochure
+          </button>
+
+          <img
+            src={data.gifUrl}
+            alt="Download Animation"
+            className="download-gif"
+          />
         </div>
       </div>
       <div className="sap-mod-card sap-mod-card-secondary" data-aos="fade-up">
@@ -132,6 +143,7 @@ const SapModComponent = ({ pageId }) => {
             data.overview.modules.map((module, index) => (
               <div key={index} className={`sap-mod-card-content ${index % 2 === 1 ? 'alt' : ''}`} data-aos="zoom-in">
                 <span className="text-lg">{module.name}</span>
+                <span className="text-sm text-gray-600">{module.duration}</span>
               </div>
             ))
           ) : (
@@ -141,12 +153,11 @@ const SapModComponent = ({ pageId }) => {
         </div>
       </div>
 
-      {/* Dynamic Note Section */}
       <div className="sap-mod-note" data-aos="fade-up">
         {data.note && (
           <p
             className="text-lg"
-            dangerouslySetInnerHTML={{ __html: data.note.replace(/\n/g, '<br/>') }} // Replace newlines with <br>
+            dangerouslySetInnerHTML={{ __html: data.note.replace(/\n/g, '<br/>') }}
           />
         )}
       </div>

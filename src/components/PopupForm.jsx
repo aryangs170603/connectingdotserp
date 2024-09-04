@@ -1,6 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import './PopupForm.css';
 import { useLocation } from 'react-router-dom';
+import axios from 'axios';
 
 const PopupForm = ({ onSubmitData }) => {
   const location = useLocation();
@@ -21,11 +22,12 @@ const PopupForm = ({ onSubmitData }) => {
       return;
     }
 
+    // Increase the initial appearance timer to 15 seconds
     const showTimer = setTimeout(() => {
       if (!hiddenPages.includes(location.pathname)) {
-        setIsVisible(true);
+        setIsVisible(false);
       }
-    }, 5000); 
+    }, 5001); 
 
     return () => clearTimeout(showTimer);
   }, [location.pathname]);
@@ -64,7 +66,7 @@ const PopupForm = ({ onSubmitData }) => {
       alert('Invalid email format. Only lowercase letters, "@" and "." are allowed.');
       return;
     }
-                                                                          
+
     // Course Validation
     if (course.length > 50) {
       alert('Course name cannot exceed 50 characters.');
@@ -84,20 +86,29 @@ const PopupForm = ({ onSubmitData }) => {
       date: new Date().toISOString(),
     };
 
-    // Save the form data to local storage
-    const storedLeads = JSON.parse(localStorage.getItem('leads')) || [];
-    storedLeads.push(formData);
-    localStorage.setItem('leads', JSON.stringify(storedLeads));
+    try {
+      const response = await axios.post('http://localhost:3000/api/submit', formData);
 
-    alert('Registration complete!');
-    onSubmitData(formData); 
+      console.log('Server response:', response.data);
+      alert('Registration complete!');
+      onSubmitData(formData); 
 
-    setName('');
-    setMobile('');
-    setEmail('');
-    setCourse('');
-    setIsChecked(false);
-    setIsVisible(false);
+      // Save the form data to local storage
+      const storedLeads = JSON.parse(localStorage.getItem('leads')) || [];
+      storedLeads.push(formData);
+      localStorage.setItem('leads', JSON.stringify(storedLeads));
+
+      setName('');
+      setMobile('');
+      setEmail('');
+      setCourse('');
+      setIsChecked(false);
+      setIsVisible(false);
+
+    } catch (error) {
+      console.error('Error submitting form:', error);
+      alert('An error occurred while submitting the form.');
+    }
   };
 
   if (location.pathname === '/Dashboard' || location.pathname === '/AdminLogin') {
@@ -122,7 +133,7 @@ const PopupForm = ({ onSubmitData }) => {
             value={name}
             onChange={(e) => setName(e.target.value)}
             required
-            maxLength="50" // Limit input length
+            maxLength="50"
           />
           <input
             type="email"
@@ -130,7 +141,7 @@ const PopupForm = ({ onSubmitData }) => {
             value={email}
             onChange={(e) => setEmail(e.target.value)}
             required
-            pattern="[a-z]+[a-z0-9._]+@[a-z]+\.[a-z]{2,}$" // Regex for lowercase email
+            pattern="[a-z]+[a-z0-9._]+@[a-z]+\.[a-z]{2,}$"
             title="Email must be lowercase, contain '@', and end with a valid domain (e.g., .com, .org)."
           />
           <input
@@ -139,7 +150,7 @@ const PopupForm = ({ onSubmitData }) => {
             value={mobile}
             onChange={(e) => setMobile(e.target.value)}
             required
-            pattern="[0-9]{10}" // Regex for 10-digit mobile number
+            pattern="[0-9]{10}"
             title="Mobile number must be exactly 10 digits."
           />
           <input
@@ -148,7 +159,7 @@ const PopupForm = ({ onSubmitData }) => {
             value={course}
             onChange={(e) => setCourse(e.target.value)}
             required
-            maxLength="50" // Limit input length
+            maxLength="50"
           />
           <div className="terms-checkbox">
             <input

@@ -3,7 +3,7 @@ import { Carousel, Col, Card } from "react-bootstrap";
 import "bootstrap/dist/css/bootstrap.min.css";
 import "./HeaderCarousel.css";
 import TextTransition, { presets } from "react-text-transition";
-import slideImage3 from "../Logos/Headercarousel/header1.gif";
+import slideImage3 from "../Logos/Headercarousel/file02.png";
 import logostrip from "../Logos/Headercarousel/logo strip.png";
 import SAPmodule1 from "../Logos/Headercarousel/SAP module1.png";
 import DSh from "../Logos/Headercarousel/DSh.png";

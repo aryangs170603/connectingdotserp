@@ -1,7 +1,5 @@
 import React, { useState, useEffect, useRef } from "react";
 import { Container, Row, Col, Card, Carousel } from "react-bootstrap";
-import AOS from "aos";
-import "aos/dist/aos.css";
 import "bootstrap/dist/css/bootstrap.min.css";
 import "./FeedbackandReviews.css";
 import premImage1 from "../Logos/FeedbacksandReviews/review image 1.png";
@@ -67,12 +65,6 @@ const FeedbackAndReviews = () => {
   };
 
   useEffect(() => {
-    AOS.init({
-      duration: 9000,
-      easing: "ease-out-cubic",
-      once: false,
-    });
-
     document.addEventListener("mousedown", handleClickOutside);
     document.addEventListener("touchstart", handleClickOutside);
 
@@ -103,7 +95,6 @@ const FeedbackAndReviews = () => {
       fluid
       className="feedback-section text-center"
       ref={containerRef}
-      data-aos="fade-up"
     >
       <h3 className="section-subtitle">FEEDBACKS & REVIEWS</h3>
       <Carousel
@@ -114,7 +105,7 @@ const FeedbackAndReviews = () => {
       >
         {isMobile
           ? reviews.map((review, index) => (
-              <Carousel.Item key={index} data-aos="zoom-in" data-aos-delay={`${index * 100}`}>
+              <Carousel.Item key={index}>
                 <Row className="justify-content-center">
                   <Col xs={12} className="d-flex justify-content-center mb-4">
                     <Card
@@ -125,8 +116,6 @@ const FeedbackAndReviews = () => {
                         e.stopPropagation();
                         toggleExpand(index);
                       }}
-                      data-aos="flip-left"
-                      data-aos-delay={`${index * 200}`}
                     >
                       <div className="card-body-wrapper d-flex">
                         <div className="img-container">
@@ -159,7 +148,7 @@ const FeedbackAndReviews = () => {
           : reviews.reduce((acc, review, index) => {
               if (index % 3 === 0) {
                 acc.push(
-                  <Carousel.Item key={index} data-aos="zoom-in" data-aos-delay={`${index * 100}`}>
+                  <Carousel.Item key={index}>
                     <Row className="justify-content-center">
                       {[index, index + 1, index + 2].map((i) => (
                         <Col key={i} md={4} xs={12} className="d-flex justify-content-center mb-4">
@@ -172,8 +161,6 @@ const FeedbackAndReviews = () => {
                                 e.stopPropagation();
                                 toggleExpand(i);
                               }}
-                              data-aos="flip-left"
-                              data-aos-delay={`${i * 200}`}
                             >
                               <div className="card-body-wrapper d-flex">
                                 <div className="img-container">
