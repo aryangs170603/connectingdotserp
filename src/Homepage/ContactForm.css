@@ -1,123 +1,124 @@
-/* Modal Overlay */
 .modal-overlay {
   position: fixed;
   top: 0;
   left: 0;
   width: 100%;
   height: 100%;
-  background: transparent; /* Semi-transparent background for the form container */
-  backdrop-filter: blur(10px); /* Dark overlay */
+  background: transparent;
+  backdrop-filter: blur(4px);
   display: flex;
   justify-content: center;
   align-items: center;
   z-index: 9999;
-  transition: opacity 0.3s ease; /* Smooth fade in */
   opacity: 1;
   pointer-events: auto;
-  background-color: rgba(0, 0, 0, 0);
+  
 }
 
-/* Modal Container */
 .modal-content {
-  background-color: #fff;
-  padding: 20px;
-  border-radius: 10px;
+  background-color: rgba(249, 249, 249, 0.50); /* Added opacity for fading */
+  background-blend-mode: overlay;
+  padding: 30px;
+  border-radius: 12px;
   width: 100%;
-  max-width: 450px;
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  max-width: 400px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
   z-index: 10000;
   position: relative;
-  animation: slideDown 0.3s ease-out; /* Modal slide down effect */
+  animation: slideDown 0.3s ease-out;
+  background-image: url('../Logos/ContactForm/backimage.png'), url('../Logos/ContactForm/backimage2.png');
+  background-size: cover, cover;
+  background-position: center top ,center bottom; /* Shifts the image downwards */
+  background-repeat: no-repeat, no-repeat;
+  filter: brightness(0.9);
+  padding-top: 50px;
+ 
 }
 
-/* Slide Down Animation */
-@keyframes slideDown {
-  from {
-    transform: translateY(-50px);
-    opacity: 0;
-  }
-  to {
-    transform: translateY(0);
-    opacity: 1;
-  }
-}
-
-/* Close Button */
 .close-btn-contact {
   position: absolute;
-  top: 10px;
-  right: 14px;
+  top: 12px;
+  right: 16px;
   font-size: 28px;
-  color: #aaa;
+  color: #888;
   cursor: pointer;
   transition: color 0.3s ease;
 }
 
 .close-btn-contact:hover,
 .close-btn-contact:focus {
-  color: black;
+  color: #444;
 }
 
-/* Title styling */
-.modal-title {
-  font-size: 24px;
+.headinn {
+  font-size: 27px;
+  letter-spacing: 3px;
   font-weight: bold;
-  margin-bottom: 20px; /* Space between title and labels */
+  color: #333;
   text-align: center;
+  margin-bottom: 10px;  
+}
+.line-separator {
+  width: 100%; 
+  height: 1px; 
+  background-color: #333; 
+  margin: 1px;
+  margin-bottom: 20px; 
 }
 
-/* Contact Form Styling */
 .contact-form {
   display: flex;
   flex-direction: column;
 }
 
-/* Form Group - Labels above input fields */
 .contact-form-group {
   display: flex;
-  flex-direction: column; /* Stack labels and inputs vertically */
-  margin-bottom: 25px;
+  flex-direction: column;
+  margin-bottom: 50px;
 }
 
 .contact-form-group label {
-  margin-bottom: 5px; /* Small gap between label and input field */
-  font-weight: bold;
+  margin-bottom: 5px;
+  font-weight: 600;
   text-align: left;
-  font-size: 14px;
+  font-size: 16px; 
+  color: #333; 
 }
 
 .contact-form-group input {
-  padding: 10px;
-  width: 100%; /* Full width input field */
-  border-radius: 5px;
-  border: 1px solid #ccc;
+  padding: 12px;
+  width: 100%;
+  border-radius: 8px;
+  border: 1px solid rgba(255, 255, 255, 0.4);
+  background-color: rgba(162, 160, 160, 0.4) ;
   box-sizing: border-box;
-  height: 35px;
+  height: 40px;
+  mix-blend-mode: multiply;
+  color: #000;
+  
 }
 
-.submit-btn {
-  background-color: #007BFF;
+.submit-btn-contact {
+  background-color: #0213ff;
   color: white;
-  padding: 10px;
+  padding: 12px 0;
   border: none;
-  border-radius: 5px;
-  cursor: pointer;
+  border-radius: 6px;
   font-size: 16px;
-  width: 150px; /* Reduced size of the submit button */
-  margin: 20px auto; /* Center the submit button */
+  cursor: pointer;
+  width: 100%;
+  text-align: center;
+  margin-top: 10px;
+  margin-left: 5px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
 }
 
-.submit-btn:hover {
-  background-color: #0056b3;
+.submit-btn-contact:hover {
+  background-color: #111c62;
 }
 
-/* Responsive Modal Adjustments */
 @media (max-width: 768px) {
   .modal-content {
     width: 90%;
-  }
-
-  .submit-btn {
-    width: 120px; /* Further reduce button size on smaller screens */
   }
 }

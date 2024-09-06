@@ -54,12 +54,12 @@ const PopupForm = ({ onSubmitData }) => {
       name,
       contact: mobile,
       email,
-      courseName: course,
+      coursename: course,
       date: new Date().toISOString(),
     };
-
+    console.log("Submitting form data:", formData);  // Log form data
     try {
-      const response = await axios.post('http://localhost:5001/api/submit', formData);
+      const response = await axios.post('http://localhost:5001/api/submit', formData);y
       alert('Registration complete!');
       onSubmitData(formData); 
 
@@ -84,7 +84,7 @@ const PopupForm = ({ onSubmitData }) => {
   return (
     <div className="popup-form-overlay">
       <div className="popup-form-container">
-        <button className="close-button-pf-2" onClick={() => setIsVisible(false)}>×</button>
+        <button className="close-button-pf-2" onClick={() => setIsVisible(false)}>X</button>
         <div className="header-container">
           <img src="src/Logos/Navbar/connectingdotslogoppf.png" alt="Logo" className="logo-ppf" />
           <h2>Register now</h2>

@@ -41,24 +41,25 @@ const ContactForm = ({ course, formData, onClose }) => {
       <div className="modal-content">
         <span className="close-btn-contact" onClick={onClose}>&times;</span>
         <h2 className="headinn">{formData.title} {course}</h2>
+        <div className="line-separator"></div>
         <form className="contact-form" onSubmit={handleSubmit}>
-  {formData.fields
-    .filter(field => field.name !== 'message') // Exclude "Your Message" field
-    .map((field, index) => (
-      <div className="contact-form-group" key={index}>
-        <label htmlFor={field.name}>{field.label}</label>
-        <input
-          type={field.type}
-          id={field.name}
-          name={field.name}
-          value={formValues[field.name] || ''}
-          onChange={handleChange}
-          required
-        />
-      </div>
-    ))}
-  <button type="submit" className="submit-btn-contact">{buttonText}</button>
-</form>
+          {formData.fields
+            .filter(field => field.name !== 'message') 
+            .map((field, index) => (
+              <div className="contact-form-group" key={index}>
+                <input
+                  type={field.type}
+                  id={field.name}
+                  name={field.name}
+                  value={formValues[field.name] || ''}
+                  onChange={handleChange}
+                  placeholder={field.label}  
+                  required
+                />
+              </div>
+            ))}
+          <button type="submit" className="submit-btn-contact">{buttonText}</button>
+        </form>
       </div>
     </div>
   );

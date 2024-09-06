@@ -61,16 +61,17 @@
     "postcss": "^8.4.31"
   },
   "scripts": {
-    "start": "vite --port 3000 ",
-    "predeploy": "npm run build",
-    "deploy": "gh-pages -d build",
-    "build": "vite build",
-    "preview": "vite preview",
-    "test": "vitest",
-    "backend": "node index.js",
-    "frontend": "vite",
-    "dev": "concurrently \"npm run backend\" \"npm run frontend\""
-  },
+  "start": "vite --port 3000 ",
+  "predeploy": "npm run build",
+  "deploy": "gh-pages -d build",
+  "build": "vite build",
+  "preview": "vite preview",
+  "test": "vitest",
+  "backend": "nodemon server.js",  
+  "frontend": "vite",
+  "dev": "concurrently \"npm run backend\" \"npm run frontend\""
+}
+,
   "eslintConfig": {
     "extends": [
       "react-app",
@@ -94,11 +95,12 @@
     "concurrently": "^8.2.2",
     "gh-pages": "^6.1.1",
     "jsdom": "^22.1.0",
+    "nodemon": "^3.1.4",
     "react": "^18.2.0",
     "vite": "^4.5.3",
     "vitest": "^0.34.6"
   },
- "description": "Welcome to your shiny new Codespace running React! We've got everything fired up and running for you to explore React.",
+  "description": "Welcome to your shiny new Codespace running React! We've got everything fired up and running for you to explore React.",
   "main": "server.js",
   "keywords": [],
   "author": "",
