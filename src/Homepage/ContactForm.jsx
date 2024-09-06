@@ -1,15 +1,14 @@
 import React, { useState, useEffect } from 'react';
-import './ContactForm.css'; // Ensure this file includes necessary styling
+import './ContactForm.css';
 
 const ContactForm = ({ course, formData, onClose }) => {
   const [formValues, setFormValues] = useState({});
 
   useEffect(() => {
-    // Initialize form values based on the fields
     if (formData && formData.fields) {
       const initialFormValues = {};
       formData.fields.forEach(field => {
-        initialFormValues[field.name] = ''; // Initialize with an empty string
+        initialFormValues[field.name] = '';
       });
       setFormValues(initialFormValues);
     }
@@ -24,37 +23,42 @@ const ContactForm = ({ course, formData, onClose }) => {
     event.preventDefault();
     try {
       console.log('Form Submitted:', formValues);
-      onClose(); // Close modal after submission
+      onClose();
     } catch (error) {
       console.error('Error submitting form:', error);
     }
   };
 
-  if (!formData) return null; // Prevent rendering if formData is not yet available
+  if (!formData) return null;
+
+  // Ensure proper text for the button
+  const buttonText = formData.submitButton.includes('Demo') 
+    ? formData.submitButton.replace(/Demo\s*Demo/, 'Demo') 
+    : formData.submitButton;
 
   return (
     <div className="modal-overlay">
-      <div className="modal">
-        <div className="modal-content">
-          <span className="close-btn" onClick={onClose}>&times;</span>
-          <h2 className="headinn">{formData.title} {course}</h2>
-          <form className="contact-form" onSubmit={handleSubmit}>
-            {formData.fields.map((field, index) => (
-              <div className="form-group" key={index}>
-                <label htmlFor={field.name}>{field.label}</label>
-                <input
-                  type={field.type}
-                  id={field.name}
-                  name={field.name}
-                  value={formValues[field.name] || ''} // Default to an empty string
-                  onChange={handleChange}
-                  required
-                />
-              </div>
-            ))}
-            <button type="submit" className="submit-btn">{formData.submitButton}</button>
-          </form>
-        </div>
+      <div className="modal-content">
+        <span className="close-btn-contact" onClick={onClose}>&times;</span>
+        <h2 className="headinn">{formData.title} {course}</h2>
+        <form className="contact-form" onSubmit={handleSubmit}>
+  {formData.fields
+    .filter(field => field.name !== 'message') // Exclude "Your Message" field
+    .map((field, index) => (
+      <div className="contact-form-group" key={index}>
+        <label htmlFor={field.name}>{field.label}</label>
+        <input
+          type={field.type}
+          id={field.name}
+          name={field.name}
+          value={formValues[field.name] || ''}
+          onChange={handleChange}
+          required
+        />
+      </div>
+    ))}
+  <button type="submit" className="submit-btn-contact">{buttonText}</button>
+</form>
       </div>
     </div>
   );

@@ -5,7 +5,7 @@ import axios from 'axios';
 
 const PopupForm = ({ onSubmitData }) => {
   const location = useLocation();
-  const [isVisible, setIsVisible] = useState(false); 
+  const [isVisible, setIsVisible] = useState(false);
   const [name, setName] = useState('');
   const [mobile, setMobile] = useState('');
   const [email, setEmail] = useState('');
@@ -15,28 +15,25 @@ const PopupForm = ({ onSubmitData }) => {
   useEffect(() => {
     const hiddenPages = ['/AdminLogin', '/Dashboard'];
 
-    console.log("Current Path:", location.pathname);
-
     if (hiddenPages.includes(location.pathname)) {
       setIsVisible(false);
       return;
     }
 
-    // Increase the initial appearance timer to 15 seconds
     const showTimer = setTimeout(() => {
       if (!hiddenPages.includes(location.pathname)) {
-        setIsVisible(false);
+        setIsVisible(true); // Change to `true` to show the popup
       }
-    }, 5001); 
+    }, 5000); // 5 seconds
 
     return () => clearTimeout(showTimer);
   }, [location.pathname]);
 
   useEffect(() => {
     if (isVisible) {
-      document.body.classList.add('no-scroll'); 
+      document.body.classList.add('no-scroll');
     } else {
-      document.body.classList.remove('no-scroll'); 
+      document.body.classList.remove('no-scroll');
     }
 
     return () => {
@@ -47,56 +44,24 @@ const PopupForm = ({ onSubmitData }) => {
   const handleSubmit = async (e) => {
     e.preventDefault();
 
-    // Name Validation
-    if (name.length > 50) {
-      alert('Name cannot exceed 50 characters.');
-      return;
-    }
-
-    // Mobile Number Validation
-    const mobilePattern = /^[0-9]{10}$/;
-    if (!mobilePattern.test(mobile)) {
-      alert('Mobile number must be exactly 10 digits and numeric.');
-      return;
-    }
-
-    // Email Validation
-    const emailPattern = /^[a-z]+[a-z0-9._]+@[a-z]+\.[a-z]{2,}$/;
-    if (!emailPattern.test(email)) {
-      alert('Invalid email format. Only lowercase letters, "@" and "." are allowed.');
-      return;
-    }
-
-    // Course Validation
-    if (course.length > 50) {
-      alert('Course name cannot exceed 50 characters.');
-      return;
-    }
-
-    if (!isChecked) {
-      alert('Please agree to the terms and conditions and privacy policy.');
+    // Validate form data
+    if (name.length > 50 || !/^[0-9]{10}$/.test(mobile) || !/^[a-z]+[a-z0-9._]+@[a-z]+\.[a-z]{2,}$/.test(email) || course.length > 50 || !isChecked) {
+      alert('Please check your input');
       return;
     }
 
     const formData = {
       name,
-      mobile,
+      contact: mobile,
       email,
       courseName: course,
       date: new Date().toISOString(),
     };
 
     try {
-      const response = await axios.post('http://localhost:3000/api/submit', formData);
-
-      console.log('Server response:', response.data);
+      const response = await axios.post('http://localhost:5001/api/submit', formData);
       alert('Registration complete!');
       onSubmitData(formData); 
-
-      // Save the form data to local storage
-      const storedLeads = JSON.parse(localStorage.getItem('leads')) || [];
-      storedLeads.push(formData);
-      localStorage.setItem('leads', JSON.stringify(storedLeads));
 
       setName('');
       setMobile('');
@@ -104,7 +69,6 @@ const PopupForm = ({ onSubmitData }) => {
       setCourse('');
       setIsChecked(false);
       setIsVisible(false);
-
     } catch (error) {
       console.error('Error submitting form:', error);
       alert('An error occurred while submitting the form.');
@@ -112,7 +76,6 @@ const PopupForm = ({ onSubmitData }) => {
   };
 
   if (location.pathname === '/Dashboard' || location.pathname === '/AdminLogin') {
-    console.log("Popup is hidden on this page.");
     return null;
   }
 

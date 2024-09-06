@@ -19,15 +19,15 @@ import img8 from '../Icons/business-intelligence.png';
 import img9 from '../Icons/cloud-data.png';
 
 const courses = [
-  { id: 'sap_hana', name: 'SAP S/4 HANA Courses', count: 25, icon: img1 },
-  { id: 'data_science', name: 'Masters in Data Science', count: 25, icon: img2 },
-  { id: 'data_analytics', name: 'Masters in Data Analytics', count: 16, icon: img3 },
-  { id: 'salesforce', name: 'Salesforce', count: 30, icon: img4 },
-  { id: 'hr_courses', name: 'HR Courses', count: 8, icon: img5 },
-  { id: 'python', name: 'Full-Stack Python', count: 12, icon: img6 },
-  { id: 'java', name: 'Full-Stack Java', count: 17, icon: img7 },
-  { id: 'powerbi', name: 'PowerBI', count: 17, icon: img8 },
-  { id: 'cloud_platform', name: 'AWS/Azure/Google Cloud Platform', count: 17, icon: img9 },
+  { id: 'SAP HANA Course', name: 'SAP S/4 HANA Courses', count: 25, icon: img1 },
+  { id: 'Data Science Course', name: 'Masters in Data Science', count: 25, icon: img2 },
+  { id: 'Data Analytics Course', name: 'Masters in Data Analytics', count: 16, icon: img3 },
+  { id: 'Salesforce Course', name: 'Salesforce', count: 30, icon: img4 },
+  { id: 'HR courses', name: 'HR Courses', count: 8, icon: img5 },
+  { id: 'Full stack Python Course', name: 'Full-Stack Python', count: 12, icon: img6 },
+  { id: 'Full stack Java Course', name: 'Full-Stack Java', count: 17, icon: img7 },
+  { id: 'Power BI Course', name: 'PowerBI', count: 17, icon: img8 },
+  { id: 'AWS/Azure/GCP Courses', name: 'AWS/Azure/Google Cloud Platform', count: 17, icon: img9 },
 ];
 
 const Courses = () => {
@@ -49,8 +49,20 @@ const Courses = () => {
     };
   }, [showPopupForm]);
 
-  const handleEnrollNowClick = (courseId) => {
-    fetchFormData(courseId);
+  useEffect(() => {
+    // Prefetch the brochure file
+    const link = document.createElement('link');
+    link.rel = 'prefetch';
+    link.href = 'https://drive.google.com/uc?export=download&id=1MNNq4w8dcw88Q9fSIh5Y4s-UmTonmCsc';
+    document.head.appendChild(link);
+
+    return () => {
+      document.head.removeChild(link);
+    };
+  }, []);
+
+  const handleEnrollNowClick = async (courseId) => {
+    await fetchFormData(courseId);
     setSelectedCourseId(courseId);
     setShowPopupForm(true);
   };
@@ -68,6 +80,11 @@ const Courses = () => {
   const handleClosePopupForm = () => {
     setShowPopupForm(false);
     setSelectedCourseId(null);
+  };
+
+  const handleDownloadBrochure = () => {
+    // Start download immediately
+    window.location.href = 'https://drive.google.com/uc?export=download&id=1MNNq4w8dcw88Q9fSIh5Y4s-UmTonmCsc';
   };
 
   return (
@@ -98,15 +115,13 @@ const Courses = () => {
         ))}
       </div>
       <div className="mb-3">
-        {/* Download Brochure Button */}
         <Button 
           className="outline-btnn" 
-          onClick={() => window.open('https://drive.google.com/uc?export=download&id=1MNNq4w8dcw88Q9fSIh5Y4s-UmTonmCsc', '_blank')}
+          onClick={handleDownloadBrochure}
         >
           Download Brochure
         </Button>
-
-        <Button className="outline-btnn" onClick={() => handleEnrollNowClick('demo')}>Book Demo</Button>
+        <Button className="outline-btnn" onClick={() => handleEnrollNowClick('demo')}>Book a Free Demo</Button>
       </div>
       {showPopupForm && formData && (
         <ContactForm course={selectedCourseId} formData={formData} onClose={handleClosePopupForm} />
