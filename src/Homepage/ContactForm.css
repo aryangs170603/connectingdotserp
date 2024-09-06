@@ -16,31 +16,59 @@
 }
 
 .modal-content {
-  background-color: rgba(249, 249, 249, 0.50); /* Added opacity for fading */
-  background-blend-mode: overlay;
+   /* Added opacity for fading */
   padding: 30px;
   border-radius: 12px;
   width: 100%;
   max-width: 400px;
-  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
-  z-index: 10000;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.4);
+  
   position: relative;
-  animation: slideDown 0.3s ease-out;
-  background-image: url('../Logos/ContactForm/backimage.png'), url('../Logos/ContactForm/backimage2.png');
-  background-size: cover, cover;
-  background-position: center top ,center bottom; /* Shifts the image downwards */
-  background-repeat: no-repeat, no-repeat;
-  filter: brightness(0.9);
-  padding-top: 50px;
+  animation: slideDown 0.3s ease-out; 
+  /* Set the wooden background as the background image */
+  background-image: url('../Logos/ContactForm/backimage2.png');
+  background-size: cover;
+  background-position: center top;
+  background-repeat: no-repeat;
+  
  
+  
+  /* Add the students image as a separate layer using ::before */
 }
+
+.modal-content::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  
+  background-image: url('../Logos/ContactForm/backimage.png');
+  background-size: contain; 
+  background-position: center bottom; 
+  background-repeat: no-repeat;
+  z-index: -1; 
+   /* Set desired opacity if needed */
+  pointer-events: none; /* Prevent interaction with the pseudo-element */
+  backdrop-filter: blur(2px);
+  
+  
+}
+
+/* Ensure the rest of the content stays on top */
+.modal-content * {
+  position: relative;
+  z-index: 4; /* Ensures form fields are above the students image */
+}
+
 
 .close-btn-contact {
   position: absolute;
-  top: 12px;
+  top: 5px;
   right: 16px;
   font-size: 28px;
-  color: #888;
+  color: #000000;
   cursor: pointer;
   transition: color 0.3s ease;
 }
@@ -51,7 +79,7 @@
 }
 
 .headinn {
-  font-size: 27px;
+  font-size: 32px;
   letter-spacing: 3px;
   font-weight: bold;
   color: #333;
@@ -82,15 +110,19 @@
   font-weight: 600;
   text-align: left;
   font-size: 16px; 
-  color: #333; 
+  color: #000000; 
+}
+.contact-form-group input::placeholder {
+  color: rgba(0, 0, 0, 0.7); /* Darker placeholder color */
+  font-weight: bolder; /* Optional: to make it bolder */
 }
 
 .contact-form-group input {
   padding: 12px;
   width: 100%;
   border-radius: 8px;
-  border: 1px solid rgba(255, 255, 255, 0.4);
-  background-color: rgba(162, 160, 160, 0.4) ;
+  border: 2px solid rgba(0, 0, 0, 0.4);
+  background-color: transparent ;
   box-sizing: border-box;
   height: 40px;
   mix-blend-mode: multiply;
@@ -106,10 +138,10 @@
   border-radius: 6px;
   font-size: 16px;
   cursor: pointer;
-  width: 100%;
+  width: 40%;
   text-align: center;
   margin-top: 10px;
-  margin-left: 5px;
+  margin-left: 105px;
   box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
 }
 
