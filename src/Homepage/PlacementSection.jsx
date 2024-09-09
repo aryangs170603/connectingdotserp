@@ -13,11 +13,12 @@ import faceImage4 from '../Logos/Placementsection/pic4pp.png';
 import faceImage5 from '../Logos/Placementsection/pic5pp.png';
 import faceImage6 from '../Logos/Placementsection/front9.png';
 import faceImage7 from '../Logos/Placementsection/front10.png';
-import faceImage8 from '../Logos/Placementsection/front11.png';
+import faceImage8 from '../Logos/FeedbacksandReviews/review image 5.png';
 import companylogo2 from '../Logos/Placementsection/deloitte1.png';
-import companylogo3 from '../Logos/Placementsection/cltech.png';
+import companylogo3 from '../Logos/Placementsection/cltech2.png';
 import companylogo4 from '../Logos/Placementsection/agconsultancy.png';
 import companylogo5 from '../Logos/Placementsection/marketlegos.png';
+
 
 const placementStories = [
   { name: 'Preetesh Pardeshi', salary: '24 LPA', degree: 'Trained on- SAP ABAP', company: 'Placed in', logo: companylogo4, topImage: faceImage1 },
@@ -25,7 +26,7 @@ const placementStories = [
   { name: 'Shubham Desale', salary: '9 LPA', degree: 'Trained on- SAP MM', company: 'Placed in', logo: companylogo2, topImage: faceImage3 },
   { name: 'Nitesh Kumar', salary: '15 LPA', degree: 'Trained on- SAP FICO', company: 'Placed in', logo: companylogo5, topImage: faceImage4 },
   { name: 'Seshu Tamma', salary: '11 LPA', degree: 'Trained on- SAP Security', company: 'Placed in', logo: companylogo2, topImage: faceImage5 },
-  { name: 'Pratham Singh', salary: '18 LPA', degree: 'Trained on- SAP FICO', company: 'Placed in', logo: companyLogo, topImage: faceImage8 },
+  { name: 'Sai Srujan', salary: '18 LPA', degree: 'Trained on- SAP FICO', company: 'Placed in', logo: companylogo2, topImage: faceImage8 },
 ];
 
 const chunkArray = (array, size) => {

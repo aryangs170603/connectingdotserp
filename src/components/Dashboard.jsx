@@ -7,19 +7,18 @@ const Dashboard = () => {
   const leadsPerPage = 30;
 
   useEffect(() => {
-    const fetchLeads = () => {
-      // Fetch leads from local storage and reverse the order
-      const storedLeads = JSON.parse(localStorage.getItem('leads')) || [];
-      setLeads(storedLeads.reverse()); // Reverse to show the most recent first
+    const fetchLeads = async () => {
+      try {
+        const response = await fetch("https://qhvpqmhj-5001.inc1.devtunnels.ms/api/submit");
+        const data = await response.json();
+        setLeads(data.reverse()); // Reverse to show the most recent first
+      } catch (error) {
+        console.error("Error fetching leads:", error);
+      }
     };
 
     fetchLeads();
   }, []);
-
-  const handleNewLead = () => {
-    const storedLeads = JSON.parse(localStorage.getItem('leads')) || [];
-    setLeads(storedLeads.reverse()); // Refresh and reverse the leads
-  };
 
   const indexOfLastLead = currentPage * leadsPerPage;
   const indexOfFirstLead = indexOfLastLead - leadsPerPage;
@@ -41,10 +40,10 @@ const Dashboard = () => {
   const downloadCSV = () => {
     const csvData = leads.map(lead => ({
       Name: lead.name,
-      'Mobile Number': lead.mobile,
-      'Course Name': lead.courseName,
+      'Mobile Number': lead.contact,  // Adjusted to match your schema
+      'Course Name': lead.coursename,  // Adjusted to match your schema
       'Email ID': lead.email,
-      Date: new Date(lead.date).toLocaleDateString()
+      Date: new Date(lead._id.getTimestamp()).toLocaleDateString()  // Assuming the timestamp is from the ObjectId
     }));
 
     const csvContent = [
@@ -85,23 +84,16 @@ const Dashboard = () => {
                 <tr key={index}>
                   <td>{indexOfFirstLead + index + 1}</td>
                   <td>{lead.name}</td>
-                  <td>{lead.mobile}</td>
-                  <td>{lead.courseName}</td>
+                  <td>{lead.contact}</td>
+                  <td>{lead.coursename}</td>
                   <td>{lead.email}</td>
-                  <td>{new Date(lead.date).toLocaleDateString()}</td>
+                  <td>{new Date(lead._id.getTimestamp()).toLocaleDateString()}</td>  // Assuming the date is extracted from ObjectId
                 </tr>
               ))
             ) : (
-              Array.from({ length: leadsPerPage }).map((_, index) => (
-                <tr key={index}>
-                  <td>{index + 1}</td>
-                  <td></td>
-                  <td></td>
-                  <td></td>
-                  <td></td>
-                  <td></td>
-                </tr>
-              ))
+              <tr>
+                <td colSpan="6" className="text-center">No leads found</td>
+              </tr>
             )}
           </tbody>
         </table>

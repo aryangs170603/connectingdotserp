@@ -9,7 +9,7 @@ import SAPmodule1 from "../Logos/Headercarousel/SAP module1.webp";
 import DSh from "../Logos/Headercarousel/DSh.webp";
 import DGM from "../Logos/Headercarousel/DGM.webp";
 import IT from "../Logos/Headercarousel/IT.webp";
-import ContactForm from "../Homepage/ContactForm"; // import your ContactForm
+import ContactForm from "../Homepage/ContactForm"; 
 
 const TEXTS1 = [  
   "Connect Your Dots with  SAP Expertise",
@@ -23,7 +23,7 @@ const IMAGES = [SAPmodule1, DSh, IT, DGM];
 const HeaderCarousel = () => {
   const [index, setIndex] = useState(0);
   const [textVisible, setTextVisible] = useState(true);
-  const [showContactForm, setShowContactForm] = useState(false); // state for modal visibility
+  const [showContactForm, setShowContactForm] = useState(false); 
 
   const [question, setQuestion] = useState({
     title: "Welcome to the <span class='highlight'>Quiz!</span>",

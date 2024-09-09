@@ -1,6 +1,6 @@
 import React, { useState, useEffect, useMemo, useCallback, lazy, Suspense, useContext } from 'react';
 import { Helmet } from 'react-helmet';
-import { CityContext } from '../CityContext'; // Import the CityContext
+import { CityContext } from '../CityContext';
 import './Header.css';
 
 const ContactForm = lazy(() => import('../Homepage/ContactForm'));
@@ -11,7 +11,10 @@ const DSHeader = ({ pageId, pageType }) => {
     const [error, setError] = useState(null);
     const [showContactForm, setShowContactForm] = useState(false);
     const [course, setCourse] = useState('');
-    const city = useContext(CityContext); // Get the city from context
+    const [formData, setFormData] = useState({});
+    const [isSubmitting, setIsSubmitting] = useState(false);
+    const [submissionError, setSubmissionError] = useState(null);
+    const city = useContext(CityContext);
 
     useEffect(() => {
         localStorage.clear();
@@ -36,7 +39,6 @@ const DSHeader = ({ pageId, pageType }) => {
 
                 const pageData = jsonData[pageType]?.[pageId];
                 if (pageData) {
-                    // Replace placeholders with dynamic city
                     pageData.title = pageData.title.replace(/{city}/g, city);
                     pageData.subtitle = pageData.subtitle.replace(/{city}/g, city);
                     pageData.description = pageData.description.replace(/{city}/g, city);
@@ -50,7 +52,7 @@ const DSHeader = ({ pageId, pageType }) => {
                         text: button.text.replace(/{city}/g, city)
                     }));
 
-                    localStorage.setItem(`dsHeader_${pageId}_${pageType}`, JSON.stringify(pageData)); // Cache data
+                    localStorage.setItem(`dsHeader_${pageId}_${pageType}`, JSON.stringify(pageData));
                     setData(pageData);
                 } else {
                     throw new Error('Page data not found');
@@ -77,6 +79,38 @@ const DSHeader = ({ pageId, pageType }) => {
         setCourse('');
     }, []);
 
+    const handleChange = (event) => {
+        const { name, value } = event.target;
+        setFormData({ ...formData, [name]: value });
+    };
+
+    const handleSubmit = async (event) => {
+        event.preventDefault();
+        setIsSubmitting(true);
+        setSubmissionError(null);
+
+        try {
+            const response = await fetch('http://localhost:5001/api/submit', {
+                method: 'POST',
+                headers: { 'Content-Type': 'application/json' },
+                body: JSON.stringify(formData),
+            });
+
+            if (!response.ok) {
+                throw new Error('Network response was not ok');
+            }
+
+            alert('Form submitted successfully!');
+            setFormData({});
+            setShowContactForm(false);
+        } catch (error) {
+            console.error('Error submitting form:', error);
+            setSubmissionError(error.message);
+        } finally {
+            setIsSubmitting(false);
+        }
+    };
+
     const renderFormInputs = useMemo(() => {
         if (!data) return null;
 
@@ -92,6 +126,8 @@ const DSHeader = ({ pageId, pageType }) => {
                             name={input.name} 
                             placeholder={input.placeholder} 
                             style={{ flex: '1', padding: '0.5rem', height: '3.5vw', border: '1px solid #d1d5db', borderRadius: '0.375rem' }} 
+                            value={formData[input.name] || ''}
+                            onChange={handleChange}
                         />
                     </div>
                 );
@@ -103,11 +139,13 @@ const DSHeader = ({ pageId, pageType }) => {
                         name={input.name} 
                         placeholder={input.placeholder} 
                         style={{ width: '100%', padding: '0.5rem', border: '1px solid #d1d5db', borderRadius: '0.375rem' }} 
+                        value={formData[input.name] || ''}
+                        onChange={handleChange}
                     />
                 );
             }
         });
-    }, [data]);
+    }, [data, formData]);
 
     if (loading) {
         return <div>Loading...</div>;
@@ -166,20 +204,22 @@ const DSHeader = ({ pageId, pageType }) => {
 
             <div className="right-section-it-ds">
                 <h3>{data.form.title}</h3>
-                <form 
-                    action="#" 
-                    method="POST" 
+                <form
+                    action="#"
+                    method="POST"
                     style={{ display: 'flex', flexDirection: 'column', gap: '1rem' }}
+                    onSubmit={handleSubmit}
                 >
                     {renderFormInputs}
-                    <button 
-                        type="submit" 
-                        className="submit-button-it-ds" 
+                    <button
+                        type="submit"
+                        className="submit-button-it-ds"
                         style={{ backgroundColor: '#dc2626', color: 'white', padding: '0.5rem', borderRadius: '0.375rem' }}
-                        onClick={() => alert('You Have Booked a Live Demo!')}
+                        disabled={isSubmitting}
                     >
                         {data.form.submitText}
                     </button>
+                    {submissionError && <p style={{ color: 'red' }}>{submissionError}</p>}
                 </form>
             </div>
 

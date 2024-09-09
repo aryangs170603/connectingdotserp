@@ -1,12 +1,12 @@
 const express = require("express");
 const mongoose = require("mongoose");
-const cors = require("cors"); // Added for handling cross-origin requests
+const cors = require("cors");
 const bodyParser = require("body-parser");
 const app = express();
 
 // Middleware
 app.use(cors({
-  origin: '*',
+  origin: ['http://localhost:3000', 'https://qhvpqmhj-3000.inc1.devtunnels.ms'],  // Add your DevTunnels URL
   methods: ['GET', 'POST'],
   allowedHeaders: ['Content-Type'],
 }));
@@ -41,7 +41,7 @@ app.post("/api/submit", async (req, res) => {
       name,
       email,
       contact,
-      coursename: coursename
+      coursename
     });
 
     await newUser.save(); // Save to MongoDB
@@ -53,8 +53,19 @@ app.post("/api/submit", async (req, res) => {
     res.status(500).json({ message: "Error saving user data" });
   }
 });
+
+// API route to fetch all users (leads)
+app.get("/api/leads", async (req, res) => {
+  try {
+    const users = await User.find(); // Fetch all users from the database
+    res.status(200).json(users);
+  } catch (error) {
+    console.error("Error fetching leads:", error);
+    res.status(500).json({ message: "Error fetching leads" });
+  }
+});
+
 // Start the server
 app.listen(5001, '0.0.0.0', () => {
   console.log("Server is running on port 5001");
 });
-

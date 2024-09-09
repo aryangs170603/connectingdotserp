@@ -1,4 +1,5 @@
 import React, { useState, useEffect } from "react";
+import axios from 'axios';
 import "./Stickyform.css";
 
 const SContactForm = () => {
@@ -6,6 +7,7 @@ const SContactForm = () => {
     name: "",
     contact: "",
     course: "",
+    email: "", // Add email field
   });
 
   const [isMobileView, setIsMobileView] = useState(false);
@@ -35,22 +37,35 @@ const SContactForm = () => {
 
   const handleSubmit = async (e) => {
     e.preventDefault();
+
+    // Validation
+    if (formData.name.length === 0 || 
+        formData.contact.length < 10 || 
+        !/\S+@\S+\.\S+/.test(formData.email) || 
+        formData.course.length === 0) {
+      alert('Please check your input');
+      return;
+    }
+
+    const submissionData = {
+      name: formData.name,
+      contact: formData.contact,
+      email: formData.email,
+      coursename: formData.course,
+    };
+
     try {
-      const response = await fetch("http://localhost:3000/submit", {
-        method: "POST",
-        headers: {
-          "Content-Type": "application/json",
-        },
-        body: JSON.stringify(formData),
-      });
-      if (response.ok) {
-        console.log("Form data submitted successfully");
-        setFormData({ name: "", contact: "", course: "" });
+      const response = await axios.post('https://qhvpqmhj-5001.inc1.devtunnels.ms/api/submit', submissionData); // Updated URL
+      if (response.status === 200) {
+        alert('Form data submitted successfully');
+        setFormData({ name: "", contact: "", course: "", email: "" }); // Clear the form
+        setIsFormVisible(false); // Hide the form after submission
       } else {
-        console.error("Error submitting form data:", response.status);
+        console.error('Error submitting form:', response.status);
       }
     } catch (error) {
-      console.error("Error:", error);
+      console.error('Error:', error);
+      alert('An error occurred while submitting the form.');
     }
   };
 
@@ -74,10 +89,25 @@ const SContactForm = () => {
                 type="text"
                 id="name"
                 name="name"
-                placeholder="Eg:Ram"
+                placeholder="Eg: Ram"
                 value={formData.name}
                 onChange={handleChange}
                 required
+                maxLength="50"
+              />
+            </div>
+            <div className="form-group">
+              <label htmlFor="email">Email</label>
+              <input
+                type="email"
+                id="email"
+                name="email"
+                placeholder="Eg: ram@gmail.com"
+                value={formData.email}
+                onChange={handleChange}
+                required
+                pattern="^[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,}$"
+                title="Enter a valid email address"
               />
             </div>
             <div className="form-group">
@@ -91,6 +121,8 @@ const SContactForm = () => {
                 onChange={handleChange}
                 maxLength={10}
                 required
+                pattern="\d{10}"
+                title="Contact number must be exactly 10 digits"
               />
             </div>
             <div className="form-group">
@@ -102,9 +134,7 @@ const SContactForm = () => {
                 onChange={handleChange}
                 required
               >
-                <option value="" disabled>
-                  Select a course
-                </option>
+                <option value="" disabled>Select a course</option>
                 <option value="SAP">SAP</option>
                 <option value="IT Courses">IT Courses</option>
                 <option value="Digital Marketing">Digital Marketing</option>

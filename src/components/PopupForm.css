@@ -144,9 +144,9 @@
 
   .popup-form-container {
     padding: 15px; 
-    width: 80%; 
+    width: 100%; 
     max-width: 280px; 
-    margin: 0; 
+    margin-right: -80px; 
     position: absolute; 
     top: 10%; 
     right: -2%; 
