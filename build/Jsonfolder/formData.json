@@ -1,0 +1,27 @@
+{
+  "forms": {
+    "default": {
+      "id": "default",
+      "title": "Enroll Now in",
+      "fields": [
+        {
+          "name": "name",
+          "label": "Your Name",
+          "type": "text"
+        },
+        {
+          "name": "email",
+          "label": "Your Email",
+          "type": "email"
+        },
+        {
+          "name": "message",
+          "label": "Your Message",
+          "type": "textarea"
+        }
+      ],
+      "submitButton": "Submit"
+    }
+    
+  }
+}
