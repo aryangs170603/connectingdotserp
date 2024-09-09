@@ -51,7 +51,7 @@
   z-index: -1; 
    /* Set desired opacity if needed */
   pointer-events: none; /* Prevent interaction with the pseudo-element */
-  backdrop-filter: blur(2px);
+  backdrop-filter: blur(1.1px);
   
   
 }
