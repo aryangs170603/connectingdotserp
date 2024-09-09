@@ -22,7 +22,7 @@ const PopupForm = ({ onSubmitData }) => {
 
     const showTimer = setTimeout(() => {
       if (!hiddenPages.includes(location.pathname)) {
-        setIsVisible(true); // Change to `true` to show the popup
+        setIsVisible(true);
       }
     }, 5000); // 5 seconds
 
@@ -57,9 +57,11 @@ const PopupForm = ({ onSubmitData }) => {
       coursename: course,
       date: new Date().toISOString(),
     };
+
     console.log("Submitting form data:", formData);  // Log form data
+
     try {
-      const response = await axios.post('http://localhost:5001/api/submit', formData);y
+      const response = await axios.post('http://152.58.18.193:5001/api/submit', formData);
       alert('Registration complete!');
       onSubmitData(formData); 
 
@@ -74,10 +76,6 @@ const PopupForm = ({ onSubmitData }) => {
       alert('An error occurred while submitting the form.');
     }
   };
-
-  if (location.pathname === '/Dashboard' || location.pathname === '/AdminLogin') {
-    return null;
-  }
 
   if (!isVisible) return null;
 

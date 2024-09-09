@@ -5,10 +5,10 @@ import "./HeaderCarousel.css";
 import TextTransition, { presets } from "react-text-transition";
 import slideImage3 from "../Logos/Headercarousel/file02.png";
 import logostrip from "../Logos/Headercarousel/logo strip.png";
-import SAPmodule1 from "../Logos/Headercarousel/SAP module1.png";
-import DSh from "../Logos/Headercarousel/DSh.png";
-import DGM from "../Logos/Headercarousel/DGM.png";
-import IT from "../Logos/Headercarousel/IT.png";
+import SAPmodule1 from "../Logos/Headercarousel/SAP module1.webp";
+import DSh from "../Logos/Headercarousel/DSh.webp";
+import DGM from "../Logos/Headercarousel/DGM.webp";
+import IT from "../Logos/Headercarousel/IT.webp";
 import ContactForm from "../Homepage/ContactForm"; // import your ContactForm
 
 const TEXTS1 = [  
@@ -177,7 +177,7 @@ const HeaderCarousel = () => {
               <br></br>
               <h2>
                 <img
-                  src="src/Logos/Headercarousel/assurance.png"
+                  src="src/Logos/Headercarousel/assurance.webp"
                   alt=""
                   className="assured-placement-image"
                 />
@@ -190,62 +190,62 @@ const HeaderCarousel = () => {
                 <div className="content3">
                   <div className="image-grid">
                     <img
-                      src="src/Logos/Headercarousel/ibm1.png"
+                      src="src/Logos/Headercarousel/ibm1.webp"
                       alt="Image 1"
                       className="grid-image grid-image-ibm"
                     />
                     <img
-                      src="src/Logos/Headercarousel/tcs1.png"
+                      src="src/Logos/Headercarousel/tcs1.webp"
                       alt="Image 2"
                       className="grid-image grid-image-tcs"
                     />
                     <img
-                      src="src/Logos/Headercarousel/LnT.png"
+                      src="src/Logos/Headercarousel/LnT.webp"
                       alt="Image 3"
                       className="grid-image grid-image-Lnt"
                     />
                     <img
-                      src="src/Logos/Headercarousel/amdocs1.png"
+                      src="src/Logos/Headercarousel/amdocs1.webp"
                       alt="Image 4"
                       className="grid-image grid-image-amd"
                     />
                     <img
-                      src="src/Logos/Headercarousel/infosys2.png"
+                      src="src/Logos/Headercarousel/infosys2.webp"
                       alt="Image 5"
                       className="grid-image grid-image-info"
                     />
                     <img
-                      src="src/Logos/Headercarousel/wipro.png"
+                      src="src/Logos/Headercarousel/wipro.webp"
                       alt="Image 6"
                       className="grid-image grid-image-wip"
                     />
                     <img
-                      src="src/Logos/Headercarousel/deloitte.png"
+                      src="src/Logos/Headercarousel/deloitte.webp"
                       alt="Image 7"
                       className="grid-image grid-image-del"
                     />
                     <img
-                      src="src/Logos/Headercarousel/accenture1.png"
+                      src="src/Logos/Headercarousel/accenture1.webp"
                       alt="Image 8"
                       className="grid-image grid-image-acc"
                     />
                     <img
-                      src="src/Logos/Headercarousel/BMW.png"
+                      src="src/Logos/Headercarousel/BMW.webp"
                       alt="Image 9"
                       className="grid-image grid-image-bmw"
                     />
                     <img
-                      src="src/Logos/Headercarousel/cognizant1.png"
+                      src="src/Logos/Headercarousel/cognizant1.webp"
                       alt="Image 10"
                       className="grid-image grid-image-cog"
                     />
                     <img
-                      src="src/Logos/Headercarousel/Cisco.png"
+                      src="src/Logos/Headercarousel/Cisco.webp"
                       alt="Image 11"
                       className="grid-image grid-image-cis"
                     />
                     <img
-                      src="src/Logos/Headercarousel/TechM.png"
+                      src="src/Logos/Headercarousel/TechM.webp"
                       alt="Image 12"
                       className="grid-image grid-image-tec"
                     />
@@ -293,7 +293,7 @@ const HeaderCarousel = () => {
             </div>
             <div className="right-sideH">
               <img
-                src="src/Logos/Headercarousel/quizbg.png"
+                src="src/Logos/Headercarousel/quizbg.webp"
                 alt="quiz"
                 className="plants-image"
               />

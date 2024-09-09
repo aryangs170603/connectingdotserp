@@ -34,14 +34,14 @@ const User = mongoose.model("User", userSchema);
 
 // API route to handle form submissions
 app.post("/api/submit", async (req, res) => {
-  const { name, email, contact, courseName } = req.body;
+  const { name, email, contact, coursename } = req.body;
 
   try {
     const newUser = new User({
       name,
       email,
       contact,
-      coursename: courseName
+      coursename: coursename
     });
 
     await newUser.save(); // Save to MongoDB
