@@ -3,7 +3,7 @@ import { Carousel, Col, Card } from "react-bootstrap";
 import "bootstrap/dist/css/bootstrap.min.css";
 import "./HeaderCarousel.css";
 import TextTransition, { presets } from "react-text-transition";
-import slideImage3 from "../Logos/Headercarousel/file02.png";
+// import slideImage3 from "../Logos/Headercarousel/file02.png";
 import logostrip from "../Logos/Headercarousel/logo strip.png";
 import SAPmodule1 from "../Logos/Headercarousel/SAP module1.webp";
 import DSh from "../Logos/Headercarousel/DSh.webp";
@@ -18,7 +18,7 @@ const TEXTS1 = [
   "Connect Your Dots in Digital Marketing",
 ];
 const TEXTS2 = [];
-const IMAGES = [SAPmodule1, DSh, IT, DGM];
+const IMAGES = ["https://i.imgur.com/bT4nqQM.png", "https://i.imgur.com/s98ODLR.png", " https://i.imgur.com/THNopek.png" , "https://i.imgur.com/HH4AqB0.png"];
 
 const HeaderCarousel = () => {
   const [index, setIndex] = useState(0);
@@ -119,7 +119,7 @@ const HeaderCarousel = () => {
               </div>
             </div>
             <div className="carousel-image">
-              <img src={slideImage3} alt="Career Potential" />
+              <img src="https://i.imgur.com/MeGidmg.png" alt="Career Potential" />
             </div>
           </div>
           
@@ -177,8 +177,8 @@ const HeaderCarousel = () => {
               <br></br>
               <h2>
                 <img
-                  src="src/Logos/Headercarousel/assurance.webp"
-                  alt=""
+                  src="https://i.imgur.com/FXV2ygw.png"
+                  alt="Assurance badge"
                   className="assured-placement-image"
                 />
                 Assured Placement Opportunity*
@@ -190,62 +190,63 @@ const HeaderCarousel = () => {
                 <div className="content3">
                   <div className="image-grid">
                     <img
-                      src="src/Logos/Headercarousel/ibm1.webp"
+                      src="https://i.imgur.com/EG9fHbE.png"
                       alt="Image 1"
                       className="grid-image grid-image-ibm"
                     />
                     <img
-                      src="src/Logos/Headercarousel/tcs1.webp"
+                      src="https://i.imgur.com/YwY79Vt.png"
                       alt="Image 2"
                       className="grid-image grid-image-tcs"
                     />
                     <img
-                      src="src/Logos/Headercarousel/LnT.webp"
+                      src="https://i.imgur.com/Lc1nz4P.png"
                       alt="Image 3"
                       className="grid-image grid-image-Lnt"
                     />
                     <img
-                      src="src/Logos/Headercarousel/amdocs1.webp"
+                      src="https://i.imgur.com/8hNJr62.png"
                       alt="Image 4"
                       className="grid-image grid-image-amd"
                     />
                     <img
-                      src="src/Logos/Headercarousel/infosys2.webp"
+                      src="https://i.imgur.com/tioUoeR.png"
                       alt="Image 5"
                       className="grid-image grid-image-info"
                     />
                     <img
-                      src="src/Logos/Headercarousel/wipro.webp"
+                      src="https://i.imgur.com/ZpxVMtt.png"
                       alt="Image 6"
                       className="grid-image grid-image-wip"
                     />
                     <img
-                      src="src/Logos/Headercarousel/deloitte.webp"
+                      src="https://i.imgur.com/cMlGXyg.png"
                       alt="Image 7"
                       className="grid-image grid-image-del"
                     />
                     <img
-                      src="src/Logos/Headercarousel/accenture1.webp"
+                      src="https://i.imgur.com/jv6glQt.png"
                       alt="Image 8"
                       className="grid-image grid-image-acc"
                     />
                     <img
-                      src="src/Logos/Headercarousel/BMW.webp"
+                      src="https://i.imgur.com/YqBSwQd.png"
                       alt="Image 9"
                       className="grid-image grid-image-bmw"
                     />
                     <img
-                      src="src/Logos/Headercarousel/cognizant1.webp"
+                      src="https://i.imgur.com/fjhufDO.png"
                       alt="Image 10"
                       className="grid-image grid-image-cog"
+                      loading="lazy"
                     />
                     <img
-                      src="src/Logos/Headercarousel/Cisco.webp"
+                      src="https://i.imgur.com/J3Fn8Lw.png"
                       alt="Image 11"
                       className="grid-image grid-image-cis"
                     />
                     <img
-                      src="src/Logos/Headercarousel/TechM.webp"
+                      src="https://i.imgur.com/q9vljXF.png"
                       alt="Image 12"
                       className="grid-image grid-image-tec"
                     />
@@ -293,7 +294,7 @@ const HeaderCarousel = () => {
             </div>
             <div className="right-sideH">
               <img
-                src="src/Logos/Headercarousel/quizbg.webp"
+                src="https://i.imgur.com/4rPGeS0.png"
                 alt="quiz"
                 className="plants-image"
               />

@@ -27,8 +27,10 @@ const userSchema = new mongoose.Schema({
   name: String,
   email: String,
   contact: String,
-  coursename: String
+  coursename: String,
+  createdAt: { type: Date, default: Date.now }  // Automatically set timestamp
 });
+
 
 const User = mongoose.model("User", userSchema);
 

@@ -9,14 +9,20 @@ const Dashboard = () => {
   useEffect(() => {
     const fetchLeads = async () => {
       try {
-        const response = await fetch("https://qhvpqmhj-5001.inc1.devtunnels.ms/api/submit");
+        const response = await fetch("https://qhvpqmhj-5001.inc1.devtunnels.ms/api/leads");
+        
+        if (!response.ok) {
+          throw new Error(`HTTP error! Status: ${response.status}`);
+        }
+  
         const data = await response.json();
         setLeads(data.reverse()); // Reverse to show the most recent first
       } catch (error) {
         console.error("Error fetching leads:", error);
+        alert("Error fetching leads: " + error.message);  // Show error on screen
       }
     };
-
+  
     fetchLeads();
   }, []);
 
@@ -38,29 +44,45 @@ const Dashboard = () => {
   };
 
   const downloadCSV = () => {
-    const csvData = leads.map(lead => ({
-      Name: lead.name,
-      'Mobile Number': lead.contact,  // Adjusted to match your schema
-      'Course Name': lead.coursename,  // Adjusted to match your schema
-      'Email ID': lead.email,
-      Date: new Date(lead._id.getTimestamp()).toLocaleDateString()  // Assuming the timestamp is from the ObjectId
-    }));
+    if (leads.length === 0) {
+      alert('No data available for download');
+      return;
+    }
 
+    // Define the CSV headers
+    const headers = ['Name', 'Mobile Number', 'Course Name', 'Email ID', 'Date'];
+
+    // Map leads data into CSV rows
+    const csvRows = leads.map(lead => [
+      lead.name,
+      lead.contact,
+      lead.coursename,
+      lead.email,
+      new Date(lead.createdAt).toLocaleDateString()  // Proper date extraction
+    ]);
+
+    // Combine headers and rows
     const csvContent = [
-      ['Name', 'Mobile Number', 'Course Name', 'Email ID', 'Date'],
-      ...csvData.map(row => Object.values(row))
-    ]
-      .map(row => row.join(','))
-      .join('\n');
+      headers.join(','),  // Join headers by comma
+      ...csvRows.map(row => row.join(','))  // Join each row by comma
+    ].join('\n');  // Join rows with a new line
 
+    // Create a Blob from the CSV content
     const blob = new Blob([csvContent], { type: 'text/csv' });
+
+    // Create a download link for the CSV
     const url = URL.createObjectURL(blob);
     const a = document.createElement('a');
     a.href = url;
     a.download = 'leads.csv';
+
+    // Trigger download
     document.body.appendChild(a);
     a.click();
+
+    // Clean up
     document.body.removeChild(a);
+    URL.revokeObjectURL(url);
   };
 
   return (
@@ -87,7 +109,7 @@ const Dashboard = () => {
                   <td>{lead.contact}</td>
                   <td>{lead.coursename}</td>
                   <td>{lead.email}</td>
-                  <td>{new Date(lead._id.getTimestamp()).toLocaleDateString()}</td>  // Assuming the date is extracted from ObjectId
+                  <td>{new Date(lead.createdAt).toLocaleDateString()}</td>
                 </tr>
               ))
             ) : (

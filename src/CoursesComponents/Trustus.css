@@ -102,6 +102,7 @@
   }
 
   .container-it-ds-title {
+   
     font-size: 2rem;
     margin-bottom: 20px;
     letter-spacing: 4px;
@@ -111,6 +112,7 @@
   }
 
   .logos-it-ds {
+    order: 2; 
     flex-direction: column; /* Stack logos vertically */
     align-items: center;
     width: 100%; /* Full width */
@@ -121,7 +123,7 @@
 
   .marquee-it-ds {
     width: 100%; /* Full width */
-    height: 200px; /* Reduce height for mobile */
+    height: 100px; /* Reduce height for mobile */
   }
 
   .marquee-content-it-ds {
@@ -136,10 +138,11 @@
 
   .logo-it-ds {
     margin: 0 8px; /* Adjust margin for horizontal scroll */
-    height: 40px; /* Reduce logo size for mobile */
+    height: 50px; /* Reduce logo size for mobile */
   }
 
   .info-it-ds {
+    
     width: 100%; /* Full width */
     margin-left: 0; /* Remove margin */
     text-align: center; /* Center text on mobile */
@@ -147,11 +150,11 @@
   }
 
   .title-it-ds {
-    font-size: 1.5rem; /* Adjust font size for mobile */
+    font-size: 1.2rem; /* Adjust font size for mobile */
   }
 
   .description-it-ds {
-    text-align: center; /* Center the description text */
+    text-align: left; /* Center the description text */
   }
 
   .statistics-it-ds {

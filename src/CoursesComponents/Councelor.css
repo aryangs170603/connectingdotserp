@@ -79,3 +79,12 @@
   background-color: #112e74;
   color: #ffffff; 
 }
+/* Responsive styles */
+@media (max-width: 768px) {
+
+  .counselor-container-it-ds{
+    display: none;
+  }
+
+
+}

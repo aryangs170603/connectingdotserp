@@ -7,22 +7,22 @@ const Achievements = () => {
       <h1>OUR ACHIEVEMENTS</h1>
       <div className="achievements-grid">
         <div className="achievement-item">
-          <img src="src/Logos/Acheivements/Achiv1.jpg" alt="Achievement 1" />
+          <img src="https://i.imgur.com/EwezUVf.jpeg" alt="Achievement 1" />
         </div>
         <div className="achievement-item2">
-          <img src="src/Logos/Acheivements/Achiv2.png" alt="Achievement 2" />
+          <img src="https://i.imgur.com/rZohnIF.jpeg" alt="Achievement 2" />
         </div>
         <div className="achievement-item">
-          <img src="src/Logos/Acheivements/Achiv7.jpg" alt="Achievement 3" />
+          <img src="https://i.imgur.com/xz6STYH.jpeg" alt="Achievement 3" />
         </div>
         <div className="achievement-item">
-          <img src="src/Logos/Acheivements/Achiv4.jpg" alt="Achievement 4" />
+          <img src="https://i.imgur.com/FXN1ezN.jpeg" alt="Achievement 4" />
         </div>
         <div className="achievement-item5">
-          <img src="src/Logos/Acheivements/Achiv5.jpg" alt="Achievement 5" />
+          <img src="https://i.imgur.com/your4dg.jpeg" alt="Achievement 5" />
         </div>
         <div className="achievement-item">
-          <img src="src/Logos/Acheivements/Achiv6.jpg" alt="Achievement 6" />
+          <img src="https://i.imgur.com/iNrXB47.jpeg" alt="Achievement 6" />
         </div>
       </div>
     </div>

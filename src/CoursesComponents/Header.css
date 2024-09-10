@@ -79,10 +79,9 @@
 
 .batch-button-it-ds {
   background-color: #2563eb;
-  color: #dbeafe;
+  color: #fdfdfd;
   padding: 0.5rem 1rem;
   border-radius: 9999px;
- 
   font-size: 0.875rem;
 }
 
@@ -162,6 +161,11 @@
     padding: 2rem;
   }
 
+  .alumni-logos-it-ds{
+    width: 100%;
+    height: 1rem;
+  }
+
   .left-section-it-ds,
   .right-section-it-ds {
     max-width: 100%;
@@ -177,13 +181,17 @@
     font-size: 1rem;
   }
 
-  .left-section-it-ds p,
+  .left-section-it-ds p{
+    font-size: 0.6rem;
+  }
   .features-it-ds li,
   .alumni-it-ds span,
   .batch-button-it-ds,
-  .brochure-button-it-ds,
-  .right-section-it-ds h3 {
-    font-size: 0.875rem;
+  .brochure-button-it-ds {
+    font-size: 0.5rem;
+  }
+  .right-section-it-ds h3{
+    font-size: 1.2rem;
   }
   .brochure-button-it-ds {
     background-color: white;
@@ -219,7 +227,8 @@
   }
 
   .phone-input-it-ds select {
-    max-width: 50px;
+    max-width: 40px;
+   
     
   }
 }

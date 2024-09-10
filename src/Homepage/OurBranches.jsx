@@ -1,5 +1,5 @@
-import React, { useEffect } from 'react';
-import { MapContainer, TileLayer, Marker, Popup } from 'react-leaflet';
+import React, { useEffect, Suspense, lazy } from 'react';
+import { TileLayer, Marker, Popup } from 'react-leaflet';
 import 'leaflet/dist/leaflet.css';
 import './OurBranches.css';
 import L from 'leaflet';
@@ -8,6 +8,9 @@ import 'aos/dist/aos.css';
 
 import markerIcon from 'leaflet/dist/images/marker-icon.png';
 import markerShadow from 'leaflet/dist/images/marker-shadow.png';
+
+// Lazy load the MapContainer
+const MapContainer = lazy(() => import('react-leaflet').then(module => ({ default: module.MapContainer })));
 
 let DefaultIcon = L.icon({
   iconUrl: markerIcon,
@@ -48,19 +51,21 @@ const Branches = () => {
       <div className="branches-container">
         {branches.map((branch, index) => (
           <div className="branch-card" key={index} data-aos="fade-up" data-aos-delay={index * 200}>
-            <MapContainer center={branch.position} zoom={13} scrollWheelZoom={true} className="map-container">
-              <TileLayer
-                url="https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png"
-              />
-              <Marker position={branch.position}>
-                <Popup>
-                  <b>{branch.city}</b><br />
-                  <a href={branch.mapLink} target="_blank" rel="noopener noreferrer">
-                    {branch.address}
-                  </a>
-                </Popup>
-              </Marker>
-            </MapContainer>
+            <Suspense fallback={<div>Loading map...</div>}>
+              <MapContainer center={branch.position} zoom={13} scrollWheelZoom={true} className="map-container">
+                <TileLayer
+                  url="https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png"
+                />
+                <Marker position={branch.position}>
+                  <Popup>
+                    <b>{branch.city}</b><br />
+                    <a href={branch.mapLink} target="_blank" rel="noopener noreferrer">
+                      {branch.address}
+                    </a>
+                  </Popup>
+                </Marker>
+              </MapContainer>
+            </Suspense>
             <h3>{branch.city}</h3>
             <div className="add2">
               <a href={branch.mapLink} target="_blank" rel="noopener noreferrer">

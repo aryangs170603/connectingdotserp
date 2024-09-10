@@ -1,20 +1,20 @@
 .container-it-ds-prgrm {
   text-align: center;
-  
   color: #ecf0f1;
   padding: 20px;
   display: flex;
   flex-direction: column;
   align-items: center;
 }
+
 .card-img-it-ds {
   width: 60%;
   height: auto;
   border-radius: 5px;
   margin-bottom: 10px;
 }
+
 .container-it-ds-prgrm h2 {
- 
   background: rgb(255, 255, 255);
   text-shadow: 0 0 0px #fff, 0 0 10px #fff, 0 0 10px #0073e6, 0 0 20px #182E4A, 0 0 20px #182E4A, 0 0 30px #182E4A, 0 0 30px #182E4A;
   background: linear-gradient(90deg, #fff 35%, rgba(3,163,196,1) 49%, #fff 62%);
@@ -27,6 +27,7 @@
   margin-bottom: 30px;
   margin-top: 30px;
 }
+
 .progress-bar-it-ds {
   height: 10px;
   max-width: 1800px;
@@ -48,6 +49,7 @@
   display: flex;
   justify-content: center;
   gap: 30px;
+  flex-wrap: wrap; /* Added to allow wrapping on smaller screens */
 }
 
 .card-it-ds {
@@ -65,9 +67,62 @@
 
 .container-it-ds h3 {
   color: #ecf0f1;
- font-size: 1.5rem;
+  font-size: 1.5rem;
 }
 
 .icon-it-ds p {
   color: #bdc3c7;
+}
+
+/* Media queries for responsiveness */
+@media (max-width: 1024px) {
+  .container-it-ds-prgrm h2 {
+    font-size: 2rem;
+    letter-spacing: 6px;
+  }
+
+  .progress-bar-it-ds {
+    width: 90%; /* Adjusting for smaller screens */
+  }
+
+  .cards-it-ds {
+    gap: 20px;
+  }
+
+  .card-it-ds {
+    width: 240px; /* Slightly smaller for medium screens */
+  }
+}
+
+@media (max-width: 768px) {
+  .container-it-ds-prgrm h2 {
+    font-size: 1.8rem;
+    letter-spacing: 4px;
+  }
+
+  .card-it-ds {
+    width: 220px;
+    padding: 15px;
+  }
+
+  .cards-it-ds {
+    gap: 15px;
+  }
+}
+
+@media (max-width: 480px) {
+  .container-it-ds-prgrm h2 {
+    font-size: 1.5rem;
+    letter-spacing: 2px;
+  }
+
+  .card-it-ds {
+    width: 180px;
+    padding: 10px;
+  }
+
+  .cards-it-ds {
+    gap: 10px;
+    flex-direction: column; /* Stack cards vertically on small screens */
+  }
 }
