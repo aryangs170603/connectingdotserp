@@ -57,33 +57,33 @@ const Header = () => {
               title: "SAP Functional",
 
               items: [
-                { name: "SAP FICO", link: "/sapfico" },
-                { name: "SAP MM", link: "/sapmm" },
-                { name: "SAP SD", link: "/sapsd" },
-                { name: "SAP HR/HCM", link: "/saphrhcm" },
+                { name: "SAP FICO", link: "/pune/sapfico" },
+                { name: "SAP MM", link: "/pune/sapmm" },
+                { name: "SAP SD", link: "/pune/sapsd" },
+                { name: "SAP HR/HCM", link: "/pune/saphrhcm" },
 
-                { name: "SAP PP", link: "/sappp" },
-                { name: "SAP QM", link: "/sapqm" },
-                { name: "SAP PM", link: "/sappm" },
-                { name: "SAP PS", link: "/sapps" },
+                { name: "SAP PP", link: "/pune/sappp" },
+                { name: "SAP QM", link: "/pune/sapqm" },
+                { name: "SAP PM", link: "/pune/sappm" },
+                { name: "SAP PS", link: "/pune/sapps" },
 
-                { name: "SAP EWM", link: "/sapewm" },
-                { name: "SAP SCM", link: "/sapscm" },
+                { name: "SAP EWM", link: "/pune/sapewm" },
+                { name: "SAP SCM", link: "/pune/sapscm" },
                 {
                   name: "SAP SUCCESSFACTOR",
-                  link: "/sapsuccess" },
+                  link: "/pune/sapsuccess" },
               ],
             },
             {
               title: "SAP Technical",
 
               items: [
-                { name: "SAP ABAP", link: "/sapabap" },
-                { name: "SAP HANA", link: "/saphana" },
-                { name: "SAP NetWeaver", link: "/sapnetweaver" },
-                { name: "SAP BW/BI", link: "/sapbi" },
+                { name: "SAP ABAP", link: "/pune/sapabap" },
+                { name: "SAP HANA", link: "/pune/saphana" },
+                { name: "SAP NetWeaver", link: "/pune/sapnetweaver" },
+                { name: "SAP BW/BI", link: "/pune/sapbi" },
 
-                { name: "SAP BASIS", link: "/sapbasis" },
+                { name: "SAP BASIS", link: "/pune/sapbasis" },
               ],
             },
           ].map((submenu, index) => (
@@ -135,25 +135,25 @@ const Header = () => {
               title: "Data Science",
 
               items: [
-                { name: "MASTERS IN DATA ANALYTICS", link: "/DataAnalytics" },
-                { name: "MASTERS IN DATA SCIENCE", link: "/Datascience" },
+                { name: "MASTERS IN DATA ANALYTICS", link: "/pune/DataAnalytics" },
+                { name: "MASTERS IN DATA SCIENCE", link: "/pune/Datascience" },
                 {
                   name: "MASTERS IN BUSINESS ANALYTICS",
-                  link: "/BussinessAnalytics",
+                  link: "/pune/BussinessAnalytics",
                 },
-                { name: "CHAT GPT & AI", link: "/GPT" },
+                { name: "CHAT GPT & AI", link: "/pune/GPT" },
               ],
             },
             {
               title: "Software Courses",
 
               items: [
-                { name: "FULL STACK TRAINING", link: "/Fullstack" },
-                { name: "JAVA", link: "/Java" },
-                { name: "MERN STACK", link: "/Mern" },
-                { name: "UI/UX DESIGN", link: "/UIUX" },
-                { name: "PYTHON", link: "/Python" },
-                { name: "SALESFORCE", link: "/Salesforce" },
+                { name: "FULL STACK TRAINING", link: "/pune/Fullstack" },
+                { name: "JAVA", link: "/pune/Java" },
+                { name: "MERN STACK", link: "/pune/Mern" },
+                { name: "UI/UX DESIGN", link: "/pune/UIUX" },
+                { name: "PYTHON", link: "/pune/Python" },
+                { name: "SALESFORCE", link: "/pune/Salesforce" },
               ],
             },
           ].map((submenu, index) => (

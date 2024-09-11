@@ -16,6 +16,7 @@ const DSHeader = ({ pageId, pageType }) => {
     const [submissionError, setSubmissionError] = useState(null);
     const city = useContext(CityContext);
 
+
     useEffect(() => {
         localStorage.clear();
 
@@ -31,14 +32,17 @@ const DSHeader = ({ pageId, pageType }) => {
                     return;
                 }
 
+                // Fetching data from the JSON file
                 const response = await fetch('/Jsonfolder/dsHeaderData.json');
                 if (!response.ok) {
-                    throw new Error('Network response was not ok');
+                    throw new Error('Failed to load data');
                 }
-                const jsonData = await response.json();
 
+                const jsonData = await response.json();
                 const pageData = jsonData[pageType]?.[pageId];
+
                 if (pageData) {
+                    // Set page data including backgroundVideo from JSON
                     pageData.title = pageData.title.replace(/{city}/g, city);
                     pageData.subtitle = pageData.subtitle.replace(/{city}/g, city);
                     pageData.description = pageData.description.replace(/{city}/g, city);
@@ -133,16 +137,17 @@ const DSHeader = ({ pageId, pageType }) => {
                 );
             } else {
                 return (
-                    <input 
-                        key={index}
-                        type={input.type} 
-                        name={input.name} 
-                        placeholder={input.placeholder} 
-                        style={{ width: '100%', padding: '0.5rem', border: '1px solid #d1d5db', borderRadius: '0.375rem' }} 
-                        value={formData[input.name] || ''}
-                        onChange={handleChange}
-                    />
-                );
+            <input
+                key={index}
+                type={input.type}
+                name={input.name}
+                placeholder={input.placeholder}
+                style={{ width: '100%', padding: '0.5rem', border: '1px solid #d1d5db', borderRadius: '0.375rem' }}
+                value={formData[input.name] || ''}
+                onChange={handleChange}
+            />
+        
+        );
             }
         });
     }, [data, formData]);
@@ -160,17 +165,23 @@ const DSHeader = ({ pageId, pageType }) => {
     }
 
     return (
-        <div
-            className="container-it-ds-header dynamic-bg"
-            style={{
-                backgroundImage: `url(/${data.backgroundImage})`
-            }}
-        >
+        <div className="container-it-ds-header  ">
             <Helmet>
                 <title>{data.title || 'Default Title'}</title>
                 <meta name="description" content={data.description || 'Default description'} />
                 <meta name="keywords" content={data.keywords?.join(', ') || 'Default, Keywords'} />
             </Helmet>
+
+            {/* Lazy loaded background video */}
+            <video
+                className="background-video"
+                src={data.backgroundVideo}  
+                autoPlay
+                muted
+                loop
+                style={{ position: 'absolute', top: 0, left: 0, width: '100%', height: '100%', objectFit: 'cover', zIndex: -1 }}
+                loading="lazy" // Lazy loading the video
+            />
 
             <div className="left-section-it-ds">
                 <h1><span className='ds-header-span'>{data.title}</span></h1>
@@ -191,9 +202,9 @@ const DSHeader = ({ pageId, pageType }) => {
                 </div>
                 <div className="buttons-it-ds">
                     {data.buttons.map((button, index) => (
-                        <button 
-                            key={index} 
-                            className="batch-button-it-ds" 
+                        <button
+                            key={index}
+                            className="batch-button-it-ds"
                             onClick={() => handleOpenContactForm(button.courseName)}
                         >
                             {button.text}

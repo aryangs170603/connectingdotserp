@@ -81,72 +81,79 @@ const SContactForm = () => {
         </button>
       )}
       {isFormVisible && (
-        <form onSubmit={handleSubmit} className="contact-formS">
-          <div className="form-row">
-            <div className="form-group">
-              <label htmlFor="name">Name</label>
-              <input
-                type="text"
-                id="name"
-                name="name"
-                placeholder="Eg: Ram"
-                value={formData.name}
-                onChange={handleChange}
-                required
-                maxLength="50"
-              />
+        <div className="stickyform-container">
+          {isMobileView && (
+            <button className="close-button" onClick={toggleFormVisibility}>
+              &times; {/* X for close */}
+            </button>
+          )}
+          <form onSubmit={handleSubmit} className="contact-formS">
+            <div className="form-row">
+              <div className="form-group">
+                <label htmlFor="name">Name</label>
+                <input
+                  type="text"
+                  id="name"
+                  name="name"
+                  placeholder="Eg: Ram"
+                  value={formData.name}
+                  onChange={handleChange}
+                  required
+                  maxLength="50"
+                />
+              </div>
+              <div className="form-group">
+                <label htmlFor="email">Email</label>
+                <input
+                  type="email"
+                  id="email"
+                  name="email"
+                  placeholder="Eg: ram@gmail.com"
+                  value={formData.email}
+                  onChange={handleChange}
+                  required
+                  pattern="^[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,}$"
+                  title="Enter a valid email address"
+                />
+              </div>
+              <div className="form-group">
+                <label htmlFor="contact">Contact Number</label>
+                <input
+                  type="text"
+                  id="contact"
+                  name="contact"
+                  placeholder="Eg: +91-1234567890"
+                  value={formData.contact}
+                  onChange={handleChange}
+                  maxLength={10}
+                  required
+                  pattern="\d{10}"
+                  title="Contact number must be exactly 10 digits"
+                />
+              </div>
+              <div className="form-group">
+                <label htmlFor="course">Course</label>
+                <select
+                  id="course"
+                  name="course"
+                  value={formData.course}
+                  onChange={handleChange}
+                  required
+                >
+                  <option value="" disabled>Select a course</option>
+                  <option value="SAP">SAP</option>
+                  <option value="IT Courses">IT Courses</option>
+                  <option value="Digital Marketing">Digital Marketing</option>
+                  <option value="Data Visualisation">Data Visualisation</option>
+                  <option value="HR Courses">HR Courses</option>
+                </select>
+              </div>
+              <div className="form-group">
+                <button type="submit">Submit</button>
+              </div>
             </div>
-            <div className="form-group">
-              <label htmlFor="email">Email</label>
-              <input
-                type="email"
-                id="email"
-                name="email"
-                placeholder="Eg: ram@gmail.com"
-                value={formData.email}
-                onChange={handleChange}
-                required
-                pattern="^[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,}$"
-                title="Enter a valid email address"
-              />
-            </div>
-            <div className="form-group">
-              <label htmlFor="contact">Contact Number</label>
-              <input
-                type="text"
-                id="contact"
-                name="contact"
-                placeholder="Eg: +91-1234567890"
-                value={formData.contact}
-                onChange={handleChange}
-                maxLength={10}
-                required
-                pattern="\d{10}"
-                title="Contact number must be exactly 10 digits"
-              />
-            </div>
-            <div className="form-group">
-              <label htmlFor="course">Course</label>
-              <select
-                id="course"
-                name="course"
-                value={formData.course}
-                onChange={handleChange}
-                required
-              >
-                <option value="" disabled>Select a course</option>
-                <option value="SAP">SAP</option>
-                <option value="IT Courses">IT Courses</option>
-                <option value="Digital Marketing">Digital Marketing</option>
-                <option value="Data Visualisation">Data Visualisation</option>
-                <option value="HR Courses">HR Courses</option>
-              </select>
-            </div>
-            <div className="form-group">
-              <button type="submit">Submit</button>
-            </div>
-          </div>
-        </form>
+          </form>
+        </div>
       )}
     </>
   );

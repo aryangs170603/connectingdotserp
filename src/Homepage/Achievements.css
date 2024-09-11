@@ -83,8 +83,8 @@
 
 @media (max-width: 768px) {
   .achievement-item {
-    flex: 1 1 calc(100% - 20px); 
-    max-width: calc(100% - 20px);
+    flex: 1 1 100%; /* Make each item take up 100% width */
+    max-width: 100%; /* Ensure it doesn't exceed the width */
   }
 
   .achievement-item img,
@@ -95,13 +95,16 @@
 
   .achievements-grid {
     margin-left: 20px; 
+    flex-direction: column; /* Stack items vertically */
+    align-items: center; /* Center the items in the column */
   }
 
   .achievements h1 {
     font-size: 30px;
     margin-bottom: 30px;
   }
-  .achievements h1{
+  
+  .achievements h1 {
     font-size: 19px;
   }
 }

@@ -3,7 +3,7 @@
     "DSFAQ": {
       "title": "Frequently Asked Questions",
 
-      "video": "src/Logos/DSimages/faqvideo.mp4",
+      "video": "https://i.imgur.com/I7XKkrq.mp4",
       "items": [
         {
           "question": "Who should take this Business Analytics course?",
@@ -32,7 +32,7 @@
     "DAFAQ": {
       "title": "Frequently Asked Questions",
 
-      "video": "src/Logos/DSimages/faqvideo.mp4",
+      "video": "https://i.imgur.com/I7XKkrq.mp4",
       "items": [
         {
           "question": "Who should take this Data Analytics course?",
@@ -61,7 +61,7 @@
     "BAFAQ": {
       "title": "Frequently Asked Questions",
 
-      "video": "src/Logos/DSimages/faqvideo.mp4",
+      "video": "https://i.imgur.com/I7XKkrq.mp4",
       "items": [
         {
           "question": "Who should take this Data Analytics course?",
@@ -90,7 +90,7 @@
     "GPTFAQ": {
       "title": "Frequently Asked Questions",
 
-      "video": "src/Logos/DSimages/faqvideo.mp4",
+      "video": "https://i.imgur.com/I7XKkrq.mp4",
       "items": [
         {
           "question": "Who should take this Data Analytics course?",
@@ -119,7 +119,7 @@
     "FullStackFAQ": {
       "title": "Frequently Asked Questions",
 
-      "video": "src/Logos/DSimages/faqvideo.mp4",
+      "video": "https://i.imgur.com/I7XKkrq.mp4",
       "items": [
         {
           "question": "Who should take this Full Stack course?",
@@ -148,7 +148,7 @@
     "JavaFAQ": {
       "title": "Frequently Asked Questions",
 
-      "video": "src/Logos/DSimages/faqvideo.mp4",
+      "video": "https://i.imgur.com/I7XKkrq.mp4",
       "items": [
         {
           "question": "Who should take this Full Stack course?",
@@ -178,7 +178,7 @@
     " MernFAQ": {
       "title": "Frequently Asked Questions",
 
-      "video": "src/Logos/DSimages/faqvideo.mp4",
+      "video": "https://i.imgur.com/I7XKkrq.mp4",
       "items": [
         {
           "question": "Who should take this Full Stack course?",
@@ -207,7 +207,7 @@
     "UIUXFAQ": {
       "title": "Frequently Asked Questions",
 
-      "video": "src/Logos/DSimages/faqvideo.mp4",
+      "video": "https://i.imgur.com/I7XKkrq.mp4",
       "items": [
         {
           "question": "Who should take this Full Stack course?",
@@ -236,7 +236,7 @@
     "PythonFAQ": {
       "title": "Frequently Asked Questions",
 
-      "video": "src/Logos/DSimages/faqvideo.mp4",
+      "video": "https://i.imgur.com/I7XKkrq.mp4",
       "items": [
         {
           "question": "Who should take this Full Stack course?",
@@ -265,7 +265,7 @@
     "SalesFAQ": {
       "title": "Frequently Asked Questions",
 
-      "video": "src/Logos/DSimages/faqvideo.mp4",
+      "video": "https://i.imgur.com/I7XKkrq.mp4",
       "items": [
         {
           "question": "Who should take this Full Stack course?",
@@ -294,7 +294,7 @@
     "AbapFAQ": {
       "title": "Frequently Asked Questions",
 
-      "video": "src/Logos/DSimages/faqvideo.mp4",
+      "video": "https://i.imgur.com/I7XKkrq.mp4",
       "items": [
         {
           "question": "Who should take this Full Stack course in {city}?",
@@ -323,7 +323,7 @@
     "BasisFAQ": {
       "title": "Frequently Asked Questions",
 
-      "video": "src/Logos/DSimages/faqvideo.mp4",
+      "video": "https://i.imgur.com/I7XKkrq.mp4",
       "items": [
         {
           "question": "Who should take this Full Stack course?",
@@ -352,7 +352,7 @@
     "BwbiFAQ": {
       "title": "Frequently Asked Questions",
 
-      "video": "src/Logos/DSimages/faqvideo.mp4",
+      "video": "https://i.imgur.com/I7XKkrq.mp4",
       "items": [
         {
           "question": "Who should take this Full Stack course?",
@@ -381,7 +381,7 @@
     "EWMFAQ": {
       "title": "Frequently Asked Questions",
 
-      "video": "src/Logos/DSimages/faqvideo.mp4",
+      "video": "https://i.imgur.com/I7XKkrq.mp4",
       "items": [
         {
           "question": "Who should take this Full Stack course?",
@@ -410,7 +410,7 @@
     "FICOFAQ": {
       "title": "Frequently Asked Questions",
 
-      "video": "src/Logos/DSimages/faqvideo.mp4",
+      "video": "https://i.imgur.com/I7XKkrq.mp4",
       "items": [
         {
           "question": "Who should take this Full Stack course?",
@@ -439,7 +439,7 @@
     "HanaFAQ": {
       "title": "Frequently Asked Questions",
 
-      "video": "src/Logos/DSimages/faqvideo.mp4",
+      "video": "https://i.imgur.com/I7XKkrq.mp4",
       "items": [
         {
           "question": "Who should take this Full Stack course?",
@@ -468,7 +468,7 @@
     "HRHCMFAQ": {
       "title": "Frequently Asked Questions",
 
-      "video": "src/Logos/DSimages/faqvideo.mp4",
+      "video": "https://i.imgur.com/I7XKkrq.mp4",
       "items": [
         {
           "question": "Who should take this Full Stack course?",
@@ -497,7 +497,7 @@
     "MMFAQ": {
       "title": "Frequently Asked Questions",
 
-      "video": "src/Logos/DSimages/faqvideo.mp4",
+      "video": "https://i.imgur.com/I7XKkrq.mp4",
       "items": [
         {
           "question": "Who should take this Full Stack course?",
@@ -526,7 +526,7 @@
     "NetFAQ": {
       "title": "Frequently Asked Questions",
 
-      "video": "src/Logos/DSimages/faqvideo.mp4",
+      "video": "https://i.imgur.com/I7XKkrq.mp4",
       "items": [
         {
           "question": "Who should take this Full Stack course?",
@@ -555,7 +555,7 @@
     "PMFAQ": {
       "title": "Frequently Asked Questions",
 
-      "video": "src/Logos/DSimages/faqvideo.mp4",
+      "video": "https://i.imgur.com/I7XKkrq.mp4",
       "items": [
         {
           "question": "Who should take this Full Stack course?",
@@ -584,7 +584,7 @@
     "PPFAQ": {
       "title": "Frequently Asked Questions",
 
-      "video": "src/Logos/DSimages/faqvideo.mp4",
+      "video": "https://i.imgur.com/I7XKkrq.mp4",
       "items": [
         {
           "question": "Who should take this Full Stack course?",
@@ -613,7 +613,7 @@
     "PSFAQ": {
       "title": "Frequently Asked Questions",
 
-      "video": "src/Logos/DSimages/faqvideo.mp4",
+      "video": "https://i.imgur.com/I7XKkrq.mp4",
       "items": [
         {
           "question": "Who should take this Full Stack course?",
@@ -642,7 +642,7 @@
     "QMFAQ": {
       "title": "Frequently Asked Questions",
 
-      "video": "src/Logos/DSimages/faqvideo.mp4",
+      "video": "https://i.imgur.com/I7XKkrq.mp4",
       "items": [
         {
           "question": "Who should take this Full Stack course?",
@@ -671,7 +671,7 @@
     "SCMFAQ": {
       "title": "Frequently Asked Questions",
 
-      "video": "src/Logos/DSimages/faqvideo.mp4",
+      "video": "https://i.imgur.com/I7XKkrq.mp4",
       "items": [
         {
           "question": "Who should take this Full Stack course?",
@@ -700,7 +700,7 @@
     "SDFAQ": {
       "title": "Frequently Asked Questions",
 
-      "video": "src/Logos/DSimages/faqvideo.mp4",
+      "video": "https://i.imgur.com/I7XKkrq.mp4",
       "items": [
         {
           "question": "Who should take this Full Stack course?",
@@ -729,7 +729,7 @@
     "SuccFAQ": {
       "title": "Frequently Asked Questions",
 
-      "video": "src/Logos/DSimages/faqvideo.mp4",
+      "video": "https://i.imgur.com/I7XKkrq.mp4",
       "items": [
         {
           "question": "Who should take this Full Stack course?",
@@ -758,7 +758,7 @@
     "POWERBI": {
       "title": "Frequently Asked Questions",
 
-      "video": "src/Logos/DSimages/faqvideo.mp4",
+      "video": "https://i.imgur.com/I7XKkrq.mp4",
       "items": [
         {
           "question": "Who should take this Full Stack course?",
@@ -787,7 +787,7 @@
     "SQL": {
       "title": "Frequently Asked Questions",
 
-      "video": "src/Logos/DSimages/faqvideo.mp4",
+      "video": "https://i.imgur.com/I7XKkrq.mp4",
       "items": [
         {
           "question": "Who should take this Full Stack course?",
@@ -816,7 +816,7 @@
     "TABLEAU": {
       "title": "Frequently Asked Questions",
 
-      "video": "src/Logos/DSimages/faqvideo.mp4",
+      "video": "https://i.imgur.com/I7XKkrq.mp4",
       "items": [
         {
           "question": "Who should take this Full Stack course?",

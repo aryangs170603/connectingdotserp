@@ -10,6 +10,7 @@
   margin: 0 auto;
   margin-bottom: 20px;
   z-index: 0;
+  overflow: hidden;
 }
 .dynamic-bg {
   background-repeat: no-repeat;
@@ -17,6 +18,7 @@
   background-size: cover;
   background-blend-mode: overlay;
   background-color: rgba(249, 249, 249, 0.75); /* Adjust opacity for fading effect */
+  overflow: hidden;
 }
 
 .left-section-it-ds {
@@ -50,6 +52,15 @@
   display: flex;
   gap: 1rem;
   margin-bottom: 1rem;
+}
+.background-video-header{
+  overflow: hidden;
+  position: relative; 
+  width: 100%; 
+  height: 100%; 
+  max-height: 100%; 
+  object-fit: cover; 
+  z-index: -1; 
 }
 
 .features-it-ds li {

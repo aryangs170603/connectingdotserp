@@ -1,10 +1,10 @@
 {
     "MDSpage": {
         "MDSHeader": {
-            "title": "Masters in Data Science & Machine Learning Program",
-            "subtitle": "Data Science Course",
+            "title": "Masters in Data Science & Machine Learning Program in {city}",
+            "subtitle": "Data Science Course in {city}",
             "description": "Unlock the power of data with Connecting Dots Data Science course, mastering crucial skills for success in the field, all backed by secure placement support.",
-            "backgroundImage":"src/Logos/DSimages/dsheader.gif?v=1"
+            "backgroundVideo":"https://i.imgur.com/DpOvcpk.mp4"
 , 
             "features": [
                 "Live Class",
@@ -59,10 +59,10 @@
     },
     "MDApage": {
         "MDAHeader": {
-            "title": "Masters in Data Analytics & Machine Learning Program",
-            "subtitle": "Data Analytics Course",
+            "title": "Masters in Data Analytics & Machine Learning Program in {city}",
+            "subtitle": "Data Analytics Course in {city}",
             "description": "Unlock the power of data with Connecting Dots Data Analytics course, mastering crucial skills for success in the field, all backed by secure placement support.",
-             "backgroundImage": "src/Logos/DSimages/dsheader.gif", 
+             "backgroundVideo":"https://i.imgur.com/DpOvcpk.mp4", 
             "features": [
                 "Live Class",
                 "1:1 mentorship",
@@ -131,10 +131,10 @@
     },
     "BApage": {
         "BAHeader": {
-            "title": "Masters in Business Analytics ",
-            "subtitle": "Business Analytics Course",
+            "title": "Masters in Business Analytics in {city}",
+            "subtitle": "Business Analytics Course in {city}",
             "description": "Unlock the power of data with Connecting Dots Business Analytics course, mastering crucial skills for success in the field, all backed by secure placement support.",
-             "backgroundImage": "src/Logos/DSimages/Headergif2.gif", 
+             "backgroundVideo":"https://i.imgur.com/DpOvcpk.mp4", 
             "features": [
                 "Live Class",
                 "1:1 mentorship",
@@ -203,10 +203,10 @@
     },
     "GPTpage": {
         "GPTHeader": {
-            "title": "Chat GPT & AI Learning Program",
-            "subtitle": "Chat GPT & AI Course",
+            "title": "Chat GPT & AI Learning Program in {city}",
+            "subtitle": "Chat GPT & AI Course in {city}",
             "description": "Unlock the power of data with Connecting Dots Chat GPT & AI course, mastering crucial skills for success in the field, all backed by secure placement support.",
-             "backgroundImage": "src/Logos/DSimages/dsheader.gif", 
+             "backgroundVideo":"https://i.imgur.com/DpOvcpk.mp4", 
             "features": [
                 "Live Class",
                 "1:1 mentorship",
@@ -275,10 +275,10 @@
     },
   "fullstackheader": {
       "FullStackHeader": {
-          "title": "Full Stack Training Program",
-          "subtitle": "Full Stack Course",
+          "title": "Full Stack Training Program in {city}",
+          "subtitle": "Full Stack Course in {city}",
           "description": "Unlock the power of data with Connecting Dots Full Stack course, mastering crucial skills for success in the field, all backed by secure placement support.",
-           "backgroundImage": "src/Logos/DSimages/dsheader.gif", 
+           "backgroundVideo":"https://i.imgur.com/DpOvcpk.mp4", 
           "features": [
               "Live Class",
               "1:1 mentorship",
@@ -347,10 +347,10 @@
   },
   "javaheader": {
       "JavaHeader": {
-          "title": "Java Training Program",
-          "subtitle": "Java Course",
+          "title": "Java Training Program in {city}",
+          "subtitle": "Java Course in {city}",
           "description": "Unlock the power of data with Connecting Dots Java Training course, mastering crucial skills for success in the field, all backed by secure placement support.",
-           "backgroundImage": "src/Logos/DSimages/dsheader.gif", 
+           "backgroundVideo":"https://i.imgur.com/DpOvcpk.mp4", 
           "features": [
               "Live Class",
               "1:1 mentorship",
@@ -419,10 +419,10 @@
   },
   "mernheader": {
       "MernHeader": {
-          "title": "MERN Stack Training Program",
-          "subtitle": "MERN Stack Course",
+          "title": "MERN Stack Training Program in {city}",
+          "subtitle": "MERN Stack Course in {city}",
           "description": "Unlock the power of data with Connecting Dots Data Science course, mastering crucial skills for success in the field, all backed by secure placement support.",
-           "backgroundImage": "src/Logos/DSimages/dsheader.gif", 
+           "backgroundVideo":"https://i.imgur.com/DpOvcpk.mp4", 
           "features": [
               "Live Class",
               "1:1 mentorship",
@@ -491,10 +491,10 @@
   },
     "uiuxheader": {
           "UIUXHeader": {
-              "title": "UI/UX Training Program",
-              "subtitle": "UI/UX Course",
+              "title": "UI/UX Training Program in {city}",
+              "subtitle": "UI/UX Course in {city}",
               "description": "Unlock the power of data with Connecting Dots UI/UX course, mastering crucial skills for success in the field, all backed by secure placement support.",
-               "backgroundImage": "src/Logos/DSimages/dsheader.gif", 
+               "backgroundVideo":"https://i.imgur.com/DpOvcpk.mp4", 
               "features": [
                   "Live Class",
                   "1:1 mentorship",
@@ -563,10 +563,10 @@
       },
     "pythonheader": {
           "PythonHeader": {
-              "title": "PYTHON Training Program",
-              "subtitle": "Python Course",
+              "title": "PYTHON Training Program in {city}",
+              "subtitle": "Python Course in {city}",
               "description": "Unlock the power of data with Connecting Dots Data Science course, mastering crucial skills for success in the field, all backed by secure placement support.",
-               "backgroundImage": "src/Logos/DSimages/dsheader.gif", 
+               "backgroundVideo":"https://i.imgur.com/DpOvcpk.mp4", 
               "features": [
                   "Live Class",
                   "1:1 mentorship",
@@ -635,10 +635,10 @@
       },
     "salesheader": {
           "SalesHeader": {
-              "title": "Salesforce Training Program",
-              "subtitle": "Salesforce Course",
+              "title": "Salesforce Training Program in {city}",
+              "subtitle": "Salesforce Course in {city}",
               "description": "Unlock the power of data with Connecting Dots Data Science course, mastering crucial skills for success in the field, all backed by secure placement support.",
-               "backgroundImage": "src/Logos/DSimages/dsheader.gif", 
+               "backgroundVideo":"https://i.imgur.com/DpOvcpk.mp4", 
               "features": [
                   "Live Class",
                   "1:1 mentorship",
@@ -779,10 +779,10 @@
         },
             "basisheader": {
                   "BasisHeader": {
-                      "title": "SAP BASIS Training Program",
-                      "subtitle": "SAP BASIS Course",
+                      "title": "SAP BASIS Training Program in {city}",
+                      "subtitle": "SAP BASIS Course in {city}",
                       "description": "Unlock the power of data with Connecting Dots SAP BASIS course, mastering crucial skills for success in the field, all backed by secure placement support.",
-                       "backgroundImage": "src/Logos/DSimages/dsheader.gif", 
+                       "backgroundVideo":"https://i.imgur.com/DpOvcpk.mp4", 
                       "features": [
                           "Live Class",
                           "1:1 mentorship",
@@ -851,10 +851,10 @@
             },
                 "bwbiheader": {
                       "BwbiHeader": {
-                          "title": "SAP BI Training Program",
-                          "subtitle": "SAP BI Course",
+                          "title": "SAP BI Training Program in {city}",
+                          "subtitle": "SAP BI Course in {city}",
                           "description": "Unlock the power of data with Connecting Dots SAP BI course, mastering crucial skills for success in the field, all backed by secure placement support.",
-                           "backgroundImage": "src/Logos/DSimages/dsheader.gif", 
+                           "backgroundVideo":"https://i.imgur.com/DpOvcpk.mp4", 
                           "features": [
                               "Live Class",
                               "1:1 mentorship",
@@ -923,10 +923,10 @@
       },
     "ewmheader": {
           "EWMHeader": {
-              "title": "SAP EWM Training Program",
-              "subtitle": "SAP EWM Course",
+              "title": "SAP EWM Training Program in {city}",
+              "subtitle": "SAP EWM Course in {city}",
               "description": "Unlock the power of data with Connecting Dots SAP EWM, mastering crucial skills for success in the field, all backed by secure placement support.",
-               "backgroundImage": "src/Logos/DSimages/dsheader.gif", 
+               "backgroundVideo":"https://i.imgur.com/DpOvcpk.mp4", 
               "features": [
                   "Live Class",
                   "1:1 mentorship",
@@ -996,9 +996,9 @@
                 "ficoheader": {
                       "FICOHeader": {
                           "title": "SAP FICO Course in {city}",
-                          "subtitle": "Practical Based Job Oriented Training",
+                          "subtitle": "Practical Based Job Oriented Training in {city}",
                           "description": "An SAP FICO course in Pune is crucial as it equips professionals with essential skills in financial management and controlling, vital for effective business operations. It also enhances career prospects by meeting the high demand for SAP FICO experts in various industries.",
-                           "backgroundImage": "src/Logos/DSimages/dsheader.gif", 
+                           "backgroundVideo":"https://i.imgur.com/DpOvcpk.mp4", 
                           "features": [
                               "Live Class",
                               "1:1 mentorship",
@@ -1067,10 +1067,10 @@
                   },
                 "hanaheader": {
                       "HanaHeader": {
-                          "title": "SAP S/4 HANA  Training Program",
-                          "subtitle": "SAP S/4 HANA Course",
+                          "title": "SAP S/4 HANA  Training Program in {city}",
+                          "subtitle": "SAP S/4 HANA Course in {city}",
                           "description": "Unlock the power of data with Connecting Dots SAP S/4 HANA course, mastering crucial skills for success in the field, all backed by secure placement support.",
-                           "backgroundImage": "src/Logos/DSimages/dsheader.gif", 
+                           "backgroundVideo":"https://i.imgur.com/DpOvcpk.mp4", 
                           "features": [
                               "Live Class",
                               "1:1 mentorship",
@@ -1139,10 +1139,10 @@
                   },
                 "hrhcmheader": {
                       "HRHCMHeader": {
-                          "title": "SAP HR/HCM Training Program",
-                          "subtitle": "SAP HR/HCM Course",
+                          "title": "SAP HR/HCM Training Program in {city}",
+                          "subtitle": "SAP HR/HCM Course in {city}",
                           "description": "Unlock the power of data with Connecting Dots SAP HR/HCM course, mastering crucial skills for success in the field, all backed by secure placement support.",
-                           "backgroundImage": "src/Logos/DSimages/dsheader.gif", 
+                           "backgroundVideo":"https://i.imgur.com/DpOvcpk.mp4", 
                           "features": [
                               "Live Class",
                               "1:1 mentorship",
@@ -1211,10 +1211,10 @@
                   },
                 "mmheader": {
                       "MMHeader": {
-                          "title": "SAP MM Training Program",
-                          "subtitle": "SAP MM  Course",
+                          "title": "SAP MM Training Program in {city}",
+                          "subtitle": "SAP MM  Course in {city}",
                           "description": "Unlock the power of data with Connecting Dots SAP MM course, mastering crucial skills for success in the field, all backed by secure placement support.",
-                           "backgroundImage": "src/Logos/DSimages/dsheader.gif", 
+                           "backgroundVideo":"https://i.imgur.com/DpOvcpk.mp4", 
                           "features": [
                               "Live Class",
                               "1:1 mentorship",
@@ -1283,10 +1283,10 @@
                   },
                 "netheader": {
                       "NetHeader": {
-                          "title": "SAP NetWeaver Training Program",
-                          "subtitle": "SAP NetWeaver Course",
+                          "title": "SAP NetWeaver Training Program in {city}",
+                          "subtitle": "SAP NetWeaver Course in {city}",
                           "description": "Unlock the power of data with Connecting Dots SAP NetWeaver course, mastering crucial skills for success in the field, all backed by secure placement support.",
-                           "backgroundImage": "src/Logos/DSimages/dsheader.gif", 
+                           "backgroundVideo":"https://i.imgur.com/DpOvcpk.mp4", 
                           "features": [
                               "Live Class",
                               "1:1 mentorship",
@@ -1355,10 +1355,10 @@
                   },
                 "pmheader": {
                       "PMHeader": {
-                          "title": "SAP PM Training Program",
-                          "subtitle": "SAP PM Course",
+                          "title": "SAP PM Training Program in {city}",
+                          "subtitle": "SAP PM Course in {city}",
                           "description": "Unlock the power of data with Connecting Dots SAP PM course, mastering crucial skills for success in the field, all backed by secure placement support.",
-                           "backgroundImage": "src/Logos/DSimages/dsheader.gif", 
+                           "backgroundVideo":"https://i.imgur.com/DpOvcpk.mp4", 
                           "features": [
                               "Live Class",
                               "1:1 mentorship",
@@ -1427,10 +1427,10 @@
                   },
                 "ppheader": {
                       "PPHeader": {
-                          "title": "SAP PP Training Program",
-                          "subtitle": "SAP PP Course",
+                          "title": "SAP PP Training Program in {city}",
+                          "subtitle": "SAP PP Course in {city}",
                           "description": "Unlock the power of data with Connecting Dots SAP PP course, mastering crucial skills for success in the field, all backed by secure placement support.",
-                           "backgroundImage": "src/Logos/DSimages/dsheader.gif", 
+                           "backgroundVideo":"https://i.imgur.com/DpOvcpk.mp4", 
                           "features": [
                               "Live Class",
                               "1:1 mentorship",
@@ -1499,10 +1499,10 @@
                   },
                 "psheader": {
                       "PSHeader": {
-                          "title": "SAP PS Training Program",
-                          "subtitle": "SAP PS Course",
+                          "title": "SAP PS Training Program in {city}",
+                          "subtitle": "SAP PS Course in {city}",
                           "description": "Unlock the power of data with Connecting Dots SAP PS course, mastering crucial skills for success in the field, all backed by secure placement support.",
-                           "backgroundImage": "src/Logos/DSimages/dsheader.gif", 
+                           "backgroundVideo":"https://i.imgur.com/DpOvcpk.mp4", 
                           "features": [
                               "Live Class",
                               "1:1 mentorship",
@@ -1571,10 +1571,10 @@
                   },
                 "qmheader": {
                       "QMHeader": {
-                          "title": "SAP QM Training Program",
-                          "subtitle": "SAP QM Course",
+                          "title": "SAP QM Training Program in {city}",
+                          "subtitle": "SAP QM Course in {city}",
                           "description": "Unlock the power of data with Connecting Dots SAP QM course, mastering crucial skills for success in the field, all backed by secure placement support.",
-                           "backgroundImage": "src/Logos/DSimages/dsheader.gif", 
+                           "backgroundVideo":"https://i.imgur.com/DpOvcpk.mp4", 
                           "features": [
                               "Live Class",
                               "1:1 mentorship",
@@ -1643,10 +1643,10 @@
                   },
                 "scmheader": {
                       "SCMHeader": {
-                          "title": "SAP SCM Training Program",
-                          "subtitle": "SAP SCM Course",
+                          "title": "SAP SCM Training Program in {city}",
+                          "subtitle": "SAP SCM Course in {city}",
                           "description": "Unlock the power of data with Connecting Dots SAP SCM course, mastering crucial skills for success in the field, all backed by secure placement support.",
-                           "backgroundImage": "src/Logos/DSimages/dsheader.gif", 
+                           "backgroundVideo":"https://i.imgur.com/DpOvcpk.mp4", 
                           "features": [
                               "Live Class",
                               "1:1 mentorship",
@@ -1715,10 +1715,10 @@
                   },
                 "sdheader": {
                       "SDHeader": {
-                          "title": "SAP SD Training Program",
-                          "subtitle": "SAP SD Course",
+                          "title": "SAP SD Training Program in {city}",
+                          "subtitle": "SAP SD Course in {city}",
                           "description": "Unlock the power of data with Connecting Dots SAP SD course, mastering crucial skills for success in the field, all backed by secure placement support.",
-                           "backgroundImage": "src/Logos/DSimages/dsheader.gif", 
+                           "backgroundVideo":"https://i.imgur.com/DpOvcpk.mp4", 
                           "features": [
                               "Live Class",
                               "1:1 mentorship",
@@ -1787,10 +1787,10 @@
                   },
                 "succheader": {
                       "SuccHeader": {
-                          "title": "SAP Succesfactor Training Program",
-                          "subtitle": "SAP Succesfactor Course",
+                          "title": "SAP Succesfactor Training Program in {city}",
+                          "subtitle": "SAP Succesfactor Course in {city}",
                           "description": "Unlock the power of data with Connecting Dots Data Science course, mastering crucial skills for success in the field, all backed by secure placement support.",
-                           "backgroundImage": "src/Logos/DSimages/dsheader.gif", 
+                           "backgroundVideo":"https://i.imgur.com/DpOvcpk.mp4", 
                           "features": [
                               "Live Class",
                               "1:1 mentorship",
@@ -1862,7 +1862,7 @@
               "title": "Power BI Training Program",
               "subtitle": "Power BI Course",
               "description": "Unlock the power of data with Connecting Dots Power BI course, mastering crucial skills for success in the field, all backed by secure placement support.",
-               "backgroundImage": "src/Logos/DSimages/dsheader.gif", 
+               "backgroundVideo":"https://i.imgur.com/DpOvcpk.mp4", 
               "features": [
                   "Live Class",
                   "1:1 mentorship",
@@ -1934,7 +1934,7 @@
               "title": "Tableau Training Program",
               "subtitle": "Tableau Course",
               "description": "Unlock the power of data with Connecting Dots Tableau course, mastering crucial skills for success in the field, all backed by secure placement support.",
-               "backgroundImage": "src/Logos/DSimages/dsheader.gif", 
+               "backgroundVideo":"https://i.imgur.com/DpOvcpk.mp4", 
               "features": [
                   "Live Class",
                   "1:1 mentorship",
@@ -2006,7 +2006,7 @@
               "title": "SQL Training Program",
               "subtitle": "SQL Course",
               "description": "Unlock the power of data with Connecting Dots SQL Training course, mastering crucial skills for success in the field, all backed by secure placement support.",
-               "backgroundImage": "src/Logos/DSimages/dsheader.gif", 
+               "backgroundVideo":"https://i.imgur.com/DpOvcpk.mp4", 
               "features": [
                   "Live Class",
                   "1:1 mentorship",
@@ -2078,7 +2078,7 @@
               "title": "Digital Marketing Training Program",
               "subtitle": "Digital Marketing Course",
               "description": "Unlock the power of data with Connecting Dots Digital Marketing Training course, mastering crucial skills for success in the field, all backed by secure placement support.",
-               "backgroundImage": "src/Logos/DSimages/dsheader.gif", 
+               "backgroundVideo":"https://i.imgur.com/DpOvcpk.mp4", 
               "features": [
                   "Live Class",
                   "1:1 mentorship",

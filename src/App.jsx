@@ -115,36 +115,36 @@ function App() {
                 />
               )}
               {/* IT PAGE */}
-              <Route path="/Datascience" element={<Datascience />} />
-              <Route path="/DataAnalytics" element={<DataAnalytics />} />
+              <Route path="/:city/Datascience" element={<Datascience />} />
+              <Route path="/:city/DataAnalytics" element={<DataAnalytics />} />
               <Route
-                path="/BussinessAnalytics"
+                path="/:city/BussinessAnalytics"
                 element={<BussinessAnalytics />}
               />
-              <Route path="/GPT" element={<GptAi />} />
-              <Route path="/FullStack" element={<Fullstack />} />
-              <Route path="/Java" element={<Java />} />
-              <Route path="/Mern" element={<Mern />} />
-              <Route path="/Python" element={<Python />} />
-              <Route path="/Salesforce" element={<Sales />} />
-              <Route path="/UIUX" element={<UIUX />} />
+              <Route path="/:city/GPT" element={<GptAi />} />
+              <Route path="/:city/FullStack" element={<Fullstack />} />
+              <Route path="/:city/Java" element={<Java />} />
+              <Route path="/:city/Mern" element={<Mern />} />
+              <Route path="/:city/Python" element={<Python />} />
+              <Route path="/:city/Salesforce" element={<Sales />} />
+              <Route path="/:city/UIUX" element={<UIUX />} />
               {/* SAP PAGE */}
-              <Route path="/SAPEWM" element={<SAPEWM />} />
-              <Route path="/:city/SAPABAP" element={<SAPABAP />} />
-              <Route path="/SAPBASIS" element={<SAPBASIS />} />
-              <Route path="/SAPBWBI" element={<SAPBI />} />
-              <Route path="/SAPFICO" element={<SAPFICO />} />
-              <Route path="/SAPHANA" element={<SAPHANA />} />
-              <Route path="/SAPHRHCM" element={<SAPHRHCM />} />
-              <Route path="/SAPMM" element={<SAPMM />} />
-              <Route path="/SAPNET" element={<SAPNET />} />
-              <Route path="/SAPPM" element={<SAPPM />} />
-              <Route path="/SAPPP" element={<SAPPP />} />
-              <Route path="/SAPPS" element={<SAPPS />} />
-              <Route path="/SAPQM" element={<SAPQM />} />
-              <Route path="/SAPSCM" element={<SAPSCM />} />
-              <Route path="/SAPSD" element={<SAPSD />} />
-              <Route path="/SAPSUCC" element={<SAPSUCC />} />
+              <Route path="/:city/SAPEWM" element={<SAPEWM />} />
+              <Route path="/:city/:city/SAPABAP" element={<SAPABAP />} />
+              <Route path="/:city/SAPBASIS" element={<SAPBASIS />} />
+              <Route path="/:city/SAPBWBI" element={<SAPBI />} />
+              <Route path="/:city/SAPFICO" element={<SAPFICO />} />
+              <Route path="/:city/SAPHANA" element={<SAPHANA />} />
+              <Route path="/:city/SAPHRHCM" element={<SAPHRHCM />} />
+              <Route path="/:city/SAPMM" element={<SAPMM />} />
+              <Route path="/:city/SAPNET" element={<SAPNET />} />
+              <Route path="/:city/SAPPM" element={<SAPPM />} />
+              <Route path="/:city/SAPPP" element={<SAPPP />} />
+              <Route path="/:city/SAPPS" element={<SAPPS />} />
+              <Route path="/:city/SAPQM" element={<SAPQM />} />
+              <Route path="/:city/SAPSCM" element={<SAPSCM />} />
+              <Route path="/:city/SAPSD" element={<SAPSD />} />
+              <Route path="/:city/SAPSUCC" element={<SAPSUCC />} />
               {/* DATA VISUALIZATION */}
               <Route path="/POWERBI" element={<POWERBI />} />
               <Route path="/SQL" element={<SQL />} />

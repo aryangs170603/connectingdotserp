@@ -65,13 +65,13 @@
   background-color: #2c5f8e;
 }
 
-.container-it-ds h3 {
+.cards-it-ds h3 {
   color: #ecf0f1;
   font-size: 1.5rem;
 }
 
-.icon-it-ds p {
-  color: #bdc3c7;
+.cards-it-ds p {
+  color: #f4f4f4;
 }
 
 /* Media queries for responsiveness */
@@ -115,14 +115,21 @@
     font-size: 1.5rem;
     letter-spacing: 2px;
   }
-
-  .card-it-ds {
-    width: 180px;
-    padding: 10px;
+  .cards-it-ds h3{
+    font-size: 1rem;
   }
-
   .cards-it-ds {
     gap: 10px;
-    flex-direction: column; /* Stack cards vertically on small screens */
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+
+  .card-it-ds {
+    width: 45%; /* Ensure two cards fit in one row */
+    padding: 10px;
+  }
+  .cards-it-ds p{
+    font-size: 0.8rem;
   }
 }
+

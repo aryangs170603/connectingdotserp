@@ -1,0 +1,23 @@
+{
+    "name": "Your App Name",
+    "short_name": "AppShortName",
+    "description": "A brief description of your app.",
+    "version": "1.0.0",
+    "icons": [
+      {
+        "src": "/Navbar/connectingdotslogoppf.png",
+        "sizes": "192x192",
+        "type": "image/png"
+      },
+      {
+        "src": "/Navbar/connectingdotslogoppf.png",
+        "sizes": "512x512",
+        "type": "image/png"
+      }
+    ],
+    "start_url": "/index.html",
+    "display": "standalone",
+    "background_color": "#ffffff",
+    "theme_color": "#000000"
+  }
+  

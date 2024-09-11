@@ -51,11 +51,48 @@ button {
   border-radius: 10px;
   cursor: pointer;
   margin-left: 50px;
-  margin-bottom:5px;
+  margin-bottom: 5px;
 }
 
 button:hover {
   background: #0056b3;
+}
+
+.contact-us-button {
+  display: block;
+  margin: 0 auto;
+  width: auto;
+  background-color: #007bff;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+  position: relative;
+  bottom: 0; /* Ensures it stays near the footer */
+  text-align: center;
+}
+
+.contact-us-button:hover {
+  background-color: #0056b3;
+}
+
+.close-button {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  background-color: red;
+  color: white;
+  border: none;
+  font-size: 1.5rem;
+  cursor: pointer;
+}
+
+.stickyform-container {
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  z-index: 1000;
 }
 
 @media (max-width: 768px) {

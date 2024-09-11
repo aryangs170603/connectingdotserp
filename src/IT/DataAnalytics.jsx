@@ -30,7 +30,7 @@ const DataAnalytics = () => {
         <Projects pageId="DAinduspro" pageType="dainduspro" />
         <Description pageId="mda" />
         <FAQ pageId="DAFAQ" pageType="dafaq" />
-        <RelatedCourses pageId="DArelated" />
+        <RelatedCourses pageId="DArelcourses" />
       </main>
     </div>
   );

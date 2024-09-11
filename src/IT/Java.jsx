@@ -29,7 +29,7 @@ const Java = () => {
         <Projects pageId="Javainduspro" pageType="javainduspro" />
         <Description pageId="java" />
         <FAQ pageId="JavaFAQ" pageType="javafaq" />
-        <RelatedCourses pageId="javarelcourses" />
+        <RelatedCourses pageId="Javarelcourses" />
       </main>
     </div>
   );

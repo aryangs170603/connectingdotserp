@@ -84,7 +84,7 @@ const PopupForm = ({ onSubmitData }) => {
       <div className="popup-form-container">
         <button className="close-button-pf-2" onClick={() => setIsVisible(false)}>X</button>
         <div className="header-container">
-          <img src="src/Logos/Navbar/connectingdotslogoppf.png" alt="Logo" className="logo-ppf" />
+          <img src="https://i.imgur.com/zQll9tI.png" alt="Logo" className="logo-ppf" />
           <h2>Register now</h2>
         </div>
         <form onSubmit={handleSubmit}>

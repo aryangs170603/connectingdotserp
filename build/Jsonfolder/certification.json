@@ -1,27 +1,27 @@
 [
   {
     "label": "Search Engine Optimization",
-    "imageUrl": "public/Jsonfolder/images/SEO.jpg",
+    "imageUrl": "https://i.imgur.com/CiOOPlg.jpeg",
     "alt": "SEO icon"
   },
   {
     "label": "Email Marketing",
-    "imageUrl": "public/Jsonfolder/images/email.jpg"
+    "imageUrl": "https://i.imgur.com/8gNqVGi.jpeg"
   },
   {
     "label": "Content Marketing",
-    "imageUrl": "public/Jsonfolder/images/Content.jpg"
+    "imageUrl": "https://i.imgur.com/yLt5FHI.jpeg"
   },
   {
     "label": "PPC",
-    "imageUrl": "public/Jsonfolder/images/campaign.jpg"
+    "imageUrl": "https://i.imgur.com/cWowbnP.jpeg"
   },
   {
     "label": "Social Media Marketing",
-    "imageUrl": "public/Jsonfolder/images/Social.jpg"
+    "imageUrl": "https://i.imgur.com/6xfVybh.jpeg"
   },
   {
     "label": "Design Thinking",
-    "imageUrl": "public/Jsonfolder/images/Design.png"
+    "imageUrl": "https://i.imgur.com/feAkDfT.png"
   }
 ]
